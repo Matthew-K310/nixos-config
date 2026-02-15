@@ -1,0 +1,139 @@
+# Personal
+IMAPAccount Personal
+Host imap.migadu.com
+User matthew@matthew-kennedy.com
+PassCmd "pass matthew@matthew-kennedy.com"
+TLSType IMAPS
+TLSVersions +1.3
+
+IMAPStore Personal-remote
+Account Personal
+
+MaildirStore Personal-local
+Path ~/.local/share/mail/personal/
+Inbox ~/.local/share/mail/personal/Inbox
+SubFolders Verbatim
+
+Channel Personal
+Far :Personal-remote:
+Near :Personal-local:
+Patterns *
+Create Both
+SyncState *
+
+# IT
+IMAPAccount IT
+Host imap.migadu.com
+User it@matthew-kennedy.com
+PassCmd "pass it@matthew-kennedy.com"
+TLSType IMAPS
+TLSVersions +1.3
+
+IMAPStore IT-remote
+Account IT
+
+MaildirStore IT-local
+Path ~/.local/share/mail/it/
+Inbox ~/.local/share/mail/it/Inbox
+SubFolders Verbatim
+
+Channel IT
+Far :IT-remote:
+Near :IT-local:
+Patterns *
+Create Both
+SyncState *
+
+# Business
+IMAPAccount Business
+Host imap.migadu.com
+User business@matthew-kennedy.com
+PassCmd "pass business@matthew-kennedy.com"
+TLSType IMAPS
+TLSVersions +1.3
+
+IMAPStore Business-remote
+Account Business
+
+MaildirStore Business-local
+Path ~/.local/share/mail/business/
+Inbox ~/.local/share/mail/business/Inbox
+SubFolders Verbatim
+
+Channel Business
+Far :Business-remote:
+Near :Business-local:
+Patterns *
+Create Both
+SyncState *
+
+# Accounts
+IMAPAccount Accounts
+Host imap.migadu.com
+User accounts@matthew-kennedy.com
+PassCmd "pass accounts@matthew-kennedy.com"
+TLSType IMAPS
+TLSVersions +1.3
+
+IMAPStore Accounts-remote
+Account Accounts
+
+MaildirStore Accounts-local
+Path ~/.local/share/mail/accounts/
+Inbox ~/.local/share/mail/accounts/Inbox
+SubFolders Verbatim
+
+Channel Accounts
+Far :Accounts-remote:
+Near :Accounts-local:
+Patterns *
+Create Both
+SyncState *
+
+# Mailing
+IMAPAccount Mailing
+Host imap.migadu.com
+User mailing@matthew-kennedy.com
+PassCmd "pass mailing@matthew-kennedy.com"
+TLSType IMAPS
+TLSVersions +1.3
+
+IMAPStore Mailing-remote
+Account Mailing
+
+MaildirStore Mailing-local
+Path ~/.local/share/mail/mailing/
+Inbox ~/.local/share/mail/mailing/Inbox
+SubFolders Verbatim
+
+Channel Mailing
+Far :Mailing-remote:
+Near :Mailing-local:
+Patterns *
+Create Both
+SyncState *
+
+IMAPAccount icloud
+Host imap.mail.me.com
+Port 993
+User matthew_i_kennedy@icloud.com
+# PassCmd "pass mu4e_icloud"
+PassCmd "pass outlook_icloud"
+TLSType IMAPS
+TLSVersions +1.3
+
+IMAPStore icloud-remote
+Account icloud
+
+MaildirStore icloud-local
+Path ~/.local/share/mail/icloud/
+Inbox ~/.local/share/mail/icloud/INBOX
+SubFolders Verbatim
+
+Channel icloud
+Far :icloud-remote:
+Near :icloud-local:
+Patterns "INBOX" "Archive" "Sent Messages" "Drafts" "Deleted Messages" "Junk"
+Create Near
+Expunge Both
+SyncState *

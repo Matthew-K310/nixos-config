@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: blog frontmatter
+# key: bfm
+# --
+#+OPTIONS: toc:nil num:nil
+#+HUGO_BASE_DIR: ~/dev/projects/matthew-kennedy.com/hugo

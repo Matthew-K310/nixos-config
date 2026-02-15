@@ -1,0 +1,166 @@
+// ~/.config/oxwm/emacs-launcher.go
+// Emacs launcher for oxwm (X11 window manager)
+// Uses wmctrl and xdotool for window/workspace management
+package main
+
+import (
+	"fmt"
+	"os"
+	"os/exec"
+	"strconv"
+	"strings"
+	"time"
+)
+
+// getEmacsDesktop finds the desktop number where Emacs is running
+// Returns desktop number (0-indexed) and whether Emacs was found
+func getEmacsDesktop() (int, bool) {
+	// wmctrl -l outputs: <window-id> <desktop> <hostname> <title>
+	cmd := exec.Command("wmctrl", "-l", "-x")
+	output, err := cmd.Output()
+	if err != nil {
+		return 0, false
+	}
+
+	lines := strings.Split(string(output), "\n")
+	for _, line := range lines {
+		fields := strings.Fields(line)
+		if len(fields) < 4 {
+			continue
+		}
+		// -x flag adds WM_CLASS, format: <window-id> <desktop> <class> <hostname> <title>
+		class := fields[2]
+		if strings.Contains(strings.ToLower(class), "emacs") {
+			desktop, err := strconv.Atoi(fields[1])
+			if err != nil {
+				continue
+			}
+			return desktop, true
+		}
+	}
+	return 0, false
+}
+
+// getCurrentDesktop returns the current desktop number (0-indexed)
+func getCurrentDesktop() (int, error) {
+	cmd := exec.Command("xdotool", "get-desktop")
+	output, err := cmd.Output()
+	if err != nil {
+		return 0, err
+	}
+	return strconv.Atoi(strings.TrimSpace(string(output)))
+}
+
+// switchToDesktop switches to the specified desktop (0-indexed)
+func switchToDesktop(desktop int) error {
+	cmd := exec.Command("xdotool", "set-desktop", strconv.Itoa(desktop))
+	return cmd.Run()
+}
+
+// focusEmacsWindowByID raises and focuses a specific Emacs window by X11 window ID
+func focusEmacsWindowByID(windowID string) error {
+	cmd := exec.Command("wmctrl", "-i", "-a", windowID)
+	return cmd.Run()
+}
+
+// focusEmacsWindow raises and focuses any Emacs window (fallback)
+func focusEmacsWindow() error {
+	cmd := exec.Command("wmctrl", "-x", "-a", "emacs")
+	return cmd.Run()
+}
+
+// executeEmacsCommandAndGetWindowID runs the command and returns the X11 window ID
+// of the frame that handled it
+func executeEmacsCommandAndGetWindowID(command string) (string, error) {
+	// Wrap the command to execute it and return the window ID of the selected frame
+	wrappedCmd := fmt.Sprintf("(progn %s (frame-parameter (selected-frame) 'outer-window-id))", command)
+	cmd := exec.Command("emacsclient", "-e", wrappedCmd)
+	output, err := cmd.Output()
+	if err != nil {
+		return "", err
+	}
+	// Output is quoted, e.g. "12345678" - strip quotes and whitespace
+	windowID := strings.TrimSpace(string(output))
+	windowID = strings.Trim(windowID, "\"")
+	return windowID, nil
+}
+
+func executeEmacsCommand(command string) error {
+	cmd := exec.Command("emacsclient", "-n", "-e", command)
+	return cmd.Run()
+}
+
+func main() {
+	if len(os.Args) < 2 {
+		fmt.Fprintln(os.Stderr, "Usage: emacs-launcher <elisp-command>")
+		fmt.Fprintln(os.Stderr, "Example: emacs-launcher '(universal-launcher-popup)'")
+		os.Exit(1)
+	}
+
+	// Join all arguments in case command has spaces
+	emacsCommand := strings.Join(os.Args[1:], " ")
+
+	// Find Emacs desktop
+	targetDesktop, found := getEmacsDesktop()
+	if !found {
+		// No Emacs window found - just execute command
+		// This will either open a new frame or fail gracefully
+		if err := executeEmacsCommand(emacsCommand); err != nil {
+			fmt.Fprintf(os.Stderr, "Warning: emacsclient failed: %v\n", err)
+			os.Exit(1)
+		}
+		return
+	}
+
+	// Check current desktop
+	currentDesktop, err := getCurrentDesktop()
+	if err != nil {
+		// Can't determine current desktop, execute anyway
+		executeEmacsCommand(emacsCommand)
+		return
+	}
+
+	// If already on Emacs desktop, focus and execute immediately
+	if currentDesktop == targetDesktop {
+		focusEmacsWindow()
+		executeEmacsCommand(emacsCommand)
+		return
+	}
+
+	// Switch to Emacs desktop
+	if err := switchToDesktop(targetDesktop); err != nil {
+		fmt.Fprintf(os.Stderr, "Warning: desktop switch failed: %v\n", err)
+		// Focus and execute anyway
+		focusEmacsWindow()
+		executeEmacsCommand(emacsCommand)
+		return
+	}
+
+	// Wait for desktop switch to complete with intelligent polling
+	// Start with fast polls, back off if taking longer
+	maxWait := 500 * time.Millisecond
+	pollInterval := 2 * time.Millisecond // Start very fast
+	deadline := time.Now().Add(maxWait)
+
+	for time.Now().Before(deadline) {
+		current, err := getCurrentDesktop()
+		if err == nil && current == targetDesktop {
+			// Desktop switch confirmed - focus Emacs and execute command
+			focusEmacsWindow()
+			executeEmacsCommand(emacsCommand)
+			return
+		}
+
+		time.Sleep(pollInterval)
+
+		// Exponential backoff: 2ms -> 4ms -> 8ms -> 10ms (cap)
+		pollInterval *= 2
+		if pollInterval > 10*time.Millisecond {
+			pollInterval = 10 * time.Millisecond
+		}
+	}
+
+	// Timeout reached - focus and execute anyway (desktop switch probably worked)
+	focusEmacsWindow()
+	executeEmacsCommand(emacsCommand)
+}

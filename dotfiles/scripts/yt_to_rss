@@ -1,0 +1,39 @@
+#!/bin/bash
+
+set -e
+
+if [ -z "$1" ]; then
+    echo "Usage: $0 <YouTube Channel URL>"
+    exit 1
+fi
+
+URL="$1"
+
+# Get page source
+PAGE=$(curl -sL "$URL")
+
+# Try to extract channel ID
+CHANNEL_ID=$(echo "$PAGE" | grep -oP '(?<=channelId":")[^"]+')
+
+# If found, build RSS feed URL
+if [ -n "$CHANNEL_ID" ]; then
+    RSS_URL="https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID}"
+    echo "✅ RSS Feed URL:"
+    echo "$RSS_URL"
+    exit 0
+fi
+
+# Fallback: Try to extract user/handle name for older or custom URLs
+USER_HANDLE=$(echo "$URL" | grep -oP '(?<=youtube\.com/)(user/|@)[^/?]+')
+
+if [ -n "$USER_HANDLE" ]; then
+    # Strip prefix like "user/" or "@"
+    HANDLE_CLEAN=$(echo "$USER_HANDLE" | sed -E 's/(user\/|@)//')
+    RSS_URL="https://www.youtube.com/feeds/videos.xml?user=${HANDLE_CLEAN}"
+    echo "✅ RSS Feed URL (handle/user-based):"
+    echo "$RSS_URL"
+    exit 0
+fi
+
+echo "❌ Could not extract RSS link. Check the URL or YouTube page format."
+exit 1

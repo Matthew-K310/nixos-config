@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: LaTeX frontmatter
+# uuid:
+# key: lth
+# condition: t
+# --
+
+#+bibliography: roam_sources.bib
+#+title:
+#+SUBTITLE:
+#+AUTHOR: Matthew Kennedy
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper,12pt]
+#+LATEX: \newpage
+#+LATEX: \setlength\parindent{0pt}
+#+LATEX: \setlength{\parskip}{12pt}
+#+LATEX: \newpage
+#+LATEX_HEADER: \setcounter{secnumdepth}{0}
+#+LATEX: \newpage
+#+LATEX: \tableofcontents
+#+LATEX: \newpage

@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: Feynman Template
+# uuid:
+# key: feyn
+# condition: t
+# --
+
+* Topic
+
+** Explanation (First Pass)
+
+** Gaps / Questions
+-
+
+** Refined Explanation
+
+** Simple Version

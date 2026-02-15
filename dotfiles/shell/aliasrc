@@ -1,0 +1,79 @@
+#!/bin/sh
+
+# Use neovim for vim if present.
+[ -x "$(command -v nvim)" ] && alias vim="nvim" vimdiff="nvim -d"
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias \
+	c="clear" \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -vI" \
+	bc="bc -ql" \
+	rsync="rsync -vrPlu" \
+	mkd="mkdir -pv" \
+	yt="yt-dlp --embed-metadata -i" \
+	yta="yt -x -f bestaudio/best" \
+	ytt="yt --skip-download --write-thumbnail" \
+	ffmpeg="ffmpeg -hide_banner"
+
+# Colorize commands when possible.
+alias \
+	ls="ls -a" \
+	exa="exa -a" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi" \
+	ip="ip -color=auto"
+
+# These common commands are just too long! Abbreviate them.
+alias \
+	nbr="sudo nixos-rebuild switch"
+	hypr="hyprland" \
+	ka="killall" \
+	YT="youtube-viewer" \
+	mpdc="mpd ~/.config/mpd/mpd.conf" \
+	sdn="shutdown -h now" \
+	v='$EDITOR' \
+	e='emacs -nw' \
+	stie='tmux new-session -s stie' \
+	zigm="$HOME/.local/zig-master/zig" \
+	jft="jellyfin-tui"
+
+alias \
+	lf="lfub" \
+	y="ycd" \
+	gco="git_conventions" \
+	alias cb="fj --host codeberg.org" \ 
+alias cfj="fj --host forge.matthewcloud.us" \ 
+magit="nvim -c MagitOnly" \
+	ref='shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutenvrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc'# lf="lfub" # y="lfcd" \
+
+alias \
+	mail="neomutt" \
+	rss='newsboat' \
+	dev='cd ~/Developer' \
+	vault='cd ~/Notes/obsidian-vault' \
+	til='cd ~/Notes/obsidian-vault/today_i_learned' \
+	info='fastfetch' \
+	weather="curl wttr.in" \
+	yt="yt-x" \
+	astroterm='astroterm --color --constellations --speed 1000 --fps 120 --city Dallas' \
+	lc='linear-cli issues create' \
+	lls='linear-cli issues list' \
+	aseprite='/home/matthewkennedy/src/aseprite/build/bin/aseprite'
+
+alias fzf="fzf --preview='chafa {}'"
+alias ff="fd --type f | fzf | sed 's/\ /\\\ /g' "
+alias ffn="fd --type f | fzf | sed 's/\ /\\\ /g' | xargs nvim"
+
+# Run this if you ever run into errors while doing a `dotnet restore`
+alias nugetclean="dotnet nuget locals --clear all"
+
+alias work="timer 50m && terminal-notifier -message 'Pomodoro'\
+        -title 'Work Timer is up! Take a Break 😊'\
+        -sound Crystal"
+
+alias rest="timer 10m && terminal-notifier -message 'Pomodoro'\
+        -title 'Break is over! Get back to work 😬'\
+        -sound Crystal"

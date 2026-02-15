@@ -1,0 +1,94 @@
+# backup 20250617
+
+source ~/.zprofile
+
+if [[ -f "/opt/homebrew/bin/brew" ]] then
+  # If you're using macOS, you'll want this enabled
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
+
+# Colors and prompt
+autoload -U colors && colors
+setopt autocd
+NEWLINE=$'\n'
+COLOR_DEF='%f'
+COLOR_GIT='%F{#88AFAF}'
+setopt PROMPT_SUBST
+export PROMPT='${NEWLINE}%K{#1c1c1c}%F{#C8BCAC} $0 %K{#262626}%F{#d0d0d0} %n %K{#1c1c1c}%F{#88AFAF} %~%f${COLOR_GIT}$(parse_git_branch)${COLOR_DEF} %f%k%F{#d75f5f} ❯ '
+# For git branch in prompt
+parse_git_branch() {
+    git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/[\1]/p'
+}
+
+# History
+HISTSIZE=1000000
+SAVEHIST=1000000
+HISTFILE="$XDG_CACHE_HOME/zsh_history" # move histfile to cache
+HISTCONTROL=ignoreboth # consecutive duplicates & commands starting with space are not saved
+HISTDUP=erase
+setopt appendhistory
+setopt sharehistory
+setopt hist_ignore_space
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dups
+
+# Load aliases
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc"
+
+# Autocomplete
+zmodload zsh/complist
+autoload -U compinit && compinit
+# cmp opts
+zstyle ':completion:*' menu select # tab opens cmp menu
+zstyle ':completion:*' special-dirs true # force . and .. to show in cmp menu
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS} ma=0\;33 # colorize cmp menu
+zstyle ':completion:*' squeeze-slashes false # explicit disable to allow /*/ expansion
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+# better tab completion
+source $HOME/.config/zsh/plugins/fzf-tab/fzf-tab.zsh
+
+# VI mode
+set -o vi
+# Change cursor shape for different vi modes.
+function zle-keymap-select () {
+    case $KEYMAP in
+        vicmd) echo -ne '\e[1 q';;      # block
+        viins|main) echo -ne '\e[5 q';; # beam
+    esac
+}
+
+# load zoxide
+eval "$(zoxide init zsh)"
+
+# fzf setup
+source <(fzf --zsh) # allow for fzf history widget
+
+# autosuggestions
+# source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+bindkey -s '^n' 'yazi\n'
+
+# Shell integrations
+eval "$(pyenv init --path)"
+# eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/ompconfig.toml)"
+
+
+# tmux session startup
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+  tmux attach-session -t default || tmux new-session -s default
+fi
+
+# move to current directory on Yazi close
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
+# syntax highlighting
+source $HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -1,0 +1,107 @@
+# ===========================================================
+# msmtp configuration for matthew-kennedy.com and iCloud
+# ===========================================================
+# Each account defines its own settings explicitly.
+# Uses 'pass' for secret management (via passwordeval).
+
+# -----------------------------------------------------------
+# === matthew@matthew-kennedy.com ===
+# -----------------------------------------------------------
+account matthew@matthew-kennedy.com
+host            smtp.migadu.com
+port            465
+from            matthew@matthew-kennedy.com
+user            matthew@matthew-kennedy.com
+auth            on
+tls             on
+tls_starttls    off
+tls_trust_file  /etc/ssl/certs/ca-certificates.crt
+passwordeval    "pass matthew@matthew-kennedy.com"
+logfile         ~/.local/state/msmtp/msmtp.log
+aliases         ~/.config/msmtp/aliases
+
+# -----------------------------------------------------------
+# === it@matthew-kennedy.com ===
+# -----------------------------------------------------------
+account it@matthew-kennedy.com
+host            smtp.migadu.com
+port            465
+from            it@matthew-kennedy.com
+user            it@matthew-kennedy.com
+auth            on
+tls             on
+tls_starttls    off
+tls_trust_file  /etc/ssl/certs/ca-certificates.crt
+passwordeval    "pass it@matthew-kennedy.com"
+logfile         ~/.local/state/msmtp/msmtp.log
+aliases         ~/.config/msmtp/aliases
+
+# -----------------------------------------------------------
+# === matthew_i_kennedy@icloud.com ===
+# -----------------------------------------------------------
+account matthew_i_kennedy@icloud.com
+host            smtp.migadu.com
+port            587
+from            matthew_i_kennedy@icloud.com
+user            matthew_i_kennedy@icloud.com
+auth            on
+tls             on
+tls_starttls    on
+tls_trust_file  /etc/ssl/certs/ca-certificates.crt
+passwordeval    "pass mu4e_icloud"
+logfile         ~/.local/state/msmtp/msmtp.log
+aliases         ~/.config/msmtp/aliases
+
+# -----------------------------------------------------------
+# === business@matthew-kennedy.com ===
+# -----------------------------------------------------------
+account business@matthew-kennedy.com
+host            smtp.migadu.com
+port            465
+from            business@matthew-kennedy.com
+user            business@matthew-kennedy.com
+auth            on
+tls             on
+tls_starttls    off
+tls_trust_file  /etc/ssl/certs/ca-certificates.crt
+passwordeval    "pass business@matthew-kennedy.com"
+logfile         ~/.local/state/msmtp/msmtp.log
+aliases         ~/.config/msmtp/aliases
+
+# -----------------------------------------------------------
+# === accounts@matthew-kennedy.com ===
+# -----------------------------------------------------------
+account accounts@matthew-kennedy.com
+host            smtp.migadu.com
+port            465
+from            accounts@matthew-kennedy.com
+user            accounts@matthew-kennedy.com
+auth            on
+tls             on
+tls_starttls    off
+tls_trust_file  /etc/ssl/certs/ca-certificates.crt
+passwordeval    "pass accounts@matthew-kennedy.com"
+logfile         ~/.local/state/msmtp/msmtp.log
+aliases         ~/.config/msmtp/aliases
+
+# -----------------------------------------------------------
+# === mailing@matthew-kennedy.com ===
+# -----------------------------------------------------------
+account mailing@matthew-kennedy.com
+host            smtp.migadu.com
+port            465
+from            mailing@matthew-kennedy.com
+user            mailing@matthew-kennedy.com
+auth            on
+tls             on
+tls_starttls    off
+tls_trust_file  /etc/ssl/certs/ca-certificates.crt
+passwordeval    "pass mailing@matthew-kennedy.com"
+logfile         ~/.local/state/msmtp/msmtp.log
+aliases         ~/.config/msmtp/aliases
+
+
+# -----------------------------------------------------------
+# === Default account ===
+# -----------------------------------------------------------
+account default : matthew@matthew-kennedy.com

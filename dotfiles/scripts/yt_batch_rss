@@ -1,0 +1,104 @@
+#!/bin/bash
+# youtube-rss-batch.sh — Get YouTube RSS feeds and write them in Org-mode link format
+
+# ==== Configuration ====
+CHANNELS=(
+	"https://www.youtube.com/@XboxAhoy"
+	"https://www.youtube.com/@AlexBallMusic"
+	"https://www.youtube.com/@Barnso"
+	"https://www.youtube.com/@BreadOnPenguins"
+	"https://www.youtube.com/@camus.mp3"
+	"https://www.youtube.com/@codingwithsphere"
+	"https://www.youtube.com/@DankPods"
+	"https://www.youtube.com/@DMS3TV"
+	"https://www.youtube.com/@dnksaus"
+	"https://www.youtube.com/@dreamsofcode"
+	"https://www.youtube.com/@EvanMonsma"
+	"https://www.youtube.com/@EvanMonsma2"
+	"https://www.youtube.com/@Flandrew"
+	"https://www.youtube.com/@fknight"
+	"https://www.youtube.com/@GarbageTime420"
+	"https://www.youtube.com/@habie147"
+	"https://www.youtube.com/@IceCreamSandwich"
+	"https://www.youtube.com/@IvarTryti"
+	"https://www.youtube.com/@jamie.bambrick"
+	"https://www.youtube.com/@_jared"
+	"https://www.youtube.com/@JayHosking"
+	"https://www.youtube.com/@JoshuaBlais"
+	"https://www.youtube.com/@juxtopposed"
+	"https://www.youtube.com/@likeitornotaudio"
+	"https://www.youtube.com/@LindonSlaght"
+	"https://www.youtube.com/@loopop"
+	"https://www.youtube.com/@MakeWithMiles"
+	"https://www.youtube.com/@MandaloreGaming"
+	"https://www.youtube.com/@mkbhd"
+	"https://www.youtube.com/@MediaDivision"
+	"https://www.youtube.com/@NoBoilerplate"
+	"https://www.youtube.com/@odysseas__"
+	"https://www.youtube.com/@OperatorDrewski"
+	"https://www.youtube.com/@optimumtech"
+	"https://www.youtube.com/@pancreasnowork9939"
+	"https://www.youtube.com/@PosyMusic"
+	"https://www.youtube.com/@rejectconvenience"
+	"https://www.youtube.com/@RickyTinez"
+	"https://www.youtube.com/@riloegaming"
+	"https://www.youtube.com/@RubixRaptor"
+	"https://www.youtube.com/@shar"
+	"https://www.youtube.com/@solamediaorg"
+	"https://www.youtube.com/@the_fat_electrician"
+	"https://www.youtube.com/@VenusTheory"
+	"https://www.youtube.com/@Wendigames"
+	"https://www.youtube.com/@Wendigoon"
+	"https://www.youtube.com/@WilliamOsman2"
+	"https://www.youtube.com/@wwutt"
+	"https://www.youtube.com/@ZipTieTuning"
+)
+
+CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/youtube-rss"
+OUTPUT_FILE="feeds.txt"
+
+mkdir -p "$CACHE_DIR"
+>"$OUTPUT_FILE" # clear output file
+
+echo "📦 Writing RSS feeds to: $OUTPUT_FILE"
+echo
+
+for URL in "${CHANNELS[@]}"; do
+	NAME=$(basename "$URL")
+	# Remove the leading @ if present, to use as channel label
+	LABEL="${NAME#@}"
+	CACHE_FILE="$CACHE_DIR/${NAME}.html"
+
+	echo -n "🔍 $URL → "
+
+	# Fetch (cache 24h)
+	if [ ! -f "$CACHE_FILE" ] || [ $(($(date +%s) - $(stat -c %Y "$CACHE_FILE"))) -gt 86400 ]; then
+		curl -sL "$URL" -o "$CACHE_FILE"
+		sleep 0.5
+	fi
+
+	# Try multiple extraction methods
+	CHANNEL_ID=$(grep -oP '(?<=channelId":")[^"]+' "$CACHE_FILE" | head -1)
+
+	# Fallback 1: canonical link
+	if [ -z "$CHANNEL_ID" ]; then
+		CHANNEL_ID=$(grep -oP '(?<=youtube\.com/channel/)[^"]+' "$CACHE_FILE" | head -1)
+	fi
+
+	# Fallback 2: redirect
+	if [ -z "$CHANNEL_ID" ]; then
+		REDIRECT_URL=$(curl -sIL -o /dev/null -w '%{url_effective}' "$URL")
+		CHANNEL_ID=$(echo "$REDIRECT_URL" | grep -oP '(?<=/channel/)[^/?]+')
+	fi
+
+	if [ -n "$CHANNEL_ID" ]; then
+		FEED_URL="https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID}"
+		echo "$FEED_URL"
+		printf '[[%s][%s]]\n' "$FEED_URL" "$LABEL" >>"$OUTPUT_FILE"
+	else
+		echo "❌ Could not extract channel ID"
+	fi
+done
+
+echo
+echo "✅ Done! Org-mode RSS feed links saved to: $OUTPUT_FILE"

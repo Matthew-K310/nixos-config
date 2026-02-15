@@ -1,0 +1,44 @@
+# -*- mode: snippet -*-
+# name: Invoice Template
+# uuid: 
+# key: finvtemp
+# condition: t
+# --
+
+#+TITLE: Invoice
+#+AUTHOR: Matthew Kennedy Productions
+#+DATE: \today
+#+LATEX_CLASS: article
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+OPTIONS: toc:nil num:nil
+
+#+LATEX: \begin{flushright}
+#+LATEX: \textbf{\Large INVOICE}\\[1em]
+#+LATEX: Invoice \#: 2024-001\\
+#+LATEX: Date: \today
+#+LATEX: \end{flushright}
+
+* Bill To
+Customer Name\\
+Customer Address\\
+City, State ZIP
+
+* Invoice Details
+
+#+ATTR_LATEX: :environment tabular :align lrr :booktabs t
+| Description              | Quantity | Amount |
+|--------------------------+----------+--------|
+| Service/Product 1        |        1 | $0.00 |
+| Service/Product 2        |        2 | $0.00 |
+|--------------------------+----------+--------|
+| *Subtotal*               |          | $0.00 |
+| *Tax (8%)*               |          | $0.00 |
+| *Total Due*              |          | *$0.00* |
+
+* Payment Terms
+Payment due within 30 days.
+
+# * Notes
+# Thank you for your business!
