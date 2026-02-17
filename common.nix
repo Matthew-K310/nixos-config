@@ -31,6 +31,7 @@
   environment.systemPackages = with pkgs; [
     vim
     wget
+    alacritty
     kitty
     ungoogled-chromium
     git-crypt
