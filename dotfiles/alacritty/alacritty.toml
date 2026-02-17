@@ -1,0 +1,54 @@
+general.import = [
+"themes/compline.toml",
+# "themes/lauds.toml",
+]
+
+[window]
+decorations = "None"
+opacity = 0.9
+blur = true
+padding = { x = 8, y = 8 }
+
+[scrolling]
+history = 10000
+
+[font]
+size = 15
+normal = { family = "Iosevka Nerd Font Mono", style = "Regular" }
+bold = { family = "Iosevka Nerd Font Mono", style = "Bold" }
+italic = { family = "Iosevka Nerd Font Mono", style = "Italic" }
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+[[keyboard.bindings]]
+key = "D"
+mods = "Alt"
+action = "ScrollHalfPageDown"
+
+[[keyboard.bindings]]
+key = "U"
+mods = "Alt"
+action = "ScrollHalfPageUp"
+
+[[keyboard.bindings]]
+key = "J"
+mods = "Control|Shift"
+action = "DecreaseFontSize"
+
+[[keyboard.bindings]]
+key = "K"
+mods = "Control|Shift"
+action = "IncreaseFontSize"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift|Alt"
+action = "ToggleViMode"
