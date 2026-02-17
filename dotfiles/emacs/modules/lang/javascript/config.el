@@ -12,21 +12,6 @@
   (unless (eq mode 'nodejs-repl-mode)
     (set-repl-handler! mode #'+javascript/open-repl)
     (set-electric! mode :chars '(?\} ?\) ?. ?:))
-    (set-ligatures! mode
-      ;; Functional
-      :def "function"
-      :lambda "() =>"
-      :composition "compose"
-      ;; Types
-      :null "null"
-      :true "true" :false "false"
-      ;; Flow
-      :not "!"
-      :and "&&" :or "||"
-      :for "for"
-      :return "return"
-      ;; Other
-      :yield "import")
 
     (when (modulep! +lsp)
       (add-hook (intern (format "%s-local-vars-hook" mode)) #'lsp! 'append)))

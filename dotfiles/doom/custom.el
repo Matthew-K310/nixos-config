@@ -197,8 +197,8 @@
      denote-explore dismal djvu elfeed emms exwm gist gnuplot gptel ivy keycast
      leetcode magit mpv multi-vterm multiple-cursors nov olivetti org-books
      org-habit-stats org-modern org-present org-superstar org-web-tools
-     password-store-otp pcre2el pipewire request-deferred s signal string-utils
-     tmr unicode-emoticons)))
+     password-store-otp pcre2el pipewire pulseaudio-control request-deferred s
+     signal string-utils tmr unicode-emoticons)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

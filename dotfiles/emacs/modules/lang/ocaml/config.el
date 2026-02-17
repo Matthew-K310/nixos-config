@@ -20,10 +20,6 @@
             ("eliom"  '("--impl"))
             ("eliomi" '("--intf")))
         '("--profile=ocamlformat"))))
-  ;; tuareg-mode has the prettify symbols itself
-  (set-ligatures! 'tuareg-mode :alist
-    (append tuareg-prettify-symbols-basic-alist
-            tuareg-prettify-symbols-extra-alist))
   ;; harmless if `prettify-symbols-mode' isn't active
   (setq tuareg-prettify-symbols-full t)
 

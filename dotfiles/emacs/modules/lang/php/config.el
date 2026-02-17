@@ -21,23 +21,6 @@
   (set-docsets! mode "PHP" "PHPUnit" "Laravel" "CakePHP" "CodeIgniter" "Doctrine_ORM")
   (set-repl-handler! mode #'+php/open-repl)
   (set-lookup-handlers! mode :documentation #'php-search-documentation)
-  (set-ligatures! mode
-    ;; Functional
-    :lambda "function()" :lambda "fn"
-    :def "function"
-    ;; Types
-    :null "null"
-    :true "true" :false "false"
-    :int "int" :float "float"
-    :str "string"
-    :bool "list"
-    ;; Flow
-    :not "!"
-    :and "&&" :and "and"
-    :or "||" :or "or"
-    :for "for"
-    :return "return"
-    :yield "use")
 
   (let ((mode-vars-hook (intern (format "%s-local-vars-hook" mode)))
         (mode-map (intern (format "%s-map" mode))))

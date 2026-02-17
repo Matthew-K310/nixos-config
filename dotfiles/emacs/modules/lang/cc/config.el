@@ -53,24 +53,6 @@ This is ignored by ccls.")
   (set-electric! '(c-mode c++-mode objc-mode java-mode
                    c-ts-mode c++-ts-mode java-ts-mode)
                  :chars '(?\n ?\} ?\{))
-  (set-rotate-patterns! '(c++-mode c++-ts-mode)
-    :symbols '(("public" "protected" "private")
-               ("class" "struct")))
-  (set-ligatures! '(c-mode c-ts-mode c++-mode c++-ts-mode)
-    ;; Functional
-    ;; :def "void "
-    ;; Types
-    :null "nullptr"
-    :true "true" :false "false"
-    :int "int" :float "float"
-    :str "std::string"
-    :bool "bool"
-    ;; Flow
-    :not "!"
-    :and "&&" :or "||"
-    :for "for"
-    :return "return"
-    :yield "#require")
 
   (add-to-list 'find-sibling-rules '("/\\([^/]+\\)\\.c\\(c\\|pp\\)?\\'" "\\1.h\\(h\\|pp\\)?\\'"))
   (add-to-list 'find-sibling-rules '("/\\([^/]+\\)\\.h\\(h\\|pp\\)?\\'" "\\1.c\\(c\\|pp\\)?\\'"))

@@ -48,10 +48,12 @@
 (package! elfeed)
 (package! dirvish)
 (package! pipewire)
+(package! pulseaudio-control)
 (package! harpoon)
 (package! syncthing)
 (package! emacs-w3m)
 (package! jabber)
+(package! all-the-icons)
 ;; 
 ;; Dependencies for tui.el
 (package! dash)

@@ -20,19 +20,6 @@
   (set-electric! 'sh-mode :words '("else" "elif" "fi" "done" "then" "do" "esac" ";;"))
   (set-repl-handler! 'sh-mode #'+sh/open-repl)
   (set-lookup-handlers! 'sh-mode :documentation #'+sh-lookup-documentation-handler)
-  (set-ligatures! 'sh-mode
-    ;; Functional
-    :def "function"
-    ;; Types
-    :true "true" :false "false"
-    ;; Flow
-    :not "!"
-    :and "&&" :or "||"
-    :in "in"
-    :for "for"
-    :return "return"
-    ;; Other
-    :dot "." :dot "source")
 
   (when (modulep! +lsp)
     (add-hook 'sh-mode-local-vars-hook #'lsp! 'append))

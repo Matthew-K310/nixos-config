@@ -46,6 +46,7 @@
     mpd-mpris
     mpc
     playerctl
+	pulseaudio
     pulsemixer
     rmpc
     jellyfin-tui

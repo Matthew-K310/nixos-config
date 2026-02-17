@@ -38,18 +38,7 @@ See `+emacs-lisp-non-package-mode' for details.")
       :definition    #'+emacs-lisp-lookup-definition
       :documentation #'+emacs-lisp-lookup-documentation)
     (set-docsets! modes "Emacs Lisp")
-    (set-ligatures! modes :lambda "lambda")
-    (set-formatter! 'lisp-indent #'apheleia-indent-lisp-buffer :modes modes)
-    (set-rotate-patterns! modes
-      :symbols '(("t" "nil")
-                 ("let" "let*")
-                 ("when" "unless")
-                 ("advice-add" "advice-remove")
-                 ("defadvice!" "undefadvice!")
-                 ("add-hook" "remove-hook")
-                 ("add-hook!" "remove-hook!")
-                 ("it" "xit")
-                 ("describe" "xdescribe"))))
+    (set-formatter! 'lisp-indent #'apheleia-indent-lisp-buffer :modes modes))
 
   (setq-hook! 'emacs-lisp-mode-hook
     ;; Emacs' built-in elisp files use a hybrid tab->space indentation scheme

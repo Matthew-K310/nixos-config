@@ -12,33 +12,6 @@
     :modes (list mode))
   (set-repl-handler! mode #'+scala/open-repl
     :persist t)
-  (set-ligatures! mode
-    ;; Functional
-    :def "def"
-    :composition  "compose"
-    ;; HKT
-    :lambda       "Lambda"
-    ;; Types
-    :null         "none"
-    :null         "None"
-    :true         "true"
-    :false        "false"
-    :int          "Int"
-    :str          "String"
-    :float        "Float"
-    :bool         "Boolean"
-    :list         "List"
-    ;; Flow
-    :for          "for"
-    :not          "!"
-    :and          "&&"
-    :or           "||"
-    :yield        "yield"
-    ;; Other
-    :union        "union"
-    :intersect    "intersect"
-    :diff         "diff")
-
   (when (modulep! +lsp)
     (add-hook (intern (format "%s-local-vars-hook" mode)) #'lsp! 'append)))
 

@@ -303,10 +303,6 @@
 (map! (:when (modulep! :editor format)
        :n "gQ" #'+format:region)
 
-      (:when (modulep! :editor rotate-text)
-       :n "]r"  #'rotate-text
-       :n "[r"  #'rotate-text-backward)
-
       (:when (modulep! :editor multiple-cursors)
        ;; evil-multiedit
        :v  "R"     #'evil-multiedit-match-all

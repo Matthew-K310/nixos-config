@@ -43,24 +43,6 @@
   (set-docsets! '(python-mode python-ts-mode inferior-python-mode)
     "Python 3" "NumPy" "SciPy" "Pandas")
 
-  (set-ligatures! '(python-mode python-ts-mode)
-    ;; Functional
-    :def "def"
-    :lambda "lambda"
-    ;; Types
-    :null "None"
-    :true "True" :false "False"
-    :int "int" :str "str"
-    :float "float"
-    :bool "bool"
-    :tuple "tuple"
-    ;; Flow
-    :not "not"
-    :in "in" :not-in "not in"
-    :and "and" :or "or"
-    :for "for"
-    :return "return" :yield "yield")
-
   ;; Stop the spam!
   (setq python-indent-guess-indent-offset-verbose nil)
 

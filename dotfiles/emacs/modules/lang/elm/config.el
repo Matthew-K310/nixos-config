@@ -6,14 +6,6 @@
     (set-company-backend! 'elm-mode 'company-elm))
 
   (set-repl-handler! 'elm-mode #'run-elm-interactive)
-  (set-ligatures! 'elm-mode
-    :null "null"
-    :true "true" :false "false"
-    :int "Int" :str "String"
-    :float "Float"
-    :bool "Bool"
-    :not "not"
-    :and "&&" :or "||")
 
   (map! :map elm-mode-map
         :localleader

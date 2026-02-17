@@ -12,16 +12,7 @@
   (set-electric! mode
     :chars '(?\} ?\))
     :words '("or" "and"))
-  (set-ligatures! mode
-    :null "null"
-    :true "true" :false "false"
-    :int "Int" :str "String"
-    :float "Float"
-    :bool "Bool"
-
-    :not "not"
-    :and "and" :or "or"))
-
+  )
 
 (after! graphql-mode
   (defface nerd-icons-rhodamine

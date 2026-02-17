@@ -18,7 +18,7 @@
     (:name "Tasks" :icon "checklist" :types (agenda-task))
     (:name "Files & Apps" :icon "apps" :types (file app flatpak))
     (:name "Web" :icon "globe" :types (bookmark firefox-action))
-    (:name "System" :icon "terminal" :types (command ssh))
+    (:name "System" :icon "terminal" :types (command ssh audio-device-action))
     (:name "Tools" :icon "wrench" :types (emoji calculator kill-ring-item)))
   "Category definitions for the launcher.")
 
@@ -253,6 +253,10 @@
 
     (puthash 'custom-action
              #'universal-launcher--get-custom-actions
+             category-handlers)
+
+    (puthash 'audio-device-action
+             #'universal-launcher--get-audio-options
              category-handlers)
 
     ;; NOW process categories - handlers are all defined above
@@ -941,6 +945,70 @@ Combines frequency (usage count) with recency (time decay)."
         (insert text)
         (message "Inserted from kill ring")))))
 
+(defun universal-launcher--get-bluetooth-card-id ()
+  "Get the Bluetooth device ID from pipewire-lib."
+  (let* ((devices (pipewire-lib-objects "Device"))
+         (bt-devices (cl-remove-if-not
+                      (lambda (d)
+                        (equal "bluez5"
+                               (pipewire-lib-object-value d "device.api")))  ; was "node.name"
+                      devices)))
+    (cond
+     ((null bt-devices)
+      (message "No Bluetooth devices found") nil)
+     ((= 1 (length bt-devices))
+      (pipewire-lib-object-id (car bt-devices)))
+     (t
+      (let* ((choices (mapcar (lambda (d)
+                                (cons (or (pipewire-lib-object-value d "device.description")
+                                          (pipewire-lib-object-value d "device.name")
+                                          "Unknown")
+                                      (pipewire-lib-object-id d)))
+                              bt-devices))
+             (choice (completing-read "Select Bluetooth device: "
+                                      (mapcar #'car choices) nil t)))
+        (cdr (assoc choice choices)))))))
+
+(defun universal-launcher--audio-options (action)
+  "Run ACTION for selected audio device."
+  (pcase (car action)
+    ('select-device
+     (if (fboundp 'pulseaudio-control-select-sink-by-name)
+         (call-interactively #'pulseaudio-control-select-sink-by-name)
+       (message "pulseaudio-control not available")))
+    (_
+     (let* ((codec (pcase (car action)
+                     ('set-aac-codec  "High Fidelity Playback (A2DP Sink, codec AAC)")
+                     ('set-sbc-codec  "High Fidelity Playback (A2DP Sink, codec SBC)")
+                     ('set-sbcxq-codec "High Fidelity Playback (A2DP Sink, codec SBC-XQ)")
+                     ('set-msbc-codec "Headset Head Unit (HSP/HFP, codec mSBC)")
+                     ('set-cvsd-codec "Headset Head Unit (HSP/HFP, codec CVSD)")))
+            (device-id (universal-launcher--get-bluetooth-card-id)))
+       (if (and codec device-id)
+           (condition-case err
+               (progn
+                 (pipewire-lib-set-profile device-id codec)
+                 (message "Set audio profile to: %s" codec))
+             (error (message "Failed to set profile: %s" (error-message-string err))))
+         (message "Could not set profile: missing codec or device"))))))
+
+(defun universal-launcher--get-audio-options ()
+  "Get audio device and codec options."
+  (let ((icon (all-the-icons-faicon "volume-up" :face '(:foreground "#61afef" :height 1.0))))
+    (list
+     (cons (format "%s Audio: Select Device" icon)
+           '(audio-device-action (select-device)))
+     (cons (format "%s Audio: AAC (High Fidelity)" icon)
+           '(audio-device-action (set-aac-codec)))
+     (cons (format "%s Audio: SBC (High Fidelity)" icon)
+           '(audio-device-action (set-sbc-codec)))
+     (cons (format "%s Audio: SBC-XQ (High Fidelity)" icon)
+           '(audio-device-action (set-sbcxq-codec)))
+     (cons (format "%s Audio: mSBC (Headset/Calls)" icon)
+           '(audio-device-action (set-msbc-codec)))
+     (cons (format "%s Audio: CVSD (Headset/Calls)" icon)
+           '(audio-device-action (set-cvsd-codec))))))
+
 ;; ============================================================================
 ;; CUSTOM ACTIONS/SCRIPTS
 ;; ============================================================================
@@ -993,7 +1061,7 @@ Examples:
 
   ;; Create candidates list with nil as completion table to allow any input
   (let* ((candidates (mapcar #'car universal-launcher--all-candidates))
-         (prompt "🚀 Launch (or enter math expression): ")
+         (prompt "  Launch (or enter math expression): ")
          (selection
           (minibuffer-with-setup-hook
               (lambda ()
@@ -1039,9 +1107,10 @@ Examples:
           ('command (universal-launcher--run-command item))
           ('emoji (universal-launcher--insert-emoji item))
           ('ssh (universal-launcher--ssh-connect item))
-          ('calculator (message "🧮 Type a math expression like: 2+2, sqrt(16), sin(45)"))
+          ('calculator (message "  Type a math expression like: 2+2, sqrt(16), sin(45)"))
           ('org-task (universal-launcher--jump-to-task item))
           ('kill-ring (universal-launcher--yank-from-ring item))
+          ('audio-device-action (universal-launcher--audio-options item))  ; FIXED: Pass item
           ('custom-action (universal-launcher--execute-custom-action item))
           ('function (funcall item))
           ('async-shell 
@@ -1072,3 +1141,9 @@ Examples:
 
 (provide 'universal-launcher)
 ;;; universal-launcher.el ends here
+
+(mapcar (lambda (d)
+          (list (pipewire-lib-object-id d)
+                (pipewire-lib-object-value d "node.name")
+                (pipewire-lib-object-value d "device.description")))
+        (pipewire-lib-objects "Device"))
