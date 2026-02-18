@@ -27,6 +27,7 @@ in
     ".config/shell".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/shell";
     ".config/swaync".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/swaync";
     ".config/tmux".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/tmux";
+    ".config/waybar".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/waybar";
     ".config/zsh".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/zsh";
     ".zshrc".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/zsh/.zshrc";
     ".zprofile".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/shell/profile";
