@@ -1,0 +1,119 @@
+{
+	"height": 24,
+	"spacing": 2,
+	"modules-left": [
+		"hyprland/workspaces"
+	],
+	"modules-center": [
+		"custom/playerctl"
+	],
+	"modules-right": [
+		"pulseaudio",
+		"custom/separator",
+		"battery",
+		"custom/separator",
+		"battery#bat2",
+		"custom/separator",
+		"clock"
+	],
+	"hyprland/workspaces": {
+		"disable-scroll": false,
+		"all-outputs": true,
+		"format": "{icon}",
+		// "persistent-workspaces": {
+		// 	"1": [],
+		// 	"2": [],
+		// 	"3": [],
+		// 	"4": [],
+		// 	"5": []
+		// },
+		"format-icons": {
+			"1": "1",
+			"2": "2",
+			"3": "3",
+			"4": "4",
+			"5": "5",
+			"6": "6",
+			"7": "7",
+			"urgent": "",
+			"focused": "",
+			"default": ""
+		}
+	},
+	"clock": {
+		"interval": 1,
+		"format": "{:%Y-%m-%d %H:%M:%S %W}",
+		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+		"format-alt": "{:%Y-%M-%d %H:%m:%S}"
+	},
+	"battery": {
+		"bat": "BAT0",
+		"states": {
+			"good": 75,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "E <span font='14' rise='-3000'>{icon}</span>  {capacity}%",
+		"format-charging": " {capacity}%",
+		"format-plugged": "{capacity}% ",
+		"format-alt": "{time} {icon}",
+		// "format-good": "", // An empty format will hide the module
+		// "format-full": "",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"battery#bat2": {
+		"bat": "BAT1",
+		"states": {
+			"good": 75,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "I <span font='14' rise='-3000'>{icon}</span>  {capacity}%",
+		"format-charging": " {capacity}%",
+		"format-plugged": "{capacity}% ",
+		"format-alt": "{time} {icon}",
+		// "format-good": "", // An empty format will hide the module
+		// "format-full": "",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"pulseaudio": {
+		// "scroll-step": 1, // %, can be a float
+		"format": "{volume}",
+		"format-bluetooth": "B {volume}",
+		"format-bluetooth-muted": "M {format_source}",
+		"format-muted": "M {format_source}",
+		"format-source": "{volume}",
+		"format-source-muted": "M",
+		"on-click": "pulsemixer"
+	},
+	"custom/playerctl": {
+		// "exec": "~/.config/waybar/modules/playerctl.sh",
+		"exec": "~/.config/waybar/modules/mpris_player.sh",
+		"return-type": "json",
+		"tail": true
+	},
+	"custom/timer": {
+		"exec": "cat /tmp/timericon 2>/dev/null || echo ''",
+		"interval": 1,
+		"format": "{}",
+		"on-click": "~/.local/bin/statusbar/status-timer",
+		"on-click-right": "~/.local/bin/statusbar/status-timer kill"
+	},
+	"custom/separator": {
+		"format": "|",
+		"interval": "once",
+		"tooltip": "false"
+	}
+}

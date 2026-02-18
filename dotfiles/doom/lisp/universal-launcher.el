@@ -1142,8 +1142,3 @@ Examples:
 (provide 'universal-launcher)
 ;;; universal-launcher.el ends here
 
-(mapcar (lambda (d)
-          (list (pipewire-lib-object-id d)
-                (pipewire-lib-object-value d "node.name")
-                (pipewire-lib-object-value d "device.description")))
-        (pipewire-lib-objects "Device"))
