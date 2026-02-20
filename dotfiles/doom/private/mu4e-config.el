@@ -14,7 +14,7 @@
  mu4e-use-fancy-chars t
 
  ;; Sending mail
- sendmail-program "/usr/bin/msmtp"
+ sendmail-program "/run/current-system/sw/bin/msmtp"
  message-send-mail-function 'message-send-mail-with-sendmail
  message-sendmail-extra-arguments '("--read-envelope-from")
  message-sendmail-f-is-evil t

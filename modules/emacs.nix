@@ -8,6 +8,8 @@
     ripgrep
     autoconf
     mu
+    msmtp
+    isync
     emacsPackages.mu4e
     w3m
     ispell
