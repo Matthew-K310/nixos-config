@@ -7,9 +7,13 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    helium = {
+      url = "github:amaanq/helium-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
   
-  outputs = { nixpkgs, home-manager, ... }:
+  outputs = { nixpkgs, home-manager, helium, ... }:
     let
       system = "x86_64-linux";
       username = "matthewkennedy";
@@ -18,14 +22,15 @@
       nixosConfigurations = {
         initium = nixpkgs.lib.nixosSystem {
           inherit system;
-          specialArgs = { inherit username; };  # Add this
+          specialArgs = { inherit username; };
           modules = [
             ./hosts/initium/configuration.nix
             home-manager.nixosModules.home-manager
             {
+              environment.systemPackages = [ helium.packages.${system}.default ];
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
-	      home-manager.backupFileExtension = "backup";
+              home-manager.backupFileExtension = "backup";
               home-manager.extraSpecialArgs = { inherit username; };
               home-manager.users.${username} = import ./home-manager; 
             }
@@ -39,9 +44,10 @@
             ./hosts/reformata/configuration.nix
             home-manager.nixosModules.home-manager
             {
+              environment.systemPackages = [ helium.packages.${system}.default ];
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
-	      home-manager.backupFileExtension = "backup";
+              home-manager.backupFileExtension = "backup";
               home-manager.extraSpecialArgs = { inherit username; }; 
               home-manager.users.${username} = import ./home-manager; 
             }
@@ -55,9 +61,10 @@
             ./hosts/donum/configuration.nix
             home-manager.nixosModules.home-manager
             {
+              environment.systemPackages = [ helium.packages.${system}.default ];
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
-	      home-manager.backupFileExtension = "backup";
+              home-manager.backupFileExtension = "backup";
               home-manager.extraSpecialArgs = { inherit username; }; 
               home-manager.users.${username} = import ./home-manager; 
             }

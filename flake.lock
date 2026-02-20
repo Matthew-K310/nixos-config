@@ -1,5 +1,25 @@
 {
   "nodes": {
+    "helium": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1771320802,
+        "narHash": "sha256-fVwjjcxivStYGSLOYJxtEISKXv/8/TxZI4EB+wqPBpc=",
+        "owner": "amaanq",
+        "repo": "helium-flake",
+        "rev": "e8c651bc6b16925b1f5ede3ca2e206f22d0eb96c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "amaanq",
+        "repo": "helium-flake",
+        "type": "github"
+      }
+    },
     "home-manager": {
       "inputs": {
         "nixpkgs": [
@@ -38,6 +58,7 @@
     },
     "root": {
       "inputs": {
+        "helium": "helium",
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs"
       }
