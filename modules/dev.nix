@@ -36,6 +36,7 @@
     dino
     nodejs
     python3
+	prettier
   ];
 }
 
