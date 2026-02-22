@@ -748,6 +748,11 @@ If URL is not given, look for first URL in `kill-ring'."
   (let ((url (read-string "Link: ")))
     (org-web-tools--org-link-for-url url)))
 #+end_src
+**** org-cite
+#+begin_src emacs-lisp
+(require 'oc)
+(setq org-cite-global-bibliography '("/home/matthewkennedy/org/denote/references.bib"))
+#+end_src
 **** org-agenda
 #+begin_src elisp
 ;; (setq org-agenda-files
@@ -857,6 +862,7 @@ Use `thanos` for `emacs-everywhere`-like behavior on Wayland systems (specifical
 #+end_src
 
 **** Denote
+***** base config
 Set up Denote for Zettlekasten note-taking and for larger projects.
 #+begin_src elisp
 (use-package denote
@@ -884,6 +890,29 @@ Set up Denote for Zettlekasten note-taking and for larger projects.
 
 #+end_src
 
+***** denote-explore
+#+begin_src emacs-lisp
+;; Set the graph layout algorithm
+(setq denote-explore-network-algorithm 'spring) ; or 'circle, 'grid
+
+;; Customize graph appearance
+(setq denote-explore-network-keywords-include t) ; Show keyword connections
+(setq denote-explore-network-regex ".*") ; Filter which notes to include
+#+end_src
+***** denote-journal
+#+begin_src emacs-lisp
+(defun my/denote-todo-template ()
+  "Return string for daily tasks heading in `denote-journal' entries."
+  (with-temp-buffer
+    (org-mode)
+    (let ((date-str (format-time-string "%Y-%m-%d (%a)")))
+      (insert (format "* Tasks for %s\n** TODO \n** Loafing around\n\n* Notes for today\n\n* Clocktable\n"
+                      date-str)))
+    (let ((org-clock-clocktable-default-properties
+           '(:scope file :maxlevel 3 :link nil :compact t :block today :formula %)))
+      (org-clock-report))
+    (buffer-string)))
+#+end_src
 ** :tools
 *** Magit
 **** magit-forge
@@ -995,30 +1024,6 @@ The full, untruncated text is always copied - truncation is only for display."
        :desc "Clipboard manager" "y" #'my/clipboard-manager))
 #+end_src
 *** org-present
-*** denote
-**** denote-explore
-#+begin_src emacs-lisp
-;; Set the graph layout algorithm
-(setq denote-explore-network-algorithm 'spring) ; or 'circle, 'grid
-
-;; Customize graph appearance
-(setq denote-explore-network-keywords-include t) ; Show keyword connections
-(setq denote-explore-network-regex ".*") ; Filter which notes to include
-#+end_src
-**** denote-journal
-#+begin_src emacs-lisp
-(defun my/denote-todo-template ()
-  "Return string for daily tasks heading in `denote-journal' entries."
-  (with-temp-buffer
-    (org-mode)
-    (let ((date-str (format-time-string "%Y-%m-%d (%a)")))
-      (insert (format "* Tasks for %s\n** TODO \n** Loafing around\n\n* Notes for today\n\n* Clocktable\n"
-                      date-str)))
-    (let ((org-clock-clocktable-default-properties
-           '(:scope file :maxlevel 3 :link nil :compact t :block today :formula %)))
-      (org-clock-report))
-    (buffer-string)))
-#+end_src
 *** ledger-mode
 For being able to add ledger src blocks in org-mode files.
 #+begin_src emacs-lisp

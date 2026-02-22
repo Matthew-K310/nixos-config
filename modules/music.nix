@@ -51,5 +51,6 @@
     rmpc
     jellyfin-tui
     picard
+    vorbis-tools
   ];
 }

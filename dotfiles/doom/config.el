@@ -663,6 +663,9 @@ If URL is not given, look for first URL in `kill-ring'."
   (let ((url (read-string "Link: ")))
     (org-web-tools--org-link-for-url url)))
 
+(require 'oc)
+(setq org-cite-global-bibliography '("/home/matthewkennedy/org/denote/references.bib"))
+
 ;; (setq org-agenda-files
 ;;       '("~/org/inbox.org"
 ;;         "~/org/todo.org"
@@ -788,6 +791,25 @@ If URL is not given, look for first URL in `kill-ring'."
   ;; `denote-rename-buffer-format' for how to modify this.
   (denote-rename-buffer-mode 1))
 
+;; Set the graph layout algorithm
+(setq denote-explore-network-algorithm 'spring) ; or 'circle, 'grid
+
+;; Customize graph appearance
+(setq denote-explore-network-keywords-include t) ; Show keyword connections
+(setq denote-explore-network-regex ".*") ; Filter which notes to include
+
+(defun my/denote-todo-template ()
+  "Return string for daily tasks heading in `denote-journal' entries."
+  (with-temp-buffer
+    (org-mode)
+    (let ((date-str (format-time-string "%Y-%m-%d (%a)")))
+      (insert (format "* Tasks for %s\n** TODO \n** Loafing around\n\n* Notes for today\n\n* Clocktable\n"
+                      date-str)))
+    (let ((org-clock-clocktable-default-properties
+           '(:scope file :maxlevel 3 :link nil :compact t :block today :formula %)))
+      (org-clock-report))
+    (buffer-string)))
+
 (setq forge-owned-accounts '(("Matthew-K310")))
 
 (use-package inhibit-mouse
@@ -883,25 +905,6 @@ The full, untruncated text is always copied - truncation is only for display."
 (map! :leader
       (:prefix "y" 
        :desc "Clipboard manager" "y" #'my/clipboard-manager))
-
-;; Set the graph layout algorithm
-(setq denote-explore-network-algorithm 'spring) ; or 'circle, 'grid
-
-;; Customize graph appearance
-(setq denote-explore-network-keywords-include t) ; Show keyword connections
-(setq denote-explore-network-regex ".*") ; Filter which notes to include
-
-(defun my/denote-todo-template ()
-  "Return string for daily tasks heading in `denote-journal' entries."
-  (with-temp-buffer
-    (org-mode)
-    (let ((date-str (format-time-string "%Y-%m-%d (%a)")))
-      (insert (format "* Tasks for %s\n** TODO \n** Loafing around\n\n* Notes for today\n\n* Clocktable\n"
-                      date-str)))
-    (let ((org-clock-clocktable-default-properties
-           '(:scope file :maxlevel 3 :link nil :compact t :block today :formula %)))
-      (org-clock-report))
-    (buffer-string)))
 
 (after! ledger-mode
   (org-babel-do-load-languages
