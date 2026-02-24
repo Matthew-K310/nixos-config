@@ -27,6 +27,7 @@
     cmake
     gcc
     clang
+    clang-tools
     gcc
     # haskell
     ghc
