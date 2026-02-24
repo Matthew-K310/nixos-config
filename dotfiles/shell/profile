@@ -27,7 +27,7 @@ fi
 export EDITOR="nvim"
 export TERMINAL="kitty"
 export TERMINAL_PROG="kitty"
-export BROWSER="helium-browser"
+export BROWSER="helium"
 export MANPAGER="delta"
 
 # XDG Base Directories
