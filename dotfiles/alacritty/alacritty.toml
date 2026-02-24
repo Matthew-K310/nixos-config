@@ -24,8 +24,8 @@ save_to_clipboard = true
 [cursor]
 style = { shape = "Block", blinking = "On" }
 
-[mouse]
-hide_when_typing = true
+# [mouse]
+# hide_when_typing = true
 
 [keyboard]
 [[keyboard.bindings]]
