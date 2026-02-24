@@ -39,5 +39,5 @@
     (when (= (buffer-size) 0)
       (yas-expand-snippet
        (with-temp-buffer
-         (insert-file-contents "~/.dotfiles/.config/doom/snippets/org-mode/daily")
+         (insert-file-contents "~/.config/doom/snippets/org-mode/daily")
          (buffer-string))))))

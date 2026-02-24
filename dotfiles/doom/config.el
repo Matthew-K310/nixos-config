@@ -27,8 +27,8 @@
 
 ;; Set browser for opening links
 (setq browse-url-browser-function 'browse-url-generic)
-;; (setq browse-url-generic-program "helium-browser")
-(setq browse-url-generic-program "chromium")
+(setq browse-url-generic-program "helium")
+;; (setq browse-url-generic-program "chromium")
 
 ;; Change focus highlight mode
 '((prog-mode . defun) (text-mode . paragraph))

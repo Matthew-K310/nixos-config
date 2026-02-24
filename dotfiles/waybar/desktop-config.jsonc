@@ -20,13 +20,13 @@
 		"disable-scroll": false,
 		"all-outputs": true,
 		"format": "{icon}",
-		"persistent-workspaces": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
+		// "persistent-workspaces": {
+		// "1": [],
+		// "2": [],
+		// "3": [],
+		// "4": [],
+		// "5": []
+		// },
 		"format-icons": {
 			"1": "1",
 			"2": "2",
@@ -46,29 +46,48 @@
 		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
 		"format-alt": "{:%Y-%M-%d %H:%m:%S}"
 	},
-	"battery": {
-		"states": {
-			"good": 75,
-			"warning": 30,
-			"critical": 15
-		},
-		"format": "<span font='14' rise='-3000'>{icon}</span>  {capacity}%",
-		"format-charging": " {capacity}%",
-		"format-plugged": "{capacity}% ",
-		"format-alt": "{time} {icon}",
-		// "format-good": "", // An empty format will hide the module
-		// "format-full": "",
-		"format-icons": [
-			"",
-			"",
-			"",
-			"",
-			""
-		]
-	},
-	"battery#bat2": {
-		"bat": "BAT2"
-	},
+	//	"battery": {
+	//		"bat": "BAT0",
+	//		"states": {
+	//			"good": 75,
+	//			"warning": 30,
+	//			"critical": 15
+	//		},
+	//		"format": "E <span font='14' rise='-3000'>{icon}</span>  {capacity}%",
+	//		"format-charging": " {capacity}%",
+	//		"format-plugged": "{capacity}% ",
+	//		"format-alt": "{time} {icon}",
+	//		// "format-good": "", // An empty format will hide the module
+	//		// "format-full": "",
+	//		"format-icons": [
+	//			"",
+	//			"",
+	//			"",
+	//			"",
+	//			""
+	//		]
+	//	},
+	//	"battery#bat2": {
+	//		"bat": "BAT1",
+	//		"states": {
+	//			"good": 75,
+	//			"warning": 30,
+	//			"critical": 15
+	//		},
+	//		"format": "I <span font='14' rise='-3000'>{icon}</span>  {capacity}%",
+	//		"format-charging": " {capacity}%",
+	//		"format-plugged": "{capacity}% ",
+	//		"format-alt": "{time} {icon}",
+	//		// "format-good": "", // An empty format will hide the module
+	//		// "format-full": "",
+	//		"format-icons": [
+	//			"",
+	//			"",
+	//			"",
+	//			"",
+	//			""
+	//		]
+	//	},
 	"pulseaudio": {
 		// "scroll-step": 1, // %, can be a float
 		"format": "{volume}",

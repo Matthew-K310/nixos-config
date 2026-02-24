@@ -32,5 +32,6 @@
     nordzy-icon-theme
     nordzy-cursor-theme
     wl-clipboard
+	wl-kbptr
   ];
 }

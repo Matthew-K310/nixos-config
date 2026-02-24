@@ -20,13 +20,13 @@
 		"disable-scroll": false,
 		"all-outputs": true,
 		"format": "{icon}",
-		"persistent-workspaces": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
+		// "persistent-workspaces": {
+		// "1": [],
+		// "2": [],
+		// "3": [],
+		// "4": [],
+		// "5": []
+		// },
 		"format-icons": {
 			"1": "1",
 			"2": "2",
