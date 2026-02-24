@@ -19,7 +19,7 @@
   users.users.matthewkennedy = {
     isNormalUser = true;
     description = "Matthew Kennedy";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "i2c" ];
     shell = pkgs.zsh;
   };
   
