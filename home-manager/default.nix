@@ -7,7 +7,7 @@ in
   home.stateVersion = "24.11";
   home.username = username;
   home.homeDirectory = "/home/${username}";
-  
+
   home.file = {
     ".config/doom".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/doom";
     ".config/emacs".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/emacs";
@@ -37,4 +37,15 @@ in
     $DRY_RUN_CMD chown -R $USER:users ${dotfilesDir}
     $DRY_RUN_CMD chmod -R u+w ${dotfilesDir}
   '';
+
+  xdg.mimeApps = {
+    enable = true;
+    defaultApplications = {
+      "text/html" = "helium.desktop";
+      "x-scheme-handler/http" = "helium.desktop";
+      "x-scheme-handler/https" = "helium.desktop";
+      "x-scheme-handler/about" = "helium.desktop";
+      "x-scheme-handler/unknown" = "helium.desktop";
+    };
+  };
 }
