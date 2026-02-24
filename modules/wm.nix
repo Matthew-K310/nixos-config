@@ -28,7 +28,6 @@
     wofi
     grim
     slurp
-    brightnessctl
     nordzy-icon-theme
     nordzy-cursor-theme
     wl-clipboard

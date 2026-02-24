@@ -175,6 +175,7 @@ This is ignored by ccls.")
 
   (if (modulep! :tools lsp -eglot)
       (after! lsp-clangd
+        (setq lsp-clangd-binary-path (executable-find "clangd"))
         ;; Prevent clangd from consuming all your cores indexing larger projects
         ;; and grinding your system to a halt.
         (cl-pushnew (format "-j=%d" (max 1 (/ (doom-system-cpus) 2)))
