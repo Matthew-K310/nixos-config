@@ -65,6 +65,7 @@
 # *** [[https://www.challies.com/feed/][Tim Challies]]
 *** [[https://michellelesley.com/][Michelle Lesley]]
 ** Blogs
+*** [[https://blog.matthew-kennedy.com/index.xml][Matthew Kennedy]]
 *** [[https://adactio.com/rss/][Jeremy Keith]]
 *** [[https://wrongthink.link/posts/index.xml][Wrong Think]]
 *** [[https://drewdevault.com/blog/index.xml][Drew DeVault]]
