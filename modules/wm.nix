@@ -33,5 +33,6 @@
     nordzy-cursor-theme
     wl-clipboard
 	wl-kbptr
+	wlrctl
   ];
 }
