@@ -18,6 +18,9 @@
     age
     pinentry-gnome3
     pinentry-tty
+	cups
+	system-config-printer
+	hplip
   ];
 
   hardware.bluetooth.enable = true;
@@ -32,6 +35,12 @@
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
+
+  services.avahi = {
+    enable = true;
+    nssmdns4 = true;
+    # openFirewall = true;
+  };
 
   services.kanata.enable = true;
   systemd.services.kanata = {
