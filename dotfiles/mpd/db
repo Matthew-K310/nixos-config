@@ -566,7 +566,7 @@ added: 1771107306
 song_end
 end: A Unicorn Masquerade - A Unicorn Masquerade
 directory: ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)
-mtime: 1771107540
+mtime: 1772039925
 begin: ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)
 song_begin: 001 - Skies Unknown.flac
 Time: 93.026
@@ -704,319 +704,37 @@ song_begin: 023 - Long Day.flac
 Time: 285.786
 Format: 48000:24:2
 mtime: 1770086723
-added: 1771107306
+added: 1772039924
 song_end
 song_begin: 024 - Yinshi Valley.flac
 Time: 201.573
 Format: 48000:24:2
 mtime: 1770086729
-added: 1771107306
+added: 1772039924
 song_end
 song_begin: 025 - First Contact.flac
 Time: 199.626
 Format: 48000:24:2
 mtime: 1770086735
-added: 1771107306
+added: 1772039924
 song_end
 song_begin: 026 - Two Pairs.flac
 Time: 208.773
 Format: 48000:24:2
 mtime: 1770086740
-added: 1771107306
+added: 1772039924
 song_end
 song_begin: 027 - Pipeline Destruction.flac
 Time: 245.106
 Format: 48000:24:2
 mtime: 1770086746
-added: 1771107306
+added: 1772039924
 song_end
 song_begin: 028 - Three of a Kind.flac
 Time: 316.813
 Format: 48000:24:2
 mtime: 1770086751
-added: 1771107306
-song_end
-song_begin: 029 - Waiapolo Mountains.flac
-Time: 419.826
-Format: 48000:24:2
-mtime: 1770086757
-added: 1771107306
-song_end
-song_begin: 030 - Identification.flac
-Time: 176.693
-Format: 48000:24:2
-mtime: 1770086763
-added: 1771107306
-song_end
-song_begin: 031 - Faceless Soldier.flac
-Time: 245.84
-Format: 48000:24:2
-mtime: 1770086768
-added: 1771107306
-song_end
-song_begin: 032 - Transfer Orders.flac
-Time: 228.76
-Format: 48000:24:2
-mtime: 1770086773
-added: 1771107306
-song_end
-song_begin: 033 - ADFX-10.flac
-Time: 215.933
-Format: 48000:24:2
-mtime: 1770086779
-added: 1771107306
-song_end
-song_begin: 034 - 444th Debriefing.flac
-Time: 86.533
-Format: 48000:24:2
-mtime: 1770086784
-added: 1771107306
-song_end
-song_begin: 035 - LRSSG Briefing I.flac
-Time: 138.013
-Format: 48000:24:2
-mtime: 1770086791
-added: 1771107306
-song_end
-song_begin: 036 - New Arrows Air Base Hangar.flac
-Time: 151.96
-Format: 48000:24:2
-mtime: 1770086796
-added: 1771107306
-song_end
-song_begin: 037 - Siren’s Song.flac
-Time: 210.933
-Format: 48000:24:2
-mtime: 1770086801
-added: 1771107306
-song_end
-song_begin: 038 - Stonehenge Defensive.flac
-Time: 335.826
-Format: 48000:24:2
-mtime: 1770086806
-added: 1771107306
-song_end
-song_begin: 039 - Dragon Breath.flac
-Time: 287.04
-Format: 48000:24:2
-mtime: 1770086812
-added: 1771107306
-song_end
-song_begin: 040 - Magic Spear I.flac
-Time: 252.4
-Format: 48000:24:2
-mtime: 1770086818
-added: 1771107306
-song_end
-song_begin: 041 - Magic Spear II.flac
-Time: 251.626
-Format: 48000:24:2
-mtime: 1770086823
-added: 1771107306
-song_end
-song_begin: 042 - Werewolf.flac
-Time: 525.746
-Format: 48000:24:2
-mtime: 1770086830
-added: 1771107306
-song_end
-song_begin: 043 - LRSSG Debriefing I.flac
-Time: 102.60000000000001
-Format: 48000:24:2
-mtime: 1770086836
-added: 1771107306
-song_end
-song_begin: 044 - King of the Heavens.flac
-Time: 57.093
-Format: 48000:24:2
-mtime: 1770086840
-added: 1771107306
-song_end
-song_begin: 045 - Battle for Farbanti.flac
-Time: 261.826
-Format: 48000:24:2
-mtime: 1770086845
-added: 1771107306
-song_end
-song_begin: 046 - Sol Squadron.flac
-Time: 223.773
-Format: 48000:24:2
-mtime: 1770086850
-added: 1771107306
-song_end
-song_begin: 047 - Offline.flac
-Time: 175.81300000000002
-Format: 48000:24:2
-mtime: 1770086855
-added: 1771107306
-song_end
-song_begin: 048 - Last Hope I.flac
-Time: 292.32
-Format: 48000:24:2
-mtime: 1770086861
-added: 1771107306
-song_end
-song_begin: 049 - Last Hope II.flac
-Time: 292.186
-Format: 48000:24:2
-mtime: 1770086867
-added: 1771107306
-song_end
-song_begin: 050 - Tyler Island.flac
-Time: 215.973
-Format: 48000:24:2
-mtime: 1770086873
-added: 1771107306
-song_end
-song_begin: 051 - LRSSG Briefing II.flac
-Time: 103.82600000000001
-Format: 48000:24:2
-mtime: 1770086879
-added: 1771107306
-song_end
-song_begin: 052 - Homeward.flac
-Time: 273.533
-Format: 48000:24:2
-mtime: 1770086884
-added: 1771107306
-song_end
-song_begin: 053 - Supply Ship.flac
-Time: 230.293
-Format: 48000:24:2
-mtime: 1770086889
-added: 1771107306
-song_end
-song_begin: 054 - Lost Kingdom.flac
-Time: 573.746
-Format: 48000:24:2
-mtime: 1770086895
-added: 1771107306
-song_end
-song_begin: 055 - Archange.flac
-Time: 266.666
-Format: 48000:24:2
-mtime: 1770086902
-added: 1771107555
-song_end
-song_begin: 056 - The UAV Factory.flac
-Time: 257.186
-Format: 48000:24:2
-mtime: 1770086908
-added: 1771107555
-song_end
-song_begin: 057 - LRSSG Briefing III.flac
-Time: 136.626
-Format: 48000:24:2
-mtime: 1770086913
-added: 1771107555
-song_end
-song_begin: 058 - Lighthouse.flac
-Time: 318.6
-Format: 48000:24:2
-mtime: 1770086919
-added: 1771107555
-song_end
-song_begin: 059 - DDRKirby(ISQ) - Freehand Aug 2019 - Daredevil.flac
-Time: 307.095
-Format: 48000:24:2
-mtime: 1770086924
-added: 1771107555
-song_end
-song_begin: 060 - LRSSG Debriefing II.flac
-Time: 142.44
-Format: 48000:24:2
-mtime: 1770086930
-added: 1771107555
-song_end
-song_begin: 061 - Admiral Andersen.flac
-Time: 88.12
-Format: 48000:24:2
-mtime: 1770086935
-added: 1771107555
-song_end
-song_begin: 062 - LRSSG Briefing IV.flac
-Time: 179.573
-Format: 48000:24:2
-mtime: 1770086939
-added: 1771107555
-song_end
-song_begin: 063 - Determination.flac
-Time: 93.76
-Format: 48000:24:2
-mtime: 1770086944
-added: 1771107555
-song_end
-song_begin: 064 - Hush.flac
-Time: 332.06600000000003
-Format: 48000:24:2
-mtime: 1770086949
-added: 1771107555
-song_end
-song_begin: 065 - Space Elevator.flac
-Time: 222.44
-Format: 48000:24:2
-mtime: 1770086955
-added: 1771107555
-song_end
-song_begin: 066 - Dark Blue.flac
-Time: 135.48
-Format: 48000:24:2
-mtime: 1770086960
-added: 1771107555
-song_end
-song_begin: 067 - Epilogue.flac
-Time: 149.72
-Format: 48000:24:2
-mtime: 1770086965
-added: 1771107555
-song_end
-song_begin: 068 - pensees.flac
-Time: 235.56
-Format: 48000:24:2
-mtime: 1770086970
-added: 1771107555
-song_end
-song_begin: 069 - Mission Failed.flac
-Time: 15.986
-Format: 48000:24:2
-mtime: 1770086976
-added: 1771107555
-song_end
-song_begin: 070 - VR Prologue.flac
-Time: 60.626000000000005
-Format: 48000:24:2
-mtime: 1770086980
-added: 1771107555
-song_end
-song_begin: 071 - VR Hangar.flac
-Time: 109.533
-Format: 48000:24:2
-mtime: 1770086985
-added: 1771107555
-song_end
-song_begin: 072 - SCRAMBLE (Arranged ACE COMBAT 04 ＂Sitting Duck＂).flac
-Time: 208.92000000000002
-Format: 48000:24:2
-mtime: 1770086990
-added: 1771107555
-song_end
-song_begin: 073 - GATOR PANIC (Arranged ACE COMBAT 04 ＂Tango Line＂).flac
-Time: 248.226
-Format: 48000:24:2
-mtime: 1770086995
-added: 1771107555
-song_end
-song_begin: 074 - SENTRY'S BRUNT (Arranged ACE COMBAT 04 ＂Blockade＂).flac
-Time: 230.333
-Format: 48000:24:2
-mtime: 1770087000
-added: 1771107555
-song_end
-song_begin: 075 - Do or Die (From ACE COMBAT 5).flac
-Time: 206.226
-Format: 48000:24:2
-mtime: 1770087006
-added: 1771107555
+added: 1772039931
 song_end
 end: ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)
 directory: addison rae - in the rain (sam gellaitry remix)
@@ -1302,7 +1020,7 @@ mtime: 1769739514
 added: 1771113752
 song_end
 song_begin: 11 Gyam Shorts.flac
-Time: 260.186
+Time: 260.185
 Track: 11
 Title: - Gyam Shorts
 Format: 48000:24:2
@@ -1358,7 +1076,7 @@ mtime: 1769739514
 added: 1771113752
 song_end
 song_begin: 20 Rich Slavic Leather.flac
-Time: 64.017
+Time: 64.016
 Track: 20
 Title: - Rich Slavic Leather
 Format: 44100:24:2
@@ -5036,7 +4754,7 @@ mtime: 1758004408
 added: 1771113753
 song_end
 song_begin: Jay Hosking - It may take longer than you think - 10 Wane.flac
-Time: 524.285
+Time: 524.284
 Title: Wane
 Artist: Jay Hosking
 Date: 2024
@@ -7192,7 +6910,7 @@ song_begin: Locked Out of Heaven (Low Flying Oscillator Remix).wav
 Time: 300.521
 song_end
 song_begin: Movement (AudioHaze Cover) (Matthew Kennedy Remix) copy.wav
-Time: 260.282
+Time: 260.281
 Date: 2023-11-0
 song_end
 song_begin: My Trigger (Low Flying Oscillator Remix).wav
@@ -7434,7 +7152,7 @@ mtime: 1720993611
 added: 1771113756
 song_end
 song_begin: Movement (AudioHaze Cover) (Matthew Kennedy Remix) copy.wav
-Time: 260.282
+Time: 260.281
 Date: 2023-11-0
 Format: 48000:32:2
 mtime: 1699035419
@@ -9016,7 +8734,7 @@ mtime: 1769447520
 added: 1771113753
 song_end
 song_begin: Cave Background.ogg
-Time: 259.674
+Time: 259.673
 Artist: Ian Taylor
 Date: 2004
 Genre: Soundtrack
@@ -10906,7 +10624,7 @@ mtime: 1769447520
 added: 1771113754
 song_end
 song_begin: Insect Queen.ogg
-Time: 259.46
+Time: 259.459
 Artist: Ian Taylor
 Date: 2004
 Genre: Soundtrack
@@ -14672,7 +14390,7 @@ mtime: 1769447520
 added: 1771113755
 song_end
 song_begin: Zealot.ogg
-Time: 259.782
+Time: 259.781
 Artist: Ian Taylor
 Date: 2004
 Genre: Soundtrack

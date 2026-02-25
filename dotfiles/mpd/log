@@ -18985,3 +18985,65 @@
 2026-02-14T18:03:48 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0001
 2026-02-14T20:51:06 player: played "Focus Music/01 - OCEAN-DEEP ：： Atmospheric DnB & Jungle ：：.flac"
 2026-02-14T20:51:06 inotify: music directory was removed - cannot continue to watch it
+2026-02-25T11:18:12 exception: Failed to create Avahi service group: Not permitted
+2026-02-25T11:18:12 exception: Failed to decode "/home/matthewkennedy/Music/Old Runescape Soundtrack/Cave of the Beasts.ogg"; Failed to open "/home/matthewkennedy/Music/Old Runescape Soundtrack/Cave of the Beasts.ogg": No such file or directory
+2026-02-25T11:18:12 player: played "Old Runescape Soundtrack/Cave of the Beasts.ogg"
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/075 - Do or Die (From ACE COMBAT 5).flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/074 - SENTRY'S BRUNT (Arranged ACE COMBAT 04 ＂Blockade＂).flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/073 - GATOR PANIC (Arranged ACE COMBAT 04 ＂Tango Line＂).flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/072 - SCRAMBLE (Arranged ACE COMBAT 04 ＂Sitting Duck＂).flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/071 - VR Hangar.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/070 - VR Prologue.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/069 - Mission Failed.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/068 - pensees.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/067 - Epilogue.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/066 - Dark Blue.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/065 - Space Elevator.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/064 - Hush.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/063 - Determination.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/062 - LRSSG Briefing IV.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/061 - Admiral Andersen.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/060 - LRSSG Debriefing II.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/059 - DDRKirby(ISQ) - Freehand Aug 2019 - Daredevil.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/058 - Lighthouse.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/057 - LRSSG Briefing III.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/056 - The UAV Factory.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/055 - Archange.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/054 - Lost Kingdom.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/053 - Supply Ship.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/052 - Homeward.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/051 - LRSSG Briefing II.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/050 - Tyler Island.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/049 - Last Hope II.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/048 - Last Hope I.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/047 - Offline.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/046 - Sol Squadron.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/045 - Battle for Farbanti.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/044 - King of the Heavens.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/043 - LRSSG Debriefing I.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/042 - Werewolf.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/041 - Magic Spear II.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/040 - Magic Spear I.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/039 - Dragon Breath.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/038 - Stonehenge Defensive.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/037 - Siren’s Song.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/036 - New Arrows Air Base Hangar.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/035 - LRSSG Briefing I.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/034 - 444th Debriefing.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/033 - ADFX-10.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/032 - Transfer Orders.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/031 - Faceless Soldier.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/030 - Identification.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/029 - Waiapolo Mountains.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/028 - Three of a Kind.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/027 - Pipeline Destruction.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/026 - Two Pairs.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/025 - First Contact.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/024 - Yinshi Valley.flac
+2026-02-25T11:18:21 update: removing ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/023 - Long Day.flac
+2026-02-25T11:18:44 update: added ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/023 - Long Day.flac
+2026-02-25T11:18:44 update: added ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/024 - Yinshi Valley.flac
+2026-02-25T11:18:44 update: added ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/025 - First Contact.flac
+2026-02-25T11:18:44 update: added ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/026 - Two Pairs.flac
+2026-02-25T11:18:44 update: added ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/027 - Pipeline Destruction.flac
+2026-02-25T11:18:51 update: added ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)/028 - Three of a Kind.flac

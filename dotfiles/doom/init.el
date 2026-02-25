@@ -35,7 +35,7 @@
        nav-flash         ; blink cursor line after big motions
        ophints           ; highlight the region an operation acts on
        (popup +defaults)   ; tame sudden yet inevitable temporary windows
-       unicode           ; extended unicode support for various languages
+       ;; unicode           ; extended unicode support for various languages
        (vc-gutter +pretty) ; vcs diff in the fringe
        vi-tilde-fringe   ; fringe tildes to mark beyond EOB
        workspaces        ; tab emulation, persistence & separate workspaces

@@ -61,7 +61,9 @@
 (load! "lisp/change-fonts")
 (load! "lisp/daily")
 (load! "lisp/done-refile")
+(load! "lisp/elfeed-config")
 (load! "lisp/emacs-xmpp")
+(load! "lisp/emms-config")
 (load! "lisp/jitsi-meeting")
 (load! "lisp/meeting-assistant")
 (load! "lisp/mu4e-contact")
@@ -223,18 +225,33 @@
 ** :ui
 *** Fonts
 #+begin_src elisp
-;; (setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 14)
-;;       doom-variable-pitch-font (font-spec :family "Alegreya" :size 18)
-;;       doom-big-font (font-spec :family "JetBrainsMono Nerd Font" :size 22))
+(defvar my/font-profiles
+  '(("Iosevka Nerd Font Mono" :var "Alegreya" :size 15 :var-size 16)
+    ("JetBrainsMono Nerd Font" :var "Alegreya" :size 14 :var-size 18)
+    ("GeistMono Nerd Font" :var "Alegreya" :size 14 :var-size 18)
+    ("Terminess Nerd Font Mono" :var "Alegreya" :size 17 :var-size 18)))
 
-(setq doom-font (font-spec :family "Iosevka Nerd Font Mono" :size 15)
-      doom-variable-pitch-font (font-spec :family "Alegreya" :size 16)
-      doom-big-font (font-spec :family "Iosevka Nerd Font Mono" :size 22))
+(defun my/select-font ()
+  (interactive)
+  (let* ((choice (completing-read "Font profile: "
+                                  (mapcar #'car my/font-profiles)
+                                  nil t))
+         (profile (assoc choice my/font-profiles))
+         (mono     (car profile))
+         (var      (plist-get (cdr profile) :var))
+         (size     (plist-get (cdr profile) :size))
+         (var-size (plist-get (cdr profile) :var-size)))
+    (setq doom-font              (font-spec :family mono :size size)
+          doom-variable-pitch-font (font-spec :family var  :size var-size)
+          doom-big-font          (font-spec :family mono :size (+ size 7)))
+    (doom/reload-font)
+    (message "Switched to %s (size %s)" mono size)))
 
-;; (setq doom-font (font-spec :family "Geist Mono" :size 14)
-;;       doom-variable-pitch-font (font-spec :family "Alegreya" :size 18)
-;;       doom-big-font (font-spec :family "Geist Mono" :size 22))
+(map! :leader :desc "Select font profile" "t F" #'my/select-font)
 
+;; (setq doom-font (font-spec :family "Iosevka Nerd Font Mono" :size 15)
+;;       doom-variable-pitch-font (font-spec :family "Alegreya" :size 16)
+;;       doom-big-font (font-spec :family "Iosevka Nerd Font Mono" :size 22))
 #+end_src
 
 Set variable font sizes for org-mode headings for improved readability.
@@ -448,6 +465,7 @@ name as well to trigger updates"
   (setq lsp-haskell-server-path "~/.ghcup/bin/haskell-language-server-wrapper"))
 #+end_src
 ** :term
+*** vterm
 #+begin_src elisp
 (defun my-open-vterm-at-point ()
   "Open vterm in the directory of the currently selected window's buffer.
@@ -494,6 +512,45 @@ This function is designed to be called via `emacsclient -e`."
     (delete-other-windows)))
 #+end_src
 
+*** eshell
+**** eshell-popup
+#+begin_src emacs-lisp
+(defun my/eshell-float ()
+  "Launch a temporary frame with a clean buffer for typing."
+  (interactive)
+  (require 'eshell)
+  (let ((frame (make-frame '((name . "eshell-float")
+                             (fullscreen . 0)
+                             (undecorated . t)
+                             (width . 90)
+                             (height . 30)
+                             (explicit-eshell . t))))
+        (buf (get-buffer-create "eshell-float")))
+    (select-frame frame)
+    (switch-to-buffer buf)
+    (with-current-buffer buf
+      (erase-buffer)
+      (eshell t)
+      (company-mode -1)
+      ;; Make the frame more temporary-like
+      (set-frame-parameter frame 'delete-before-kill-buffer t)
+      (set-window-dedicated-p (selected-window) t))))
+#+end_src
+**** eshell-frame
+#+begin_src emacs-lisp
+(defun my/new-frame-with-eshell ()
+  "Create a new frame and immediately open eshell in it."
+  (interactive)
+  (require 'eshell)
+  (let ((new-frame (make-frame '((explicit-eshell . t)))))
+    (select-frame new-frame)
+    (delete-other-windows)
+    ;; eshell creates and switches to the buffer, but returns nil
+    (eshell (format "*eshell-%s*" (frame-parameter new-frame 'name)))
+    (company-mode -1)
+    ;; Now current-buffer is the eshell buffer
+    (delete-other-windows)))
+#+end_src
 ** :lang
 *** org
 **** org-mode
@@ -851,7 +908,8 @@ Use `thanos` for `emacs-everywhere`-like behavior on Wayland systems (specifical
     (with-current-buffer buf
       (erase-buffer)
       (org-mode)
-      (flyspell-mode)
+      (company-mode -1)
+      ;; (flyspell-mode)
       (thanos/type-mode)
       (setq-local header-line-format
                   (format " %s to insert text or %s to cancel."
@@ -1075,275 +1133,6 @@ For being able to add ledger src blocks in org-mode files.
   :config
   (setq writeroom-global-effects (remove 'writeroom-set-fullscreen
                                          writeroom-global-effects)))
-#+end_src
-** :app
-*** Elfeed 
-#+begin_src elisp
-(use-package! elfeed
-  :commands (elfeed)
-  :config
-  ;; Where to store the Elfeed database
-  (setq elfeed-db-directory (expand-file-name "~/.local/share/elfeed"))
-  (make-directory elfeed-db-directory t)
-
-  ;; Update every hour automatically
-  (run-at-time nil (* 60 60) #'elfeed-update)
-
-  (use-package! elfeed-org
-    :after elfeed
-    :config
-    (setq rmh-elfeed-org-files
-          (list (expand-file-name "~/.config/doom/feeds.org")))
-    (elfeed-org)))
-
-(defvar elfeed-download-base-dir (expand-file-name "~/cloud/downloads/elfeed/")
-  "Base directory for all Elfeed downloads.")
-
-(defvar elfeed-download-youtube-dir "youtube/"
-  "Subdirectory for YouTube videos (relative to base dir).")
-
-(defvar elfeed-download-articles-dir "articles/"
-  "Subdirectory for saved articles (relative to base dir).")
-
-(defun elfeed-download--ensure-directory (dir)
-  "Ensure directory DIR exists."
-  (unless (file-directory-p dir)
-    (make-directory dir t)))
-
-(defun elfeed-download--sanitize-filename (filename)
-  "Make FILENAME safe for use on the filesystem."
-  (replace-regexp-in-string "[^a-zA-Z0-9-_. ]" "_" filename))
-
-(defun elfeed-download--youtube-dir ()
-  (expand-file-name elfeed-download-youtube-dir elfeed-download-base-dir))
-
-(defun elfeed-download--articles-dir ()
-  (expand-file-name elfeed-download-articles-dir elfeed-download-base-dir))
-
-(defun elfeed-download-youtube (url title)
-  "Download a YouTube video at URL with TITLE using yt-dlp."
-  (let ((dir (elfeed-download--youtube-dir)))
-    (elfeed-download--ensure-directory dir)
-    (start-process "yt-dlp" "*yt-dlp*"
-                   "yt-dlp"
-                   "-o" (concat dir "%(title)s.%(ext)s")
-                   url)))
-
-(defun elfeed-download-article (url title)
-  "Save article at URL with TITLE as a PDF using Node/Playwright."
-  (let* ((dir (elfeed-download--articles-dir))
-         (safe-title (elfeed-download--sanitize-filename title))
-         (pdf-file (concat dir safe-title ".pdf")))
-    (elfeed-download--ensure-directory dir)
-    (start-process "playwright-pdf" "*pdf-gen*"
-                   "node"
-                   elfeed-download-node-script-path
-                   url pdf-file)))
-
-(defun elfeed-download-current-entry ()
-  "Download the current Elfeed entry (video or article) and mark it read."
-  (interactive)
-  (let ((entries (elfeed-search-selected)))
-    (when entries
-      (let* ((entry (if (listp entries) (car entries) entries))
-             (url (elfeed-entry-link entry))
-             (title (elfeed-entry-title entry)))
-        (if (string-match-p "youtube\\.com\\|youtu\\.be" url)
-            (elfeed-download-youtube url title)
-          (elfeed-download-article url title))
-        (elfeed-untag entry 'unread)
-        (elfeed-tag entry 'read)
-        (elfeed-search-update-entry entry)))))
-
-(defun elfeed-download-setup ()
-  "Ensure directories exist and add keybindings for Elfeed downloads."
-  (elfeed-download--ensure-directory elfeed-download-base-dir)
-  (elfeed-download--ensure-directory (elfeed-download--youtube-dir))
-  (elfeed-download--ensure-directory (elfeed-download--articles-dir))
-  (when (boundp 'elfeed-search-mode-map)
-    (map! :map elfeed-search-mode-map
-          :n "d" #'elfeed-download-current-entry))
-  (message "Elfeed download integration ready."))
-
-(add-hook 'elfeed-search-mode-hook #'elfeed-download-setup)
-
-(use-package! elfeed-tube
-  :after elfeed
-  :config
-  (elfeed-tube-setup)
-  :bind (:map elfeed-show-mode-map
-         ("F" . elfeed-tube-fetch)
-         ([remap save-buffer] . elfeed-tube-save)
-         :map elfeed-search-mode-map
-         ("F" . elfeed-tube-fetch)
-         ([remap save-buffer] . elfeed-tube-save)))
-#+end_src
-
-*** EMMS
-#+begin_src elisp
-;; EMMS full configuration with Nord theme, centered layout, and swaync notifications
-(use-package! emms
-  :defer t
-  :commands (emms 
-             emms-browser 
-             emms-playlist-mode-go
-             emms-pause
-             emms-stop
-             emms-next
-             emms-previous
-             emms-shuffle)
-  :init
-  ;; Set these early so they're available when EMMS loads
-  (setq emms-source-file-default-directory "~/cloud/music"
-        emms-playlist-buffer-name "*Music*"
-        emms-info-asynchronously t
-        emms-browser-default-browse-type 'artist)
-  
-  :config
-  ;; Initialize EMMS - only runs when you actually use it
-  (emms-all)
-  (emms-default-players)
-  (emms-mode-line-mode 1)
-  (emms-playing-time-mode 1)
-
-  ;; Basic settings
-  (setq emms-browser-covers #'emms-browser-cache-thumbnail-async
-        emms-browser-thumbnail-small-size 64
-        emms-browser-thumbnail-medium-size 128
-        emms-source-file-directory-tree-function 'emms-source-file-directory-tree-find)
-
-  ;; MPD integration - critical for your workflow
-  (require 'emms-player-mpd)
-  (setq emms-player-mpd-server-name "localhost"
-        emms-player-mpd-server-port "6600"
-        emms-player-mpd-music-directory (expand-file-name "~/cloud/music"))
-
-  ;; Connect to MPD and add it to player list
-  (add-to-list 'emms-player-list 'emms-player-mpd)
-  (add-to-list 'emms-info-functions 'emms-info-mpd)
-  
-  ;; Connect to MPD with slight delay to avoid blocking
-  (run-with-timer 0.1 nil #'emms-player-mpd-connect)
-
-  ;; Ensure players are properly set up
-  (setq emms-player-list '(emms-player-mpd
-                           emms-player-mplayer
-                           emms-player-vlc
-                           emms-player-mpg321
-                           emms-player-ogg123))
-
-  ;; Info functions
-  (add-to-list 'emms-info-functions 'emms-info-ogginfo)
-  (add-to-list 'emms-info-functions 'emms-info-tinytag)
-
-  ;; Nord theme colors
-  (custom-set-faces
-   ;; Nord
-   ;; '(emms-browser-artist-face ((t (:foreground "#ECEFF4" :height 1.1))))
-   ;; '(emms-browser-album-face ((t (:foreground "#88C0D0" :height 1.0))))
-   ;; '(emms-browser-track-face ((t (:foreground "#A3BE8C" :height 1.0))))
-   ;; '(emms-playlist-track-face ((t (:foreground "#D8DEE9" :height 1.0))))
-   ;; '(emms-playlist-selected-face ((t (:foreground "#BF616A" :weight bold)))))
-   
-   ;; Nowhere
-   '(emms-browser-artist-face ((t (:foreground "#e0dcd4" :height 1.1))))   ; Parchment - most prominent
-   '(emms-browser-album-face ((t (:foreground "#b4bec8" :height 1.0))))    ; Steel-blue - secondary accent
-   '(emms-browser-track-face ((t (:foreground "#b4beb4" :height 1.0))))    ; Sage-green - individual tracks
-   '(emms-playlist-track-face ((t (:foreground "#c0bdb8" :height 1.0))))   ; Muted foreground - neutral
-   '(emms-playlist-selected-face ((t (:foreground "#ccc4b0" :weight bold))))) ; Wheat-gold - warm selection
-
-  ;; Browser keybindings
-  (define-key emms-browser-mode-map (kbd "RET") 'emms-browser-add-tracks-and-play)
-  ;; (define-key emms-browser-mode-map (kbd "SPC") 'emms-pause)
-
-  ;; Add notification hook
-  (add-hook 'emms-player-started-hook 'emms-notify-song-change-with-artwork))
-
-;; Helper functions - defined outside use-package so they're always available
-(defun my/update-emms-from-mpd ()
-  "Update EMMS cache from MPD and refresh browser."
-  (interactive)
-  (require 'emms)  ; Ensure EMMS is loaded
-  (message "Updating EMMS cache from MPD...")
-  (emms-player-mpd-connect)
-  (emms-cache-set-from-mpd-all)
-  (message "EMMS cache updated. Refreshing browser...")
-  (when (get-buffer "*EMMS Browser*")
-    (with-current-buffer "*EMMS Browser*"
-      (emms-browser-refresh))))
-
-(defun emms-center-buffer-in-frame ()
-  "Add margins to center the EMMS buffer in the frame."
-  (let* ((window-width (window-width))
-         (desired-width 80)
-         (margin (max 0 (/ (- window-width desired-width) 2))))
-    (setq-local left-margin-width margin)
-    (setq-local right-margin-width margin)
-    (setq-local line-spacing 0.2)
-    (set-window-buffer (selected-window) (current-buffer))))
-
-(defun emms-cover-art-path ()
-  "Return the path of the cover art for the current track."
-  (when (bound-and-true-p emms-playlist-buffer)
-    (let* ((track (emms-playlist-current-selected-track))
-           (path (emms-track-get track 'name))
-           (dir (file-name-directory path))
-           (standard-files '("cover.jpg" "cover.png" "folder.jpg" "folder.png"
-                             "album.jpg" "album.png" "front.jpg" "front.png"))
-           (standard-cover (cl-find-if
-                            (lambda (file)
-                              (file-exists-p (expand-file-name file dir)))
-                            standard-files)))
-      (if standard-cover
-          (expand-file-name standard-cover dir)
-        (let ((cover-files (directory-files dir nil ".*\\(jpg\\|png\\|jpeg\\)$")))
-          (when cover-files
-            (expand-file-name (car cover-files) dir)))))))
-
-(defun emms-notify-song-change-with-artwork ()
-  "Send song change notification with album artwork to swaync via libnotify."
-  (when (bound-and-true-p emms-playlist-buffer)
-    (let* ((track (emms-playlist-current-selected-track))
-           (artist (or (emms-track-get track 'info-artist) "Unknown Artist"))
-           (title (or (emms-track-get track 'info-title) "Unknown Title"))
-           (album (or (emms-track-get track 'info-album) "Unknown Album"))
-           (cover-image (emms-cover-art-path)))
-      
-      (apply #'start-process
-             "emms-notify" nil "notify-send"
-             "-a" "EMMS"
-             "-c" "music"
-             (append
-              (when cover-image
-                (list "-i" cover-image))
-              (list
-               (format "Now Playing: %s" title)
-               (format "Artist: %s\nAlbum: %s" artist album)))))))
-
-(defun emms-signal-waybar-mpd-update ()
-  "Signal waybar to update its MPD widget."
-  (start-process "emms-signal-waybar" nil "pkill" "-RTMIN+8" "waybar"))
-
-;; Hooks for EMMS modes - use with-eval-after-load to avoid premature loading
-(with-eval-after-load 'emms-browser
-  (add-hook 'emms-browser-mode-hook
-            (lambda ()
-              (face-remap-add-relative 'default '(:background "#1a1d21"))
-              (emms-center-buffer-in-frame))))
-
-(with-eval-after-load 'emms-playlist-mode
-  (add-hook 'emms-playlist-mode-hook
-            (lambda ()
-              (face-remap-add-relative 'default '(:background "#1a1d21"))
-              (emms-center-buffer-in-frame))))
-
-;; Window resize hook - only add when EMMS is actually loaded
-(with-eval-after-load 'emms
-  (add-hook 'window-size-change-functions
-            (lambda (_)
-              (when (or (eq major-mode 'emms-browser-mode)
-                        (eq major-mode 'emms-playlist-mode))
-                (emms-center-buffer-in-frame)))))
 #+end_src
 
 ** Extras
