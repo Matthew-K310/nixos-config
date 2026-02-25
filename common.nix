@@ -45,6 +45,7 @@
     nerd-fonts.iosevka
     nerd-fonts.jetbrains-mono
     nerd-fonts.geist-mono
+    nerd-fonts.terminess-ttf
     font-awesome
     alegreya
     noto-fonts-color-emoji
