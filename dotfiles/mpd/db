@@ -42,7 +42,7 @@ directory: [2007] Vangelis - Blade Runner Trilogy
 mtime: 1771107540
 begin: [2007] Vangelis - Blade Runner Trilogy
 directory: CD1
-mtime: 1771107540
+mtime: 1771892267
 begin: [2007] Vangelis - Blade Runner Trilogy/CD1
 song_begin: 01 Vangelis - Main Titles.flac
 Time: 222.8
@@ -205,7 +205,7 @@ mtime: 1675004149
 playlist_end
 end: [2007] Vangelis - Blade Runner Trilogy/CD1
 directory: CD2
-mtime: 1771107540
+mtime: 1771892267
 begin: [2007] Vangelis - Blade Runner Trilogy/CD2
 song_begin: 01 Vangelis - Longing.flac
 Time: 117.786
@@ -368,7 +368,7 @@ mtime: 1674994809
 playlist_end
 end: [2007] Vangelis - Blade Runner Trilogy/CD2
 directory: CD3
-mtime: 1771107540
+mtime: 1771892267
 begin: [2007] Vangelis - Blade Runner Trilogy/CD3
 song_begin: 01 Vangelis - Launch Approval.flac
 Time: 113.49300000000001
@@ -446,7 +446,7 @@ Title: Sweet Solitude
 Track: 6
 Format: 44100:16:2
 mtime: 1674994887
-added: 1771113756
+added: 1772043353
 song_end
 song_begin: 07 Vangelis - No Expectation Boulevard.flac
 Time: 404.306
@@ -459,7 +459,7 @@ Title: No Expectation Boulevard
 Track: 7
 Format: 44100:16:2
 mtime: 1674994905
-added: 1771113756
+added: 1772043373
 song_end
 song_begin: 08 Vangelis - Vadavarot.flac
 Time: 254.026
@@ -472,7 +472,7 @@ Title: Vadavarot
 Track: 8
 Format: 44100:16:2
 mtime: 1674994916
-added: 1771113756
+added: 1772043373
 song_end
 song_begin: 09 Vangelis - Perfume Exotico.flac
 Time: 319.253
@@ -485,7 +485,7 @@ Title: Perfume Exotico
 Track: 9
 Format: 44100:16:2
 mtime: 1674994928
-added: 1771113756
+added: 1772043373
 song_end
 song_begin: 10 Vangelis - Spotkanie Z Matka.flac
 Time: 309.32
@@ -498,7 +498,7 @@ Title: Spotkanie Z Matka
 Track: 10
 Format: 44100:16:2
 mtime: 1674994939
-added: 1771113756
+added: 1772043373
 song_end
 song_begin: 11 Vangelis - Piano in an Empty Room.flac
 Time: 216.826
@@ -511,7 +511,7 @@ Title: Piano in an Empty Room
 Track: 11
 Format: 44100:16:2
 mtime: 1674994943
-added: 1771113756
+added: 1772043373
 song_end
 song_begin: 12 Vangelis - Keep Asking.flac
 Time: 89.333
@@ -524,7 +524,7 @@ Title: Keep Asking
 Track: 12
 Format: 44100:16:2
 mtime: 1674994925
-added: 1771113756
+added: 1772043373
 song_end
 playlist_begin: Vangelis - Blade Runner CD3.cue
 mtime: 1674994923
@@ -566,7 +566,7 @@ added: 1771107306
 song_end
 end: A Unicorn Masquerade - A Unicorn Masquerade
 directory: ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)
-mtime: 1772039925
+mtime: 1771892267
 begin: ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)
 song_begin: 001 - Skies Unknown.flac
 Time: 93.026
@@ -736,9 +736,291 @@ Format: 48000:24:2
 mtime: 1770086751
 added: 1772039931
 song_end
+song_begin: 029 - Waiapolo Mountains.flac
+Time: 419.826
+Format: 48000:24:2
+mtime: 1770086757
+added: 1772039967
+song_end
+song_begin: 030 - Identification.flac
+Time: 176.693
+Format: 48000:24:2
+mtime: 1770086763
+added: 1772039967
+song_end
+song_begin: 031 - Faceless Soldier.flac
+Time: 245.84
+Format: 48000:24:2
+mtime: 1770086768
+added: 1772039967
+song_end
+song_begin: 032 - Transfer Orders.flac
+Time: 228.76
+Format: 48000:24:2
+mtime: 1770086773
+added: 1772039967
+song_end
+song_begin: 033 - ADFX-10.flac
+Time: 215.933
+Format: 48000:24:2
+mtime: 1770086779
+added: 1772039967
+song_end
+song_begin: 034 - 444th Debriefing.flac
+Time: 86.533
+Format: 48000:24:2
+mtime: 1770086784
+added: 1772039967
+song_end
+song_begin: 035 - LRSSG Briefing I.flac
+Time: 138.013
+Format: 48000:24:2
+mtime: 1770086791
+added: 1772039967
+song_end
+song_begin: 036 - New Arrows Air Base Hangar.flac
+Time: 151.96
+Format: 48000:24:2
+mtime: 1770086796
+added: 1772039967
+song_end
+song_begin: 037 - Siren’s Song.flac
+Time: 210.933
+Format: 48000:24:2
+mtime: 1770086801
+added: 1772039967
+song_end
+song_begin: 038 - Stonehenge Defensive.flac
+Time: 335.826
+Format: 48000:24:2
+mtime: 1770086806
+added: 1772039990
+song_end
+song_begin: 039 - Dragon Breath.flac
+Time: 287.04
+Format: 48000:24:2
+mtime: 1770086812
+added: 1772039990
+song_end
+song_begin: 040 - Magic Spear I.flac
+Time: 252.4
+Format: 48000:24:2
+mtime: 1770086818
+added: 1772039990
+song_end
+song_begin: 041 - Magic Spear II.flac
+Time: 251.626
+Format: 48000:24:2
+mtime: 1770086823
+added: 1772039990
+song_end
+song_begin: 042 - Werewolf.flac
+Time: 525.746
+Format: 48000:24:2
+mtime: 1770086830
+added: 1772040005
+song_end
+song_begin: 043 - LRSSG Debriefing I.flac
+Time: 102.60000000000001
+Format: 48000:24:2
+mtime: 1770086836
+added: 1772040005
+song_end
+song_begin: 044 - King of the Heavens.flac
+Time: 57.093
+Format: 48000:24:2
+mtime: 1770086840
+added: 1772040005
+song_end
+song_begin: 045 - Battle for Farbanti.flac
+Time: 261.826
+Format: 48000:24:2
+mtime: 1770086845
+added: 1772040011
+song_end
+song_begin: 046 - Sol Squadron.flac
+Time: 223.773
+Format: 48000:24:2
+mtime: 1770086850
+added: 1772040024
+song_end
+song_begin: 047 - Offline.flac
+Time: 175.81300000000002
+Format: 48000:24:2
+mtime: 1770086855
+added: 1772040024
+song_end
+song_begin: 048 - Last Hope I.flac
+Time: 292.32
+Format: 48000:24:2
+mtime: 1770086861
+added: 1772040024
+song_end
+song_begin: 049 - Last Hope II.flac
+Time: 292.186
+Format: 48000:24:2
+mtime: 1770086867
+added: 1772040046
+song_end
+song_begin: 050 - Tyler Island.flac
+Time: 215.973
+Format: 48000:24:2
+mtime: 1770086873
+added: 1772040046
+song_end
+song_begin: 051 - LRSSG Briefing II.flac
+Time: 103.82600000000001
+Format: 48000:24:2
+mtime: 1770086879
+added: 1772040046
+song_end
+song_begin: 052 - Homeward.flac
+Time: 273.533
+Format: 48000:24:2
+mtime: 1770086884
+added: 1772040046
+song_end
+song_begin: 053 - Supply Ship.flac
+Time: 230.293
+Format: 48000:24:2
+mtime: 1770086889
+added: 1772040046
+song_end
+song_begin: 054 - Lost Kingdom.flac
+Time: 573.746
+Format: 48000:24:2
+mtime: 1770086895
+added: 1772040059
+song_end
+song_begin: 055 - Archange.flac
+Time: 266.666
+Format: 48000:24:2
+mtime: 1770086902
+added: 1772040071
+song_end
+song_begin: 056 - The UAV Factory.flac
+Time: 257.186
+Format: 48000:24:2
+mtime: 1770086908
+added: 1772040071
+song_end
+song_begin: 057 - LRSSG Briefing III.flac
+Time: 136.626
+Format: 48000:24:2
+mtime: 1770086913
+added: 1772040071
+song_end
+song_begin: 058 - Lighthouse.flac
+Time: 318.6
+Format: 48000:24:2
+mtime: 1770086919
+added: 1772040091
+song_end
+song_begin: 059 - DDRKirby(ISQ) - Freehand Aug 2019 - Daredevil.flac
+Time: 307.095
+Format: 48000:24:2
+mtime: 1770086924
+added: 1772040091
+song_end
+song_begin: 060 - LRSSG Debriefing II.flac
+Time: 142.44
+Format: 48000:24:2
+mtime: 1770086930
+added: 1772040091
+song_end
+song_begin: 061 - Admiral Andersen.flac
+Time: 88.12
+Format: 48000:24:2
+mtime: 1770086935
+added: 1772040091
+song_end
+song_begin: 062 - LRSSG Briefing IV.flac
+Time: 179.573
+Format: 48000:24:2
+mtime: 1770086939
+added: 1772040091
+song_end
+song_begin: 063 - Determination.flac
+Time: 93.76
+Format: 48000:24:2
+mtime: 1770086944
+added: 1772040091
+song_end
+song_begin: 064 - Hush.flac
+Time: 332.06600000000003
+Format: 48000:24:2
+mtime: 1770086949
+added: 1772040184
+song_end
+song_begin: 065 - Space Elevator.flac
+Time: 222.44
+Format: 48000:24:2
+mtime: 1770086955
+added: 1772040184
+song_end
+song_begin: 066 - Dark Blue.flac
+Time: 135.48
+Format: 48000:24:2
+mtime: 1770086960
+added: 1772040184
+song_end
+song_begin: 067 - Epilogue.flac
+Time: 149.72
+Format: 48000:24:2
+mtime: 1770086965
+added: 1772040184
+song_end
+song_begin: 068 - pensees.flac
+Time: 235.56
+Format: 48000:24:2
+mtime: 1770086970
+added: 1772040184
+song_end
+song_begin: 069 - Mission Failed.flac
+Time: 15.986
+Format: 48000:24:2
+mtime: 1770086976
+added: 1772040184
+song_end
+song_begin: 070 - VR Prologue.flac
+Time: 60.626000000000005
+Format: 48000:24:2
+mtime: 1770086980
+added: 1772040184
+song_end
+song_begin: 071 - VR Hangar.flac
+Time: 109.533
+Format: 48000:24:2
+mtime: 1770086985
+added: 1772040184
+song_end
+song_begin: 072 - SCRAMBLE (Arranged ACE COMBAT 04 ＂Sitting Duck＂).flac
+Time: 208.92000000000002
+Format: 48000:24:2
+mtime: 1770086990
+added: 1772040184
+song_end
+song_begin: 073 - GATOR PANIC (Arranged ACE COMBAT 04 ＂Tango Line＂).flac
+Time: 248.226
+Format: 48000:24:2
+mtime: 1770086995
+added: 1772040184
+song_end
+song_begin: 074 - SENTRY'S BRUNT (Arranged ACE COMBAT 04 ＂Blockade＂).flac
+Time: 230.333
+Format: 48000:24:2
+mtime: 1770087000
+added: 1772040184
+song_end
+song_begin: 075 - Do or Die (From ACE COMBAT 5).flac
+Time: 206.226
+Format: 48000:24:2
+mtime: 1770087006
+added: 1772040184
+song_end
 end: ACE COMBAT 7： SKIES UNKNOWN (Original Soundtrack)
 directory: addison rae - in the rain (sam gellaitry remix)
-mtime: 1771107540
+mtime: 1771892267
 begin: addison rae - in the rain (sam gellaitry remix)
 song_begin: addison rae - in the rain (sam gellaitry remix).mp3
 Time: 201.892
@@ -749,7 +1031,7 @@ added: 1771113756
 song_end
 end: addison rae - in the rain (sam gellaitry remix)
 directory: Age of Empires II Definitive Edition, Vol. 1 (Original Game Soundtrack)
-mtime: 1771107540
+mtime: 1771892267
 begin: Age of Empires II Definitive Edition, Vol. 1 (Original Game Soundtrack)
 song_begin: 01 Age of Empires II Main Theme.flac
 Time: 107.52
@@ -853,7 +1135,7 @@ Track: 13
 Title: - Tazer
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040207
 song_end
 song_begin: 14 Pork Parts.flac
 Time: 258
@@ -861,7 +1143,7 @@ Track: 14
 Title: - Pork Parts
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040207
 song_end
 song_begin: 15 The Monkey Book.flac
 Time: 268
@@ -869,7 +1151,7 @@ Track: 15
 Title: - The Monkey Book
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040207
 song_end
 song_begin: 16 Rich Corinthian Leather.flac
 Time: 49
@@ -877,7 +1159,7 @@ Track: 16
 Title: - Rich Corinthian Leather
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040207
 song_end
 song_begin: 17 Carne y Helado.flac
 Time: 81
@@ -885,7 +1167,7 @@ Track: 17
 Title: - Carne y Helado
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040207
 song_end
 song_begin: 18 Spring War.flac
 Time: 84
@@ -893,7 +1175,7 @@ Track: 18
 Title: - Spring War
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040207
 song_end
 song_begin: 19 Uluzah.flac
 Time: 63.194
@@ -901,7 +1183,7 @@ Track: 19
 Title: - Uluzah
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040207
 song_end
 song_begin: 20 Hazulu.flac
 Time: 85
@@ -909,7 +1191,7 @@ Track: 20
 Title: - Hazulu
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040207
 song_end
 song_begin: 21 Zuluha.flac
 Time: 83.773
@@ -917,7 +1199,7 @@ Track: 21
 Title: - Zuluha
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040207
 song_end
 song_begin: 22 Love and Will.flac
 Time: 423.307
@@ -925,7 +1207,7 @@ Track: 22
 Title: - Love and Will
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040216
 song_end
 song_begin: 23 Main Theme (Extended Mix).flac
 Time: 359.771
@@ -933,11 +1215,11 @@ Track: 23
 Title: - Main Theme (Extended Mix)
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040251
 song_end
 end: Age of Empires II Definitive Edition, Vol. 1 (Original Game Soundtrack)
 directory: Age of Empires II Definitive Edition, Vol. 2 (Original Game Soundtrack)
-mtime: 1771107540
+mtime: 1771892267
 begin: Age of Empires II Definitive Edition, Vol. 2 (Original Game Soundtrack)
 song_begin: 01 Tide Me Over, Warm 'em Ups.flac
 Time: 250
@@ -993,7 +1275,7 @@ Track: 7
 Title: - Basura! Basura!
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040258
 song_end
 song_begin: 08 Neep Ninny Bod.flac
 Time: 252
@@ -1001,7 +1283,7 @@ Track: 8
 Title: - Neep Ninny Bod
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040498
 song_end
 song_begin: 09 Neep Ninny Bod v2.flac
 Time: 253.714
@@ -1009,7 +1291,7 @@ Track: 9
 Title: - Neep Ninny Bod v2
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040498
 song_end
 song_begin: 10 Bust.flac
 Time: 256
@@ -1017,15 +1299,15 @@ Track: 10
 Title: - Bust
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040498
 song_end
 song_begin: 11 Gyam Shorts.flac
-Time: 260.185
+Time: 260.186
 Track: 11
 Title: - Gyam Shorts
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040498
 song_end
 song_begin: 12 Joey Jojo.flac
 Time: 117.333
@@ -1033,7 +1315,7 @@ Track: 12
 Title: - Joey Jojo
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040498
 song_end
 song_begin: 13 Diamond Dragon.flac
 Time: 246
@@ -1041,7 +1323,7 @@ Track: 13
 Title: - Diamond Dragon
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040498
 song_end
 song_begin: 14 Southeast Side.flac
 Time: 247.741
@@ -1049,7 +1331,7 @@ Track: 14
 Title: - Southeast Side
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040498
 song_end
 song_begin: 15 Movement Atnadev.flac
 Time: 250.909
@@ -1057,7 +1339,7 @@ Track: 15
 Title: - Movement Atnadev
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040498
 song_end
 song_begin: 16 Booty and Kings.flac
 Time: 242.127
@@ -1065,7 +1347,7 @@ Track: 16
 Title: - Booty and Kings
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040498
 song_end
 song_begin: 17 Bad Harvest.flac
 Time: 255.60500000000002
@@ -1073,19 +1355,19 @@ Track: 17
 Title: - Bad Harvest
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040498
 song_end
 song_begin: 20 Rich Slavic Leather.flac
-Time: 64.016
+Time: 64.017
 Track: 20
 Title: - Rich Slavic Leather
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040498
 song_end
 end: Age of Empires II Definitive Edition, Vol. 2 (Original Game Soundtrack)
 directory: Age of Empires II: Age of Kings
-mtime: 1771107540
+mtime: 1771892267
 begin: Age of Empires II: Age of Kings
 song_begin: 01 - Shamburger.mp3
 Time: 201.965
@@ -1200,7 +1482,7 @@ added: 1771113752
 song_end
 end: Age of Empires II: Age of Kings
 directory: Age of Empires II: The Conquerors
-mtime: 1771107540
+mtime: 1771892267
 begin: Age of Empires II: The Conquerors
 song_begin: 01 - Pork Parts.mp3
 Time: 192.095
@@ -1324,7 +1606,7 @@ added: 1771113752
 song_end
 end: Age of Empires II: The Conquerors
 directory: Age of Empires： Definitive Edition (Original Soundtrack)
-mtime: 1771107540
+mtime: 1771892267
 begin: Age of Empires： Definitive Edition (Original Soundtrack)
 song_begin: 01  Main Theme ｜ Age of Empires： Definitive Edition OST.flac
 Time: 132.144
@@ -1600,7 +1882,7 @@ added: 1771113752
 song_end
 end: Age of Empires： Definitive Edition (Original Soundtrack)
 directory: arcologies - ocean deep
-mtime: 1771107540
+mtime: 1771892267
 begin: arcologies - ocean deep
 song_begin: arcologies - ocean deep - 01 cosmic lens.flac
 Time: 595.319
@@ -1613,7 +1895,7 @@ Track: 1
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1758003112
-added: 1771113756
+added: 1772043429
 song_end
 song_begin: arcologies - ocean deep - 02 the dreaming dark.flac
 Time: 213.942
@@ -1626,7 +1908,7 @@ Track: 2
 AlbumArtist: arcologies
 Format: 48000:16:2
 mtime: 1757999413
-added: 1771113756
+added: 1772043429
 song_end
 song_begin: arcologies - ocean deep - 03 rendevous.flac
 Time: 409.5
@@ -1639,7 +1921,7 @@ Track: 3
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1757999437
-added: 1771113756
+added: 1772043429
 song_end
 song_begin: arcologies - ocean deep - 04 cultivation.flac
 Time: 326.10200000000003
@@ -1652,7 +1934,7 @@ Track: 4
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1758000060
-added: 1771113756
+added: 1772043429
 song_end
 song_begin: arcologies - ocean deep - 05 coma.flac
 Time: 200
@@ -1665,7 +1947,7 @@ Track: 5
 AlbumArtist: arcologies
 Format: 48000:24:2
 mtime: 1757999171
-added: 1771113756
+added: 1772043429
 song_end
 song_begin: arcologies - ocean deep - 07 many universes.flac
 Time: 262
@@ -1678,7 +1960,7 @@ Track: 7
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1757999408
-added: 1771113756
+added: 1772043429
 song_end
 song_begin: arcologies - ocean deep - 10 basement life.flac
 Time: 173.971
@@ -1691,7 +1973,7 @@ Track: 10
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1757999402
-added: 1771113756
+added: 1772043429
 song_end
 song_begin: arcologies - ocean deep - 11 drum machine dreams (yamaha rx5 demo).flac
 Time: 338.651
@@ -1704,7 +1986,7 @@ Track: 11
 AlbumArtist: arcologies
 Format: 44100:24:2
 mtime: 1758005490
-added: 1771113756
+added: 1772043436
 song_end
 song_begin: arcologies - ocean deep - 12 suspended simulation.flac
 Time: 320.517
@@ -1717,7 +1999,7 @@ Track: 12
 AlbumArtist: arcologies
 Format: 44100:24:2
 mtime: 1758003114
-added: 1771113756
+added: 1772043471
 song_end
 song_begin: arcologies - ocean deep - 13 silent lights.flac
 Time: 345.882
@@ -1730,11 +2012,11 @@ Track: 13
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1757999435
-added: 1771113756
+added: 1772043471
 song_end
 end: arcologies - ocean deep
 directory: arcologies - VAPOR DRIVE
-mtime: 1771107540
+mtime: 1771892267
 begin: arcologies - VAPOR DRIVE
 song_begin: arcologies - VAPOR DRIVE - 02 crystal stasis.flac
 Time: 490.618
@@ -1747,7 +2029,7 @@ Track: 2
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1757999252
-added: 1771113756
+added: 1772043389
 song_end
 song_begin: arcologies - VAPOR DRIVE - 04 oblivion.flac
 Time: 259.781
@@ -1760,7 +2042,7 @@ Track: 4
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1757999241
-added: 1771113756
+added: 1772043389
 song_end
 song_begin: arcologies - VAPOR DRIVE - 06 monsoon.flac
 Time: 144.303
@@ -1773,7 +2055,7 @@ Track: 6
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1757999134
-added: 1771113756
+added: 1772043389
 song_end
 song_begin: arcologies - VAPOR DRIVE - 07 searcher.flac
 Time: 498.25100000000003
@@ -1786,7 +2068,7 @@ Track: 7
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1757999275
-added: 1771113756
+added: 1772043389
 song_end
 song_begin: arcologies - VAPOR DRIVE - 08 three days later.flac
 Time: 511.481
@@ -1799,7 +2081,7 @@ Track: 8
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1758005449
-added: 1771113756
+added: 1772043405
 song_end
 song_begin: arcologies - VAPOR DRIVE - 09 symmetry beyond.flac
 Time: 401.547
@@ -1812,7 +2094,7 @@ Track: 9
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1758005538
-added: 1771113756
+added: 1772043405
 song_end
 song_begin: arcologies - VAPOR DRIVE - 10 visual memory unit.flac
 Time: 351.107
@@ -1825,7 +2107,7 @@ Track: 10
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1758005439
-added: 1771113756
+added: 1772043405
 song_end
 song_begin: arcologies - VAPOR DRIVE - 11 the city at dusk (outro).flac
 Time: 75.56400000000001
@@ -1838,11 +2120,11 @@ Track: 11
 AlbumArtist: arcologies
 Format: 44100:16:2
 mtime: 1758000001
-added: 1771113756
+added: 1772043405
 song_end
 end: arcologies - VAPOR DRIVE
 directory: Barry Can't Swim - Loner
-mtime: 1771107540
+mtime: 1771892267
 begin: Barry Can't Swim - Loner
 song_begin: Barry Can't Swim - Loner - 01 The Person You’d Like To Be.flac
 Time: 197.89000000000001
@@ -2002,7 +2284,7 @@ added: 1771113752
 song_end
 end: Barry Can't Swim - Loner
 directory: Barry Can't Swim - When Will We Land
-mtime: 1771107540
+mtime: 1771892267
 begin: Barry Can't Swim - When Will We Land
 song_begin: Barry Can't Swim - When Will We Land- - 01 When Will We Land-.flac
 Time: 213.473
@@ -2067,7 +2349,7 @@ Track: 5
 AlbumArtist: Barry Can't Swim
 Format: 44100:24:2
 mtime: 1758005634
-added: 1771113752
+added: 1772040504
 song_end
 song_begin: Barry Can't Swim & Låpsley - When Will We Land- - 06 Woman.flac
 Time: 232.05700000000002
@@ -2093,7 +2375,7 @@ Track: 7
 AlbumArtist: Barry Can't Swim
 Format: 44100:24:2
 mtime: 1758005648
-added: 1771113752
+added: 1772040524
 song_end
 song_begin: Barry Can't Swim - When Will We Land- - 08 Always Get Through To You.flac
 Time: 246.84
@@ -2106,7 +2388,7 @@ Track: 8
 AlbumArtist: Barry Can't Swim
 Format: 44100:24:2
 mtime: 1757999436
-added: 1771113752
+added: 1772040524
 song_end
 song_begin: Barry Can't Swim - When Will We Land- - 09 Tell Me What You Need (feat. just lil).flac
 Time: 209.484
@@ -2119,7 +2401,7 @@ Track: 9
 AlbumArtist: Barry Can't Swim
 Format: 44100:24:2
 mtime: 1758004385
-added: 1771113752
+added: 1772040524
 song_end
 song_begin: Barry Can't Swim - When Will We Land- - 10 Dance of the Crab.flac
 Time: 209.69400000000002
@@ -2132,7 +2414,7 @@ Track: 10
 AlbumArtist: Barry Can't Swim
 Format: 44100:24:2
 mtime: 1758004426
-added: 1771113752
+added: 1772040524
 song_end
 song_begin: Barry Can't Swim - When Will We Land- - 11 Define Dancing.flac
 Time: 326.041
@@ -2145,11 +2427,11 @@ Track: 11
 AlbumArtist: Barry Can't Swim
 Format: 44100:24:2
 mtime: 1758005652
-added: 1771113752
+added: 1772040542
 song_end
 end: Barry Can't Swim - When Will We Land
 directory: Bonobo - Fragments
-mtime: 1771107540
+mtime: 1771892267
 begin: Bonobo - Fragments
 song_begin: Bonobo - Fragments - 01 Polyghost (feat. Miguel Atwood-Ferguson).flac
 Time: 108.8
@@ -2201,7 +2483,7 @@ Track: 4
 AlbumArtist: Bonobo
 Format: 44100:24:2
 mtime: 1769802950
-added: 1771113752
+added: 1772040556
 song_end
 song_begin: Bonobo - Fragments - 05 Tides (feat. Jamila Woods).flac
 Time: 226.14600000000002
@@ -2214,7 +2496,7 @@ Track: 5
 AlbumArtist: Bonobo
 Format: 44100:24:2
 mtime: 1769802950
-added: 1771113752
+added: 1772040556
 song_end
 song_begin: Bonobo - Fragments - 06 Elysian.flac
 Time: 182.293
@@ -2227,7 +2509,7 @@ Track: 6
 AlbumArtist: Bonobo
 Format: 44100:24:2
 mtime: 1769802950
-added: 1771113752
+added: 1772040556
 song_end
 song_begin: Bonobo - Fragments - 07 Closer.flac
 Time: 311.866
@@ -2240,7 +2522,7 @@ Track: 7
 AlbumArtist: Bonobo
 Format: 44100:24:2
 mtime: 1769802950
-added: 1771113752
+added: 1772040562
 song_end
 song_begin: Bonobo - Fragments - 08 Age of Phase.flac
 Time: 342.053
@@ -2253,7 +2535,7 @@ Track: 8
 AlbumArtist: Bonobo
 Format: 44100:24:2
 mtime: 1769802950
-added: 1771113752
+added: 1772040572
 song_end
 song_begin: Bonobo - Fragments - 09 From You (feat. Joji).flac
 Time: 210.28
@@ -2266,7 +2548,7 @@ Track: 9
 AlbumArtist: Bonobo
 Format: 44100:24:2
 mtime: 1769802950
-added: 1771113752
+added: 1772040572
 song_end
 song_begin: Bonobo - Fragments - 10 Counterpart.flac
 Time: 332.733
@@ -2279,7 +2561,7 @@ Track: 10
 AlbumArtist: Bonobo
 Format: 44100:24:2
 mtime: 1769802950
-added: 1771113752
+added: 1772040614
 song_end
 song_begin: Bonobo - Fragments - 11 Sapien.flac
 Time: 243.32
@@ -2292,7 +2574,7 @@ Track: 11
 AlbumArtist: Bonobo
 Format: 44100:24:2
 mtime: 1769802950
-added: 1771113752
+added: 1772040614
 song_end
 song_begin: Bonobo - Fragments - 12 Day by Day (feat. Kadhja Bonet).flac
 Time: 224.933
@@ -2305,11 +2587,11 @@ Track: 12
 AlbumArtist: Bonobo
 Format: 44100:24:2
 mtime: 1769802950
-added: 1771113752
+added: 1772040614
 song_end
 end: Bonobo - Fragments
 directory: dnb-collection-vol-1
-mtime: 1771107540
+mtime: 1771892267
 begin: dnb-collection-vol-1
 song_begin: AKOV - Blind (Sun Mix).mp3
 Time: 274.90500000000003
@@ -2618,7 +2900,7 @@ added: 1771113756
 song_end
 end: dnb-collection-vol-1
 directory: Fox Stevenson - Enemy Brain Entertainment Suite
-mtime: 1771107540
+mtime: 1771892267
 begin: Fox Stevenson - Enemy Brain Entertainment Suite
 song_begin: Fox Stevenson - Enemy Brain Entertainment Suite - 01 Enemy Brain.flac
 Time: 251.701
@@ -2709,7 +2991,7 @@ Track: 7
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769802940
-added: 1771113752
+added: 1772040629
 song_end
 song_begin: Fox Stevenson - Enemy Brain Entertainment Suite - 08 Still Here.flac
 Time: 194.476
@@ -2722,7 +3004,7 @@ Track: 8
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769802940
-added: 1771113752
+added: 1772040629
 song_end
 song_begin: Fox Stevenson - Enemy Brain Entertainment Suite - 09 Bring A Coat.flac
 Time: 134.37
@@ -2735,11 +3017,11 @@ Track: 9
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769802940
-added: 1771113752
+added: 1772040629
 song_end
 end: Fox Stevenson - Enemy Brain Entertainment Suite
 directory: Fox Stevenson - Sunk Cost Fallacy
-mtime: 1771107540
+mtime: 1771892267
 begin: Fox Stevenson - Sunk Cost Fallacy
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 01 YAS!.flac
 Time: 224.278
@@ -2752,7 +3034,7 @@ Track: 1
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040640
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 02 Curtain Call.flac
 Time: 207.821
@@ -2765,7 +3047,7 @@ Track: 2
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040640
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 03 Give Me Some Space.flac
 Time: 257.65500000000003
@@ -2778,7 +3060,7 @@ Track: 3
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040646
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 04 Exile Is A Habit.flac
 Time: 260.8
@@ -2791,7 +3073,7 @@ Track: 4
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040657
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 05 Road To Nothing.flac
 Time: 208.47
@@ -2804,7 +3086,7 @@ Track: 5
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040657
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 06 Tryhard.flac
 Time: 269.553
@@ -2817,7 +3099,7 @@ Track: 6
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040663
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 07 That Choice.flac
 Time: 244.86100000000002
@@ -2830,7 +3112,7 @@ Track: 7
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040663
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 08 Interlude Canyon.flac
 Time: 140.877
@@ -2843,7 +3125,7 @@ Track: 8
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040671
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 09 One Horse Town.flac
 Time: 275.134
@@ -2856,7 +3138,7 @@ Track: 9
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040677
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 10 Memories.flac
 Time: 250.973
@@ -2869,7 +3151,7 @@ Track: 10
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040693
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 11 What Are You (Wow).flac
 Time: 259.208
@@ -2882,7 +3164,7 @@ Track: 11
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040693
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 12 Told You So.flac
 Time: 231.187
@@ -2895,7 +3177,7 @@ Track: 12
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040693
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 13 Movin' On.flac
 Time: 276.605
@@ -2908,7 +3190,7 @@ Track: 13
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040701
 song_end
 song_begin: Fox Stevenson - Sunk Cost Fallacy - 14 Sunk Cost Fallacy.flac
 Time: 379.442
@@ -2921,11 +3203,11 @@ Track: 14
 AlbumArtist: Fox Stevenson
 Format: 44100:24:2
 mtime: 1769732303
-added: 1771113752
+added: 1772040748
 song_end
 end: Fox Stevenson - Sunk Cost Fallacy
 directory: Frutiger Aero Collection
-mtime: 1771107540
+mtime: 1771892267
 begin: Frutiger Aero Collection
 song_begin: Aphex Twin - Flim.mp3
 Time: 177.09300000000002
@@ -3042,7 +3324,7 @@ added: 1771113752
 song_end
 end: Frutiger Aero Collection
 directory: Guillaume David - Warhammer 40-000- Mechanicus (Original Soundtrack)
-mtime: 1771107540
+mtime: 1771892267
 begin: Guillaume David - Warhammer 40-000- Mechanicus (Original Soundtrack)
 song_begin: Guillaume David - Warhammer 40,000- Mechanicus (Original Soundtrack) - 01 Children of the Omnissiah.flac
 Time: 106.804
@@ -3189,7 +3471,7 @@ added: 1771113752
 song_end
 end: Guillaume David - Warhammer 40-000- Mechanicus (Original Soundtrack)
 directory: Halo 2 Volume 1 OST
-mtime: 1771107540
+mtime: 1771892267
 begin: Halo 2 Volume 1 OST
 song_begin: 01 Halo 2 Volume 1 OST 01 Halo Theme Mjolnir Mix.flac
 Time: 251.588
@@ -3197,7 +3479,7 @@ Track: 1
 Title: - Halo 2 Volume 1 OST 01 Halo Theme Mjolnir Mix
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040764
 song_end
 song_begin: 02 Halo 2 Volume 1 OST 02 Blow Me Away.flac
 Time: 205.43800000000002
@@ -3205,7 +3487,7 @@ Track: 2
 Title: - Halo 2 Volume 1 OST 02 Blow Me Away
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040764
 song_end
 song_begin: 03 Halo 2 Volume 1 OST 03 Peril.flac
 Time: 166.614
@@ -3213,7 +3495,7 @@ Track: 3
 Title: - Halo 2 Volume 1 OST 03 Peril
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040764
 song_end
 song_begin: 04 Halo 2 Volume 1 OST 04 Ghosts of Reach.flac
 Time: 142.082
@@ -3221,7 +3503,7 @@ Track: 4
 Title: - Halo 2 Volume 1 OST 04 Ghosts of Reach
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040764
 song_end
 song_begin: 05 Halo 2 Volume 1 OST 05 Odyssey~1st Movement.flac
 Time: 255.303
@@ -3229,7 +3511,7 @@ Track: 5
 Title: - Halo 2 Volume 1 OST 05 Odyssey~1st Movement
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040786
 song_end
 song_begin: 06 Halo 2 Volume 1 OST 06 Heretic, Hero.flac
 Time: 154.57500000000002
@@ -3237,7 +3519,7 @@ Track: 6
 Title: - Halo 2 Volume 1 OST 06 Heretic, Hero
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040786
 song_end
 song_begin: 07 Halo 2 Volume 1 OST 07 Flawed Legacy.flac
 Time: 118.259
@@ -3245,7 +3527,7 @@ Track: 7
 Title: - Halo 2 Volume 1 OST 07 Flawed Legacy
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040786
 song_end
 song_begin: 08 Halo 2 Volume 1 OST 08 Impend.flac
 Time: 141.90800000000002
@@ -3253,7 +3535,7 @@ Track: 8
 Title: - Halo 2 Volume 1 OST 08 Impend
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040786
 song_end
 song_begin: 09 Halo 2 Volume 1 OST 09 Never Surrender.flac
 Time: 215.933
@@ -3261,7 +3543,7 @@ Track: 9
 Title: - Halo 2 Volume 1 OST 09 Never Surrender
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040786
 song_end
 song_begin: 10 Halo 2 Volume 1 OST 10 Ancient Machine.flac
 Time: 98.754
@@ -3269,7 +3551,7 @@ Track: 10
 Title: - Halo 2 Volume 1 OST 10 Ancient Machine
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040786
 song_end
 song_begin: 11 Halo 2 Volume 1 OST 11 Odyssey~2nd Movement.flac
 Time: 460.44
@@ -3277,7 +3559,7 @@ Track: 11
 Title: - Halo 2 Volume 1 OST 11 Odyssey~2nd Movement
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040804
 song_end
 song_begin: 12 Halo 2 Volume 1 OST 12 In Amber Clad.flac
 Time: 99.276
@@ -3285,7 +3567,7 @@ Track: 12
 Title: - Halo 2 Volume 1 OST 12 In Amber Clad
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040804
 song_end
 song_begin: 13 Halo 2 Volume 1 OST 13 The Last Spartan.flac
 Time: 138.611
@@ -3293,7 +3575,7 @@ Track: 13
 Title: - Halo 2 Volume 1 OST 13 The Last Spartan
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040804
 song_end
 song_begin: 14 Halo 2 Volume 1 OST 14 Orbit of Glass.flac
 Time: 78.08800000000001
@@ -3301,7 +3583,7 @@ Track: 14
 Title: - Halo 2 Volume 1 OST 14 Orbit of Glass
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040804
 song_end
 song_begin: 15 Halo 2 Volume 1 OST 15 Odyssey~3rd Movement.flac
 Time: 400.103
@@ -3309,7 +3591,7 @@ Track: 15
 Title: - Halo 2 Volume 1 OST 15 Odyssey~3rd Movement
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040816
 song_end
 song_begin: 16 Halo 2 Volume 1 OST 16 Heavy Price Paid.flac
 Time: 152.067
@@ -3317,7 +3599,7 @@ Track: 16
 Title: - Halo 2 Volume 1 OST 16 Heavy Price Paid
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040816
 song_end
 song_begin: 17 Halo 2 Volume 1 OST 17 Earth City.flac
 Time: 186.758
@@ -3325,7 +3607,7 @@ Track: 17
 Title: - Halo 2 Volume 1 OST 17 Earth City
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040826
 song_end
 song_begin: 18 Halo 2 Volume 1 OST 18 High Charity.flac
 Time: 119.28
@@ -3333,7 +3615,7 @@ Track: 18
 Title: - Halo 2 Volume 1 OST 18 High Charity
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040826
 song_end
 song_begin: 19 Halo 2 Volume 1 OST 19 Odyssey~4th Movement.flac
 Time: 547.085
@@ -3341,7 +3623,7 @@ Track: 19
 Title: - Halo 2 Volume 1 OST 19 Odyssey~4th Movement
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040847
 song_end
 song_begin: 20 Halo 2 Volume 1 OST 20 Remembrance.flac
 Time: 77.125
@@ -3349,7 +3631,7 @@ Track: 20
 Title: - Halo 2 Volume 1 OST 20 Remembrance
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040847
 song_end
 song_begin: 21 Halo 2 Volume 1 OST 21 Connected.flac
 Time: 159.95000000000002
@@ -3357,11 +3639,11 @@ Track: 21
 Title: - Halo 2 Volume 1 OST 21 Connected
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040847
 song_end
 end: Halo 2 Volume 1 OST
 directory: Halo 2 Volume 2 OST
-mtime: 1771107540
+mtime: 1771892267
 begin: Halo 2 Volume 2 OST
 song_begin: 01 Halo 2 Volume 2 OST 01 Prologue.flac
 Time: 156.897
@@ -3377,7 +3659,7 @@ Track: 2
 Title: - Halo 2 Volume 2 OST 02 Cairo Suite
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040858
 song_end
 song_begin: 03 Halo 2 Volume 2 OST 03 Mombasa Suite.flac
 Time: 403.075
@@ -3385,7 +3667,7 @@ Track: 3
 Title: - Halo 2 Volume 2 OST 03 Mombasa Suite
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040870
 song_end
 song_begin: 04 Halo 2 Volume 2 OST 04 Unyielding.flac
 Time: 185.782
@@ -3393,7 +3675,7 @@ Track: 4
 Title: - Halo 2 Volume 2 OST 04 Unyielding
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040870
 song_end
 song_begin: 05 Halo 2 Volume 2 OST 05 Mausoleum Suite.flac
 Time: 492.959
@@ -3401,7 +3683,7 @@ Track: 5
 Title: - Halo 2 Volume 2 OST 05 Mausoleum Suite
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040880
 song_end
 song_begin: 06 Halo 2 Volume 2 OST 06 Unforgotten.flac
 Time: 131.459
@@ -3409,7 +3691,7 @@ Track: 6
 Title: - Halo 2 Volume 2 OST 06 Unforgotten
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040880
 song_end
 song_begin: 07 Halo 2 Volume 2 OST 07 Delta Halo Suite.flac
 Time: 688.076
@@ -3417,7 +3699,7 @@ Track: 7
 Title: - Halo 2 Volume 2 OST 07 Delta Halo Suite
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040894
 song_end
 song_begin: 08 Halo 2 Volume 2 OST 08 Sacred Icon Suite.flac
 Time: 447.692
@@ -3425,7 +3707,7 @@ Track: 8
 Title: - Halo 2 Volume 2 OST 08 Sacred Icon Suite
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040906
 song_end
 song_begin: 09 Halo 2 Volume 2 OST 09 Reclaimer.flac
 Time: 185.922
@@ -3433,7 +3715,7 @@ Track: 9
 Title: - Halo 2 Volume 2 OST 09 Reclaimer
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040906
 song_end
 song_begin: 10 Halo 2 Volume 2 OST 10 High Charity Suite.flac
 Time: 509.236
@@ -3441,7 +3723,7 @@ Track: 10
 Title: - Halo 2 Volume 2 OST 10 High Charity Suite
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040926
 song_end
 song_begin: 11 Halo 2 Volume 2 OST 11 Finale.flac
 Time: 191.715
@@ -3449,7 +3731,7 @@ Track: 11
 Title: - Halo 2 Volume 2 OST 11 Finale
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040926
 song_end
 song_begin: 12 Halo 2 Volume 2 OST 12 Epilogue.flac
 Time: 229.157
@@ -3457,11 +3739,11 @@ Track: 12
 Title: - Halo 2 Volume 2 OST 12 Epilogue
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040926
 song_end
 end: Halo 2 Volume 2 OST
 directory: Halo 3 Disc 1 OST
-mtime: 1771107540
+mtime: 1771892267
 begin: Halo 3 Disc 1 OST
 song_begin: 01 Halo 3 Disc 1 OST 01 Luck.flac
 Time: 205.276
@@ -3477,7 +3759,7 @@ Track: 2
 Title: - Halo 3 Disc 1 OST 02 Released - Wild Life - Another Wal
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040939
 song_end
 song_begin: 03 Halo 3 Disc 1 OST 03 Infiltrate - Move On.flac
 Time: 230.156
@@ -3485,7 +3767,7 @@ Track: 3
 Title: - Halo 3 Disc 1 OST 03 Infiltrate - Move On
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040939
 song_end
 song_begin: 04 Halo 3 Disc 1 OST 04 Honorable Intentions.flac
 Time: 166.37
@@ -3493,7 +3775,7 @@ Track: 4
 Title: - Halo 3 Disc 1 OST 04 Honorable Intentions
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040939
 song_end
 song_begin: 05 Halo 3 Disc 1 OST 05 Last of the Brave - Cold Logic.flac
 Time: 238.19
@@ -3501,7 +3783,7 @@ Track: 5
 Title: - Halo 3 Disc 1 OST 05 Last of the Brave - Cold Logic
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040945
 song_end
 song_begin: 06 Halo 3 Disc 1 OST 06 Brutes - Lost - Dream Again - We'.flac
 Time: 307.652
@@ -3509,7 +3791,7 @@ Track: 6
 Title: - Halo 3 Disc 1 OST 06 Brutes - Lost - Dream Again - We'
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040979
 song_end
 song_begin: 07 Halo 3 Disc 1 OST 07 Out of Shadow - Into Light.flac
 Time: 277.582
@@ -3517,7 +3799,7 @@ Track: 7
 Title: - Halo 3 Disc 1 OST 07 Out of Shadow - Into Light
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040979
 song_end
 song_begin: 08 Halo 3 Disc 1 OST 08 To Kill a Demon - Ancient Dust.flac
 Time: 224.954
@@ -3525,7 +3807,7 @@ Track: 8
 Title: - Halo 3 Disc 1 OST 08 To Kill a Demon - Ancient Dust
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040979
 song_end
 song_begin: 09 Halo 3 Disc 1 OST 09 This is Our Land - To Turn a Tide.flac
 Time: 240.535
@@ -3533,7 +3815,7 @@ Track: 9
 Title: - Halo 3 Disc 1 OST 09 This is Our Land - To Turn a Tide
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040979
 song_end
 song_begin: 10 Halo 3 Disc 1 OST 10 This is the Hour.flac
 Time: 129.149
@@ -3541,7 +3823,7 @@ Track: 10
 Title: - Halo 3 Disc 1 OST 10 This is the Hour
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040979
 song_end
 song_begin: 11 Halo 3 Disc 1 OST 11 Dread Intrusion - Black Tide - Old.flac
 Time: 325.834
@@ -3549,7 +3831,7 @@ Track: 11
 Title: - Halo 3 Disc 1 OST 11 Dread Intrusion - Black Tide - Old
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040979
 song_end
 song_begin: 12 Halo 3 Disc 1 OST 12 Follow Our Brothers.flac
 Time: 205.612
@@ -3557,7 +3839,7 @@ Track: 12
 Title: - Halo 3 Disc 1 OST 12 Follow Our Brothers
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040979
 song_end
 song_begin: 13 Halo 3 Disc 1 OST 13 Farthest Outpost - No Time for Sights.flac
 Time: 314.583
@@ -3565,7 +3847,7 @@ Track: 13
 Title: - Halo 3 Disc 1 OST 13 Farthest Outpost - No Time for Sights
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040979
 song_end
 song_begin: 14 Halo 3 Disc 1 OST 14 Behold a Pale Horse - Reconciled - Ov.flac
 Time: 338.47700000000003
@@ -3573,7 +3855,7 @@ Track: 14
 Title: - Halo 3 Disc 1 OST 14 Behold a Pale Horse - Reconciled - Ov
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040989
 song_end
 song_begin: 15 Halo 3 Disc 1 OST 15 Edge Closer.flac
 Time: 183.994
@@ -3581,11 +3863,11 @@ Track: 15
 Title: - Halo 3 Disc 1 OST 15 Edge Closer
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040989
 song_end
 end: Halo 3 Disc 1 OST
 directory: Halo 3 Disc 2 OST
-mtime: 1771107540
+mtime: 1771892267
 begin: Halo 3 Disc 2 OST
 song_begin: 01 Halo 3 Disc 2 OST 01 Three Gates - Ascent - Leonidas.flac
 Time: 274.843
@@ -3593,7 +3875,7 @@ Track: 1
 Title: - Halo 3 Disc 2 OST 01 Three Gates - Ascent - Leonidas
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772040995
 song_end
 song_begin: 02 Halo 3 Disc 2 OST 02 Black Tower - Heroes Also Fall.flac
 Time: 363.78700000000003
@@ -3601,7 +3883,7 @@ Track: 2
 Title: - Halo 3 Disc 2 OST 02 Black Tower - Heroes Also Fall
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041005
 song_end
 song_begin: 03 Halo 3 Disc 2 OST 03 One Final Effort.flac
 Time: 188.952
@@ -3609,7 +3891,7 @@ Track: 3
 Title: - Halo 3 Disc 2 OST 03 One Final Effort
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041005
 song_end
 song_begin: 04 Halo 3 Disc 2 OST 04 Gravemind - Fated Journey - Flee.flac
 Time: 322.095
@@ -3617,7 +3899,7 @@ Track: 4
 Title: - Halo 3 Disc 2 OST 04 Gravemind - Fated Journey - Flee
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041022
 song_end
 song_begin: 05 Halo 3 Disc 2 OST 05 No more Dead Heroes - Watching.flac
 Time: 301.92900000000003
@@ -3625,7 +3907,7 @@ Track: 5
 Title: - Halo 3 Disc 2 OST 05 No more Dead Heroes - Watching
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041022
 song_end
 song_begin: 06 Halo 3 Disc 2 OST 06 Keep What You Steal - Escape.flac
 Time: 156.247
@@ -3633,7 +3915,7 @@ Track: 6
 Title: - Halo 3 Disc 2 OST 06 Keep What You Steal - Escape
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041022
 song_end
 song_begin: 07 Halo 3 Disc 2 OST 07 Halo Reborn - Guilt and Punishment.flac
 Time: 239.815
@@ -3641,7 +3923,7 @@ Track: 7
 Title: - Halo 3 Disc 2 OST 07 Halo Reborn - Guilt and Punishment
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041022
 song_end
 song_begin: 08 Halo 3 Disc 2 OST 08 Greatest Journey - Flood Rising - Halo F.flac
 Time: 292.548
@@ -3649,7 +3931,7 @@ Track: 8
 Title: - Halo 3 Disc 2 OST 08 Greatest Journey - Flood Rising - Halo F
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041044
 song_end
 song_begin: 09 Halo 3 Disc 2 OST 09 Tribute.flac
 Time: 172.675
@@ -3657,7 +3939,7 @@ Track: 9
 Title: - Halo 3 Disc 2 OST 09 Tribute
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041044
 song_end
 song_begin: 10 Halo 3 Disc 2 OST 10 Roll Call - Duty Bound - Price Paid.flac
 Time: 358.458
@@ -3665,7 +3947,7 @@ Track: 10
 Title: - Halo 3 Disc 2 OST 10 Roll Call - Duty Bound - Price Paid
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041044
 song_end
 song_begin: 11 Halo 3 Disc 2 OST 11 Wake Me When You Need Me.flac
 Time: 139.47
@@ -3673,11 +3955,11 @@ Track: 11
 Title: - Halo 3 Disc 2 OST 11 Wake Me When You Need Me
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041044
 song_end
 end: Halo 3 Disc 2 OST
 directory: Halo 3： ODST Disc 1 OST
-mtime: 1771107540
+mtime: 1771892267
 begin: Halo 3： ODST Disc 1 OST
 song_begin: 1 Halo 3： ODST Disc 1 OST 01 Overture.flac
 Time: 338.94100000000003
@@ -3693,7 +3975,7 @@ Track: 2
 Title: - Halo 3： ODST Disc 1 OST 02 The Rookie
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041051
 song_end
 song_begin: 3 Halo 3： ODST Disc 1 OST 03 More Than His Share.flac
 Time: 348.821
@@ -3701,7 +3983,7 @@ Track: 3
 Title: - Halo 3： ODST Disc 1 OST 03 More Than His Share
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041057
 song_end
 song_begin: 4 Halo 3： ODST Disc 1 OST 04 Deference for Darkness.flac
 Time: 398.605
@@ -3709,7 +3991,7 @@ Track: 4
 Title: - Halo 3： ODST Disc 1 OST 04 Deference for Darkness
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041065
 song_end
 song_begin: 5 Halo 3： ODST Disc 1 OST 05 The Menagerie.flac
 Time: 370.369
@@ -3717,7 +3999,7 @@ Track: 5
 Title: - Halo 3： ODST Disc 1 OST 05 The Menagerie
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041072
 song_end
 song_begin: 6 Halo 3： ODST Disc 1 OST 06 Asphalt and Ablution.flac
 Time: 363.78700000000003
@@ -3725,7 +4007,7 @@ Track: 6
 Title: - Halo 3： ODST Disc 1 OST 06 Asphalt and Ablution
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041078
 song_end
 song_begin: 7 Halo 3： ODST Disc 1 OST 07 Traffic Jam.flac
 Time: 352.502
@@ -3733,7 +4015,7 @@ Track: 7
 Title: - Halo 3： ODST Disc 1 OST 07 Traffic Jam
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041089
 song_end
 song_begin: 8 Halo 3： ODST Disc 1 OST 08 Neon Night.flac
 Time: 337.409
@@ -3741,7 +4023,7 @@ Track: 8
 Title: - Halo 3： ODST Disc 1 OST 08 Neon Night
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041089
 song_end
 song_begin: 9 Halo 3： ODST Disc 1 OST 09 The Office of Naval Intelligence.flac
 Time: 530.134
@@ -3749,11 +4031,11 @@ Track: 9
 Title: - Halo 3： ODST Disc 1 OST 09 The Office of Naval Intelligence
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041097
 song_end
 end: Halo 3： ODST Disc 1 OST
 directory: Halo 3： ODST Disc 2 OST
-mtime: 1771107540
+mtime: 1771892267
 begin: Halo 3： ODST Disc 2 OST
 song_begin: 1 Halo 3： ODST Disc 2 OST 01 Bits and Pieces.flac
 Time: 425.22700000000003
@@ -3761,7 +4043,7 @@ Track: 1
 Title: - Halo 3： ODST Disc 2 OST 01 Bits and Pieces
 Format: 44100:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772041103
 song_end
 song_begin: 2 Halo 3： ODST Disc 2 OST 02 Skyline.flac
 Time: 421.755
@@ -3769,7 +4051,7 @@ Track: 2
 Title: - Halo 3： ODST Disc 2 OST 02 Skyline
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041115
 song_end
 song_begin: 3 Halo 3： ODST Disc 2 OST 03 No Stone Unturned.flac
 Time: 202.93
@@ -3777,7 +4059,7 @@ Track: 3
 Title: - Halo 3： ODST Disc 2 OST 03 No Stone Unturned
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041115
 song_end
 song_begin: 4 Halo 3： ODST Disc 2 OST 04 One Way Ride.flac
 Time: 410.598
@@ -3785,7 +4067,7 @@ Track: 4
 Title: - Halo 3： ODST Disc 2 OST 04 One Way Ride
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041121
 song_end
 song_begin: 5 Halo 3： ODST Disc 2 OST 05 The Light at the End.flac
 Time: 472.456
@@ -3793,7 +4075,7 @@ Track: 5
 Title: - Halo 3： ODST Disc 2 OST 05 The Light at the End
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041133
 song_end
 song_begin: 6 Halo 3： ODST Disc 2 OST 06 Data Hive.flac
 Time: 363.78700000000003
@@ -3801,7 +4083,7 @@ Track: 6
 Title: - Halo 3： ODST Disc 2 OST 06 Data Hive
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041133
 song_end
 song_begin: 7 Halo 3： ODST Disc 2 OST 07 Special Delivery.flac
 Time: 622.921
@@ -3809,7 +4091,7 @@ Track: 7
 Title: - Halo 3： ODST Disc 2 OST 07 Special Delivery
 Format: 44100:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041144
 song_end
 song_begin: 8 Halo 3： ODST Disc 2 OST 08 Finale.flac
 Time: 492.158
@@ -3817,11 +4099,11 @@ Track: 8
 Title: - Halo 3： ODST Disc 2 OST 08 Finale
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041181
 song_end
 end: Halo 3： ODST Disc 2 OST
 directory: Halo Wars OST
-mtime: 1771107540
+mtime: 1771892267
 begin: Halo Wars OST
 song_begin: 01 Halo Wars OST 01 Spirit of Fire.flac
 Time: 131.633
@@ -3909,7 +4191,7 @@ Track: 11
 Title: - Halo Wars OST 11 Action Figure Hands
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 12 Halo Wars OST 12 Status Quo Show.flac
 Time: 73.258
@@ -3917,7 +4199,7 @@ Track: 12
 Title: - Halo Wars OST 12 Status Quo Show
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 13 Halo Wars OST 13 Part of the Plan.flac
 Time: 30
@@ -3925,7 +4207,7 @@ Track: 13
 Title: - Halo Wars OST 13 Part of the Plan
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 14 Halo Wars OST 14 Work Burns and Runaway Grunts.flac
 Time: 186.758
@@ -3933,7 +4215,7 @@ Track: 14
 Title: - Halo Wars OST 14 Work Burns and Runaway Grunts
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 15 Halo Wars OST 15 Freaked Out.flac
 Time: 44.524
@@ -3941,7 +4223,7 @@ Track: 15
 Title: - Halo Wars OST 15 Freaked Out
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 16 Halo Wars OST 16 Rescued or Not.flac
 Time: 91.358
@@ -3949,7 +4231,7 @@ Track: 16
 Title: - Halo Wars OST 16 Rescued or Not
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 17 Halo Wars OST 17 Best Guess at Best.flac
 Time: 175.937
@@ -3957,7 +4239,7 @@ Track: 17
 Title: - Halo Wars OST 17 Best Guess at Best
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 18 Halo Wars OST 18 One Problem at a Time.flac
 Time: 74.47800000000001
@@ -3965,7 +4247,7 @@ Track: 18
 Title: - Halo Wars OST 18 One Problem at a Time
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 19 Halo Wars OST 19 De Facto the Matter.flac
 Time: 91.173
@@ -3973,7 +4255,7 @@ Track: 19
 Title: - Halo Wars OST 19 De Facto the Matter
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 20 Halo Wars OST 20 Part of the Problem.flac
 Time: 178.654
@@ -3981,7 +4263,7 @@ Track: 20
 Title: - Halo Wars OST 20 Part of the Problem
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 21 Halo Wars OST 21 Fingerprints are Broken.flac
 Time: 202.327
@@ -3989,7 +4271,7 @@ Track: 21
 Title: - Halo Wars OST 21 Fingerprints are Broken
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 22 Halo Wars OST 22 Out of There Alive.flac
 Time: 64.168
@@ -3997,7 +4279,7 @@ Track: 22
 Title: - Halo Wars OST 22 Out of There Alive
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 23 Halo Wars OST 23 Through Your Hoops.flac
 Time: 95.561
@@ -4005,7 +4287,7 @@ Track: 23
 Title: - Halo Wars OST 23 Through Your Hoops
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 24 Halo Wars OST 24 Under Your Hurdles.flac
 Time: 88.491
@@ -4013,7 +4295,7 @@ Track: 24
 Title: - Halo Wars OST 24 Under Your Hurdles
 Format: 44100:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 song_begin: 25 Halo Wars OST 25 Insignificantia (All Sloppy-No Joe).flac
 Time: 199.633
@@ -4021,11 +4303,11 @@ Track: 25
 Title: - Halo Wars OST 25 Insignificantia (All Sloppy-No Joe)
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041221
 song_end
 end: Halo Wars OST
 directory: Halo： Combat Evolved OST
-mtime: 1771107540
+mtime: 1771892267
 begin: Halo： Combat Evolved OST
 song_begin: 01 Halo： Combat Evolved OST 01 Opening Suite.flac
 Time: 214.633
@@ -4041,7 +4323,7 @@ Track: 2
 Title: - Halo： Combat Evolved OST 02 Truth and Reconciliation Suite
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 03 Halo： Combat Evolved OST 03 Brothers in Arms.flac
 Time: 90.128
@@ -4049,7 +4331,7 @@ Track: 3
 Title: - Halo： Combat Evolved OST 03 Brothers in Arms
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 04 Halo： Combat Evolved OST 04 Enough Dead Heroes.flac
 Time: 181.371
@@ -4057,7 +4339,7 @@ Track: 4
 Title: - Halo： Combat Evolved OST 04 Enough Dead Heroes
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 05 Halo： Combat Evolved OST 05 Perilous Journey.flac
 Time: 147.284
@@ -4065,7 +4347,7 @@ Track: 5
 Title: - Halo： Combat Evolved OST 05 Perilous Journey
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 06 Halo： Combat Evolved OST 06 A Walk in the Woods.flac
 Time: 112.883
@@ -4073,7 +4355,7 @@ Track: 6
 Title: - Halo： Combat Evolved OST 06 A Walk in the Woods
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 07 Halo： Combat Evolved OST 07 Ambient Wonder.flac
 Time: 117.10900000000001
@@ -4081,7 +4363,7 @@ Track: 7
 Title: - Halo： Combat Evolved OST 07 Ambient Wonder
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 08 Halo： Combat Evolved OST 08 The Gun Pointed at the Head of the Universe.flac
 Time: 146.32
@@ -4089,7 +4371,7 @@ Track: 8
 Title: - Halo： Combat Evolved OST 08 The Gun Pointed at the Head of the Universe
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 09 Halo： Combat Evolved OST 09 Trace Amounts.flac
 Time: 111.653
@@ -4097,7 +4379,7 @@ Track: 9
 Title: - Halo： Combat Evolved OST 09 Trace Amounts
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 10 Halo： Combat Evolved OST 10 Under Cover of Night.flac
 Time: 221.286
@@ -4105,7 +4387,7 @@ Track: 10
 Title: - Halo： Combat Evolved OST 10 Under Cover of Night
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 11 Halo： Combat Evolved OST 11 What Once Was Lost.flac
 Time: 100.94800000000001
@@ -4113,7 +4395,7 @@ Track: 11
 Title: - Halo： Combat Evolved OST 11 What Once Was Lost
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 12 Halo： Combat Evolved OST 12 Lament for PVT. Jenkins.flac
 Time: 74.512
@@ -4121,7 +4403,7 @@ Track: 12
 Title: - Halo： Combat Evolved OST 12 Lament for PVT. Jenkins
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 13 Halo： Combat Evolved OST 13 Devils... Monsters.flac
 Time: 90.964
@@ -4129,7 +4411,7 @@ Track: 13
 Title: - Halo： Combat Evolved OST 13 Devils... Monsters
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 14 Halo： Combat Evolved OST 14 Covenant Dance.flac
 Time: 117.24900000000001
@@ -4137,7 +4419,7 @@ Track: 14
 Title: - Halo： Combat Evolved OST 14 Covenant Dance
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 15 Halo： Combat Evolved OST 15 Alien Corridors.flac
 Time: 108.785
@@ -4145,7 +4427,7 @@ Track: 15
 Title: - Halo： Combat Evolved OST 15 Alien Corridors
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 16 Halo： Combat Evolved OST 16 Rock Anthem for Saving the World.flac
 Time: 78.529
@@ -4153,7 +4435,7 @@ Track: 16
 Title: - Halo： Combat Evolved OST 16 Rock Anthem for Saving the World
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 17 Halo： Combat Evolved OST 17 The Maw.flac
 Time: 66.989
@@ -4161,7 +4443,7 @@ Track: 17
 Title: - Halo： Combat Evolved OST 17 The Maw
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 18 Halo： Combat Evolved OST 18 Drumrun.flac
 Time: 61.939
@@ -4169,7 +4451,7 @@ Track: 18
 Title: - Halo： Combat Evolved OST 18 Drumrun
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 19 Halo： Combat Evolved OST 19 On a Pale Horse.flac
 Time: 95.167
@@ -4177,7 +4459,7 @@ Track: 19
 Title: - Halo： Combat Evolved OST 19 On a Pale Horse
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 20 Halo： Combat Evolved OST 20 Perchance to Dream.flac
 Time: 60.952
@@ -4185,7 +4467,7 @@ Track: 20
 Title: - Halo： Combat Evolved OST 20 Perchance to Dream
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041268
 song_end
 song_begin: 21 Halo： Combat Evolved OST 21 Library Suite.flac
 Time: 407.754
@@ -4193,7 +4475,7 @@ Track: 21
 Title: - Halo： Combat Evolved OST 21 Library Suite
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041297
 song_end
 song_begin: 22 Halo： Combat Evolved OST 22 The Long Run.flac
 Time: 132.191
@@ -4201,7 +4483,7 @@ Track: 22
 Title: - Halo： Combat Evolved OST 22 The Long Run
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041297
 song_end
 song_begin: 23 Halo： Combat Evolved OST 23 Suite Autumn.flac
 Time: 262.873
@@ -4209,7 +4491,7 @@ Track: 23
 Title: - Halo： Combat Evolved OST 23 Suite Autumn
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041297
 song_end
 song_begin: 24 Halo： Combat Evolved OST 24 Shadows.flac
 Time: 60.035000000000004
@@ -4217,7 +4499,7 @@ Track: 24
 Title: - Halo： Combat Evolved OST 24 Shadows
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041297
 song_end
 song_begin: 25 Halo： Combat Evolved OST 25 Dust and Echoes.flac
 Time: 170.121
@@ -4225,7 +4507,7 @@ Track: 25
 Title: - Halo： Combat Evolved OST 25 Dust and Echoes
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041297
 song_end
 song_begin: 26 Halo： Combat Evolved OST 26 Halo.flac
 Time: 262.455
@@ -4233,11 +4515,11 @@ Track: 26
 Title: - Halo： Combat Evolved OST 26 Halo
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041297
 song_end
 end: Halo： Combat Evolved OST
 directory: Halo： Reach OST
-mtime: 1771107540
+mtime: 1771892267
 begin: Halo： Reach OST
 song_begin: 01 Overture - Halo： Reach OST.flac
 Time: 287.103
@@ -4253,7 +4535,7 @@ Track: 2
 Title: - 1 02 Winter Contingency - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041315
 song_end
 song_begin: 03 ONI  Sword Base - Halo： Reach OST.flac
 Time: 508.075
@@ -4261,7 +4543,7 @@ Track: 3
 Title: - 1 03 ONI  Sword Base - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041324
 song_end
 song_begin: 04 Nightfall - Halo： Reach OST.flac
 Time: 341.101
@@ -4269,7 +4551,7 @@ Track: 4
 Title: - 1 04 Nightfall - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041330
 song_end
 song_begin: 05 Tip of the Spear - Halo： Reach OST.flac
 Time: 365.261
@@ -4277,7 +4559,7 @@ Track: 5
 Title: - 1 05 Tip of the Spear - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041337
 song_end
 song_begin: 06 Long Night of Solace - Halo： Reach OST.flac
 Time: 706.931
@@ -4285,7 +4567,7 @@ Track: 6
 Title: - 1 06 Long Night of Solace - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041349
 song_end
 song_begin: 07 Exodus - Halo： Reach OST.flac
 Time: 438.601
@@ -4293,7 +4575,7 @@ Track: 7
 Title: - 1 07 Exodus - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041358
 song_end
 song_begin: 08 New Alexandria - Halo： Reach OST.flac
 Time: 522.077
@@ -4301,7 +4583,7 @@ Track: 8
 Title: - 2 01 New Alexandria - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041367
 song_end
 song_begin: 09 The Package - Halo： Reach OST.flac
 Time: 416.124
@@ -4309,7 +4591,7 @@ Track: 9
 Title: - 2 02 The Package - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041375
 song_end
 song_begin: 10 The Pillar of Autumn - Halo： Reach OST.flac
 Time: 580.08
@@ -4317,7 +4599,7 @@ Track: 10
 Title: - 2 03 The Pillar of Autumn - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041448
 song_end
 song_begin: 11 Epilogue - Halo： Reach OST.flac
 Time: 270.048
@@ -4325,7 +4607,7 @@ Track: 11
 Title: - 2 04 Epilogue - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041448
 song_end
 song_begin: 12 From the Vault - Halo： Reach OST.flac
 Time: 299.305
@@ -4333,7 +4615,7 @@ Track: 12
 Title: - 2 05 From the Vault - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041448
 song_end
 song_begin: 13 Ashes - Halo： Reach OST.flac
 Time: 166.092
@@ -4341,7 +4623,7 @@ Track: 13
 Title: - 2 06 Ashes - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041448
 song_end
 song_begin: 14 Fortress - Halo： Reach OST.flac
 Time: 68.011
@@ -4349,7 +4631,7 @@ Track: 14
 Title: - 2 07 Fortress - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041448
 song_end
 song_begin: 15 We're Not Going Anywhere - Halo： Reach OST.flac
 Time: 74.141
@@ -4357,7 +4639,7 @@ Track: 15
 Title: - 2 08 We're Not Going Anywhere - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041448
 song_end
 song_begin: 16 At Any Cost - Halo： Reach OST.flac
 Time: 150.093
@@ -4365,7 +4647,7 @@ Track: 16
 Title: - 2 09 At Any Cost - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041448
 song_end
 song_begin: 17 Both Ways Remix - Halo： Reach OST.flac
 Time: 137.137
@@ -4373,7 +4655,7 @@ Track: 17
 Title: - 2 10 Both Ways Remix - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041448
 song_end
 song_begin: 18 Walking Away - Halo： Reach OST.flac
 Time: 113.313
@@ -4381,7 +4663,7 @@ Track: 18
 Title: - 2 11 Walking Away - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041448
 song_end
 song_begin: 19 Ghosts and Glass - Halo： Reach OST.flac
 Time: 162.121
@@ -4389,7 +4671,7 @@ Track: 19
 Title: - 2 12 Ghosts and Glass - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041448
 song_end
 song_begin: 20 We Remember - Halo： Reach OST.flac
 Time: 125.434
@@ -4397,11 +4679,11 @@ Track: 20
 Title: - 2 13 We Remember - Halo： Reach OST
 Format: 48000:24:2
 mtime: 1769739515
-added: 1771113752
+added: 1772041448
 song_end
 end: Halo： Reach OST
 directory: Jay Hosking - Celestial spheres
-mtime: 1771107540
+mtime: 1771892267
 begin: Jay Hosking - Celestial spheres
 song_begin: Jay Hosking - Celestial spheres - 02 Orrery.flac
 Time: 290
@@ -4496,7 +4778,7 @@ added: 1771113752
 song_end
 end: Jay Hosking - Celestial spheres
 directory: Jay Hosking - High time - Music for a productive day
-mtime: 1771107540
+mtime: 1771892267
 begin: Jay Hosking - High time - Music for a productive day
 song_begin: Jay Hosking - High time - Music for a productive day - 02 Minutes.flac
 Time: 460.217
@@ -4548,11 +4830,11 @@ Track: 6
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758005605
-added: 1771113752
+added: 1772041503
 song_end
 end: Jay Hosking - High time - Music for a productive day
 directory: Jay Hosking - Hoser
-mtime: 1771107540
+mtime: 1771892267
 begin: Jay Hosking - Hoser
 song_begin: Jay Hosking - Hoser - 01 Tracker.flac
 Time: 271.363
@@ -4647,7 +4929,7 @@ added: 1771113752
 song_end
 end: Jay Hosking - Hoser
 directory: Jay Hosking - It may take longer than you think
-mtime: 1771107540
+mtime: 1771892267
 begin: Jay Hosking - It may take longer than you think
 song_begin: Jay Hosking - It may take longer than you think - 02 Dogsbody.flac
 Time: 206.369
@@ -4754,7 +5036,7 @@ mtime: 1758004408
 added: 1771113753
 song_end
 song_begin: Jay Hosking - It may take longer than you think - 10 Wane.flac
-Time: 524.284
+Time: 524.285
 Title: Wane
 Artist: Jay Hosking
 Date: 2024
@@ -4764,11 +5046,11 @@ Track: 10
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758005651
-added: 1771113753
+added: 1772041509
 song_end
 end: Jay Hosking - It may take longer than you think
 directory: Jay Hosking - Low tide - Music for a productive day
-mtime: 1771107540
+mtime: 1771892267
 begin: Jay Hosking - Low tide - Music for a productive day
 song_begin: Jay Hosking - Low tide - Music for a productive day - 01 A1 Channel.flac
 Time: 726.189
@@ -4781,7 +5063,7 @@ Track: 1
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758005638
-added: 1771113753
+added: 1772041529
 song_end
 song_begin: Jay Hosking - Low tide - Music for a productive day - 02 A2 Confluence.flac
 Time: 409.687
@@ -4794,7 +5076,7 @@ Track: 2
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758003719
-added: 1771113753
+added: 1772041529
 song_end
 song_begin: Jay Hosking - Low tide - Music for a productive day - 03 A3 Cove.flac
 Time: 568.99
@@ -4807,7 +5089,7 @@ Track: 3
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758004441
-added: 1771113753
+added: 1772041529
 song_end
 song_begin: Jay Hosking - Low tide - Music for a productive day - 04 A4 Estuary.flac
 Time: 467.13100000000003
@@ -4820,7 +5102,7 @@ Track: 4
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758004431
-added: 1771113753
+added: 1772041529
 song_end
 song_begin: Jay Hosking - Low tide - Music for a productive day - 05 B1 Inlet.flac
 Time: 784.418
@@ -4833,7 +5115,7 @@ Track: 5
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758005652
-added: 1771113753
+added: 1772041601
 song_end
 song_begin: Jay Hosking - Low tide - Music for a productive day - 06 B2 Lagoon.flac
 Time: 352.326
@@ -4846,7 +5128,7 @@ Track: 6
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758003323
-added: 1771113753
+added: 1772041601
 song_end
 song_begin: Jay Hosking - Low tide - Music for a productive day - 07 B3 Reservoir.flac
 Time: 450.129
@@ -4859,7 +5141,7 @@ Track: 7
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758005639
-added: 1771113753
+added: 1772041601
 song_end
 song_begin: Jay Hosking - Low tide - Music for a productive day - 08 B4 Sound.flac
 Time: 541.537
@@ -4872,7 +5154,7 @@ Track: 8
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758005647
-added: 1771113753
+added: 1772041601
 song_end
 song_begin: Jay Hosking - Low tide - Music for a productive day - 09 B5 Tributary.flac
 Time: 465.588
@@ -4885,11 +5167,11 @@ Track: 9
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758004441
-added: 1771113753
+added: 1772041601
 song_end
 end: Jay Hosking - Low tide - Music for a productive day
 directory: Jay Hosking - Not even a poet can speak the whole truth
-mtime: 1771107540
+mtime: 1771892267
 begin: Jay Hosking - Not even a poet can speak the whole truth
 song_begin: Jay Hosking - Not even a poet can speak the whole truth - 01 Imaginary countries.flac
 Time: 227.20000000000002
@@ -4997,7 +5279,7 @@ added: 1771113753
 song_end
 end: Jay Hosking - Not even a poet can speak the whole truth
 directory: Jay Hosking - Scenes - ambient and cinematic works
-mtime: 1771107540
+mtime: 1771892267
 begin: Jay Hosking - Scenes - ambient and cinematic works
 song_begin: Jay Hosking - Scenes - ambient and cinematic works - 01 In an empty field, you gave her a mix tape.flac
 Time: 338
@@ -5066,7 +5348,7 @@ added: 1771113753
 song_end
 end: Jay Hosking - Scenes - ambient and cinematic works
 directory: Jay Hosking - Sketches for My Sweetheart the Drone
-mtime: 1771107540
+mtime: 1771892267
 begin: Jay Hosking - Sketches for My Sweetheart the Drone
 song_begin: Jay Hosking - Sketches for My Sweetheart the Drone - 01 Relatively abstemious.flac
 Time: 440
@@ -5092,7 +5374,7 @@ Track: 2
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758075033
-added: 1771113753
+added: 1772041608
 song_end
 song_begin: Jay Hosking - Sketches for My Sweetheart the Drone - 03 Trees under Venice.flac
 Time: 516
@@ -5105,7 +5387,7 @@ Track: 3
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758036656
-added: 1771113753
+added: 1772041644
 song_end
 song_begin: Jay Hosking - Sketches for My Sweetheart the Drone - 04 Anthropodenial.flac
 Time: 202
@@ -5118,7 +5400,7 @@ Track: 4
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1757999846
-added: 1771113753
+added: 1772041644
 song_end
 song_begin: Jay Hosking - Sketches for My Sweetheart the Drone - 05 Walsham.flac
 Time: 360
@@ -5131,11 +5413,11 @@ Track: 5
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1758027370
-added: 1771113753
+added: 1772041644
 song_end
 end: Jay Hosking - Sketches for My Sweetheart the Drone
 directory: Jay Hosking - The Future - Tense
-mtime: 1771107540
+mtime: 1771892267
 begin: Jay Hosking - The Future - Tense
 song_begin: Jay Hosking - The Future, Tense - 01 Lustral.flac
 Time: 340
@@ -5252,11 +5534,11 @@ Track: 9
 AlbumArtist: Jay Hosking
 Format: 44100:16:2
 mtime: 1769802942
-added: 1771113753
+added: 1772041764
 song_end
 end: Jay Hosking - The Future - Tense
 directory: Jay Hosking - The world will never survive without you - ambient works
-mtime: 1771107540
+mtime: 1771892267
 begin: Jay Hosking - The world will never survive without you - ambient works
 song_begin: Jay Hosking - The world will never survive without you - ambient works - 01 Majnoun.flac
 Time: 408
@@ -5325,7 +5607,7 @@ added: 1771113753
 song_end
 end: Jay Hosking - The world will never survive without you - ambient works
 directory: Jesper Kyd - Warhammer 40-000- Darktide (Original Soundtrack)
-mtime: 1771107540
+mtime: 1771892267
 begin: Jesper Kyd - Warhammer 40-000- Darktide (Original Soundtrack)
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 01 Darktide Main Theme.flac
 Time: 257.666
@@ -5953,7 +6235,7 @@ added: 1771113753
 song_end
 end: Jesper Kyd - Warhammer 40-000- Darktide (Original Soundtrack)
 directory: Lo-Phi - Vintage Story OST
-mtime: 1771107540
+mtime: 1771892267
 begin: Lo-Phi - Vintage Story OST
 song_begin: Lo-Phi - Vintage Story OST - 01 The Setting Sun.flac
 Time: 93.223
@@ -6005,7 +6287,7 @@ Track: 4
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041770
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 05 Vintage Story.flac
 Time: 190.929
@@ -6018,7 +6300,7 @@ Track: 5
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041788
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 06 Sunny Village.flac
 Time: 204
@@ -6031,7 +6313,7 @@ Track: 6
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041788
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 07 Through the Grass at Night.flac
 Time: 125.753
@@ -6044,7 +6326,7 @@ Track: 7
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041788
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 08 Adventuring.flac
 Time: 261
@@ -6057,7 +6339,7 @@ Track: 8
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041788
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 09 To Dawn, from a Very Rainy Night.flac
 Time: 314.563
@@ -6070,7 +6352,7 @@ Track: 9
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041807
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 10 Building.flac
 Time: 186.234
@@ -6083,7 +6365,7 @@ Track: 10
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041807
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 11 Creating.flac
 Time: 186.976
@@ -6096,7 +6378,7 @@ Track: 11
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041807
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 12 Peaceful Village.flac
 Time: 291.492
@@ -6109,7 +6391,7 @@ Track: 12
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041807
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 13 Nostalgic.flac
 Time: 334.354
@@ -6122,7 +6404,7 @@ Track: 13
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041817
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 14 Midnight.flac
 Time: 137.467
@@ -6135,7 +6417,7 @@ Track: 14
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041817
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 15 Heartbeat.flac
 Time: 283.142
@@ -6148,7 +6430,7 @@ Track: 15
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041830
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 16 The Seraphs (Tuning Cylinder).flac
 Time: 143.794
@@ -6161,7 +6443,7 @@ Track: 16
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041830
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 17 Winter.flac
 Time: 184.685
@@ -6174,7 +6456,7 @@ Track: 17
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041830
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 18 Daylight.flac
 Time: 352.188
@@ -6187,7 +6469,7 @@ Track: 18
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041840
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 19 Quirky Tavern.flac
 Time: 168.421
@@ -6200,7 +6482,7 @@ Track: 19
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041840
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 20 Cultured Tavern.flac
 Time: 335.342
@@ -6213,7 +6495,7 @@ Track: 20
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041847
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 21 Hallowcroft.flac
 Time: 341.309
@@ -6226,7 +6508,7 @@ Track: 21
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041857
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 22 Fall-o'-croft.flac
 Time: 211.084
@@ -6239,7 +6521,7 @@ Track: 22
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041857
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 23 Summer Day.flac
 Time: 271.921
@@ -6252,7 +6534,7 @@ Track: 23
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041867
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 24 Roots.flac
 Time: 228.157
@@ -6265,7 +6547,7 @@ Track: 24
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041867
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 25 The Invention (Tuning Cylinder).flac
 Time: 426.94100000000003
@@ -6278,7 +6560,7 @@ Track: 25
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041875
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 26 Spring.flac
 Time: 403.225
@@ -6291,7 +6573,7 @@ Track: 26
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041882
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 27 Radiance and Rust.flac
 Time: 652.987
@@ -6304,7 +6586,7 @@ Track: 27
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041901
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 28 Eidolon Battle.flac
 Time: 219.74
@@ -6317,7 +6599,7 @@ Track: 28
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041901
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 29 The Resonance Archives (Library).flac
 Time: 455.064
@@ -6330,7 +6612,7 @@ Track: 29
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041910
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 30 Arctic Winds.flac
 Time: 485.262
@@ -6343,7 +6625,7 @@ Track: 30
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041921
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 31 Fall.flac
 Time: 565.135
@@ -6356,7 +6638,7 @@ Track: 31
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041931
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 32 Windy Village.flac
 Time: 417.218
@@ -6369,7 +6651,7 @@ Track: 32
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041944
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 33 Chilly Village.flac
 Time: 239.143
@@ -6382,7 +6664,7 @@ Track: 33
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041944
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 34 Summer Stroll (High Activity Version).flac
 Time: 342.272
@@ -6395,7 +6677,7 @@ Track: 34
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041957
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 35 Tenacious.flac
 Time: 188.681
@@ -6408,7 +6690,7 @@ Track: 35
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041957
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 36 The Lazaret.flac
 Time: 211.687
@@ -6421,7 +6703,7 @@ Track: 36
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041957
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 37 Devastation (with Fade-In).flac
 Time: 598.181
@@ -6434,7 +6716,7 @@ Track: 37
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041983
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 38 Nadiya (Spring).flac
 Time: 220.484
@@ -6447,7 +6729,7 @@ Track: 38
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041983
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 39 Nadiya (Summer).flac
 Time: 220.064
@@ -6460,7 +6742,7 @@ Track: 39
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041983
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 40 Nadiya (Fall).flac
 Time: 158.679
@@ -6473,7 +6755,7 @@ Track: 40
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041983
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 41 Nadiya (Winter).flac
 Time: 147.592
@@ -6486,7 +6768,7 @@ Track: 41
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772041983
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 42 The Safety of a Warm Fire.flac
 Time: 446.289
@@ -6499,7 +6781,7 @@ Track: 42
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772042002
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 43 V I N T A G e W A V e.flac
 Time: 103.303
@@ -6512,7 +6794,7 @@ Track: 43
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772042002
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 44 Creative Mode Trailer - 2016.flac
 Time: 86.351
@@ -6525,7 +6807,7 @@ Track: 44
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772042002
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 45 Feature Trailer - 2020.flac
 Time: 172.241
@@ -6538,7 +6820,7 @@ Track: 45
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772042002
 song_end
 song_begin: Lo-Phi - Vintage Story OST - 46 Feature Trailer - 2022.flac
 Time: 182.958
@@ -6551,398 +6833,165 @@ Track: 46
 AlbumArtist: Lo-Phi
 Format: 44100:24:2
 mtime: 1763980436
-added: 1771113753
+added: 1772042002
 song_end
 end: Lo-Phi - Vintage Story OST
 directory: My Songs
-mtime: 1771107540
+mtime: 1771892267
 begin: My Songs
 directory: sci-fi concept album
-mtime: 1771107540
+mtime: 1771892267
 begin: My Songs/sci-fi concept album
 song_begin: Mysteries of the Space Between.wav
 Time: 201.29
 Format: 44100:16:2
 mtime: 1738465721
-added: 1771107556
+added: 1772042093
 song_end
 song_begin: The Machine No Longer Slumbers.wav
 Time: 227.50900000000001
 Format: 44100:32:2
 mtime: 1745879047
-added: 1771107556
+added: 1772042113
 song_end
 song_begin: Welcome to Mars (Rough 122724 1347).wav.wav
 Time: 199.183
 Format: 48000:16:2
 mtime: 1735328993
-added: 1771107556
+added: 1772042113
 song_end
 end: My Songs/sci-fi concept album
 song_begin: Am I Wrong (Matthew Kennedy Remix).wav
 Time: 244.476
 Format: 48000:32:2
 mtime: 1710642074
-added: 1771107556
+added: 1772042010
 song_end
 song_begin: Atmos.m4a
 Time: 260.011
 Format: 48000:f:2
 mtime: 1682046862
-added: 1771107556
+added: 1772042010
 song_end
 song_begin: Drift and Drive (Proof of Concept).wav
 Time: 224.833
 Format: 48000:32:2
 mtime: 1681078918
-added: 1771107556
+added: 1772042016
 song_end
 song_begin: Galvanize (Low Flying Oscillator Remix).wav
 Time: 366.115
 Format: 48000:32:2
 mtime: 1696004938
-added: 1771107556
+added: 1772042027
 song_end
 song_begin: Glitch Running Fun.m4a
 Time: 240.811
 Format: 48000:f:2
 mtime: 1682046005
-added: 1771107556
+added: 1772042027
 song_end
 song_begin: Johnny and Mary (Low Flying Oscillator Remix).wav
 Time: 310.731
 Format: 48000:32:2
 mtime: 1703710243
-added: 1771107556
+added: 1772042036
 song_end
 song_begin: Leaving Soon.wav
 Time: 399.15000000000003
 Format: 48000:32:2
 mtime: 1688871551
-added: 1771107556
+added: 1772042047
 song_end
 song_begin: Locked Out of Heaven (Low Flying Oscillator Remix).wav
 Time: 300.521
 Format: 48000:32:2
 mtime: 1690333035
-added: 1771107556
+added: 1772042056
 song_end
 song_begin: Project copy.wav
 Time: 209.323
 Date: 2023-12-0
 Format: 48000:32:2
 mtime: 1701660856
-added: 1771107556
+added: 1772042062
 song_end
 song_begin: Starboy (Low Flying Oscillator Master Remix 91923 at 2052).wav
 Time: 284.76
 Format: 48000:32:2
 mtime: 1695174890
-added: 1771107556
+added: 1772042072
 song_end
 song_begin: Starboy (Low Flying Oscillator Master Remix).wav
 Time: 288.6
 Format: 48000:32:2
 mtime: 1695174036
-added: 1771107556
+added: 1772042093
 song_end
 song_begin: The Son of Flynn Cover.wav
 Time: 96.801
 Date: 2023-03-0
 Format: 48000:32:2
 mtime: 1677954164
-added: 1771107556
+added: 1772042093
 song_end
 song_begin: Uh Oh Remix Export 71924 at 1727.wav
 Time: 190.776
 Format: 48000:16:2
 mtime: 1721428183
-added: 1771107556
+added: 1772042093
 song_end
 end: My Songs
 directory: my_music
-mtime: 1771107540
+mtime: 1772043849
 begin: my_music
 directory: Cinematic Concept Album
-mtime: 1771107540
+mtime: 1771892267
 begin: my_music/Cinematic Concept Album
 song_begin: Creeping Death in the Black of Night copy.wav
 Time: 293.647
 Date: 2023-09-1
 Format: 48000:32:2
 mtime: 1694388848
-added: 1771113828
+added: 1772044046
 song_end
 song_begin: Decisions (Nov. Day 1).wav
 Time: 281.192
 Format: 48000:16:2
 mtime: 1730501685
-added: 1771113828
+added: 1772044052
 song_end
 song_begin: Drifting.wav
 Time: 359.226
 Format: 44100:16:2
 mtime: 1731199025
-added: 1771113828
+added: 1772044059
 song_end
 song_begin: Footsteps of Gods.wav
 Time: 227.50900000000001
 Format: 44100:32:2
 mtime: 1745879047
-added: 1771113828
+added: 1772044077
 song_end
 song_begin: Mysteries of the Space Between.wav
 Time: 201.29
 Format: 44100:16:2
 mtime: 1738465721
-added: 1771113828
+added: 1772044077
 song_end
 song_begin: The Peace of a Spring Rainfall.wav
 Time: 147.702
 Format: 48000:32:2
 mtime: 1713652226
-added: 1771113828
+added: 1772044077
 song_end
 song_begin: Welcome to Mars (Rough 122724 1347).wav
 Time: 199.183
 Format: 48000:16:2
 mtime: 1735328993
-added: 1771113828
+added: 1772044077
 song_end
 end: my_music/Cinematic Concept Album
-directory: My Tracks-20250915T032000Z-1-001.zip
-type: archive
-mtime: 1757906683
-begin: my_music/My Tracks-20250915T032000Z-1-001.zip
-directory: My Tracks
-type: archive
-begin: my_music/My Tracks-20250915T032000Z-1-001.zip/My Tracks
-song_begin: All Too Late Remix Snippet 2-24-25 2017.wav
-Time: 78.57600000000001
-song_end
-song_begin: Am I Wrong (Matthew Kennedy Remix).wav
-Time: 244.476
-song_end
-song_begin: Atmos.m4a
-Time: 260.011
-song_end
-song_begin: Banana House copy.wav
-Time: 209.323
-Date: 2023-12-0
-song_end
-song_begin: Break My Rules (Matthew Kennedy Remix).wav
-Time: 254.559
-song_end
-song_begin: circuit-jam-051525.wav
-Time: 275.444
-song_end
-song_begin: Cold Heart.m4a
-Time: 325.547
-song_end
-song_begin: Copy of High Remix Export 1 62924.wav
-Time: 207.699
-song_end
-song_begin: Copy of Move Me Remix Export 1 71424 at 1643.wav
-Time: 249.107
-song_end
-song_begin: Cruel Summer Remix.wav
-Time: 203.735
-song_end
-song_begin: Damn Vincent.wav
-Time: 258.113
-Date: 2024-05-1
-song_end
-song_begin: Decisions (Nov. Day 1).wav
-Time: 281.192
-song_end
-song_begin: Deep Mist.wav
-Time: 256.67900000000003
-song_end
-song_begin: DIY (Matthew Kennedy Remix) Export 1 21224 at 1706.wav
-Time: 297.738
-song_end
-song_begin: Dizzy (Matthew Kennedy Remix).wav
-Time: 236.447
-song_end
-song_begin: Drifting.wav
-Time: 359.226
-song_end
-song_begin: Drop.m4a
-Time: 192.53300000000002
-song_end
-song_begin: Dumpster Dive.m4a
-Time: 152.96
-song_end
-song_begin: For the Glory of the Omnissiah.wav
-Time: 197.336
-song_end
-song_begin: Galvanize (Low Flying Oscillator Remix) 2.wav
-Time: 369.808
-song_end
-song_begin: Glitch Running Fun.m4a
-Time: 240.811
-song_end
-song_begin: High Remix Export 1 62924.wav
-Time: 207.699
-song_end
-song_begin: Hounds of War (Rough 102624 1804).wav
-Time: 248.808
-song_end
-song_begin: Internal (Nov. Day 4).wav
-Time: 226.434
-song_end
-song_begin: Jason Remix (Nov. Day 15).wav
-Time: 455.66700000000003
-song_end
-song_begin: Lies of P Re-score copy.wav
-Time: 52.114000000000004
-Date: 2023-11-0
-song_end
-song_begin: Lucky Punk.m4a
-Time: 231.211
-song_end
-song_begin: Move Me Remix Export 1 71424 at 1643.wav
-Time: 249.107
-song_end
-song_begin: Mysteries of the Space Between.wav
-Time: 201.29
-song_end
-song_begin: Omnissiah_s Call.m4a
-Time: 254.315
-song_end
-song_begin: Out of Focus Remix Export 1 62624.wav
-Time: 196.472
-song_end
-song_begin: PortalStep.m4a
-Time: 138.155
-song_end
-song_begin: Project copy.wav
-Time: 209.323
-Date: 2023-12-0
-song_end
-song_begin: PS5 (Low Flying Oscillator Remix).wav
-Time: 214.731
-song_end
-song_begin: Retrograde.m4a
-Time: 225.15200000000002
-song_end
-song_begin: Sense of Adventure (Reworked).m4a
-Time: 236.949
-song_end
-song_begin: Start a Riot (Low Flying Oscillator Remix).wav
-Time: 188.497
-song_end
-song_begin: Start a Riot (Low Flying Oscillator Slowed Remix) .wav
-Time: 210.586
-song_end
-song_begin: Stumble (Nov. Day 5).wav
-Time: 95
-song_end
-song_begin: Talk Slow Remix (Nov. Day 16) Rough Export.wav
-Time: 200.727
-song_end
-song_begin: The Machine No Longer Slumbers.wav
-Time: 227.50900000000001
-song_end
-song_begin: The Peace of a Spring Rainfall.wav
-Time: 147.702
-song_end
-song_begin: The Peace of a Spring Rainfall(1).wav
-Time: 147.702
-song_end
-song_begin: Uh Oh Remix Export 71924 at 1727.wav
-Time: 190.776
-song_end
-song_begin: Virtual.m4a
-Time: 314.24
-song_end
-song_begin: War for Heavens Gates.wav
-Time: 212.435
-song_end
-song_begin: Welcome to Mars (Rough 122724 1347).wav
-Time: 199.183
-song_end
-song_begin: Welcome to Mars (Rough 122724 1347).wav.wav
-Time: 199.183
-song_end
-song_begin: Wreckage Remix Rough .wav
-Time: 313.14
-song_end
-song_begin: Young Turks (Matthew Kennedy Remix) Export 22624 at 2125.wav
-Time: 263.086
-song_end
-end: my_music/My Tracks-20250915T032000Z-1-001.zip/My Tracks
-end: my_music/My Tracks-20250915T032000Z-1-001.zip
-directory: My Tracks-20250915T032000Z-1-002.zip
-type: archive
-mtime: 1757906659
-begin: my_music/My Tracks-20250915T032000Z-1-002.zip
-directory: My Tracks
-type: archive
-begin: my_music/My Tracks-20250915T032000Z-1-002.zip/My Tracks
-song_begin: Add Drums Jazz Condensed.wav
-Time: 91.429
-song_end
-song_begin: Casio (Matthew Kennedy Hydrasynth Exclusive Remix).wav
-Time: 304.843
-song_end
-song_begin: Creeping Death in the Black of Night copy.wav
-Time: 293.647
-Date: 2023-09-1
-song_end
-song_begin: Drift and Drive (Proof of Concept).wav
-Time: 224.833
-song_end
-song_begin: Galvanize (Low Flying Oscillator Remix).wav
-Time: 366.115
-song_end
-song_begin: Heartbreak on the Dancefloor (Low Flying Oscillator Remix) Master 101423 at 2127.wav
-Time: 259.672
-Date: 2023-10-1
-song_end
-song_begin: Johnny and Mary (Low Flying Oscillator Remix).wav
-Time: 310.731
-song_end
-song_begin: Life (Low Flying Oscillator Remix).wav
-Time: 347.44
-song_end
-song_begin: Locked Out of Heaven (Low Flying Oscillator Remix).wav
-Time: 300.521
-song_end
-song_begin: Movement (AudioHaze Cover) (Matthew Kennedy Remix) copy.wav
-Time: 260.281
-Date: 2023-11-0
-song_end
-song_begin: My Trigger (Low Flying Oscillator Remix).wav
-Time: 209.852
-song_end
-song_begin: Preparations.wav
-Time: 224.833
-song_end
-song_begin: Rude Awakenings.wav
-Time: 183.955
-song_end
-song_begin: Rumble (Low Flying Oscillator Remix).wav
-Time: 165.107
-song_end
-song_begin: Scatman (Low Flying Oscillator Remix.wav
-Time: 254.669
-song_end
-song_begin: Starboy (Low Flying Oscillator Master Remix 91923 at 2052).wav
-Time: 284.76
-song_end
-song_begin: Starboy (Low Flying Oscillator Master Remix).wav
-Time: 288.6
-song_end
-song_begin: The Cold of Winter.wav
-Time: 332.459
-Date: 2023-11-0
-song_end
-song_begin: The New Beginning of Fall.wav
-Time: 402.136
-song_end
-end: my_music/My Tracks-20250915T032000Z-1-002.zip/My Tracks
-end: my_music/My Tracks-20250915T032000Z-1-002.zip
 song_begin: Add Drums Jazz Condensed.wav
 Time: 91.429
 Format: 48000:32:2
@@ -6959,372 +7008,372 @@ song_begin: Am I Wrong (Matthew Kennedy Remix).wav
 Time: 244.476
 Format: 48000:32:2
 mtime: 1710642941
-added: 1771113756
+added: 1772043480
 song_end
 song_begin: Atmos.m4a
 Time: 260.011
 Format: 48000:f:2
 mtime: 1699818742
-added: 1771113756
+added: 1772043480
 song_end
 song_begin: Banana House copy.wav
 Time: 209.323
 Date: 2023-12-0
 Format: 48000:32:2
 mtime: 1701661183
-added: 1771113756
+added: 1772043488
 song_end
 song_begin: Break My Rules (Matthew Kennedy Remix).wav
 Time: 254.559
 Format: 48000:32:2
 mtime: 1715627577
-added: 1771113756
+added: 1772043497
 song_end
 song_begin: Casio (Matthew Kennedy Hydrasynth Exclusive Remix).wav
 Time: 304.843
 Format: 48000:32:2
 mtime: 1705345232
-added: 1771113756
+added: 1772043512
 song_end
 song_begin: circuit-jam-051525.wav
 Time: 275.444
 Format: 44100:32:2
 mtime: 1747341882
-added: 1771113828
+added: 1772044037
 song_end
 song_begin: Cold Heart.m4a
 Time: 325.547
 Format: 48000:f:2
 mtime: 1699818792
-added: 1771113756
+added: 1772043512
 song_end
 song_begin: Copy of High Remix Export 1 62924.wav
 Time: 207.699
 Format: 48000:16:2
 mtime: 1737092210
-added: 1771113756
+added: 1772043512
 song_end
 song_begin: Copy of Move Me Remix Export 1 71424 at 1643.wav
 Time: 249.107
 Format: 48000:16:2
 mtime: 1737093089
-added: 1771113756
+added: 1772043519
 song_end
 song_begin: Cruel Summer Remix.wav
 Time: 203.735
 Format: 48000:32:2
 mtime: 1716503532
-added: 1771113756
+added: 1772043527
 song_end
 song_begin: Damn Vincent.wav
 Time: 258.113
 Date: 2024-05-1
 Format: 48000:32:2
 mtime: 1715455644
-added: 1771113756
+added: 1772043551
 song_end
 song_begin: Deep Mist.wav
 Time: 256.67900000000003
 Format: 48000:32:2
 mtime: 1711132024
-added: 1771113756
+added: 1772043563
 song_end
 song_begin: DIY (Matthew Kennedy Remix) Export 1 21224 at 1706.wav
 Time: 297.738
 Format: 48000:32:2
 mtime: 1707787714
-added: 1771113756
+added: 1772043539
 song_end
 song_begin: Dizzy (Matthew Kennedy Remix).wav
 Time: 236.447
 Format: 48000:16:2
 mtime: 1719962926
-added: 1771113756
+added: 1772043569
 song_end
 song_begin: Drift and Drive (Proof of Concept).wav
 Time: 224.833
 Format: 48000:32:2
 mtime: 1699821245
-added: 1771113756
+added: 1772043579
 song_end
 song_begin: Drop.m4a
 Time: 192.53300000000002
 Format: 48000:f:2
 mtime: 1699820568
-added: 1771113756
+added: 1772043579
 song_end
 song_begin: Dumpster Dive.m4a
 Time: 152.96
 Format: 48000:f:2
 mtime: 1699818653
-added: 1771113756
+added: 1772043579
 song_end
 song_begin: For the Glory of the Omnissiah.wav
 Time: 197.336
 Format: 48000:32:2
 mtime: 1705799302
-added: 1771113756
+added: 1772043588
 song_end
 song_begin: Galvanize (Low Flying Oscillator Remix) 2.wav
 Time: 369.808
 Format: 48000:16:2
 mtime: 1719457516
-added: 1771113756
+added: 1772043598
 song_end
 song_begin: Galvanize (Low Flying Oscillator Remix).wav
 Time: 366.115
 Format: 48000:32:2
 mtime: 1701642320
-added: 1771113828
+added: 1772043615
 song_end
 song_begin: Glitch Running Fun.m4a
 Time: 240.811
 Format: 48000:f:2
 mtime: 1699818728
-added: 1771113756
+added: 1772043615
 song_end
 song_begin: Heartbreak on the Dancefloor (Low Flying Oscillator Remix) Master 101423 at 2127.wav
 Time: 259.672
 Date: 2023-10-1
 Format: 48000:32:2
 mtime: 1699821356
-added: 1771113828
+added: 1772043625
 song_end
 song_begin: High Remix Export 1 62924.wav
 Time: 207.699
 Format: 48000:16:2
 mtime: 1719682909
-added: 1771113828
+added: 1772043632
 song_end
 song_begin: Hounds of War (Rough 102624 1804).wav
 Time: 248.808
 Format: 48000:16:2
 mtime: 1747369131
-added: 1771113756
+added: 1772043638
 song_end
 song_begin: Internal (Nov. Day 4).wav
 Time: 226.434
 Format: 48000:16:2
 mtime: 1730837392
-added: 1771113828
+added: 1772043645
 song_end
 song_begin: Jason Remix (Nov. Day 15).wav
 Time: 455.66700000000003
 Format: 48000:16:2
 mtime: 1731822087
-added: 1771113756
+added: 1772043657
 song_end
 song_begin: Johnny and Mary (Low Flying Oscillator Remix).wav
 Time: 310.731
 Format: 48000:32:2
 mtime: 1704671316
-added: 1771113802
+added: 1772043670
 song_end
 song_begin: Lies of P Re-score copy.wav
 Time: 52.114000000000004
 Date: 2023-11-0
 Format: 48000:32:2
 mtime: 1699477653
-added: 1771113756
+added: 1772043670
 song_end
 song_begin: Life (Low Flying Oscillator Remix).wav
 Time: 347.44
 Format: 48000:32:2
 mtime: 1699819783
-added: 1771113828
+added: 1772043684
 song_end
 song_begin: Locked Out of Heaven (Low Flying Oscillator Remix).wav
 Time: 300.521
 Format: 48000:32:2
 mtime: 1701113965
-added: 1771113802
+added: 1772043696
 song_end
 song_begin: Lucky Punk.m4a
 Time: 231.211
 Format: 48000:f:2
 mtime: 1699818713
-added: 1771113756
+added: 1772043696
 song_end
 song_begin: Move Me Remix Export 1 71424 at 1643.wav
 Time: 249.107
 Format: 48000:16:2
 mtime: 1720993611
-added: 1771113756
+added: 1772043703
 song_end
 song_begin: Movement (AudioHaze Cover) (Matthew Kennedy Remix) copy.wav
-Time: 260.281
+Time: 260.282
 Date: 2023-11-0
 Format: 48000:32:2
 mtime: 1699035419
-added: 1771113827
+added: 1772043713
 song_end
 song_begin: My Trigger (Low Flying Oscillator Remix).wav
 Time: 209.852
 Format: 48000:32:2
 mtime: 1699819091
-added: 1771113756
+added: 1772043894
 song_end
 song_begin: Omnissiah_s Call.m4a
 Time: 254.315
 Format: 48000:f:2
 mtime: 1699820600
-added: 1771113827
+added: 1772043894
 song_end
 song_begin: Out of Focus Remix Export 1 62624.wav
 Time: 196.472
 Format: 48000:16:2
 mtime: 1719451400
-added: 1771113828
+added: 1772043894
 song_end
 song_begin: PortalStep.m4a
 Time: 138.155
 Format: 48000:f:2
 mtime: 1699818600
-added: 1771113802
+added: 1772043902
 song_end
 song_begin: Preparations.wav
 Time: 224.833
 Format: 48000:32:2
 mtime: 1699820560
-added: 1771113828
+added: 1772043909
 song_end
 song_begin: Project copy.wav
 Time: 209.323
 Date: 2023-12-0
 Format: 48000:32:2
 mtime: 1701660856
-added: 1771113827
+added: 1772043916
 song_end
 song_begin: PS5 (Low Flying Oscillator Remix).wav
 Time: 214.731
 Format: 48000:32:2
 mtime: 1699820952
-added: 1771113828
+added: 1772043902
 song_end
 song_begin: Retrograde.m4a
 Time: 225.15200000000002
 Format: 48000:f:2
 mtime: 1699818704
-added: 1771113802
+added: 1772043916
 song_end
 song_begin: Rude Awakenings.wav
 Time: 183.955
 Format: 48000:32:2
 mtime: 1699820770
-added: 1771113827
+added: 1772043928
 song_end
 song_begin: Rumble (Low Flying Oscillator Remix).wav
 Time: 165.107
 Format: 48000:32:2
 mtime: 1699798321
-added: 1771113827
+added: 1772043928
 song_end
 song_begin: Scatman (Low Flying Oscillator Remix.wav
 Time: 254.669
 Format: 48000:32:2
 mtime: 1699819367
-added: 1771113828
+added: 1772043937
 song_end
 song_begin: Sense of Adventure (Reworked).m4a
 Time: 236.949
 Format: 48000:f:2
 mtime: 1699820582
-added: 1771113828
+added: 1772043937
 song_end
 song_begin: Starboy (Low Flying Oscillator Master Remix 91923 at 2052).wav
 Time: 284.76
 Format: 48000:32:2
 mtime: 1699819432
-added: 1771113827
+added: 1772043945
 song_end
 song_begin: Starboy (Low Flying Oscillator Master Remix).wav
 Time: 288.6
 Format: 48000:32:2
 mtime: 1695174036
-added: 1771113827
+added: 1772043953
 song_end
 song_begin: Start a Riot (Low Flying Oscillator Remix).wav
 Time: 188.497
 Format: 48000:32:2
 mtime: 1703351272
-added: 1771113828
+added: 1772043959
 song_end
 song_begin: Start a Riot (Low Flying Oscillator Slowed Remix) .wav
 Time: 210.586
 Format: 48000:32:2
 mtime: 1703373734
-added: 1771113827
+added: 1772043974
 song_end
 song_begin: Stumble (Nov. Day 5).wav
 Time: 95
 Format: 48000:16:2
 mtime: 1730836917
-added: 1771113827
+added: 1772043974
 song_end
 song_begin: Talk Slow Remix (Nov. Day 16) Rough Export.wav
 Time: 200.727
 Format: 48000:16:2
 mtime: 1731903990
-added: 1771113827
+added: 1772043974
 song_end
 song_begin: The Cold of Winter.wav
 Time: 332.459
 Date: 2023-11-0
 Format: 48000:32:2
 mtime: 1698943749
-added: 1771113827
+added: 1772043985
 song_end
 song_begin: The New Beginning of Fall.wav
 Time: 402.136
 Format: 48000:32:2
 mtime: 1697822127
-added: 1771113828
+added: 1772044012
 song_end
 song_begin: The Peace of a Spring Rainfall(1).wav
 Time: 147.702
 Format: 48000:32:2
 mtime: 1713652226
-added: 1771113827
+added: 1772044012
 song_end
 song_begin: Uh Oh Remix Export 71924 at 1727.wav
 Time: 190.776
 Format: 48000:16:2
 mtime: 1721428183
-added: 1771113827
+added: 1772044012
 song_end
 song_begin: Virtual.m4a
 Time: 314.24
 Format: 48000:f:2
 mtime: 1699818762
-added: 1771113827
+added: 1772044012
 song_end
 song_begin: War for Heavens Gates.wav
 Time: 212.435
 Format: 48000:16:2
 mtime: 1723762193
-added: 1771113827
+added: 1772044012
 song_end
 song_begin: Welcome to Mars (Rough 122724 1347).wav.wav
 Time: 199.183
 Format: 48000:16:2
 mtime: 1735328993
-added: 1771113828
+added: 1772044012
 song_end
 song_begin: Wreckage Remix Rough .wav
 Time: 313.14
 Format: 48000:32:2
 mtime: 1705345243
-added: 1771113828
+added: 1772044022
 song_end
 song_begin: Young Turks (Matthew Kennedy Remix) Export 22624 at 2125.wav
 Time: 263.086
 Format: 48000:32:2
 mtime: 1711507446
-added: 1771113828
+added: 1772044029
 song_end
 end: my_music
 directory: ODESZA - A Moment Apart
-mtime: 1771107540
+mtime: 1771892267
 begin: ODESZA - A Moment Apart
 song_begin: ODESZA - A Moment Apart - 01 Intro.flac
 Time: 63.972
@@ -7428,7 +7477,7 @@ Track: 8
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802953
-added: 1771113753
+added: 1772042184
 song_end
 song_begin: ODESZA - A Moment Apart - 09 Everything At Your Feet (feat. The Chamanas).flac
 Time: 208.017
@@ -7441,7 +7490,7 @@ Track: 9
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802953
-added: 1771113753
+added: 1772042184
 song_end
 song_begin: ODESZA - A Moment Apart - 10 Just A Memory (feat. Regina Spektor).flac
 Time: 236.794
@@ -7454,7 +7503,7 @@ Track: 10
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802953
-added: 1771113753
+added: 1772042184
 song_end
 song_begin: ODESZA - A Moment Apart - 11 Divide (feat. Kelsey Bulkin).flac
 Time: 241.84900000000002
@@ -7467,7 +7516,7 @@ Track: 11
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802953
-added: 1771113753
+added: 1772042184
 song_end
 song_begin: ODESZA - A Moment Apart - 12 Thin Floors And Tall Ceilings.flac
 Time: 178.30700000000002
@@ -7480,7 +7529,7 @@ Track: 12
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802953
-added: 1771113753
+added: 1772042184
 song_end
 song_begin: ODESZA - A Moment Apart - 13 La Ciudad.flac
 Time: 271.136
@@ -7493,7 +7542,7 @@ Track: 13
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802953
-added: 1771113753
+added: 1772042210
 song_end
 song_begin: ODESZA - A Moment Apart - 14 Falls (feat. Sasha Alex Sloan).flac
 Time: 232.936
@@ -7506,7 +7555,7 @@ Track: 14
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802953
-added: 1771113753
+added: 1772042210
 song_end
 song_begin: ODESZA - A Moment Apart - 15 Show Me.flac
 Time: 218.548
@@ -7519,7 +7568,7 @@ Track: 15
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802953
-added: 1771113753
+added: 1772042210
 song_end
 song_begin: ODESZA - A Moment Apart - 16 Corners Of The Earth (feat. RY X).flac
 Time: 305.348
@@ -7532,11 +7581,11 @@ Track: 16
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802953
-added: 1771113753
+added: 1772042210
 song_end
 end: ODESZA - A Moment Apart
 directory: ODESZA - In Return
-mtime: 1771107540
+mtime: 1771892267
 begin: ODESZA - In Return
 song_begin: ODESZA - In Return - 01 Always This Late.flac
 Time: 160.941
@@ -7562,7 +7611,7 @@ Track: 2
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802963
-added: 1771113753
+added: 1772042228
 song_end
 song_begin: ODESZA - In Return - 03 Bloom.flac
 Time: 195.692
@@ -7575,7 +7624,7 @@ Track: 3
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802963
-added: 1771113753
+added: 1772042228
 song_end
 song_begin: ODESZA - In Return - 04 All We Need (feat. Shy Girls).flac
 Time: 211.20000000000002
@@ -7588,7 +7637,7 @@ Track: 4
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802963
-added: 1771113753
+added: 1772042228
 song_end
 song_begin: ODESZA - In Return - 05 Sundara.flac
 Time: 136
@@ -7601,7 +7650,7 @@ Track: 5
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802963
-added: 1771113753
+added: 1772042228
 song_end
 song_begin: ODESZA - In Return - 06 White Lies (feat. Jenni Potts).flac
 Time: 277.333
@@ -7614,7 +7663,7 @@ Track: 6
 AlbumArtist: ODESZA
 Format: 48000:24:2
 mtime: 1769802963
-added: 1771113753
+added: 1772042243
 song_end
 song_begin: ODESZA - In Return - 07 Kusanagi.flac
 Time: 208
@@ -7627,7 +7676,7 @@ Track: 7
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802963
-added: 1771113753
+added: 1772042243
 song_end
 song_begin: ODESZA - In Return - 08 Echoes (feat. Py).flac
 Time: 264
@@ -7640,7 +7689,7 @@ Track: 8
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802963
-added: 1771113753
+added: 1772042243
 song_end
 song_begin: ODESZA - In Return - 09 It's Only (feat. Zyra).flac
 Time: 268
@@ -7653,7 +7702,7 @@ Track: 9
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802963
-added: 1771113753
+added: 1772042253
 song_end
 song_begin: ODESZA - In Return - 10 Koto.flac
 Time: 194.4
@@ -7666,7 +7715,7 @@ Track: 10
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802963
-added: 1771113753
+added: 1772042253
 song_end
 song_begin: ODESZA - In Return - 11 Memories That You Call (feat. Monsoonsiren).flac
 Time: 248
@@ -7679,7 +7728,7 @@ Track: 11
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802963
-added: 1771113753
+added: 1772042262
 song_end
 song_begin: ODESZA - In Return - 12 Sun Models (feat. Madelyn Grant).flac
 Time: 160
@@ -7692,7 +7741,7 @@ Track: 12
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802963
-added: 1771113753
+added: 1772042262
 song_end
 song_begin: ODESZA - In Return - 13 For Us (feat. Briana Marela).flac
 Time: 349.09000000000003
@@ -7705,11 +7754,11 @@ Track: 13
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1769802963
-added: 1771113753
+added: 1772042283
 song_end
 end: ODESZA - In Return
 directory: ODESZA - The Last Goodbye
-mtime: 1771107540
+mtime: 1771892267
 begin: ODESZA - The Last Goodbye
 song_begin: ODESZA - The Last Goodbye - 01 This Version Of You (feat. Julianna Barwick).flac
 Time: 171.785
@@ -7761,7 +7810,7 @@ Track: 4
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1763841617
-added: 1771113753
+added: 1772042303
 song_end
 song_begin: ODESZA - The Last Goodbye - 05 Forgive Me (feat. Izzy Bizu).flac
 Time: 208.017
@@ -7774,7 +7823,7 @@ Track: 5
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1763841617
-added: 1771113753
+added: 1772042303
 song_end
 song_begin: ODESZA - The Last Goodbye - 06 North Garden.flac
 Time: 180.397
@@ -7787,7 +7836,7 @@ Track: 6
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1763841617
-added: 1771113753
+added: 1772042303
 song_end
 song_begin: ODESZA - The Last Goodbye - 07 Better Now (feat. MARO).flac
 Time: 194.11
@@ -7800,7 +7849,7 @@ Track: 7
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1763841617
-added: 1771113753
+added: 1772042303
 song_end
 song_begin: ODESZA - The Last Goodbye - 08 The Last Goodbye (feat. Bettye LaVette).flac
 Time: 358.983
@@ -7813,7 +7862,7 @@ Track: 8
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1763841617
-added: 1771113753
+added: 1772042328
 song_end
 song_begin: ODESZA - The Last Goodbye - 09 All My Life.flac
 Time: 192.266
@@ -7826,7 +7875,7 @@ Track: 9
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1763841617
-added: 1771113753
+added: 1772042328
 song_end
 song_begin: ODESZA - The Last Goodbye - 10 Equal (feat. Låpsley).flac
 Time: 233.499
@@ -7839,7 +7888,7 @@ Track: 10
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1763841617
-added: 1771113753
+added: 1772042328
 song_end
 song_begin: ODESZA - The Last Goodbye - 11 Healing Grid.flac
 Time: 186.85
@@ -7852,7 +7901,7 @@ Track: 11
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1763841617
-added: 1771113753
+added: 1772042328
 song_end
 song_begin: ODESZA - The Last Goodbye - 12 I Can’t Sleep.flac
 Time: 187.268
@@ -7865,7 +7914,7 @@ Track: 12
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1763841617
-added: 1771113753
+added: 1772042328
 song_end
 song_begin: ODESZA - The Last Goodbye - 13 Light Of Day (feat. Ólafur Arnalds).flac
 Time: 400.13
@@ -7878,11 +7927,11 @@ Track: 13
 AlbumArtist: ODESZA
 Format: 44100:24:2
 mtime: 1763841617
-added: 1771113753
+added: 1772042362
 song_end
 end: ODESZA - The Last Goodbye
 directory: ODESZA & Yellow House - Flaws in Our Design
-mtime: 1771107540
+mtime: 1771892267
 begin: ODESZA & Yellow House - Flaws in Our Design
 song_begin: ODESZA & Yellow House - Flaws in Our Design - 01 Dissolved in a Daydream.flac
 Time: 74.04
@@ -7934,7 +7983,7 @@ Track: 4
 AlbumArtist: ODESZA & Yellow House
 Format: 44100:24:2
 mtime: 1769802951
-added: 1771113753
+added: 1772042119
 song_end
 song_begin: ODESZA & Yellow House - Flaws in Our Design - 05 Undone.flac
 Time: 278.398
@@ -7947,7 +7996,7 @@ Track: 5
 AlbumArtist: ODESZA & Yellow House
 Format: 44100:24:2
 mtime: 1769802951
-added: 1771113753
+added: 1772042160
 song_end
 song_begin: ODESZA & Yellow House - Flaws in Our Design - 06 Flaws in Our Design.flac
 Time: 256.87
@@ -7960,11 +8009,11 @@ Track: 6
 AlbumArtist: ODESZA & Yellow House
 Format: 44100:24:2
 mtime: 1769802951
-added: 1771113753
+added: 1772042160
 song_end
 end: ODESZA & Yellow House - Flaws in Our Design
 directory: ODESZA- Theodore Shapiro - Music To Refine To- A Remix Companion to Severance
-mtime: 1771107540
+mtime: 1771892267
 begin: ODESZA- Theodore Shapiro - Music To Refine To- A Remix Companion to Severance
 song_begin: ODESZA, Theodore Shapiro - Music To Refine To- A Remix Companion to Severance - 01 Entering Lumon (ODESZA Severance Remix).flac
 Time: 131
@@ -8055,11 +8104,11 @@ Track: 7
 AlbumArtist: ODESZA, Theodore Shapiro
 Format: 48000:24:2
 mtime: 1769795186
-added: 1771113753
+added: 1772042489
 song_end
 end: ODESZA- Theodore Shapiro - Music To Refine To- A Remix Companion to Severance
 directory: Old Runescape Soundtrack
-mtime: 1771107540
+mtime: 1771892267
 begin: Old Runescape Soundtrack
 song_begin: 7th Realm.ogg
 Time: 247.197
@@ -14419,7 +14468,7 @@ added: 1771113755
 song_end
 end: Old Runescape Soundtrack
 directory: Sam Gellaitry - ANYWHERE HERE IS PERFECT
-mtime: 1771107540
+mtime: 1771892267
 begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT
 song_begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT - 01 LIGHTNING.flac
 Time: 169.632
@@ -14449,7 +14498,7 @@ Track: 3
 Album: ANYWHERE HERE IS PERFECT
 Format: 48000:24:2
 mtime: 1764005357
-added: 1771113755
+added: 1772042505
 song_end
 song_begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT - 04 CURIOUS (feat. Toro y Moi).flac
 Time: 230.538
@@ -14459,7 +14508,7 @@ Track: 4
 Album: ANYWHERE HERE IS PERFECT
 Format: 48000:24:2
 mtime: 1764005357
-added: 1771113755
+added: 1772042505
 song_end
 song_begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT - 05 DANGER!.flac
 Time: 229.471
@@ -14469,7 +14518,7 @@ Track: 5
 Album: ANYWHERE HERE IS PERFECT
 Format: 48000:24:2
 mtime: 1764005357
-added: 1771113755
+added: 1772042505
 song_end
 song_begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT - 06 ON&ON.flac
 Time: 243.677
@@ -14479,7 +14528,7 @@ Track: 6
 Album: ANYWHERE HERE IS PERFECT
 Format: 48000:24:2
 mtime: 1764005357
-added: 1771113755
+added: 1772042525
 song_end
 song_begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT - 07 LOVE ON ME.flac
 Time: 138.702
@@ -14489,7 +14538,7 @@ Track: 7
 Album: ANYWHERE HERE IS PERFECT
 Format: 48000:24:2
 mtime: 1764005357
-added: 1771113755
+added: 1772042525
 song_end
 song_begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT - 08 CLOUDS.flac
 Time: 232.228
@@ -14499,7 +14548,7 @@ Track: 8
 Album: ANYWHERE HERE IS PERFECT
 Format: 48000:24:2
 mtime: 1764005357
-added: 1771113755
+added: 1772042525
 song_end
 song_begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT - 09 RESTORE MY FAITH.flac
 Time: 189.672
@@ -14509,7 +14558,7 @@ Track: 9
 Album: ANYWHERE HERE IS PERFECT
 Format: 48000:24:2
 mtime: 1764005357
-added: 1771113755
+added: 1772042525
 song_end
 song_begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT - 10 SCAR ⧸ A NEW VOID.flac
 Time: 371.259
@@ -14519,7 +14568,7 @@ Track: 10
 Album: ANYWHERE HERE IS PERFECT
 Format: 48000:24:2
 mtime: 1764005357
-added: 1771113755
+added: 1772042539
 song_end
 song_begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT - 11 DON'T TRY.flac
 Time: 223.407
@@ -14529,7 +14578,7 @@ Track: 11
 Album: ANYWHERE HERE IS PERFECT
 Format: 48000:24:2
 mtime: 1764005357
-added: 1771113755
+added: 1772042539
 song_end
 song_begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT - 12 YOU MIGHT FIND THE ONE.flac
 Time: 264.72700000000003
@@ -14539,11 +14588,11 @@ Track: 12
 Album: ANYWHERE HERE IS PERFECT
 Format: 48000:24:2
 mtime: 1764005357
-added: 1771113755
+added: 1772042546
 song_end
 end: Sam Gellaitry - ANYWHERE HERE IS PERFECT
 directory: Stellaris DLC OSTs
-mtime: 1771107540
+mtime: 1771892267
 begin: Stellaris DLC OSTs
 song_begin: 23 Dragon Breath.flac
 Time: 398.795
@@ -14551,7 +14600,7 @@ Track: 23
 Title: - Dragon Breath
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042565
 song_end
 song_begin: 24 Assembling The Fleet.flac
 Time: 315.26800000000003
@@ -14559,7 +14608,7 @@ Track: 24
 Title: - Assembling The Fleet
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042565
 song_end
 song_begin: 25 The Titan.flac
 Time: 241.975
@@ -14567,7 +14616,7 @@ Track: 25
 Title: - The Titan
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042565
 song_end
 song_begin: 26 The Last Stand.flac
 Time: 169.935
@@ -14575,7 +14624,7 @@ Track: 26
 Title: - The Last Stand
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042565
 song_end
 song_begin: 27 The Awakened.flac
 Time: 393.711
@@ -14583,7 +14632,7 @@ Track: 27
 Title: - The Awakened
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042578
 song_end
 song_begin: 28 A New Dawn.flac
 Time: 110.062
@@ -14591,7 +14640,7 @@ Track: 28
 Title: - A New Dawn
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042578
 song_end
 song_begin: 29 In Memory Of MR.flac
 Time: 190.589
@@ -14599,7 +14648,7 @@ Track: 29
 Title: - In Memory Of MR
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042578
 song_end
 song_begin: 30 The Imperial Fleet.flac
 Time: 327.367
@@ -14607,7 +14656,7 @@ Track: 30
 Title: - The Imperial Fleet
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042585
 song_end
 song_begin: 31 Towards Utopia.flac
 Time: 487.34000000000003
@@ -14615,7 +14664,7 @@ Track: 31
 Title: - Towards Utopia
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042599
 song_end
 song_begin: 32 In Memory Of Mr Luminous.flac
 Time: 217
@@ -14623,7 +14672,7 @@ Track: 32
 Title: - In Memory Of Mr Luminous
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042599
 song_end
 song_begin: 33 The Imperial Fleet Second Coming.flac
 Time: 412.105
@@ -14631,7 +14680,7 @@ Track: 33
 Title: - The Imperial Fleet Second Coming
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042606
 song_end
 song_begin: 34 Towards Utopia Nova Flare.flac
 Time: 493.223
@@ -14639,7 +14688,7 @@ Track: 34
 Title: - Towards Utopia Nova Flare
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042616
 song_end
 song_begin: 35 Robotics And Beyond.flac
 Time: 420.63100000000003
@@ -14647,7 +14696,7 @@ Track: 35
 Title: - Robotics And Beyond
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042624
 song_end
 song_begin: 36 Robotics.flac
 Time: 328.423
@@ -14655,7 +14704,7 @@ Track: 36
 Title: - Robotics
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042651
 song_end
 song_begin: 37 Synthetic God.flac
 Time: 296.482
@@ -14663,7 +14712,7 @@ Track: 37
 Title: - Synthetic God
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042651
 song_end
 song_begin: 38 Stellaris Apocalypse OST -For as Long as I Shall Live -.flac
 Time: 114.393
@@ -14671,7 +14720,7 @@ Track: 38
 Title: - Stellaris Apocalypse OST -For as Long as I Shall Live -
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042651
 song_end
 song_begin: 39 Doomsday.flac
 Time: 298.701
@@ -14679,7 +14728,7 @@ Track: 39
 Title: - Doomsday
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042651
 song_end
 song_begin: 40 Hostile Fleet Detected.flac
 Time: 242.602
@@ -14687,7 +14736,7 @@ Track: 40
 Title: - Hostile Fleet Detected
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042651
 song_end
 song_begin: 41 Then Comes Light.flac
 Time: 343.283
@@ -14695,7 +14744,7 @@ Track: 41
 Title: - Then Comes Light
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042665
 song_end
 song_begin: 42 Stellaris： Distant Stars - Official Release Trailer Score.flac
 Time: 135.04
@@ -14703,7 +14752,7 @@ Track: 42
 Title: - Stellaris： Distant Stars - Official Release Trailer Score
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042665
 song_end
 song_begin: 43 Adagio Stellar.flac
 Time: 260.625
@@ -14711,7 +14760,7 @@ Track: 43
 Title: - Adagio Stellar
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042665
 song_end
 song_begin: 44 Into the Dark.flac
 Time: 264
@@ -14719,7 +14768,7 @@ Track: 44
 Title: - Into the Dark
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 45 One Galaxy.flac
 Time: 281.734
@@ -14727,7 +14776,7 @@ Track: 45
 Title: - One Galaxy
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 46 Abyss.flac
 Time: 263.529
@@ -14735,7 +14784,7 @@ Track: 46
 Title: - Abyss
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 47 Among The Ruins.flac
 Time: 270.635
@@ -14743,7 +14792,7 @@ Track: 47
 Title: - Among The Ruins
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 48 Finding Sanctuary.flac
 Time: 251.42600000000002
@@ -14751,7 +14800,7 @@ Track: 48
 Title: - Finding Sanctuary
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 49 Our Heritage.flac
 Time: 261.25
@@ -14759,7 +14808,7 @@ Track: 49
 Title: - Our Heritage
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 50 The March Of Profits.flac
 Time: 232.395
@@ -14767,7 +14816,7 @@ Track: 50
 Title: - The March Of Profits
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 51 Dark Minds.flac
 Time: 250
@@ -14775,7 +14824,7 @@ Track: 51
 Title: - Dark Minds
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 52 Hidden Motives.flac
 Time: 276.459
@@ -14783,7 +14832,7 @@ Track: 52
 Title: - Hidden Motives
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 53 The Master Plan.flac
 Time: 234.54500000000002
@@ -14791,7 +14840,7 @@ Track: 53
 Title: - The Master Plan
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 54 A Brighter Tomorrow.flac
 Time: 234.02100000000002
@@ -14799,7 +14848,7 @@ Track: 54
 Title: - A Brighter Tomorrow
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 55 Hegemonic Dominion.flac
 Time: 243.583
@@ -14807,7 +14856,7 @@ Track: 55
 Title: - Hegemonic Dominion
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 56 Call to Assembly.flac
 Time: 254.183
@@ -14815,7 +14864,7 @@ Track: 56
 Title: - Call to Assembly
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 57 Unity and Paperwork.flac
 Time: 270.48900000000003
@@ -14823,7 +14872,7 @@ Track: 57
 Title: - Unity and Paperwork
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 58 Not Alone (Trailer Version).flac
 Time: 84.652
@@ -14831,7 +14880,7 @@ Track: 58
 Title: - Not Alone (Trailer Version)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042731
 song_end
 song_begin: 59 Nemesis Main Theme.flac
 Time: 241.329
@@ -14839,7 +14888,7 @@ Track: 59
 Title: - Nemesis Main Theme
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042741
 song_end
 song_begin: 60 Coronation Of The Dark Emperor.flac
 Time: 213.36700000000002
@@ -14847,7 +14896,7 @@ Track: 60
 Title: - Coronation Of The Dark Emperor
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042741
 song_end
 song_begin: 61 Super Massive Fleet.flac
 Time: 357.107
@@ -14855,7 +14904,7 @@ Track: 61
 Title: - Super Massive Fleet
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042752
 song_end
 song_begin: 62 Stellaris： Aquatics ｜ Trailer Music ｜ Extended Sing a Long Version.flac
 Time: 221.738
@@ -14863,7 +14912,7 @@ Track: 62
 Title: - Stellaris： Aquatics ｜ Trailer Music ｜ Extended Sing a Long Version
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042752
 song_end
 song_begin: 63 Beyond.flac
 Time: 496
@@ -14871,7 +14920,7 @@ Track: 63
 Title: - Beyond
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042768
 song_end
 song_begin: 64 Stargazer.flac
 Time: 173.625
@@ -14879,7 +14928,7 @@ Track: 64
 Title: - Stargazer
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042768
 song_end
 song_begin: 65 Methonos.flac
 Time: 340
@@ -14887,7 +14936,7 @@ Track: 65
 Title: - Methonos
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042775
 song_end
 song_begin: 66 Gather the Fleet.flac
 Time: 303
@@ -14895,7 +14944,7 @@ Track: 66
 Title: - Gather the Fleet
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042786
 song_end
 song_begin: 67 Stellaris： Toxoids ｜ Banging on a trashcan.flac
 Time: 175.53
@@ -14903,7 +14952,7 @@ Track: 67
 Title: - Stellaris： Toxoids ｜ Banging on a trashcan
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042786
 song_end
 song_begin: 68 Through the Astral Rift.flac
 Time: 378
@@ -14911,7 +14960,7 @@ Track: 68
 Title: - Through the Astral Rift
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042801
 song_end
 song_begin: 69 Eternal Dance of Photons.flac
 Time: 228.5
@@ -14919,7 +14968,7 @@ Track: 69
 Title: - Eternal Dance of Photons
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042801
 song_end
 song_begin: 70 The Formless.flac
 Time: 252
@@ -14927,7 +14976,7 @@ Track: 70
 Title: - The Formless
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042801
 song_end
 song_begin: 71 Quantum Spawn.flac
 Time: 254.452
@@ -14935,7 +14984,7 @@ Track: 71
 Title: - Quantum Spawn
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042822
 song_end
 song_begin: 72 BLADE.flac
 Time: 193.35
@@ -14943,11 +14992,11 @@ Track: 72
 Title: - BLADE
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042822
 song_end
 end: Stellaris DLC OSTs
 directory: Stellaris OST
-mtime: 1771107540
+mtime: 1771892267
 begin: Stellaris OST
 song_begin: 01 Alpha Centauri (From Stellaris Original Game Soundtrack).flac
 Time: 323.5
@@ -14971,7 +15020,7 @@ Track: 3
 Title: - Deep Space Travels (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042830
 song_end
 song_begin: 04 Distant Nebula (From Stellaris Original Game Soundtrack).flac
 Time: 476.669
@@ -14979,7 +15028,7 @@ Track: 4
 Title: - Distant Nebula (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042838
 song_end
 song_begin: 05 Distant Nebula (From Stellaris Original Game Soundtrack).flac
 Time: 476.5
@@ -14987,7 +15036,7 @@ Track: 5
 Title: - Distant Nebula (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042846
 song_end
 song_begin: 06 Faster Than Light (From Stellaris Original Game Soundtrack).flac
 Time: 400.313
@@ -14995,7 +15044,7 @@ Track: 6
 Title: - Faster Than Light (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042853
 song_end
 song_begin: 07 Faster Than Light (From Stellaris Original Game Soundtrack).flac
 Time: 400.5
@@ -15003,7 +15052,7 @@ Track: 7
 Title: - Faster Than Light (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042860
 song_end
 song_begin: 08 Genesis (From Stellaris Original Game Soundtrack).flac
 Time: 368
@@ -15011,7 +15060,7 @@ Track: 8
 Title: - Genesis (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042866
 song_end
 song_begin: 09 Gravitational Constant (From Stellaris Original Game Soundtrack).flac
 Time: 427
@@ -15019,7 +15068,7 @@ Track: 9
 Title: - Gravitational Constant (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042874
 song_end
 song_begin: 10 Infinite Being (From Stellaris Original Game Soundtrack).flac
 Time: 452.916
@@ -15027,7 +15076,7 @@ Track: 10
 Title: - Infinite Being (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042883
 song_end
 song_begin: 11 Infinite Being (From Stellaris Original Game Soundtrack).flac
 Time: 453
@@ -15035,7 +15084,7 @@ Track: 11
 Title: - Infinite Being (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042890
 song_end
 song_begin: 12 In Search Of Life (From Stellaris Original Game Soundtrack).flac
 Time: 361
@@ -15043,7 +15092,7 @@ Track: 12
 Title: - In Search Of Life (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042896
 song_end
 song_begin: 13 Journey Beyond The Galaxy (From Stellaris Original Game Soundtrack).flac
 Time: 347.076
@@ -15051,7 +15100,7 @@ Track: 13
 Title: - Journey Beyond The Galaxy (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042903
 song_end
 song_begin: 14 Luminescence (From Stellaris Original Game Soundtrack).flac
 Time: 483
@@ -15059,7 +15108,7 @@ Track: 14
 Title: - Luminescence (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042914
 song_end
 song_begin: 15 Pillars Of Creation (From Stellaris Original Game Soundtrack).flac
 Time: 756
@@ -15067,7 +15116,7 @@ Track: 15
 Title: - Pillars Of Creation (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042927
 song_end
 song_begin: 16 Riding The Solar Wind (From Stellaris Original Game Soundtrack).flac
 Time: 433.563
@@ -15075,7 +15124,7 @@ Track: 16
 Title: - Riding The Solar Wind (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042934
 song_end
 song_begin: 17 Sigmatauri (From Stellaris Original Game Soundtrack).flac
 Time: 336.33
@@ -15083,7 +15132,7 @@ Track: 17
 Title: - Sigmatauri (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042944
 song_end
 song_begin: 18 Spatial Lullaby (From Stellaris Original Game Soundtrack).flac
 Time: 254.5
@@ -15091,7 +15140,7 @@ Track: 18
 Title: - Spatial Lullaby (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042944
 song_end
 song_begin: 19 Stellaris Suite： Creation And Beyond (From Stellaris Original Game Soundtrack).flac
 Time: 510.66700000000003
@@ -15099,7 +15148,7 @@ Track: 19
 Title: - Stellaris Suite： Creation And Beyond (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042954
 song_end
 song_begin: 20 The Birth Of A Star (From Stellaris Original Game Soundtrack).flac
 Time: 662.7760000000001
@@ -15107,7 +15156,7 @@ Track: 20
 Title: - The Birth Of A Star (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042966
 song_end
 song_begin: 21 The Celestial City (From Stellaris Original Game Soundtrack).flac
 Time: 349.981
@@ -15115,7 +15164,7 @@ Track: 21
 Title: - The Celestial City (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042972
 song_end
 song_begin: 22 To The End Of The Galaxy (From Stellaris Original Game Soundtrack).flac
 Time: 372.833
@@ -15123,11 +15172,11 @@ Track: 22
 Title: - To The End Of The Galaxy (From Stellaris Original Game Soundtrack)
 Format: 48000:24:2
 mtime: 1769739013
-added: 1771113755
+added: 1772042980
 song_end
 end: Stellaris OST
 directory: The Midnight - Days of Thunder
-mtime: 1771107540
+mtime: 1771892267
 begin: The Midnight - Days of Thunder
 song_begin: The Midnight - Days of Thunder - 01 The Years (Prologue).flac
 Time: 368.684
@@ -15140,7 +15189,7 @@ Track: 1
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1758005572
-added: 1771113755
+added: 1772042988
 song_end
 song_begin: The Midnight - Days of Thunder - 02 Gloria.flac
 Time: 289.897
@@ -15153,7 +15202,7 @@ Track: 2
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1758005506
-added: 1771113755
+added: 1772042995
 song_end
 song_begin: The Midnight - Days of Thunder - 03 WeMoveForward.flac
 Time: 487.738
@@ -15166,7 +15215,7 @@ Track: 3
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1758007498
-added: 1771113755
+added: 1772043007
 song_end
 song_begin: The Midnight - Days of Thunder - 04 Days of Thunder.flac
 Time: 324.01800000000003
@@ -15179,11 +15228,11 @@ Track: 4
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1758005604
-added: 1771113755
+added: 1772043020
 song_end
 end: The Midnight - Days of Thunder
 directory: The Midnight - Endless Summer (The Stems)
-mtime: 1771107540
+mtime: 1771892267
 begin: The Midnight - Endless Summer (The Stems)
 song_begin: The Midnight - Endless Summer (The Stems) - 07 The Comeback Kid (118 BPM).flac
 Time: 321.916
@@ -15209,7 +15258,7 @@ Track: 46
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1756259580
-added: 1771113755
+added: 1772043037
 song_end
 song_begin: The Midnight - Endless Summer (The Stems) - 73 Synthetic (Brass Pad Stem).flac
 Time: 204.853
@@ -15222,7 +15271,7 @@ Track: 73
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1756259580
-added: 1771113755
+added: 1772043037
 song_end
 song_begin: The Midnight - Endless Summer (The Stems) - 87 The Equalizer (Not Alone Computer Voice Stem).flac
 Time: 232.592
@@ -15235,7 +15284,7 @@ Track: 87
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1756259580
-added: 1771113755
+added: 1772043037
 song_end
 song_begin: The Midnight - Endless Summer (The Stems) - 99 The Comeback Kid (Acapella Stem).flac
 Time: 335.593
@@ -15248,7 +15297,7 @@ Track: 99
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1756259580
-added: 1771113755
+added: 1772043037
 song_end
 song_begin: The Midnight - Endless Summer (The Stems) - 103 Vampires (Diva Epic Lead Stem).flac
 Time: 317.217
@@ -15274,11 +15323,11 @@ Track: 122
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1756259580
-added: 1771113755
+added: 1772043037
 song_end
 end: The Midnight - Endless Summer (The Stems)
 directory: The Prodigy - The Fat of the Land
-mtime: 1771107540
+mtime: 1771892267
 begin: The Prodigy - The Fat of the Land
 song_begin: 05. Serial Thrilla.flac
 Time: 311.786
@@ -15292,7 +15341,7 @@ Date: 2023
 Track: 5
 Format: 48000:24:2
 mtime: 1758076081
-added: 1771113755
+added: 1772043046
 song_end
 song_begin: 09. Climbatize.flac
 Time: 396.946
@@ -15306,7 +15355,7 @@ Date: 2023
 Track: 9
 Format: 48000:24:2
 mtime: 1758076092
-added: 1771113755
+added: 1772043058
 song_end
 song_begin: 10. Fuel My Fire.flac
 Time: 261.64
@@ -15320,11 +15369,11 @@ Date: 2023
 Track: 10
 Format: 48000:24:2
 mtime: 1758031355
-added: 1771113755
+added: 1772043200
 song_end
 end: The Prodigy - The Fat of the Land
 directory: Various Artists - Warhammer 40-000- Rogue Trader (Original Soundtrack)
-mtime: 1771107540
+mtime: 1771892267
 begin: Various Artists - Warhammer 40-000- Rogue Trader (Original Soundtrack)
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 01 Semper Servientes (Main Theme).flac
 Time: 139.72
@@ -16225,37 +16274,50 @@ added: 1771113755
 song_end
 end: Various Artists - Warhammer 40-000- Rogue Trader (Original Soundtrack)
 directory: Warhammer 40,000: Rogue Trader OST Collection
-mtime: 1771107540
+mtime: 1771892267
 begin: Warhammer 40,000: Rogue Trader OST Collection
 song_begin: Exclusive Unreleased Soundtrack ｜ Warhammer 40,000： Rogue Trader OST [BOPz4SnSi8A].flac
 Time: 757.397
 Title: Exclusive Unreleased Soundtrack ｜ Warhammer 40,000： Rogue Trader OST
 Format: 48000:24:2
 mtime: 1769738873
-added: 1771113756
+added: 1772043216
 song_end
 song_begin: Lex Imperialis DLC Full Soundtrack ｜ Warhammer 40,000： Rogue Trader OST [pzGKjn0Chx4].flac
 Time: 885.109
 Title: Lex Imperialis DLC Full Soundtrack ｜ Warhammer 40,000： Rogue Trader OST
 Format: 48000:24:2
 mtime: 1769738873
-added: 1771113756
+added: 1772043239
 song_end
 song_begin: Main Theme - Live Choir ｜ Warhammer 40,000： Rogue Trader [bt4tQyQ9cQ0].flac
 Time: 148.522
 Title: Main Theme - Live Choir ｜ Warhammer 40,000： Rogue Trader
 Format: 48000:24:2
 mtime: 1769738873
-added: 1771113756
+added: 1772043239
 song_end
 song_begin: Void Shadows DLC Full Soundtrack ｜ Warhammer 40,000： Rogue Trader OST [i_gr8Tu5myc].flac
 Time: 1236.067
 Title: Void Shadows DLC Full Soundtrack ｜ Warhammer 40,000： Rogue Trader OST
 Format: 48000:24:2
 mtime: 1769738873
-added: 1771113756
+added: 1772043347
 song_end
 end: Warhammer 40,000: Rogue Trader OST Collection
+directory: youtube
+begin: youtube
+directory: NA
+mtime: 1771892267
+begin: youtube/NA
+song_begin: NA - Matt Maher - Lord, I Need You (Official Lyric Video).mp3
+Time: 207.714
+Format: 48000:16:2
+mtime: 1771341654
+added: 1772044077
+song_end
+end: youtube/NA
+end: youtube
 song_begin: Owlcat Sound Team Stream ｜ Warhammer 40,000： Rogue Trader [zSq4Bfhy-uU].flac
 Time: 7521.514
 Format: 48000:24:2

@@ -46,7 +46,6 @@
 (load! "lisp/audio-record")
 (load! "lisp/bases")
 (load! "lisp/cursed-text")
-(load! "lisp/change-fonts")
 (load! "lisp/daily")
 (load! "lisp/done-refile")
 (load! "lisp/elfeed-config")
