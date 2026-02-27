@@ -39,6 +39,7 @@
     rsync
     libappimage
     appimage-run
+	gajim
   ];
   
   fonts.packages = with pkgs; [
