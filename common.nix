@@ -28,7 +28,7 @@
 
   networking.stevenblack = {
     enable = true;
-	block = ["ads" "fakenews" "gambling" "porn"];
+    block = [ "fakenews" "gambling" "porn" "social" ];
   };
 
   nixpkgs.config.allowUnfree = true;
