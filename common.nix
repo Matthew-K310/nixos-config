@@ -25,7 +25,12 @@
   
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
-  
+
+  stevenblack = {
+    enable = true;
+	block = ["fakenews" "gambling" "porn"];
+  };
+
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
