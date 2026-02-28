@@ -41,5 +41,7 @@
     python3
 	prettier
   ];
+
+  virtualisation.docker.enable = true;
 }
 
