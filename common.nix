@@ -26,7 +26,7 @@
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
 
-  stevenblack-blocklist = {
+  networking.stevenblack = {
     enable = true;
 	block = ["ads" "fakenews" "gambling" "porn"];
   };
