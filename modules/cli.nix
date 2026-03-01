@@ -6,7 +6,7 @@
   environment.systemPackages = with pkgs; [
     # tooling
     neovim
-    berg
+    forgejo-cli
     yazi
     stow
     zoxide
