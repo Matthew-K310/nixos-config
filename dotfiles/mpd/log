@@ -20186,3 +20186,5 @@
 2026-02-25T12:27:57 update: added my_music/Cinematic Concept Album/Welcome to Mars (Rough 122724 1347).wav
 2026-02-25T12:27:57 update: added youtube/NA/NA - Matt Maher - Lord, I Need You (Official Lyric Video).mp3
 2026-02-27T14:16:05 exception: Failed to create Avahi service group: Not permitted
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
