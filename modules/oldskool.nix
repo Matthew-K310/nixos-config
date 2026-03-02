@@ -16,7 +16,6 @@
   };
 
   environment.systemPackages = with pkgs; [
-	xfce4
 	gtk3
 	gtk2
 	# old windows vibes
