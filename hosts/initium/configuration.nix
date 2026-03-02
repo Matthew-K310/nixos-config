@@ -5,12 +5,13 @@
     ./hardware-configuration.nix
     ../../common.nix
     ../../modules/cli.nix
+    ../../modules/comms.nix
     ../../modules/dev.nix
     ../../modules/emacs.nix
-    ../../modules/graphics.nix
-    ../../modules/music.nix
+    ../../modules/media.nix
     # ../../modules/oldskool.nix
     ../../modules/services.nix
+    ../../modules/tools.nix
     ../../modules/wm.nix
   ];
 
