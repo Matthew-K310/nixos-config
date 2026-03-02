@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Use neovim for vim if present.
-[ -x "$(command -v nvim)" ] && alias vim="nvim" vimdiff="nvim -d"
-
 # Verbosity and settings that you pretty much just always are going to want.
 alias \
 	c="clear" \
@@ -10,7 +7,7 @@ alias \
 	mv="mv -iv" \
 	rm="rm -vI" \
 	bc="bc -ql" \
-	rsync="rsync -vrPlu" \
+	rsync="rsync -ravp" \
 	mkd="mkdir -pv" \
 	yt="yt-dlp --embed-metadata -i" \
 	yta="yt -x -f bestaudio/best" \
@@ -28,15 +25,17 @@ alias \
 
 # These common commands are just too long! Abbreviate them.
 alias \
-	nbr="sudo nixos-rebuild switch"
-	hypr="hyprland" \
+	nix-donum="sudo nixos-rebuild switch --flake ~/nixos-config#donum" \
+	nix-initium="sudo nixos-rebuild switch --flake ~/nixos-config#initium" \
+	nix-reformata="sudo nixos-rebuild switch --flake ~/nixos-config#reformata" \
+	hypr="start-hyprland" \
 	ka="killall" \
 	YT="youtube-viewer" \
 	mpdc="mpd ~/.config/mpd/mpd.conf" \
 	sdn="shutdown -h now" \
-	v='$EDITOR' \
-	e='emacs -nw' \
-	stie='tmux new-session -s stie' \
+	v="$EDITOR" \
+	e="emacs -nw" \
+	stie="tmux new-session -s stie" \
 	zigm="$HOME/.local/zig-master/zig" \
 	jft="jellyfin-tui"
 
@@ -44,24 +43,17 @@ alias \
 	lf="lfub" \
 	y="ycd" \
 	gco="git_conventions" \
-	alias cb="fj --host codeberg.org" \ 
-alias cfj="fj --host forge.matthewcloud.us" \ 
-magit="nvim -c MagitOnly" \
+	cb="fj --host codeberg.org" \
+	cfj="fj --host forgejo.gute-arctic.ts.net" \
+	magit="nvim -c MagitOnly" \
 	ref='shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutenvrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc'# lf="lfub" # y="lfcd" \
 
 alias \
-	mail="neomutt" \
-	rss='newsboat' \
-	dev='cd ~/Developer' \
-	vault='cd ~/Notes/obsidian-vault' \
-	til='cd ~/Notes/obsidian-vault/today_i_learned' \
 	info='fastfetch' \
 	weather="curl wttr.in" \
-	yt="yt-x" \
 	astroterm='astroterm --color --constellations --speed 1000 --fps 120 --city Dallas' \
 	lc='linear-cli issues create' \
-	lls='linear-cli issues list' \
-	aseprite='/home/matthewkennedy/src/aseprite/build/bin/aseprite'
+	lls='linear-cli issues list'
 
 alias fzf="fzf --preview='chafa {}'"
 alias ff="fd --type f | fzf | sed 's/\ /\\\ /g' "
@@ -69,11 +61,3 @@ alias ffn="fd --type f | fzf | sed 's/\ /\\\ /g' | xargs nvim"
 
 # Run this if you ever run into errors while doing a `dotnet restore`
 alias nugetclean="dotnet nuget locals --clear all"
-
-alias work="timer 50m && terminal-notifier -message 'Pomodoro'\
-        -title 'Work Timer is up! Take a Break 😊'\
-        -sound Crystal"
-
-alias rest="timer 10m && terminal-notifier -message 'Pomodoro'\
-        -title 'Break is over! Get back to work 😬'\
-        -sound Crystal"

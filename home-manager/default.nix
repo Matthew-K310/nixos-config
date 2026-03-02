@@ -2,6 +2,7 @@
 
 let
   dotfilesDir = "/home/${username}/nixos-config/dotfiles";
+  dotfilesDir = "/home/${username}/nixos-config/.local";
 in
 {
   home.stateVersion = "24.11";
@@ -13,6 +14,7 @@ in
     ".config/emacs".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/emacs";
     ".config/git".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/git";
     ".config/hypr".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/hypr";
+    ".config/isyncrc".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/mbsync/config";
     ".config/kanata".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/kanata";
     ".config/kitty".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/kitty";
     ".config/mbsync".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/mbsync";  # Fixed typo: mbysnc -> mbsync
@@ -29,14 +31,17 @@ in
     ".config/tmux".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/tmux";
     ".config/waybar".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/waybar";
     ".config/zsh".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/zsh";
+    ".local/bin".source = config.lib.file.mkOutOfStoreSymlink "${localDir}/bin";
+    ".local/share/chars".source = config.lib.file.mkOutOfStoreSymlink "${localDir}/share/chars";
     ".zshrc".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/zsh/.zshrc";
     ".zprofile".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/shell/profile";
-    ".config/isyncrc".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/mbsync/config";
   };
 
   home.activation.fixDotfilesPermissions = lib.hm.dag.entryAfter ["writeBoundary"] ''
     $DRY_RUN_CMD chown -R $USER:users ${dotfilesDir}
     $DRY_RUN_CMD chmod -R u+w ${dotfilesDir}
+    $DRY_RUN_CMD chown -R $USER:users ${localDir}
+    $DRY_RUN_CMD chmod -R u+w ${localDir}
   '';
 
   xdg.mimeApps = {
