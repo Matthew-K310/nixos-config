@@ -16,12 +16,8 @@
     btop
     fastfetch
     tmux
-    profanity
-    gurk-rs 
     # libraries
     gum
-    libnotify
-    file
     _7zz
     unzip
     # dependencies
@@ -29,12 +25,6 @@
     tree
     jq
     fd
-    ueberzug
-    resvg
-    unar
-    poppler
-    poppler-utils
-    ffmpegthumbnailer
   ];
 }
 

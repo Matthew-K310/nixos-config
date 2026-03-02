@@ -8,9 +8,9 @@
   };
 
   xdg.portal = {
-	enable = true;
-	extraPortals = [ pkgs.xdg-desktop-portal-hyprland pkgs.xdg-desktop-portal-gtk ];
-	config.hyprland.default = [ "hyprland" "gtk" ];
+	  enable = true;
+	  extraPortals = [ pkgs.xdg-desktop-portal-hyprland pkgs.xdg-desktop-portal-gtk ];
+	  config.hyprland.default = [ "hyprland" "gtk" ];
   };
 
   environment.systemPackages = with pkgs; [
@@ -31,7 +31,15 @@
     nordzy-icon-theme
     nordzy-cursor-theme
     wl-clipboard
-	wl-kbptr
-	wlrctl
+	  wl-kbptr
+	  wlrctl
   ];
+
+  # for managing the brightness of displayport monitors
+  services.udev.extraRules = ''
+    SUBSYSTEM=="i2c-dev", TAG+="uaccess"
+  '';
+
+  hardware.i2c.enable = true;
+
 }

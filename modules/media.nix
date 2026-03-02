@@ -42,15 +42,22 @@
 
   # Custom package installations
   environment.systemPackages = with pkgs; [
+    # video
+    mpv
+    yt-dlp
+    # music
     mpd
     mpd-mpris
     mpc
     playerctl
-	pulseaudio
+	  pulseaudio
     pulsemixer
     rmpc
     jellyfin-tui
     picard
-    vorbis-tools
+    # production
+    gimp
+    darktable
+    obs-studio
   ];
 }

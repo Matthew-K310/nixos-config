@@ -6,8 +6,8 @@
   environment.systemPackages = with pkgs; [
     # tooling
     git
-	gh
-	forgejo-cli
+	  gh
+	  forgejo-cli
     delta
     hugo
     just
@@ -39,7 +39,7 @@
     dino
     nodejs
     python3
-	prettier
+	  prettier
   ];
 
   virtualisation.docker.enable = true;

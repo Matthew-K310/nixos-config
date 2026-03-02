@@ -40,3 +40,9 @@
 
 ;; desktop notifications for mentions
 (add-to-list 'erc-modules 'notifications)
+
+(require 'erc-join)
+(erc-autojoin-mode 1)
+
+(setq erc-autojoin-channels-alist
+      '(("libera.chat" "#technicalrenaissance" "#org-mode" "#systemcrafters" "#systemcrafters-live")))

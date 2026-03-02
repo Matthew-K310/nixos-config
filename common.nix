@@ -38,13 +38,12 @@
     wget
     alacritty
     kitty
-    ungoogled-chromium
+    # ungoogled-chromium
     git-crypt
     killall
     rsync
     libappimage
     appimage-run
-	gajim
   ];
   
   fonts.packages = with pkgs; [
