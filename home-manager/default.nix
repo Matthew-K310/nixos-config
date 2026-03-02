@@ -2,7 +2,7 @@
 
 let
   dotfilesDir = "/home/${username}/nixos-config/dotfiles";
-  dotfilesDir = "/home/${username}/nixos-config/.local";
+  localDir = "/home/${username}/nixos-config/.local";
 in
 {
   home.stateVersion = "24.11";
