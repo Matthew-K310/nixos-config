@@ -31,6 +31,7 @@ in
     ".config/zsh".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/zsh";
     ".zshrc".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/zsh/.zshrc";
     ".zprofile".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/shell/profile";
+    ".config/isyncrc".source = config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/mbsync/config";
   };
 
   home.activation.fixDotfilesPermissions = lib.hm.dag.entryAfter ["writeBoundary"] ''

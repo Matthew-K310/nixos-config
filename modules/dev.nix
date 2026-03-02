@@ -1,4 +1,4 @@
-# ~/nixos-config/dev.nix
+# ~/nixos-config/modules/dev.nix
 { config, pkgs, ... }:
 
 {

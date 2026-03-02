@@ -1,4 +1,4 @@
-# ~/nixos-config/music.nix
+# ~/nixos-config/modules/music.nix
 { config, pkgs, ... }:
 
 {

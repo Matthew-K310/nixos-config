@@ -39,7 +39,7 @@ tag: MUSICBRAINZ_WORKID
 tag: MUSICBRAINZ_RELEASEGROUPID
 info_end
 directory: [2007] Vangelis - Blade Runner Trilogy
-mtime: 1771107540
+mtime: 1771892267
 begin: [2007] Vangelis - Blade Runner Trilogy
 directory: CD1
 mtime: 1771892267
@@ -532,7 +532,7 @@ playlist_end
 end: [2007] Vangelis - Blade Runner Trilogy/CD3
 end: [2007] Vangelis - Blade Runner Trilogy
 directory: A Unicorn Masquerade - A Unicorn Masquerade
-mtime: 1771107540
+mtime: 1771892267
 begin: A Unicorn Masquerade - A Unicorn Masquerade
 song_begin: It lingers.flac
 Time: 228
@@ -899,7 +899,7 @@ mtime: 1770086902
 added: 1772040071
 song_end
 song_begin: 056 - The UAV Factory.flac
-Time: 257.186
+Time: 257.185
 Format: 48000:24:2
 mtime: 1770086908
 added: 1772040071
@@ -1302,7 +1302,7 @@ mtime: 1769739514
 added: 1772040498
 song_end
 song_begin: 11 Gyam Shorts.flac
-Time: 260.186
+Time: 260.185
 Track: 11
 Title: - Gyam Shorts
 Format: 48000:24:2
@@ -1358,7 +1358,7 @@ mtime: 1769739514
 added: 1772040498
 song_end
 song_begin: 20 Rich Slavic Leather.flac
-Time: 64.017
+Time: 64.016
 Track: 20
 Title: - Rich Slavic Leather
 Format: 44100:24:2
@@ -4682,6 +4682,127 @@ mtime: 1769739515
 added: 1772041448
 song_end
 end: Halo： Reach OST
+directory: Jay Hosking - Apparitions - ambient works
+mtime: 1772039567
+begin: Jay Hosking - Apparitions - ambient works
+song_begin: Jay Hosking - Apparitions - ambient works - 01 Mercurial.flac
+Time: 280
+Title: Mercurial
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: Apparitions - ambient works
+Track: 1
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1772039503
+added: 1772466422
+song_end
+song_begin: Jay Hosking - Apparitions - ambient works - 02 Slower.flac
+Time: 358
+Title: Slower
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: Apparitions - ambient works
+Track: 2
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1772039503
+added: 1772466422
+song_end
+song_begin: Jay Hosking - Apparitions - ambient works - 03 Solarium.flac
+Time: 170
+Title: Solarium
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: Apparitions - ambient works
+Track: 3
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1772039503
+added: 1772466422
+song_end
+song_begin: Jay Hosking - Apparitions - ambient works - 04 Consequential.flac
+Time: 330
+Title: Consequential
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: Apparitions - ambient works
+Track: 4
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1772039503
+added: 1772466422
+song_end
+song_begin: Jay Hosking - Apparitions - ambient works - 05 Replay replay.flac
+Time: 214.858
+Title: Replay replay
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: Apparitions - ambient works
+Track: 5
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1772039503
+added: 1772466422
+song_end
+song_begin: Jay Hosking - Apparitions - ambient works - 06 Prophetic.flac
+Time: 311.972
+Title: Prophetic
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: Apparitions - ambient works
+Track: 6
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1772039503
+added: 1772466422
+song_end
+song_begin: Jay Hosking - Apparitions - ambient works - 07 Differently.flac
+Time: 262
+Title: Differently
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: Apparitions - ambient works
+Track: 7
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1772039503
+added: 1772466422
+song_end
+song_begin: Jay Hosking - Apparitions - ambient works - 08 Astrolabe.flac
+Time: 302
+Title: Astrolabe
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: Apparitions - ambient works
+Track: 8
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1772039503
+added: 1772466422
+song_end
+song_begin: Jay Hosking - Apparitions - ambient works - 09 Indifferently.flac
+Time: 332
+Title: Indifferently
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: Apparitions - ambient works
+Track: 9
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1772039503
+added: 1772466422
+song_end
+end: Jay Hosking - Apparitions - ambient works
 directory: Jay Hosking - Celestial spheres
 mtime: 1771892267
 begin: Jay Hosking - Celestial spheres
@@ -5036,7 +5157,7 @@ mtime: 1758004408
 added: 1771113753
 song_end
 song_begin: Jay Hosking - It may take longer than you think - 10 Wane.flac
-Time: 524.285
+Time: 524.284
 Title: Wane
 Artist: Jay Hosking
 Date: 2024
@@ -7201,7 +7322,7 @@ mtime: 1720993611
 added: 1772043703
 song_end
 song_begin: Movement (AudioHaze Cover) (Matthew Kennedy Remix) copy.wav
-Time: 260.282
+Time: 260.281
 Date: 2023-11-0
 Format: 48000:32:2
 mtime: 1699035419
@@ -16306,6 +16427,7 @@ added: 1772043347
 song_end
 end: Warhammer 40,000: Rogue Trader OST Collection
 directory: youtube
+mtime: 1771892267
 begin: youtube
 directory: NA
 mtime: 1771892267

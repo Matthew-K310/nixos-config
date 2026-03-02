@@ -5,40 +5,85 @@
 # condition: t
 # --
 
-#+TITLE: Invoice
-#+AUTHOR: Matthew Kennedy Productions
-#+DATE: \today
+#+title:      Invoice — Service Summary
+#+date:       \today
+#+filetags:   :invoice:work:
+#+identifier: 20260301T180931
+#+OPTIONS: toc:nil num:nil author:nil timestamp:nil
+
 #+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [11pt, a4paper]
 #+LATEX_HEADER: \usepackage[margin=1in]{geometry}
 #+LATEX_HEADER: \usepackage{booktabs}
 #+LATEX_HEADER: \usepackage{array}
-#+OPTIONS: toc:nil num:nil
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{tabularx}
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \definecolor{accent}{HTML}{1a1a2e}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \fancyhf{}
+#+LATEX_HEADER: \renewcommand{\headrulewidth}{2pt}
+#+LATEX_HEADER: \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule height \headrulewidth\hfill}}
+#+LATEX_HEADER: \fancyfoot[C]{\small\textcolor{gray}{Thank you for your business.}}
 
-#+LATEX: \begin{flushright}
-#+LATEX: \textbf{\Large INVOICE}\\[1em]
-#+LATEX: Invoice \#: 2024-001\\
-#+LATEX: Date: \today
-#+LATEX: \end{flushright}
+* @@latex:\textcolor{accent}{\Huge\textbf{INVOICE}}@@ \hfill INV-2026-001
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
 
-* Bill To
-Customer Name\\
-Customer Address\\
-City, State ZIP
+#+ATTR_LATEX: :booktabs t :align lp{6cm}r
+| *Issued*  | 2026-03-01 |
+| *Due*     | 2026-03-15 |
+| *Status*  | PAID       |
+| *Currency* | USD       |
 
-* Invoice Details
+-----
 
-#+ATTR_LATEX: :environment tabular :align lrr :booktabs t
-| Description              | Quantity | Amount |
-|--------------------------+----------+--------|
-| Service/Product 1        |        1 | $0.00 |
-| Service/Product 2        |        2 | $0.00 |
-|--------------------------+----------+--------|
-| *Subtotal*               |          | $0.00 |
-| *Tax (8%)*               |          | $0.00 |
-| *Total Due*              |          | *$0.00* |
+** Billed By
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
 
-* Payment Terms
-Payment due within 30 days.
+- *Matthew Kennedy - Matthew Kennedy Productions*
+- business@matthew-kennedy.com
+- +1 (682) 201-1667
+- 6741 Riviera Dr, North Richland Hills, TX 76180
 
-# * Notes
-# Thank you for your business!
+** Billed To
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+- *Client Name*
+- client@email.com
+- +1 (234) 567-8901
+- Client Address
+
+-----
+
+** Services
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+#+ATTR_LATEX: :booktabs t :align p{6cm}rr
+| *Description*            | *Rate* | *Amount* |
+|------------------------+------+--------|
+| Media Consultation [1] | $100 | $100   |
+|------------------------+------+--------|
+| *Subtotal*               |      | $100   |
+| *Total Due*              |      | *$100*   |
+#+TBLFM: @>$3=vsum(@2..@-1)
+
+-----
+
+** Notes
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+[1] Service, date.
+
+Payment via check or Zelle.
+

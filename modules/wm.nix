@@ -1,4 +1,4 @@
-# ~/nixos-config/wm.nix
+# ~/nixos-config/modules/wm.nix
 { config, pkgs, ... }:
 
 {

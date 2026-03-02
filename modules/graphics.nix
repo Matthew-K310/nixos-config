@@ -1,4 +1,4 @@
-# ~/nixos-config/graphics.nix
+# ~/nixos-config/modules/graphics.nix
 { config, pkgs, ... }:
 
 {

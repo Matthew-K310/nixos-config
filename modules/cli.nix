@@ -1,4 +1,4 @@
-# ~/nixos-config/cli.nix
+# ~/nixos-config/modules/cli.nix
 { config, pkgs, ... }:
 
 {

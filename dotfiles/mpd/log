@@ -20188,3 +20188,89 @@
 2026-02-27T14:16:05 exception: Failed to create Avahi service group: Not permitted
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+2026-03-02T09:47:02 update: added Jay Hosking - Apparitions - ambient works/Jay Hosking - Apparitions - ambient works - 01 Mercurial.flac
+2026-03-02T09:47:02 update: added Jay Hosking - Apparitions - ambient works/Jay Hosking - Apparitions - ambient works - 02 Slower.flac
+2026-03-02T09:47:02 update: added Jay Hosking - Apparitions - ambient works/Jay Hosking - Apparitions - ambient works - 03 Solarium.flac
+2026-03-02T09:47:02 update: added Jay Hosking - Apparitions - ambient works/Jay Hosking - Apparitions - ambient works - 04 Consequential.flac
+2026-03-02T09:47:02 update: added Jay Hosking - Apparitions - ambient works/Jay Hosking - Apparitions - ambient works - 05 Replay replay.flac
+2026-03-02T09:47:02 update: added Jay Hosking - Apparitions - ambient works/Jay Hosking - Apparitions - ambient works - 06 Prophetic.flac
+2026-03-02T09:47:02 update: added Jay Hosking - Apparitions - ambient works/Jay Hosking - Apparitions - ambient works - 07 Differently.flac
+2026-03-02T09:47:02 update: added Jay Hosking - Apparitions - ambient works/Jay Hosking - Apparitions - ambient works - 08 Astrolabe.flac
+2026-03-02T09:47:02 update: added Jay Hosking - Apparitions - ambient works/Jay Hosking - Apparitions - ambient works - 09 Indifferently.flac
+2026-03-02T09:53:28 exception: Failed to open ZIP file "/home/matthewkennedy/Music/my_music/My Tracks-20250915T032000Z-1-001.zip"
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0001
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0012
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0011
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0010
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0009
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0008
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0007
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0006
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0005
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0004
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0003
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0002
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0001
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0012
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0011
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0010
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0009
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0008
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0007
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0006
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0005
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0004
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0003
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0002
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0001
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0012
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0011
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0010
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0009
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0008
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0007
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0006
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0005
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0004
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0003
+2026-03-02T09:53:28 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0002
+2026-03-02T09:57:00 exception: Failed to create Avahi service group: Not permitted
+2026-03-02T09:57:04 exception: Failed to open ZIP file "/home/matthewkennedy/Music/my_music/My Tracks-20250915T032000Z-1-001.zip"
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0007
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0006
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0005
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0004
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0003
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0002
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0001
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0012
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0011
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0010
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0009
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0008
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0007
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0006
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0005
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0004
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0003
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0002
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0001
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0012
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0011
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0010
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0009
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0008
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0007
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0006
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0005
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0004
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0003
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0002
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD3/Vangelis - Blade Runner CD3.cue/track0001
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0012
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0011
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0010
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0009
+2026-03-02T09:57:04 update: removing [2007] Vangelis - Blade Runner Trilogy/CD2/Vangelis - Blade Runner CD2.cue/track0008

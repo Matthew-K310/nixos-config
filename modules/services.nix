@@ -1,4 +1,4 @@
-# ~/nixos-config/services.nix
+# ~/nixos-config/modules/services.nix
 { config, pkgs, ... }:
 
 {

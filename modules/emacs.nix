@@ -1,4 +1,4 @@
-# ~/nixos-config/eamcs.nix
+# ~/nixos-config/modules/eamcs.nix
 { config, pkgs, ... }:
 
 {

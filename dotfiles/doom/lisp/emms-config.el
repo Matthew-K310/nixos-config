@@ -13,7 +13,7 @@
              emms-shuffle)
   :init
   ;; Set these early so they're available when EMMS loads
-  (setq emms-source-file-default-directory "~/cloud/music"
+  (setq emms-source-file-default-directory "~/Music"
         emms-playlist-buffer-name "*Music*"
         emms-info-asynchronously t
         emms-browser-default-browse-type 'artist)
