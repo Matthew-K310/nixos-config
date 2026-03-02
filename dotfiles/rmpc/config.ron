@@ -129,6 +129,10 @@
 	    name: "Directories",
 	    pane: Pane(Directories),
 	),
+	(
+	    name: "Albums",
+	    pane: Pane(Albums),
+	),
         (
             name: "Playlists",
             pane: Pane(Playlists),

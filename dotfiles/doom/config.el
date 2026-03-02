@@ -1001,6 +1001,8 @@ The full, untruncated text is always copied - truncation is only for display."
   (setq writeroom-global-effects (remove 'writeroom-set-fullscreen
                                          writeroom-global-effects)))
 
+(setq password-store-dir (expand-file-name "~/.local/share/password-store"))
+
 (defvar site-serve-process nil)
 (defvar blog-serve-process nil)
 

@@ -1,8 +1,10 @@
 #!/bin/sh
-# shellcheck disable=SC2155
-# Profile file, runs on login. Environmental variables are set here.
+# XDG Base Directories (must be first)
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
 
-# PATH Setup
+# PATH Setup (now XDG vars are available)
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/share/zsh/completions:$PATH"
 export PATH="/usr/bin:$PATH"
@@ -15,20 +17,12 @@ export PATH="$XDG_CONFIG_HOME/emacs/bin:$PATH"
 export PATH="$XDG_DATA_HOME/cargo/bin:$PATH"
 export PATH="$HOME/.ghcup/bin:$PATH"
 
-# macOS-specific paths
-if [[ "$OSTYPE" == "darwin"* ]]; then
-	export PATH="/opt/homebrew/opt/man-db/libexec/bin:$PATH"
-	export PATH="/opt/homebrew/bin/cb:$PATH"
-	export PATH="/opt/homebrew/bin/mpv:$PATH"
-	export PATH="${PATH}:/Users/matthewkennedy/py/venv/lib/python3.13/site-packages"
-fi
-
 # Default programs
 export EDITOR="nvim"
 export TERMINAL="kitty"
 export TERMINAL_PROG="kitty"
 export BROWSER="helium"
-export MANPAGER="delta"
+export MANPAGER="less -R --use-color -Dd+r -Du+b" # colored man pages
 
 # XDG Base Directories
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -58,12 +52,10 @@ export ZIGPATH="$XDG_DATA_HOME/zig"
 export UNISON="$XDG_DATA_HOME/unison"
 export HISTFILE="$XDG_DATA_HOME/history"
 export MBSYNCRC="$XDG_CONFIG_HOME/mbsync/config"
-export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
 export SQLITE_HISTORY="$XDG_DATA_HOME/sqlite_history"
 export MPD_DIR="$XDG_CONFIG_HOME/mpd"
 export EMACS_DIR="$XDG_CONFIG_HOME/emacs"
-export ZEIT_DB="$XDG_DATA_HOME/zeit_db"
 
 # export NODE_PATH=$NODE_PATH:$(npm root -g)
 # export GODOT="$XDG_CONFIG_HOME/godotenv/godot/bin"

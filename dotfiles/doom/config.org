@@ -1134,6 +1134,10 @@ For being able to add ledger src blocks in org-mode files.
                                          writeroom-global-effects)))
 #+end_src
 
+*** password-store
+#+begin_src emacs-lisp
+(setq password-store-dir (expand-file-name "~/.local/share/password-store"))
+#+end_src
 ** Extras
 *** Personal site dev server
 #+begin_src elisp

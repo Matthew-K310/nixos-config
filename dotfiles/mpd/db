@@ -899,7 +899,7 @@ mtime: 1770086902
 added: 1772040071
 song_end
 song_begin: 056 - The UAV Factory.flac
-Time: 257.185
+Time: 257.186
 Format: 48000:24:2
 mtime: 1770086908
 added: 1772040071
@@ -1302,7 +1302,7 @@ mtime: 1769739514
 added: 1772040498
 song_end
 song_begin: 11 Gyam Shorts.flac
-Time: 260.185
+Time: 260.186
 Track: 11
 Title: - Gyam Shorts
 Format: 48000:24:2
@@ -1358,7 +1358,7 @@ mtime: 1769739514
 added: 1772040498
 song_end
 song_begin: 20 Rich Slavic Leather.flac
-Time: 64.016
+Time: 64.017
 Track: 20
 Title: - Rich Slavic Leather
 Format: 44100:24:2
@@ -2284,7 +2284,7 @@ added: 1771113752
 song_end
 end: Barry Can't Swim - Loner
 directory: Barry Can't Swim - When Will We Land
-mtime: 1771892267
+mtime: 1772471987
 begin: Barry Can't Swim - When Will We Land
 song_begin: Barry Can't Swim - When Will We Land- - 01 When Will We Land-.flac
 Time: 213.473
@@ -2591,7 +2591,7 @@ added: 1772040614
 song_end
 end: Bonobo - Fragments
 directory: dnb-collection-vol-1
-mtime: 1771892267
+mtime: 1772471581
 begin: dnb-collection-vol-1
 song_begin: AKOV - Blind (Sun Mix).mp3
 Time: 274.90500000000003
@@ -2897,6 +2897,18 @@ Comment: https://archive.org/details/dnb-collection-vol.-1
 Format: 44100:16:2
 mtime: 1769739210
 added: 1771113756
+song_end
+song_begin: Humble - Kendrick Lamar x Skrillex (Flowidus Bootleg).mp3
+Time: 254.442
+Artist: Kendrick Lamar x Skrillex
+Title: Humble (Flowidus Bootleg)
+Album: FREE DOWNLOAD
+Comment: 0
+Comment: 00002176 00002145 00014A87 000134F7 0001E70A 000186D0 00007D15 00007D15 0000919C 00005449
+Comment: 00000000 00000210 00000870 0000000000A6EF00 00000000 009752C7 00000000 00000000 00000000 00000000 00000000 00000000
+Format: 44100:16:2
+mtime: 1769739231
+added: 1772471589
 song_end
 end: dnb-collection-vol-1
 directory: Fox Stevenson - Enemy Brain Entertainment Suite
@@ -3207,7 +3219,7 @@ added: 1772040748
 song_end
 end: Fox Stevenson - Sunk Cost Fallacy
 directory: Frutiger Aero Collection
-mtime: 1771892267
+mtime: 1772471583
 begin: Frutiger Aero Collection
 song_begin: Aphex Twin - Flim.mp3
 Time: 177.09300000000002
@@ -3294,18 +3306,6 @@ Title: Femi Olasehinde & Aimie Joan Wolton & Thomas Martin Wright - High Velocit
 Album: Femi Olasehinde & Aimie Joan Wolton & Thomas Martin Wright - High Velocity Hardcore | NFS Undercover
 Date: 2025
 Genre: Music
-Format: 44100:16:2
-mtime: 1769739231
-added: 1771113752
-song_end
-song_begin: Humble - Kendrick Lamar x Skrillex (Flowidus Bootleg).mp3
-Time: 254.442
-Artist: Kendrick Lamar x Skrillex
-Title: Humble (Flowidus Bootleg)
-Album: FREE DOWNLOAD
-Comment: 0
-Comment: 00002176 00002145 00014A87 000134F7 0001E70A 000186D0 00007D15 00007D15 0000919C 00005449
-Comment: 00000000 00000210 00000870 0000000000A6EF00 00000000 009752C7 00000000 00000000 00000000 00000000 00000000 00000000
 Format: 44100:16:2
 mtime: 1769739231
 added: 1771113752
@@ -3470,16 +3470,24 @@ mtime: 1769802936
 added: 1771113752
 song_end
 end: Guillaume David - Warhammer 40-000- Mechanicus (Original Soundtrack)
-directory: Halo 2 Volume 1 OST
-mtime: 1771892267
-begin: Halo 2 Volume 1 OST
+directory: Halo 2 OST
+mtime: 1772471550
+begin: Halo 2 OST
 song_begin: 01 Halo 2 Volume 1 OST 01 Halo Theme Mjolnir Mix.flac
 Time: 251.588
 Track: 1
 Title: - Halo 2 Volume 1 OST 01 Halo Theme Mjolnir Mix
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040764
+added: 1772471603
+song_end
+song_begin: 22 Halo 2 Volume 2 OST 22 Prologue.flac
+Time: 156.897
+Track: 1
+Title: - Halo 2 Volume 2 OST 01 Prologue
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471603
 song_end
 song_begin: 02 Halo 2 Volume 1 OST 02 Blow Me Away.flac
 Time: 205.43800000000002
@@ -3487,7 +3495,15 @@ Track: 2
 Title: - Halo 2 Volume 1 OST 02 Blow Me Away
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040764
+added: 1772471603
+song_end
+song_begin: 23 Halo 2 Volume 2 OST 23 Cairo Suite.flac
+Time: 583.947
+Track: 2
+Title: - Halo 2 Volume 2 OST 02 Cairo Suite
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471603
 song_end
 song_begin: 03 Halo 2 Volume 1 OST 03 Peril.flac
 Time: 166.614
@@ -3495,7 +3511,15 @@ Track: 3
 Title: - Halo 2 Volume 1 OST 03 Peril
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040764
+added: 1772471603
+song_end
+song_begin: 24 Halo 2 Volume 2 OST 24 Mombasa Suite.flac
+Time: 403.075
+Track: 3
+Title: - Halo 2 Volume 2 OST 03 Mombasa Suite
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471603
 song_end
 song_begin: 04 Halo 2 Volume 1 OST 04 Ghosts of Reach.flac
 Time: 142.082
@@ -3503,7 +3527,15 @@ Track: 4
 Title: - Halo 2 Volume 1 OST 04 Ghosts of Reach
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040764
+added: 1772471603
+song_end
+song_begin: 25 Halo 2 Volume 2 OST 25 Unyielding.flac
+Time: 185.782
+Track: 4
+Title: - Halo 2 Volume 2 OST 04 Unyielding
+Format: 44100:24:2
+mtime: 1769739514
+added: 1772471603
 song_end
 song_begin: 05 Halo 2 Volume 1 OST 05 Odyssey~1st Movement.flac
 Time: 255.303
@@ -3511,7 +3543,15 @@ Track: 5
 Title: - Halo 2 Volume 1 OST 05 Odyssey~1st Movement
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040786
+added: 1772471603
+song_end
+song_begin: 26 Halo 2 Volume 2 OST 26 Mausoleum Suite.flac
+Time: 492.959
+Track: 5
+Title: - Halo 2 Volume 2 OST 05 Mausoleum Suite
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471603
 song_end
 song_begin: 06 Halo 2 Volume 1 OST 06 Heretic, Hero.flac
 Time: 154.57500000000002
@@ -3519,7 +3559,15 @@ Track: 6
 Title: - Halo 2 Volume 1 OST 06 Heretic, Hero
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040786
+added: 1772471603
+song_end
+song_begin: 27 Halo 2 Volume 2 OST 27 Unforgotten.flac
+Time: 131.459
+Track: 6
+Title: - Halo 2 Volume 2 OST 06 Unforgotten
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471603
 song_end
 song_begin: 07 Halo 2 Volume 1 OST 07 Flawed Legacy.flac
 Time: 118.259
@@ -3527,7 +3575,15 @@ Track: 7
 Title: - Halo 2 Volume 1 OST 07 Flawed Legacy
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040786
+added: 1772471603
+song_end
+song_begin: 28 Halo 2 Volume 2 OST 28 Delta Halo Suite.flac
+Time: 688.076
+Track: 7
+Title: - Halo 2 Volume 2 OST 07 Delta Halo Suite
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471603
 song_end
 song_begin: 08 Halo 2 Volume 1 OST 08 Impend.flac
 Time: 141.90800000000002
@@ -3535,7 +3591,15 @@ Track: 8
 Title: - Halo 2 Volume 1 OST 08 Impend
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040786
+added: 1772471603
+song_end
+song_begin: 29 Halo 2 Volume 2 OST 29 Sacred Icon Suite.flac
+Time: 447.692
+Track: 8
+Title: - Halo 2 Volume 2 OST 08 Sacred Icon Suite
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471603
 song_end
 song_begin: 09 Halo 2 Volume 1 OST 09 Never Surrender.flac
 Time: 215.933
@@ -3543,7 +3607,15 @@ Track: 9
 Title: - Halo 2 Volume 1 OST 09 Never Surrender
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040786
+added: 1772471603
+song_end
+song_begin: 30 Halo 2 Volume 2 OST 30 Reclaimer.flac
+Time: 185.922
+Track: 9
+Title: - Halo 2 Volume 2 OST 09 Reclaimer
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471603
 song_end
 song_begin: 10 Halo 2 Volume 1 OST 10 Ancient Machine.flac
 Time: 98.754
@@ -3551,7 +3623,15 @@ Track: 10
 Title: - Halo 2 Volume 1 OST 10 Ancient Machine
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040786
+added: 1772471603
+song_end
+song_begin: 31 Halo 2 Volume 2 OST 31 High Charity Suite.flac
+Time: 509.236
+Track: 10
+Title: - Halo 2 Volume 2 OST 10 High Charity Suite
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471603
 song_end
 song_begin: 11 Halo 2 Volume 1 OST 11 Odyssey~2nd Movement.flac
 Time: 460.44
@@ -3559,7 +3639,15 @@ Track: 11
 Title: - Halo 2 Volume 1 OST 11 Odyssey~2nd Movement
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040804
+added: 1772471603
+song_end
+song_begin: 32 Halo 2 Volume 2 OST 32 Finale.flac
+Time: 191.715
+Track: 11
+Title: - Halo 2 Volume 2 OST 11 Finale
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471603
 song_end
 song_begin: 12 Halo 2 Volume 1 OST 12 In Amber Clad.flac
 Time: 99.276
@@ -3567,7 +3655,15 @@ Track: 12
 Title: - Halo 2 Volume 1 OST 12 In Amber Clad
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040804
+added: 1772471603
+song_end
+song_begin: 33 Halo 2 Volume 2 OST 33 Epilogue.flac
+Time: 229.157
+Track: 12
+Title: - Halo 2 Volume 2 OST 12 Epilogue
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471603
 song_end
 song_begin: 13 Halo 2 Volume 1 OST 13 The Last Spartan.flac
 Time: 138.611
@@ -3575,7 +3671,7 @@ Track: 13
 Title: - Halo 2 Volume 1 OST 13 The Last Spartan
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040804
+added: 1772471603
 song_end
 song_begin: 14 Halo 2 Volume 1 OST 14 Orbit of Glass.flac
 Time: 78.08800000000001
@@ -3583,7 +3679,7 @@ Track: 14
 Title: - Halo 2 Volume 1 OST 14 Orbit of Glass
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040804
+added: 1772471603
 song_end
 song_begin: 15 Halo 2 Volume 1 OST 15 Odyssey~3rd Movement.flac
 Time: 400.103
@@ -3591,7 +3687,7 @@ Track: 15
 Title: - Halo 2 Volume 1 OST 15 Odyssey~3rd Movement
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040816
+added: 1772471603
 song_end
 song_begin: 16 Halo 2 Volume 1 OST 16 Heavy Price Paid.flac
 Time: 152.067
@@ -3599,7 +3695,7 @@ Track: 16
 Title: - Halo 2 Volume 1 OST 16 Heavy Price Paid
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040816
+added: 1772471603
 song_end
 song_begin: 17 Halo 2 Volume 1 OST 17 Earth City.flac
 Time: 186.758
@@ -3607,7 +3703,7 @@ Track: 17
 Title: - Halo 2 Volume 1 OST 17 Earth City
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040826
+added: 1772471603
 song_end
 song_begin: 18 Halo 2 Volume 1 OST 18 High Charity.flac
 Time: 119.28
@@ -3615,7 +3711,7 @@ Track: 18
 Title: - Halo 2 Volume 1 OST 18 High Charity
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040826
+added: 1772471603
 song_end
 song_begin: 19 Halo 2 Volume 1 OST 19 Odyssey~4th Movement.flac
 Time: 547.085
@@ -3623,7 +3719,7 @@ Track: 19
 Title: - Halo 2 Volume 1 OST 19 Odyssey~4th Movement
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040847
+added: 1772471603
 song_end
 song_begin: 20 Halo 2 Volume 1 OST 20 Remembrance.flac
 Time: 77.125
@@ -3631,7 +3727,7 @@ Track: 20
 Title: - Halo 2 Volume 1 OST 20 Remembrance
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040847
+added: 1772471603
 song_end
 song_begin: 21 Halo 2 Volume 1 OST 21 Connected.flac
 Time: 159.95000000000002
@@ -3639,469 +3735,387 @@ Track: 21
 Title: - Halo 2 Volume 1 OST 21 Connected
 Format: 48000:24:2
 mtime: 1769739514
-added: 1772040847
+added: 1772471603
 song_end
-end: Halo 2 Volume 1 OST
-directory: Halo 2 Volume 2 OST
-mtime: 1771892267
-begin: Halo 2 Volume 2 OST
-song_begin: 01 Halo 2 Volume 2 OST 01 Prologue.flac
-Time: 156.897
-Track: 1
-Title: - Halo 2 Volume 2 OST 01 Prologue
-Format: 48000:24:2
-mtime: 1769739514
-added: 1771113752
-song_end
-song_begin: 02 Halo 2 Volume 2 OST 02 Cairo Suite.flac
-Time: 583.947
-Track: 2
-Title: - Halo 2 Volume 2 OST 02 Cairo Suite
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772040858
-song_end
-song_begin: 03 Halo 2 Volume 2 OST 03 Mombasa Suite.flac
-Time: 403.075
-Track: 3
-Title: - Halo 2 Volume 2 OST 03 Mombasa Suite
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772040870
-song_end
-song_begin: 04 Halo 2 Volume 2 OST 04 Unyielding.flac
-Time: 185.782
-Track: 4
-Title: - Halo 2 Volume 2 OST 04 Unyielding
-Format: 44100:24:2
-mtime: 1769739514
-added: 1772040870
-song_end
-song_begin: 05 Halo 2 Volume 2 OST 05 Mausoleum Suite.flac
-Time: 492.959
-Track: 5
-Title: - Halo 2 Volume 2 OST 05 Mausoleum Suite
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772040880
-song_end
-song_begin: 06 Halo 2 Volume 2 OST 06 Unforgotten.flac
-Time: 131.459
-Track: 6
-Title: - Halo 2 Volume 2 OST 06 Unforgotten
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772040880
-song_end
-song_begin: 07 Halo 2 Volume 2 OST 07 Delta Halo Suite.flac
-Time: 688.076
-Track: 7
-Title: - Halo 2 Volume 2 OST 07 Delta Halo Suite
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772040894
-song_end
-song_begin: 08 Halo 2 Volume 2 OST 08 Sacred Icon Suite.flac
-Time: 447.692
-Track: 8
-Title: - Halo 2 Volume 2 OST 08 Sacred Icon Suite
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772040906
-song_end
-song_begin: 09 Halo 2 Volume 2 OST 09 Reclaimer.flac
-Time: 185.922
-Track: 9
-Title: - Halo 2 Volume 2 OST 09 Reclaimer
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772040906
-song_end
-song_begin: 10 Halo 2 Volume 2 OST 10 High Charity Suite.flac
-Time: 509.236
-Track: 10
-Title: - Halo 2 Volume 2 OST 10 High Charity Suite
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772040926
-song_end
-song_begin: 11 Halo 2 Volume 2 OST 11 Finale.flac
-Time: 191.715
-Track: 11
-Title: - Halo 2 Volume 2 OST 11 Finale
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772040926
-song_end
-song_begin: 12 Halo 2 Volume 2 OST 12 Epilogue.flac
-Time: 229.157
-Track: 12
-Title: - Halo 2 Volume 2 OST 12 Epilogue
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772040926
-song_end
-end: Halo 2 Volume 2 OST
-directory: Halo 3 Disc 1 OST
-mtime: 1771892267
-begin: Halo 3 Disc 1 OST
+end: Halo 2 OST
+directory: Halo 3 OST
+mtime: 1772471508
+begin: Halo 3 OST
 song_begin: 01 Halo 3 Disc 1 OST 01 Luck.flac
 Time: 205.276
-Track: 1
 Title: - Halo 3 Disc 1 OST 01 Luck
+Track: 1
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1771113752
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 02 Halo 3 Disc 1 OST 02 Released - Wild Life - Another Wal.flac
 Time: 320.447
-Track: 2
 Title: - Halo 3 Disc 1 OST 02 Released - Wild Life - Another Wal
+Track: 2
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1772040939
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 03 Halo 3 Disc 1 OST 03 Infiltrate - Move On.flac
 Time: 230.156
-Track: 3
 Title: - Halo 3 Disc 1 OST 03 Infiltrate - Move On
+Track: 3
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772040939
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 04 Halo 3 Disc 1 OST 04 Honorable Intentions.flac
 Time: 166.37
-Track: 4
 Title: - Halo 3 Disc 1 OST 04 Honorable Intentions
+Track: 4
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772040939
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 05 Halo 3 Disc 1 OST 05 Last of the Brave - Cold Logic.flac
 Time: 238.19
-Track: 5
 Title: - Halo 3 Disc 1 OST 05 Last of the Brave - Cold Logic
+Track: 5
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1772040945
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 06 Halo 3 Disc 1 OST 06 Brutes - Lost - Dream Again - We'.flac
 Time: 307.652
-Track: 6
 Title: - Halo 3 Disc 1 OST 06 Brutes - Lost - Dream Again - We'
+Track: 6
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1772040979
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 07 Halo 3 Disc 1 OST 07 Out of Shadow - Into Light.flac
 Time: 277.582
-Track: 7
 Title: - Halo 3 Disc 1 OST 07 Out of Shadow - Into Light
+Track: 7
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1772040979
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 08 Halo 3 Disc 1 OST 08 To Kill a Demon - Ancient Dust.flac
 Time: 224.954
-Track: 8
 Title: - Halo 3 Disc 1 OST 08 To Kill a Demon - Ancient Dust
+Track: 8
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772040979
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 09 Halo 3 Disc 1 OST 09 This is Our Land - To Turn a Tide.flac
 Time: 240.535
-Track: 9
 Title: - Halo 3 Disc 1 OST 09 This is Our Land - To Turn a Tide
+Track: 9
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772040979
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 10 Halo 3 Disc 1 OST 10 This is the Hour.flac
 Time: 129.149
-Track: 10
 Title: - Halo 3 Disc 1 OST 10 This is the Hour
+Track: 10
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772040979
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 11 Halo 3 Disc 1 OST 11 Dread Intrusion - Black Tide - Old.flac
 Time: 325.834
-Track: 11
 Title: - Halo 3 Disc 1 OST 11 Dread Intrusion - Black Tide - Old
+Track: 11
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1772040979
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 12 Halo 3 Disc 1 OST 12 Follow Our Brothers.flac
 Time: 205.612
-Track: 12
 Title: - Halo 3 Disc 1 OST 12 Follow Our Brothers
+Track: 12
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772040979
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 13 Halo 3 Disc 1 OST 13 Farthest Outpost - No Time for Sights.flac
 Time: 314.583
-Track: 13
 Title: - Halo 3 Disc 1 OST 13 Farthest Outpost - No Time for Sights
+Track: 13
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772040979
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 14 Halo 3 Disc 1 OST 14 Behold a Pale Horse - Reconciled - Ov.flac
 Time: 338.47700000000003
-Track: 14
 Title: - Halo 3 Disc 1 OST 14 Behold a Pale Horse - Reconciled - Ov
+Track: 14
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1772040989
+mtime: 1772470208
+added: 1772471524
 song_end
 song_begin: 15 Halo 3 Disc 1 OST 15 Edge Closer.flac
 Time: 183.994
-Track: 15
 Title: - Halo 3 Disc 1 OST 15 Edge Closer
+Track: 15
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772040989
+mtime: 1772470208
+added: 1772471524
 song_end
-end: Halo 3 Disc 1 OST
-directory: Halo 3 Disc 2 OST
-mtime: 1771892267
-begin: Halo 3 Disc 2 OST
-song_begin: 01 Halo 3 Disc 2 OST 01 Three Gates - Ascent - Leonidas.flac
+song_begin: 16 Halo 3 Disc 2 OST 16 Three Gates - Ascent - Leonidas.flac
 Time: 274.843
-Track: 1
-Title: - Halo 3 Disc 2 OST 01 Three Gates - Ascent - Leonidas
+Title: - Halo 3 Disc 2 OST 16 Three Gates - Ascent - Leonidas
+Track: 16
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1772040995
+mtime: 1772470268
+added: 1772471524
 song_end
-song_begin: 02 Halo 3 Disc 2 OST 02 Black Tower - Heroes Also Fall.flac
+song_begin: 17 Halo 3 Disc 2 OST 17 Black Tower - Heroes Also Fall.flac
 Time: 363.78700000000003
-Track: 2
-Title: - Halo 3 Disc 2 OST 02 Black Tower - Heroes Also Fall
+Title: - Halo 3 Disc 2 OST 17 Black Tower - Heroes Also Fall
+Track: 17
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772041005
+mtime: 1772470268
+added: 1772471524
 song_end
-song_begin: 03 Halo 3 Disc 2 OST 03 One Final Effort.flac
+song_begin: 18 Halo 3 Disc 2 OST 18 One Final Effort.flac
 Time: 188.952
-Track: 3
-Title: - Halo 3 Disc 2 OST 03 One Final Effort
+Title: - Halo 3 Disc 2 OST 18 One Final Effort
+Track: 18
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1772041005
+mtime: 1772470268
+added: 1772471524
 song_end
-song_begin: 04 Halo 3 Disc 2 OST 04 Gravemind - Fated Journey - Flee.flac
+song_begin: 19 Halo 3 Disc 2 OST 19 Gravemind - Fated Journey - Flee.flac
 Time: 322.095
-Track: 4
-Title: - Halo 3 Disc 2 OST 04 Gravemind - Fated Journey - Flee
+Title: - Halo 3 Disc 2 OST 19 Gravemind - Fated Journey - Flee
+Track: 19
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1772041022
+mtime: 1772470268
+added: 1772471524
 song_end
-song_begin: 05 Halo 3 Disc 2 OST 05 No more Dead Heroes - Watching.flac
+song_begin: 20 Halo 3 Disc 2 OST 20 No more Dead Heroes - Watching.flac
 Time: 301.92900000000003
-Track: 5
-Title: - Halo 3 Disc 2 OST 05 No more Dead Heroes - Watching
+Title: - Halo 3 Disc 2 OST 20 No more Dead Heroes - Watching
+Track: 20
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772041022
+mtime: 1772470268
+added: 1772471524
 song_end
-song_begin: 06 Halo 3 Disc 2 OST 06 Keep What You Steal - Escape.flac
+song_begin: 21 Halo 3 Disc 2 OST 21 Keep What You Steal - Escape.flac
 Time: 156.247
-Track: 6
-Title: - Halo 3 Disc 2 OST 06 Keep What You Steal - Escape
+Title: - Halo 3 Disc 2 OST 21 Keep What You Steal - Escape
+Track: 21
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772041022
+mtime: 1772470268
+added: 1772471524
 song_end
-song_begin: 07 Halo 3 Disc 2 OST 07 Halo Reborn - Guilt and Punishment.flac
+song_begin: 22 Halo 3 Disc 2 OST 22 Halo Reborn - Guilt and Punishment.flac
 Time: 239.815
-Track: 7
-Title: - Halo 3 Disc 2 OST 07 Halo Reborn - Guilt and Punishment
+Title: - Halo 3 Disc 2 OST 22 Halo Reborn - Guilt and Punishment
+Track: 22
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772041022
+mtime: 1772470268
+added: 1772471524
 song_end
-song_begin: 08 Halo 3 Disc 2 OST 08 Greatest Journey - Flood Rising - Halo F.flac
+song_begin: 23 Halo 3 Disc 2 OST 23 Greatest Journey - Flood Rising - Halo F.flac
 Time: 292.548
-Track: 8
-Title: - Halo 3 Disc 2 OST 08 Greatest Journey - Flood Rising - Halo F
+Title: - Halo 3 Disc 2 OST 23 Greatest Journey - Flood Rising - Halo F
+Track: 23
+Album: Halo 3 (Original Game Soundtrack)
 Format: 44100:24:2
-mtime: 1769739514
-added: 1772041044
+mtime: 1772470268
+added: 1772471524
 song_end
-song_begin: 09 Halo 3 Disc 2 OST 09 Tribute.flac
+song_begin: 24 Halo 3 Disc 2 OST 24 Tribute.flac
 Time: 172.675
-Track: 9
-Title: - Halo 3 Disc 2 OST 09 Tribute
+Title: - Halo 3 Disc 2 OST 24 Tribute
+Track: 24
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1772041044
+mtime: 1772470268
+added: 1772471524
 song_end
-song_begin: 10 Halo 3 Disc 2 OST 10 Roll Call - Duty Bound - Price Paid.flac
+song_begin: 25 Halo 3 Disc 2 OST 25 Roll Call - Duty Bound - Price Paid.flac
 Time: 358.458
-Track: 10
-Title: - Halo 3 Disc 2 OST 10 Roll Call - Duty Bound - Price Paid
+Title: - Halo 3 Disc 2 OST 25 Roll Call - Duty Bound - Price Paid
+Track: 25
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1772041044
+mtime: 1772470268
+added: 1772471524
 song_end
-song_begin: 11 Halo 3 Disc 2 OST 11 Wake Me When You Need Me.flac
+song_begin: 26 Halo 3 Disc 2 OST 26 Wake Me When You Need Me.flac
 Time: 139.47
-Track: 11
-Title: - Halo 3 Disc 2 OST 11 Wake Me When You Need Me
+Title: - Halo 3 Disc 2 OST 26 Wake Me When You Need Me
+Track: 26
+Album: Halo 3 (Original Game Soundtrack)
 Format: 48000:24:2
-mtime: 1769739514
-added: 1772041044
+mtime: 1772470268
+added: 1772471524
 song_end
-end: Halo 3 Disc 2 OST
-directory: Halo 3： ODST Disc 1 OST
-mtime: 1771892267
-begin: Halo 3： ODST Disc 1 OST
-song_begin: 1 Halo 3： ODST Disc 1 OST 01 Overture.flac
+end: Halo 3 OST
+directory: Halo 3： ODST OST
+mtime: 1772471467
+begin: Halo 3： ODST OST
+song_begin: 01 Halo 3： ODST Disc 1 OST 01 Overture.flac
 Time: 338.94100000000003
 Track: 1
 Title: - Halo 3： ODST Disc 1 OST 01 Overture
 Format: 48000:24:2
 mtime: 1769739514
-added: 1771113752
+added: 1772471524
 song_end
-song_begin: 2 Halo 3： ODST Disc 1 OST 02 The Rookie.flac
-Time: 449.886
-Track: 2
-Title: - Halo 3： ODST Disc 1 OST 02 The Rookie
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772041051
-song_end
-song_begin: 3 Halo 3： ODST Disc 1 OST 03 More Than His Share.flac
-Time: 348.821
-Track: 3
-Title: - Halo 3： ODST Disc 1 OST 03 More Than His Share
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772041057
-song_end
-song_begin: 4 Halo 3： ODST Disc 1 OST 04 Deference for Darkness.flac
-Time: 398.605
-Track: 4
-Title: - Halo 3： ODST Disc 1 OST 04 Deference for Darkness
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772041065
-song_end
-song_begin: 5 Halo 3： ODST Disc 1 OST 05 The Menagerie.flac
-Time: 370.369
-Track: 5
-Title: - Halo 3： ODST Disc 1 OST 05 The Menagerie
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772041072
-song_end
-song_begin: 6 Halo 3： ODST Disc 1 OST 06 Asphalt and Ablution.flac
-Time: 363.78700000000003
-Track: 6
-Title: - Halo 3： ODST Disc 1 OST 06 Asphalt and Ablution
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772041078
-song_end
-song_begin: 7 Halo 3： ODST Disc 1 OST 07 Traffic Jam.flac
-Time: 352.502
-Track: 7
-Title: - Halo 3： ODST Disc 1 OST 07 Traffic Jam
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772041089
-song_end
-song_begin: 8 Halo 3： ODST Disc 1 OST 08 Neon Night.flac
-Time: 337.409
-Track: 8
-Title: - Halo 3： ODST Disc 1 OST 08 Neon Night
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772041089
-song_end
-song_begin: 9 Halo 3： ODST Disc 1 OST 09 The Office of Naval Intelligence.flac
-Time: 530.134
-Track: 9
-Title: - Halo 3： ODST Disc 1 OST 09 The Office of Naval Intelligence
-Format: 48000:24:2
-mtime: 1769739514
-added: 1772041097
-song_end
-end: Halo 3： ODST Disc 1 OST
-directory: Halo 3： ODST Disc 2 OST
-mtime: 1771892267
-begin: Halo 3： ODST Disc 2 OST
-song_begin: 1 Halo 3： ODST Disc 2 OST 01 Bits and Pieces.flac
+song_begin: 10 Halo 3： ODST Disc 2 OST 10 Bits and Pieces.flac
 Time: 425.22700000000003
 Track: 1
 Title: - Halo 3： ODST Disc 2 OST 01 Bits and Pieces
 Format: 44100:24:2
 mtime: 1769739514
-added: 1772041103
+added: 1772471524
 song_end
-song_begin: 2 Halo 3： ODST Disc 2 OST 02 Skyline.flac
+song_begin: 02 Halo 3： ODST Disc 1 OST 02 The Rookie.flac
+Time: 449.886
+Track: 2
+Title: - Halo 3： ODST Disc 1 OST 02 The Rookie
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471524
+song_end
+song_begin: 11 Halo 3： ODST Disc 2 OST 11 Skyline.flac
 Time: 421.755
 Track: 2
 Title: - Halo 3： ODST Disc 2 OST 02 Skyline
 Format: 48000:24:2
 mtime: 1769739515
-added: 1772041115
+added: 1772471524
 song_end
-song_begin: 3 Halo 3： ODST Disc 2 OST 03 No Stone Unturned.flac
+song_begin: 03 Halo 3： ODST Disc 1 OST 03 More Than His Share.flac
+Time: 348.821
+Track: 3
+Title: - Halo 3： ODST Disc 1 OST 03 More Than His Share
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471524
+song_end
+song_begin: 12 Halo 3： ODST Disc 2 OST 12 No Stone Unturned.flac
 Time: 202.93
 Track: 3
 Title: - Halo 3： ODST Disc 2 OST 03 No Stone Unturned
 Format: 48000:24:2
 mtime: 1769739515
-added: 1772041115
+added: 1772471524
 song_end
-song_begin: 4 Halo 3： ODST Disc 2 OST 04 One Way Ride.flac
+song_begin: 04 Halo 3： ODST Disc 1 OST 04 Deference for Darkness.flac
+Time: 398.605
+Track: 4
+Title: - Halo 3： ODST Disc 1 OST 04 Deference for Darkness
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471524
+song_end
+song_begin: 13 Halo 3： ODST Disc 2 OST 13 One Way Ride.flac
 Time: 410.598
 Track: 4
 Title: - Halo 3： ODST Disc 2 OST 04 One Way Ride
 Format: 48000:24:2
 mtime: 1769739515
-added: 1772041121
+added: 1772471524
 song_end
-song_begin: 5 Halo 3： ODST Disc 2 OST 05 The Light at the End.flac
+song_begin: 05 Halo 3： ODST Disc 1 OST 05 The Menagerie.flac
+Time: 370.369
+Track: 5
+Title: - Halo 3： ODST Disc 1 OST 05 The Menagerie
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471524
+song_end
+song_begin: 14 Halo 3： ODST Disc 2 OST 14 The Light at the End.flac
 Time: 472.456
 Track: 5
 Title: - Halo 3： ODST Disc 2 OST 05 The Light at the End
 Format: 48000:24:2
 mtime: 1769739515
-added: 1772041133
+added: 1772471524
 song_end
-song_begin: 6 Halo 3： ODST Disc 2 OST 06 Data Hive.flac
+song_begin: 06 Halo 3： ODST Disc 1 OST 06 Asphalt and Ablution.flac
+Time: 363.78700000000003
+Track: 6
+Title: - Halo 3： ODST Disc 1 OST 06 Asphalt and Ablution
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471524
+song_end
+song_begin: 15 Halo 3： ODST Disc 2 OST 15 Data Hive.flac
 Time: 363.78700000000003
 Track: 6
 Title: - Halo 3： ODST Disc 2 OST 06 Data Hive
 Format: 48000:24:2
 mtime: 1769739515
-added: 1772041133
+added: 1772471524
 song_end
-song_begin: 7 Halo 3： ODST Disc 2 OST 07 Special Delivery.flac
+song_begin: 07 Halo 3： ODST Disc 1 OST 07 Traffic Jam.flac
+Time: 352.502
+Track: 7
+Title: - Halo 3： ODST Disc 1 OST 07 Traffic Jam
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471524
+song_end
+song_begin: 16 Halo 3： ODST Disc 2 OST 16 Special Delivery.flac
 Time: 622.921
 Track: 7
 Title: - Halo 3： ODST Disc 2 OST 07 Special Delivery
 Format: 44100:24:2
 mtime: 1769739515
-added: 1772041144
+added: 1772471524
 song_end
-song_begin: 8 Halo 3： ODST Disc 2 OST 08 Finale.flac
+song_begin: 08 Halo 3： ODST Disc 1 OST 08 Neon Night.flac
+Time: 337.409
+Track: 8
+Title: - Halo 3： ODST Disc 1 OST 08 Neon Night
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471524
+song_end
+song_begin: 17 Halo 3： ODST Disc 2 OST 17 Finale.flac
 Time: 492.158
 Track: 8
 Title: - Halo 3： ODST Disc 2 OST 08 Finale
 Format: 48000:24:2
 mtime: 1769739515
-added: 1772041181
+added: 1772471524
 song_end
-end: Halo 3： ODST Disc 2 OST
+song_begin: 09 Halo 3： ODST Disc 1 OST 09 The Office of Naval Intelligence.flac
+Time: 530.134
+Track: 9
+Title: - Halo 3： ODST Disc 1 OST 09 The Office of Naval Intelligence
+Format: 48000:24:2
+mtime: 1769739514
+added: 1772471524
+song_end
+end: Halo 3： ODST OST
 directory: Halo Wars OST
 mtime: 1771892267
 begin: Halo Wars OST
@@ -4804,7 +4818,7 @@ added: 1772466422
 song_end
 end: Jay Hosking - Apparitions - ambient works
 directory: Jay Hosking - Celestial spheres
-mtime: 1771892267
+mtime: 1772470777
 begin: Jay Hosking - Celestial spheres
 song_begin: Jay Hosking - Celestial spheres - 02 Orrery.flac
 Time: 290
@@ -4899,7 +4913,7 @@ added: 1771113752
 song_end
 end: Jay Hosking - Celestial spheres
 directory: Jay Hosking - High time - Music for a productive day
-mtime: 1771892267
+mtime: 1772471045
 begin: Jay Hosking - High time - Music for a productive day
 song_begin: Jay Hosking - High time - Music for a productive day - 02 Minutes.flac
 Time: 460.217
@@ -4955,7 +4969,7 @@ added: 1772041503
 song_end
 end: Jay Hosking - High time - Music for a productive day
 directory: Jay Hosking - Hoser
-mtime: 1771892267
+mtime: 1772471028
 begin: Jay Hosking - Hoser
 song_begin: Jay Hosking - Hoser - 01 Tracker.flac
 Time: 271.363
@@ -5050,7 +5064,7 @@ added: 1771113752
 song_end
 end: Jay Hosking - Hoser
 directory: Jay Hosking - It may take longer than you think
-mtime: 1771892267
+mtime: 1772471093
 begin: Jay Hosking - It may take longer than you think
 song_begin: Jay Hosking - It may take longer than you think - 02 Dogsbody.flac
 Time: 206.369
@@ -5157,7 +5171,7 @@ mtime: 1758004408
 added: 1771113753
 song_end
 song_begin: Jay Hosking - It may take longer than you think - 10 Wane.flac
-Time: 524.284
+Time: 524.285
 Title: Wane
 Artist: Jay Hosking
 Date: 2024
@@ -5171,7 +5185,7 @@ added: 1772041509
 song_end
 end: Jay Hosking - It may take longer than you think
 directory: Jay Hosking - Low tide - Music for a productive day
-mtime: 1771892267
+mtime: 1772471080
 begin: Jay Hosking - Low tide - Music for a productive day
 song_begin: Jay Hosking - Low tide - Music for a productive day - 01 A1 Channel.flac
 Time: 726.189
@@ -5292,7 +5306,7 @@ added: 1772041601
 song_end
 end: Jay Hosking - Low tide - Music for a productive day
 directory: Jay Hosking - Not even a poet can speak the whole truth
-mtime: 1771892267
+mtime: 1772470979
 begin: Jay Hosking - Not even a poet can speak the whole truth
 song_begin: Jay Hosking - Not even a poet can speak the whole truth - 01 Imaginary countries.flac
 Time: 227.20000000000002
@@ -5400,7 +5414,7 @@ added: 1771113753
 song_end
 end: Jay Hosking - Not even a poet can speak the whole truth
 directory: Jay Hosking - Scenes - ambient and cinematic works
-mtime: 1771892267
+mtime: 1772471107
 begin: Jay Hosking - Scenes - ambient and cinematic works
 song_begin: Jay Hosking - Scenes - ambient and cinematic works - 01 In an empty field, you gave her a mix tape.flac
 Time: 338
@@ -5469,7 +5483,7 @@ added: 1771113753
 song_end
 end: Jay Hosking - Scenes - ambient and cinematic works
 directory: Jay Hosking - Sketches for My Sweetheart the Drone
-mtime: 1771892267
+mtime: 1772471001
 begin: Jay Hosking - Sketches for My Sweetheart the Drone
 song_begin: Jay Hosking - Sketches for My Sweetheart the Drone - 01 Relatively abstemious.flac
 Time: 440
@@ -5659,7 +5673,7 @@ added: 1772041764
 song_end
 end: Jay Hosking - The Future - Tense
 directory: Jay Hosking - The world will never survive without you - ambient works
-mtime: 1771892267
+mtime: 1772471664
 begin: Jay Hosking - The world will never survive without you - ambient works
 song_begin: Jay Hosking - The world will never survive without you - ambient works - 01 Majnoun.flac
 Time: 408
@@ -5727,9 +5741,9 @@ mtime: 1757999875
 added: 1771113753
 song_end
 end: Jay Hosking - The world will never survive without you - ambient works
-directory: Jesper Kyd - Warhammer 40-000- Darktide (Original Soundtrack)
+directory: Jesper Kyd - Warhammer 40,000 - Darktide (Original Soundtrack)
 mtime: 1771892267
-begin: Jesper Kyd - Warhammer 40-000- Darktide (Original Soundtrack)
+begin: Jesper Kyd - Warhammer 40,000 - Darktide (Original Soundtrack)
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 01 Darktide Main Theme.flac
 Time: 257.666
 Title: Darktide Main Theme
@@ -5741,7 +5755,7 @@ Track: 1
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 02 The Uprising on Hive Tertium.flac
 Time: 164.373
@@ -5754,7 +5768,7 @@ Track: 2
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 03 Prison Break.flac
 Time: 158.586
@@ -5767,7 +5781,7 @@ Track: 3
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 04 Onboard the Tancred Bastion.flac
 Time: 117.626
@@ -5780,7 +5794,7 @@ Track: 4
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 05 Escaping the Prison Ship.flac
 Time: 97.733
@@ -5793,7 +5807,7 @@ Track: 5
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 06 The Imperium Unites.flac
 Time: 93.16
@@ -5806,7 +5820,7 @@ Track: 6
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 07 Immortal Imperium.flac
 Time: 234.16
@@ -5819,7 +5833,7 @@ Track: 7
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 08 Dropship to Hive Tertium.flac
 Time: 141.306
@@ -5832,7 +5846,7 @@ Track: 8
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 09 Entering the Hive City.flac
 Time: 54.093
@@ -5845,7 +5859,7 @@ Track: 9
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 10 The Transit Horde.flac
 Time: 124.546
@@ -5858,7 +5872,7 @@ Track: 10
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 11 Imperium of Man.flac
 Time: 161.4
@@ -5871,7 +5885,7 @@ Track: 11
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 12 The Mourningstar.flac
 Time: 147.453
@@ -5884,7 +5898,7 @@ Track: 12
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 13 Disposal Unit (Imperium Mix).flac
 Time: 213.226
@@ -5897,7 +5911,7 @@ Track: 13
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 14 Late Night Entertainment.flac
 Time: 116.813
@@ -5910,7 +5924,7 @@ Track: 14
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 15 Nightsider.flac
 Time: 181.973
@@ -5923,7 +5937,7 @@ Track: 15
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 16 City of Tertium.flac
 Time: 119.893
@@ -5936,7 +5950,7 @@ Track: 16
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 17 Broadcast Apparatus.flac
 Time: 132.04
@@ -5949,7 +5963,7 @@ Track: 17
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 18 Apparatus Receiving.flac
 Time: 142.48
@@ -5962,7 +5976,7 @@ Track: 18
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 19 Data Interference.flac
 Time: 134.4
@@ -5975,7 +5989,7 @@ Track: 19
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 20 Forge Manufactorum.flac
 Time: 156.8
@@ -5988,7 +6002,7 @@ Track: 20
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 21 Atoma Prime.flac
 Time: 235.12
@@ -6001,7 +6015,7 @@ Track: 21
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 22 Entering Throneside.flac
 Time: 106.173
@@ -6014,7 +6028,7 @@ Track: 22
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 23 Waiting to Strike.flac
 Time: 142.48
@@ -6027,7 +6041,7 @@ Track: 23
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 24 Path of Trust.flac
 Time: 237.16
@@ -6040,7 +6054,7 @@ Track: 24
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 25 Unrest in Throneside.flac
 Time: 122.04
@@ -6053,7 +6067,7 @@ Track: 25
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 26 Transmission Commences.flac
 Time: 219.746
@@ -6066,7 +6080,7 @@ Track: 26
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 27 Offworld Auspex.flac
 Time: 154.213
@@ -6079,7 +6093,7 @@ Track: 27
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 28 Hive City Lowest Level.flac
 Time: 208.586
@@ -6092,7 +6106,7 @@ Track: 28
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 29 The Torrent Fights Back.flac
 Time: 163.306
@@ -6105,7 +6119,7 @@ Track: 29
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 30 Warp Traveller.flac
 Time: 190.066
@@ -6118,7 +6132,7 @@ Track: 30
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 31 Debriefing.flac
 Time: 72.96000000000001
@@ -6131,7 +6145,7 @@ Track: 31
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 32 Escape Initiated.flac
 Time: 78.82600000000001
@@ -6144,7 +6158,7 @@ Track: 32
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 33 Imperial Advance.flac
 Time: 122.146
@@ -6157,7 +6171,7 @@ Track: 33
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 34 Hab Block Bonanza.flac
 Time: 132.666
@@ -6170,7 +6184,7 @@ Track: 34
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 35 The Will of the Imperium.flac
 Time: 149.173
@@ -6183,7 +6197,7 @@ Track: 35
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 36 Write Transmit.flac
 Time: 193.53300000000002
@@ -6196,7 +6210,7 @@ Track: 36
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 37 Sublevel Data Interrogation.flac
 Time: 136.266
@@ -6209,7 +6223,7 @@ Track: 37
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 38 Reality Slipping.flac
 Time: 165.413
@@ -6222,7 +6236,7 @@ Track: 38
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 39 Heart of Heresy.flac
 Time: 114.4
@@ -6235,7 +6249,7 @@ Track: 39
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 40 Embrace of the Chaos Cult.flac
 Time: 122.293
@@ -6248,7 +6262,7 @@ Track: 40
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 41 Forge Chaos Detected.flac
 Time: 93.946
@@ -6261,7 +6275,7 @@ Track: 41
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 42 Last Man Standing.flac
 Time: 130.493
@@ -6274,7 +6288,7 @@ Track: 42
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 43 The Emperor of Mankind.flac
 Time: 209.266
@@ -6287,7 +6301,7 @@ Track: 43
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 44 Admonition.flac
 Time: 143.81300000000002
@@ -6300,7 +6314,7 @@ Track: 44
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 45 The Imperium Unites Pt. 2 (Bonus Track).flac
 Time: 77.946
@@ -6313,7 +6327,7 @@ Track: 45
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 46 Disposal Unit.flac
 Time: 183.466
@@ -6326,7 +6340,7 @@ Track: 46
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 47 Reality Slipping (Imperium Mix).flac
 Time: 99.653
@@ -6339,7 +6353,7 @@ Track: 47
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
 song_begin: Jesper Kyd - Warhammer 40,000- Darktide (Original Soundtrack) - 48 Transmission Commences (Late Night Mix).flac
 Time: 233.186
@@ -6352,9 +6366,9 @@ Track: 48
 AlbumArtist: Jesper Kyd
 Format: 44100:16:2
 mtime: 1769802945
-added: 1771113753
+added: 1772471291
 song_end
-end: Jesper Kyd - Warhammer 40-000- Darktide (Original Soundtrack)
+end: Jesper Kyd - Warhammer 40,000 - Darktide (Original Soundtrack)
 directory: Lo-Phi - Vintage Story OST
 mtime: 1771892267
 begin: Lo-Phi - Vintage Story OST
@@ -7063,436 +7077,6 @@ mtime: 1721428183
 added: 1772042093
 song_end
 end: My Songs
-directory: my_music
-mtime: 1772043849
-begin: my_music
-directory: Cinematic Concept Album
-mtime: 1771892267
-begin: my_music/Cinematic Concept Album
-song_begin: Creeping Death in the Black of Night copy.wav
-Time: 293.647
-Date: 2023-09-1
-Format: 48000:32:2
-mtime: 1694388848
-added: 1772044046
-song_end
-song_begin: Decisions (Nov. Day 1).wav
-Time: 281.192
-Format: 48000:16:2
-mtime: 1730501685
-added: 1772044052
-song_end
-song_begin: Drifting.wav
-Time: 359.226
-Format: 44100:16:2
-mtime: 1731199025
-added: 1772044059
-song_end
-song_begin: Footsteps of Gods.wav
-Time: 227.50900000000001
-Format: 44100:32:2
-mtime: 1745879047
-added: 1772044077
-song_end
-song_begin: Mysteries of the Space Between.wav
-Time: 201.29
-Format: 44100:16:2
-mtime: 1738465721
-added: 1772044077
-song_end
-song_begin: The Peace of a Spring Rainfall.wav
-Time: 147.702
-Format: 48000:32:2
-mtime: 1713652226
-added: 1772044077
-song_end
-song_begin: Welcome to Mars (Rough 122724 1347).wav
-Time: 199.183
-Format: 48000:16:2
-mtime: 1735328993
-added: 1772044077
-song_end
-end: my_music/Cinematic Concept Album
-song_begin: Add Drums Jazz Condensed.wav
-Time: 91.429
-Format: 48000:32:2
-mtime: 1699569970
-added: 1771113756
-song_end
-song_begin: All Too Late Remix Snippet 2-24-25 2017.wav
-Time: 78.57600000000001
-Format: 44100:16:2
-mtime: 1740449928
-added: 1771113756
-song_end
-song_begin: Am I Wrong (Matthew Kennedy Remix).wav
-Time: 244.476
-Format: 48000:32:2
-mtime: 1710642941
-added: 1772043480
-song_end
-song_begin: Atmos.m4a
-Time: 260.011
-Format: 48000:f:2
-mtime: 1699818742
-added: 1772043480
-song_end
-song_begin: Banana House copy.wav
-Time: 209.323
-Date: 2023-12-0
-Format: 48000:32:2
-mtime: 1701661183
-added: 1772043488
-song_end
-song_begin: Break My Rules (Matthew Kennedy Remix).wav
-Time: 254.559
-Format: 48000:32:2
-mtime: 1715627577
-added: 1772043497
-song_end
-song_begin: Casio (Matthew Kennedy Hydrasynth Exclusive Remix).wav
-Time: 304.843
-Format: 48000:32:2
-mtime: 1705345232
-added: 1772043512
-song_end
-song_begin: circuit-jam-051525.wav
-Time: 275.444
-Format: 44100:32:2
-mtime: 1747341882
-added: 1772044037
-song_end
-song_begin: Cold Heart.m4a
-Time: 325.547
-Format: 48000:f:2
-mtime: 1699818792
-added: 1772043512
-song_end
-song_begin: Copy of High Remix Export 1 62924.wav
-Time: 207.699
-Format: 48000:16:2
-mtime: 1737092210
-added: 1772043512
-song_end
-song_begin: Copy of Move Me Remix Export 1 71424 at 1643.wav
-Time: 249.107
-Format: 48000:16:2
-mtime: 1737093089
-added: 1772043519
-song_end
-song_begin: Cruel Summer Remix.wav
-Time: 203.735
-Format: 48000:32:2
-mtime: 1716503532
-added: 1772043527
-song_end
-song_begin: Damn Vincent.wav
-Time: 258.113
-Date: 2024-05-1
-Format: 48000:32:2
-mtime: 1715455644
-added: 1772043551
-song_end
-song_begin: Deep Mist.wav
-Time: 256.67900000000003
-Format: 48000:32:2
-mtime: 1711132024
-added: 1772043563
-song_end
-song_begin: DIY (Matthew Kennedy Remix) Export 1 21224 at 1706.wav
-Time: 297.738
-Format: 48000:32:2
-mtime: 1707787714
-added: 1772043539
-song_end
-song_begin: Dizzy (Matthew Kennedy Remix).wav
-Time: 236.447
-Format: 48000:16:2
-mtime: 1719962926
-added: 1772043569
-song_end
-song_begin: Drift and Drive (Proof of Concept).wav
-Time: 224.833
-Format: 48000:32:2
-mtime: 1699821245
-added: 1772043579
-song_end
-song_begin: Drop.m4a
-Time: 192.53300000000002
-Format: 48000:f:2
-mtime: 1699820568
-added: 1772043579
-song_end
-song_begin: Dumpster Dive.m4a
-Time: 152.96
-Format: 48000:f:2
-mtime: 1699818653
-added: 1772043579
-song_end
-song_begin: For the Glory of the Omnissiah.wav
-Time: 197.336
-Format: 48000:32:2
-mtime: 1705799302
-added: 1772043588
-song_end
-song_begin: Galvanize (Low Flying Oscillator Remix) 2.wav
-Time: 369.808
-Format: 48000:16:2
-mtime: 1719457516
-added: 1772043598
-song_end
-song_begin: Galvanize (Low Flying Oscillator Remix).wav
-Time: 366.115
-Format: 48000:32:2
-mtime: 1701642320
-added: 1772043615
-song_end
-song_begin: Glitch Running Fun.m4a
-Time: 240.811
-Format: 48000:f:2
-mtime: 1699818728
-added: 1772043615
-song_end
-song_begin: Heartbreak on the Dancefloor (Low Flying Oscillator Remix) Master 101423 at 2127.wav
-Time: 259.672
-Date: 2023-10-1
-Format: 48000:32:2
-mtime: 1699821356
-added: 1772043625
-song_end
-song_begin: High Remix Export 1 62924.wav
-Time: 207.699
-Format: 48000:16:2
-mtime: 1719682909
-added: 1772043632
-song_end
-song_begin: Hounds of War (Rough 102624 1804).wav
-Time: 248.808
-Format: 48000:16:2
-mtime: 1747369131
-added: 1772043638
-song_end
-song_begin: Internal (Nov. Day 4).wav
-Time: 226.434
-Format: 48000:16:2
-mtime: 1730837392
-added: 1772043645
-song_end
-song_begin: Jason Remix (Nov. Day 15).wav
-Time: 455.66700000000003
-Format: 48000:16:2
-mtime: 1731822087
-added: 1772043657
-song_end
-song_begin: Johnny and Mary (Low Flying Oscillator Remix).wav
-Time: 310.731
-Format: 48000:32:2
-mtime: 1704671316
-added: 1772043670
-song_end
-song_begin: Lies of P Re-score copy.wav
-Time: 52.114000000000004
-Date: 2023-11-0
-Format: 48000:32:2
-mtime: 1699477653
-added: 1772043670
-song_end
-song_begin: Life (Low Flying Oscillator Remix).wav
-Time: 347.44
-Format: 48000:32:2
-mtime: 1699819783
-added: 1772043684
-song_end
-song_begin: Locked Out of Heaven (Low Flying Oscillator Remix).wav
-Time: 300.521
-Format: 48000:32:2
-mtime: 1701113965
-added: 1772043696
-song_end
-song_begin: Lucky Punk.m4a
-Time: 231.211
-Format: 48000:f:2
-mtime: 1699818713
-added: 1772043696
-song_end
-song_begin: Move Me Remix Export 1 71424 at 1643.wav
-Time: 249.107
-Format: 48000:16:2
-mtime: 1720993611
-added: 1772043703
-song_end
-song_begin: Movement (AudioHaze Cover) (Matthew Kennedy Remix) copy.wav
-Time: 260.281
-Date: 2023-11-0
-Format: 48000:32:2
-mtime: 1699035419
-added: 1772043713
-song_end
-song_begin: My Trigger (Low Flying Oscillator Remix).wav
-Time: 209.852
-Format: 48000:32:2
-mtime: 1699819091
-added: 1772043894
-song_end
-song_begin: Omnissiah_s Call.m4a
-Time: 254.315
-Format: 48000:f:2
-mtime: 1699820600
-added: 1772043894
-song_end
-song_begin: Out of Focus Remix Export 1 62624.wav
-Time: 196.472
-Format: 48000:16:2
-mtime: 1719451400
-added: 1772043894
-song_end
-song_begin: PortalStep.m4a
-Time: 138.155
-Format: 48000:f:2
-mtime: 1699818600
-added: 1772043902
-song_end
-song_begin: Preparations.wav
-Time: 224.833
-Format: 48000:32:2
-mtime: 1699820560
-added: 1772043909
-song_end
-song_begin: Project copy.wav
-Time: 209.323
-Date: 2023-12-0
-Format: 48000:32:2
-mtime: 1701660856
-added: 1772043916
-song_end
-song_begin: PS5 (Low Flying Oscillator Remix).wav
-Time: 214.731
-Format: 48000:32:2
-mtime: 1699820952
-added: 1772043902
-song_end
-song_begin: Retrograde.m4a
-Time: 225.15200000000002
-Format: 48000:f:2
-mtime: 1699818704
-added: 1772043916
-song_end
-song_begin: Rude Awakenings.wav
-Time: 183.955
-Format: 48000:32:2
-mtime: 1699820770
-added: 1772043928
-song_end
-song_begin: Rumble (Low Flying Oscillator Remix).wav
-Time: 165.107
-Format: 48000:32:2
-mtime: 1699798321
-added: 1772043928
-song_end
-song_begin: Scatman (Low Flying Oscillator Remix.wav
-Time: 254.669
-Format: 48000:32:2
-mtime: 1699819367
-added: 1772043937
-song_end
-song_begin: Sense of Adventure (Reworked).m4a
-Time: 236.949
-Format: 48000:f:2
-mtime: 1699820582
-added: 1772043937
-song_end
-song_begin: Starboy (Low Flying Oscillator Master Remix 91923 at 2052).wav
-Time: 284.76
-Format: 48000:32:2
-mtime: 1699819432
-added: 1772043945
-song_end
-song_begin: Starboy (Low Flying Oscillator Master Remix).wav
-Time: 288.6
-Format: 48000:32:2
-mtime: 1695174036
-added: 1772043953
-song_end
-song_begin: Start a Riot (Low Flying Oscillator Remix).wav
-Time: 188.497
-Format: 48000:32:2
-mtime: 1703351272
-added: 1772043959
-song_end
-song_begin: Start a Riot (Low Flying Oscillator Slowed Remix) .wav
-Time: 210.586
-Format: 48000:32:2
-mtime: 1703373734
-added: 1772043974
-song_end
-song_begin: Stumble (Nov. Day 5).wav
-Time: 95
-Format: 48000:16:2
-mtime: 1730836917
-added: 1772043974
-song_end
-song_begin: Talk Slow Remix (Nov. Day 16) Rough Export.wav
-Time: 200.727
-Format: 48000:16:2
-mtime: 1731903990
-added: 1772043974
-song_end
-song_begin: The Cold of Winter.wav
-Time: 332.459
-Date: 2023-11-0
-Format: 48000:32:2
-mtime: 1698943749
-added: 1772043985
-song_end
-song_begin: The New Beginning of Fall.wav
-Time: 402.136
-Format: 48000:32:2
-mtime: 1697822127
-added: 1772044012
-song_end
-song_begin: The Peace of a Spring Rainfall(1).wav
-Time: 147.702
-Format: 48000:32:2
-mtime: 1713652226
-added: 1772044012
-song_end
-song_begin: Uh Oh Remix Export 71924 at 1727.wav
-Time: 190.776
-Format: 48000:16:2
-mtime: 1721428183
-added: 1772044012
-song_end
-song_begin: Virtual.m4a
-Time: 314.24
-Format: 48000:f:2
-mtime: 1699818762
-added: 1772044012
-song_end
-song_begin: War for Heavens Gates.wav
-Time: 212.435
-Format: 48000:16:2
-mtime: 1723762193
-added: 1772044012
-song_end
-song_begin: Welcome to Mars (Rough 122724 1347).wav.wav
-Time: 199.183
-Format: 48000:16:2
-mtime: 1735328993
-added: 1772044012
-song_end
-song_begin: Wreckage Remix Rough .wav
-Time: 313.14
-Format: 48000:32:2
-mtime: 1705345243
-added: 1772044022
-song_end
-song_begin: Young Turks (Matthew Kennedy Remix) Export 22624 at 2125.wav
-Time: 263.086
-Format: 48000:32:2
-mtime: 1711507446
-added: 1772044029
-song_end
-end: my_music
 directory: ODESZA - A Moment Apart
 mtime: 1771892267
 begin: ODESZA - A Moment Apart
@@ -8133,9 +7717,9 @@ mtime: 1769802951
 added: 1772042160
 song_end
 end: ODESZA & Yellow House - Flaws in Our Design
-directory: ODESZA- Theodore Shapiro - Music To Refine To- A Remix Companion to Severance
+directory: ODESZA- Theodore Shapiro - Music To Refine To - A Remix Companion to Severance
 mtime: 1771892267
-begin: ODESZA- Theodore Shapiro - Music To Refine To- A Remix Companion to Severance
+begin: ODESZA- Theodore Shapiro - Music To Refine To - A Remix Companion to Severance
 song_begin: ODESZA, Theodore Shapiro - Music To Refine To- A Remix Companion to Severance - 01 Entering Lumon (ODESZA Severance Remix).flac
 Time: 131
 Title: Entering Lumon (ODESZA Severance Remix)
@@ -8147,7 +7731,7 @@ Track: 1
 AlbumArtist: ODESZA, Theodore Shapiro
 Format: 48000:24:2
 mtime: 1769795186
-added: 1771113753
+added: 1772471261
 song_end
 song_begin: ODESZA, Theodore Shapiro - Music To Refine To- A Remix Companion to Severance - 02 Mammalians Nurturable (ODESZA Severance Remix).flac
 Time: 209
@@ -8160,7 +7744,7 @@ Track: 2
 AlbumArtist: ODESZA, Theodore Shapiro
 Format: 48000:24:2
 mtime: 1769795186
-added: 1771113753
+added: 1772471261
 song_end
 song_begin: ODESZA, Theodore Shapiro - Music To Refine To- A Remix Companion to Severance - 03 Music of Wellness (ODESZA Severance Remix).flac
 Time: 172
@@ -8173,7 +7757,7 @@ Track: 3
 AlbumArtist: ODESZA, Theodore Shapiro
 Format: 48000:24:2
 mtime: 1769795186
-added: 1771113753
+added: 1772471261
 song_end
 song_begin: ODESZA, Theodore Shapiro - Music To Refine To- A Remix Companion to Severance - 04 Elevator Down (ODESZA Severance Remix).flac
 Time: 202
@@ -8186,7 +7770,7 @@ Track: 4
 AlbumArtist: ODESZA, Theodore Shapiro
 Format: 48000:24:2
 mtime: 1769795186
-added: 1771113753
+added: 1772471261
 song_end
 song_begin: ODESZA, Theodore Shapiro - Music To Refine To- A Remix Companion to Severance - 05 Morning Routine (ODESZA Severance Remix).flac
 Time: 195
@@ -8199,7 +7783,7 @@ Track: 5
 AlbumArtist: ODESZA, Theodore Shapiro
 Format: 48000:24:2
 mtime: 1769795186
-added: 1771113753
+added: 1772471261
 song_end
 song_begin: ODESZA, Theodore Shapiro - Music To Refine To- A Remix Companion to Severance - 06 Irving Watermelon (ODESZA Severance Remix).flac
 Time: 191.608
@@ -8212,7 +7796,7 @@ Track: 6
 AlbumArtist: ODESZA, Theodore Shapiro
 Format: 48000:24:2
 mtime: 1769795186
-added: 1771113753
+added: 1772471261
 song_end
 song_begin: ODESZA, Theodore Shapiro - Music To Refine To- A Remix Companion to Severance - 07 Muzak Kier Hymn (ODESZA Severance Remix).flac
 Time: 270.846
@@ -8225,9 +7809,9 @@ Track: 7
 AlbumArtist: ODESZA, Theodore Shapiro
 Format: 48000:24:2
 mtime: 1769795186
-added: 1772042489
+added: 1772471261
 song_end
-end: ODESZA- Theodore Shapiro - Music To Refine To- A Remix Companion to Severance
+end: ODESZA- Theodore Shapiro - Music To Refine To - A Remix Companion to Severance
 directory: Old Runescape Soundtrack
 mtime: 1771892267
 begin: Old Runescape Soundtrack
@@ -8904,7 +8488,7 @@ mtime: 1769447520
 added: 1771113753
 song_end
 song_begin: Cave Background.ogg
-Time: 259.673
+Time: 259.674
 Artist: Ian Taylor
 Date: 2004
 Genre: Soundtrack
@@ -10794,7 +10378,7 @@ mtime: 1769447520
 added: 1771113754
 song_end
 song_begin: Insect Queen.ogg
-Time: 259.459
+Time: 259.46
 Artist: Ian Taylor
 Date: 2004
 Genre: Soundtrack
@@ -14560,7 +14144,7 @@ mtime: 1769447520
 added: 1771113755
 song_end
 song_begin: Zealot.ogg
-Time: 259.781
+Time: 259.782
 Artist: Ian Taylor
 Date: 2004
 Genre: Soundtrack
@@ -14588,8 +14172,588 @@ mtime: 1769447520
 added: 1771113755
 song_end
 end: Old Runescape Soundtrack
+directory: Portal 2 Soundtrack
+mtime: 1772467618
+begin: Portal 2 Soundtrack
+song_begin: 01 - Portal 2 OST Volume 1 - Science is Fun.flac
+Time: 153.332
+Title: - Portal 2 OST Volume 1 - Science is Fun
+Track: 1
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 02 - Portal 2 OST Volume 1 - Concentration Enhancing Menu Initialiser.flac
+Time: 136.707
+Title: - Portal 2 OST Volume 1 - Concentration Enhancing Menu Initialiser
+Track: 2
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 03 - Portal 2 OST Volume 1 - 9999999.flac
+Time: 191.367
+Title: - Portal 2 OST Volume 1 - 9999999
+Track: 3
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 04 - Portal 2 OST Volume 1 - The Courtesy Call.flac
+Time: 217.06
+Title: - Portal 2 OST Volume 1 - The Courtesy Call
+Track: 4
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 05 - Portal 2 OST Volume 1 - Technical Difficulties.flac
+Time: 201.804
+Title: - Portal 2 OST Volume 1 - Technical Difficulties
+Track: 5
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 06 - Portal 2 OST Volume 1 - Overgrowth.flac
+Time: 170.608
+Title: - Portal 2 OST Volume 1 - Overgrowth
+Track: 6
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 07 - Portal 2 OST Volume 1 - Ghost of Rattman.flac
+Time: 246.096
+Title: - Portal 2 OST Volume 1 - Ghost of Rattman
+Track: 7
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 08 - Portal 2 OST Volume 1 - Haunted Panels.flac
+Time: 96.467
+Title: - Portal 2 OST Volume 1 - Haunted Panels
+Track: 8
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 09 - Portal 2 OST Volume 1 - The Future Starts With You.flac
+Time: 201.804
+Title: - Portal 2 OST Volume 1 - The Future Starts With You
+Track: 9
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 10 - Portal 2 OST Volume 1 - There She Is.flac
+Time: 260.771
+Title: - Portal 2 OST Volume 1 - There She Is
+Track: 10
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 11 - Portal 2 OST Volume 1 - You Know Her？.flac
+Time: 190.67000000000002
+Title: - Portal 2 OST Volume 1 - You Know Her？
+Track: 11
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 12 - Portal 2 OST Volume 1 - The Friendly Faith Plate.flac
+Time: 179.327
+Title: - Portal 2 OST Volume 1 - The Friendly Faith Plate
+Track: 12
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 13 - Portal 2 OST Volume 1 - 15 Acres of Broken Glass.flac
+Time: 299.769
+Title: - Portal 2 OST Volume 1 - 15 Acres of Broken Glass
+Track: 13
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 14 - Portal 2 OST Volume 1 - Love as a Construct.flac
+Time: 297.436
+Title: - Portal 2 OST Volume 1 - Love as a Construct
+Track: 14
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 15 - Portal 2 OST Volume 1 - I Saw a Deer Today.flac
+Time: 193.27100000000002
+Title: - Portal 2 OST Volume 1 - I Saw a Deer Today
+Track: 15
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 16 - Portal 2 OST Volume 1 - Hard Sunshine.flac
+Time: 168.40200000000002
+Title: - Portal 2 OST Volume 1 - Hard Sunshine
+Track: 16
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 17 - Portal 2 OST Volume 1 - I'm Different.flac
+Time: 268.712
+Title: - Portal 2 OST Volume 1 - I'm Different
+Track: 17
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 18 - Portal 2 OST Volume 1 - Adrenal Vapor.flac
+Time: 156.072
+Title: - Portal 2 OST Volume 1 - Adrenal Vapor
+Track: 18
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 19 - Portal 2 OST Volume 1 - Turret Wife Serenade.flac
+Time: 98.766
+Title: - Portal 2 OST Volume 1 - Turret Wife Serenade
+Track: 19
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 20 - Portal 2 OST Volume 1 - I Made It All Up.flac
+Time: 236.413
+Title: - Portal 2 OST Volume 1 - I Made It All Up
+Track: 20
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 21 - Portal 2 OST Volume 1 - Comedy = Tragedy + Time.flac
+Time: 209.618
+Title: - Portal 2 OST Volume 1 - Comedy = Tragedy + Time
+Track: 21
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 22 - Portal 2 OST Volume 1 - Triple Laser Phase.flac
+Time: 255.094
+Title: - Portal 2 OST Volume 1 - Triple Laser Phase
+Track: 22
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 23 - Portal 2 OST Volume 2 - You Will Be Perfect.flac
+Time: 159.532
+Title: - Portal 2 OST Volume 2 - You Will Be Perfect
+Track: 23
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 24 - Portal 2 OST Volume 2 - Halls Of Science 4.flac
+Time: 275.319
+Title: - Portal 2 OST Volume 2 - Halls Of Science 4
+Track: 24
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 25 - Portal 2 OST Volume 2 - Bots Build Bots.flac
+Time: 247.16400000000002
+Title: - Portal 2 OST Volume 2 - Bots Build Bots
+Track: 25
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 26 - Portal 2 OST Volume 2 - An Accent Beyond.flac
+Time: 178.48
+Title: - Portal 2 OST Volume 2 - An Accent Beyond
+Track: 26
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 27 - Portal 2 OST Volume 2 - Robot Ghost Story.flac
+Time: 187.292
+Title: - Portal 2 OST Volume 2 - Robot Ghost Story
+Track: 27
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 28 - Portal 2 OST Volume 2 - Die Cut Laser Dance.flac
+Time: 120.093
+Title: - Portal 2 OST Volume 2 - Die Cut Laser Dance
+Track: 28
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 29 - Portal 2 OST Volume 2 - Turret Redemption Line.flac
+Time: 203.174
+Title: - Portal 2 OST Volume 2 - Turret Redemption Line
+Track: 29
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 30 - Portal 2 OST Volume 2 - Bring Your Daughter To Work Day.flac
+Time: 160.066
+Title: - Portal 2 OST Volume 2 - Bring Your Daughter To Work Day
+Track: 30
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 31 - Portal 2 OST Volume 2 - Almost At Fifty Percent.flac
+Time: 119.037
+Title: - Portal 2 OST Volume 2 - Almost At Fifty Percent
+Track: 31
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 32 - Portal 2 OST Volume 2 - Don't Do it.flac
+Time: 316.45300000000003
+Title: - Portal 2 OST Volume 2 - Don't Do it
+Track: 32
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 33 - Portal 2 OST Volume 2 - I AM NOT A MORON!.flac
+Time: 226.893
+Title: - Portal 2 OST Volume 2 - I AM NOT A MORON!
+Track: 33
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 34 - Portal 2 OST Volume 2 - Vitrification Order.flac
+Time: 394.065
+Title: - Portal 2 OST Volume 2 - Vitrification Order
+Track: 34
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 35 - Portal 2 OST Volume 2 - Music of the Spheres.flac
+Time: 218.894
+Title: - Portal 2 OST Volume 2 - Music of the Spheres
+Track: 35
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 36 - Portal 2 OST Volume 2 - You are Not Part of the Control Group.flac
+Time: 204.08
+Title: - Portal 2 OST Volume 2 - You are Not Part of the Control Group
+Track: 36
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 37 - Portal 2 OST Volume 2 - Forwarding the Cause of Science.flac
+Time: 220.891
+Title: - Portal 2 OST Volume 2 - Forwarding the Cause of Science
+Track: 37
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 38 - Portal 2 OST Volume 2 - PotatOS Lament.flac
+Time: 119.129
+Title: - Portal 2 OST Volume 2 - PotatOS Lament
+Track: 38
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 39 - Portal 2 OST Volume 2 - The Reunion.flac
+Time: 225.697
+Title: - Portal 2 OST Volume 2 - The Reunion
+Track: 39
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 40 - Portal 2 OST Volume 2 - Music of the Spheres 2 (Incendiary Lemons).flac
+Time: 163.665
+Title: - Portal 2 OST Volume 2 - Music of the Spheres 2 (Incendiary Lemons)
+Track: 40
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 41 - Portal 2 OST Volume 3 - Reconstructing More Science.flac
+Time: 156.595
+Title: - Portal 2 OST Volume 3 - Reconstructing More Science
+Track: 41
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 42 - Portal 2 OST Volume 3 - Wheatley Science.flac
+Time: 149.246
+Title: - Portal 2 OST Volume 3 - Wheatley Science
+Track: 42
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 43 - Portal 2 OST Volume 3 - Franken Turrets.flac
+Time: 248.082
+Title: - Portal 2 OST Volume 3 - Franken Turrets
+Track: 43
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 44 - Portal 2 OST Volume 3 - Machiavellian Bach.flac
+Time: 241.58
+Title: - Portal 2 OST Volume 3 - Machiavellian Bach
+Track: 44
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 45 - Portal 2 OST Volume 3 - Excursion Funnel.flac
+Time: 272.079
+Title: - Portal 2 OST Volume 3 - Excursion Funnel
+Track: 45
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 46 - Portal 2 OST Volume 3 - TEST.flac
+Time: 374.096
+Title: - Portal 2 OST Volume 3 - TEST
+Track: 46
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 47 - Portal 2 OST Volume 3 - The Part Where He Kills You.flac
+Time: 203.255
+Title: - Portal 2 OST Volume 3 - The Part Where He Kills You
+Track: 47
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 48 - Portal 2 OST Volume 3 - Omg, What has He Done？.flac
+Time: 144.52100000000002
+Title: - Portal 2 OST Volume 3 - Omg, What has He Done？
+Track: 48
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 49 - Portal 2 OST Volume 3 - Bombs for Throwing at You (Four Part Plan).flac
+Time: 348.16
+Title: - Portal 2 OST Volume 3 - Bombs for Throwing at You (Four Part Plan)
+Track: 49
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469484
+song_end
+song_begin: 50 - Portal 2 OST Volume 3 - Your Precious Moon.flac
+Time: 115.391
+Title: - Portal 2 OST Volume 3 - Your Precious Moon
+Track: 50
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 51 - Portal 2 OST Volume 3 - Caroline Deleted.flac
+Time: 110.44500000000001
+Title: - Portal 2 OST Volume 3 - Caroline Deleted
+Track: 51
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 52 - Portal 2 OST Volume 3 - Cara Mia Addio [With Lyrics!].flac
+Time: 153.727
+Title: - Portal 2 OST Volume 3 - Cara Mia Addio [With Lyrics!]
+Track: 52
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 53 - Portal 2 OST Volume 3 - Want You Gone.flac
+Time: 141.618
+Title: - Portal 2 OST Volume 3 - Want You Gone
+Track: 53
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 54 - Portal 2 OST Volume 3 - Spaaaaace.flac
+Time: 45.789
+Title: - Portal 2 OST Volume 3 - Spaaaaace
+Track: 54
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 55 - Portal 2 OST Volume 3 - Space Phase.flac
+Time: 92.868
+Title: - Portal 2 OST Volume 3 - Space Phase
+Track: 55
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 56 - Portal 2 OST Volume 3 - Some Assembly Required.flac
+Time: 110.852
+Title: - Portal 2 OST Volume 3 - Some Assembly Required
+Track: 56
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 57 - Portal 2 OST Volume 3 - Robot Waiting Room #1.flac
+Time: 134.304
+Title: - Portal 2 OST Volume 3 - Robot Waiting Room #1
+Track: 57
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 58 - Portal 2 OST Volume 3 - Robot Waiting Room #2.flac
+Time: 134.478
+Title: - Portal 2 OST Volume 3 - Robot Waiting Room #2
+Track: 58
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 59 - Portal 2 OST Volume 3 - Robot Waiting Room #3.flac
+Time: 134.478
+Title: - Portal 2 OST Volume 3 - Robot Waiting Room #3
+Track: 59
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 60 - Portal 2 OST Volume 3 - Robot Waiting Room #4.flac
+Time: 134.304
+Title: - Portal 2 OST Volume 3 - Robot Waiting Room #4
+Track: 60
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 61 - Portal 2 OST Volume 3 - Robot Waiting Room #5.flac
+Time: 134.501
+Title: - Portal 2 OST Volume 3 - Robot Waiting Room #5
+Track: 61
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 62 - Portal 2 OST Volume 3 - Robot Waiting Room #6.flac
+Time: 126.095
+Title: - Portal 2 OST Volume 3 - Robot Waiting Room #6
+Track: 62
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 63 - Portal 2 OST Volume 3 - You Saved Science.flac
+Time: 47.995000000000005
+Title: - Portal 2 OST Volume 3 - You Saved Science
+Track: 63
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+song_begin: 64 - Portal 2 OST Volume 3 - Robots FTW.flac
+Time: 218.488
+Title: - Portal 2 OST Volume 3 - Robots FTW
+Track: 64
+Album: Portal 2 (Original Game Soundtrack)
+Format: 48000:24:2
+mtime: 1772469938
+added: 1772469485
+song_end
+end: Portal 2 Soundtrack
 directory: Sam Gellaitry - ANYWHERE HERE IS PERFECT
-mtime: 1771892267
+mtime: 1772470720
 begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT
 song_begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT - 01 LIGHTNING.flac
 Time: 169.632
@@ -14717,402 +14881,452 @@ mtime: 1771892267
 begin: Stellaris DLC OSTs
 song_begin: 23 Dragon Breath.flac
 Time: 398.795
-Track: 23
 Title: - Dragon Breath
+Track: 23
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042565
 song_end
 song_begin: 24 Assembling The Fleet.flac
 Time: 315.26800000000003
-Track: 24
 Title: - Assembling The Fleet
+Track: 24
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042565
 song_end
 song_begin: 25 The Titan.flac
 Time: 241.975
-Track: 25
 Title: - The Titan
+Track: 25
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042565
 song_end
 song_begin: 26 The Last Stand.flac
 Time: 169.935
-Track: 26
 Title: - The Last Stand
+Track: 26
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042565
 song_end
 song_begin: 27 The Awakened.flac
 Time: 393.711
-Track: 27
 Title: - The Awakened
+Track: 27
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042578
 song_end
 song_begin: 28 A New Dawn.flac
 Time: 110.062
-Track: 28
 Title: - A New Dawn
+Track: 28
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042578
 song_end
 song_begin: 29 In Memory Of MR.flac
 Time: 190.589
-Track: 29
 Title: - In Memory Of MR
+Track: 29
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042578
 song_end
 song_begin: 30 The Imperial Fleet.flac
 Time: 327.367
-Track: 30
 Title: - The Imperial Fleet
+Track: 30
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042585
 song_end
 song_begin: 31 Towards Utopia.flac
 Time: 487.34000000000003
-Track: 31
 Title: - Towards Utopia
+Track: 31
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042599
 song_end
 song_begin: 32 In Memory Of Mr Luminous.flac
 Time: 217
-Track: 32
 Title: - In Memory Of Mr Luminous
+Track: 32
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042599
 song_end
 song_begin: 33 The Imperial Fleet Second Coming.flac
 Time: 412.105
-Track: 33
 Title: - The Imperial Fleet Second Coming
+Track: 33
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042606
 song_end
 song_begin: 34 Towards Utopia Nova Flare.flac
 Time: 493.223
-Track: 34
 Title: - Towards Utopia Nova Flare
+Track: 34
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042616
 song_end
 song_begin: 35 Robotics And Beyond.flac
 Time: 420.63100000000003
-Track: 35
 Title: - Robotics And Beyond
+Track: 35
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042624
 song_end
 song_begin: 36 Robotics.flac
 Time: 328.423
-Track: 36
 Title: - Robotics
+Track: 36
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042651
 song_end
 song_begin: 37 Synthetic God.flac
 Time: 296.482
-Track: 37
 Title: - Synthetic God
+Track: 37
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042651
 song_end
 song_begin: 38 Stellaris Apocalypse OST -For as Long as I Shall Live -.flac
 Time: 114.393
-Track: 38
 Title: - Stellaris Apocalypse OST -For as Long as I Shall Live -
+Track: 38
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042651
 song_end
 song_begin: 39 Doomsday.flac
 Time: 298.701
-Track: 39
 Title: - Doomsday
+Track: 39
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042651
 song_end
 song_begin: 40 Hostile Fleet Detected.flac
 Time: 242.602
-Track: 40
 Title: - Hostile Fleet Detected
+Track: 40
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042651
 song_end
 song_begin: 41 Then Comes Light.flac
 Time: 343.283
-Track: 41
 Title: - Then Comes Light
+Track: 41
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042665
 song_end
 song_begin: 42 Stellaris： Distant Stars - Official Release Trailer Score.flac
 Time: 135.04
-Track: 42
 Title: - Stellaris： Distant Stars - Official Release Trailer Score
+Track: 42
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042665
 song_end
 song_begin: 43 Adagio Stellar.flac
 Time: 260.625
-Track: 43
 Title: - Adagio Stellar
+Track: 43
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042665
 song_end
 song_begin: 44 Into the Dark.flac
 Time: 264
-Track: 44
 Title: - Into the Dark
+Track: 44
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 45 One Galaxy.flac
 Time: 281.734
-Track: 45
 Title: - One Galaxy
+Track: 45
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 46 Abyss.flac
 Time: 263.529
-Track: 46
 Title: - Abyss
+Track: 46
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 47 Among The Ruins.flac
 Time: 270.635
-Track: 47
 Title: - Among The Ruins
+Track: 47
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 48 Finding Sanctuary.flac
 Time: 251.42600000000002
-Track: 48
 Title: - Finding Sanctuary
+Track: 48
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 49 Our Heritage.flac
 Time: 261.25
-Track: 49
 Title: - Our Heritage
+Track: 49
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 50 The March Of Profits.flac
 Time: 232.395
-Track: 50
 Title: - The March Of Profits
+Track: 50
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 51 Dark Minds.flac
 Time: 250
-Track: 51
 Title: - Dark Minds
+Track: 51
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 52 Hidden Motives.flac
 Time: 276.459
-Track: 52
 Title: - Hidden Motives
+Track: 52
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 53 The Master Plan.flac
 Time: 234.54500000000002
-Track: 53
 Title: - The Master Plan
+Track: 53
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 54 A Brighter Tomorrow.flac
 Time: 234.02100000000002
-Track: 54
 Title: - A Brighter Tomorrow
+Track: 54
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 55 Hegemonic Dominion.flac
 Time: 243.583
-Track: 55
 Title: - Hegemonic Dominion
+Track: 55
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 56 Call to Assembly.flac
 Time: 254.183
-Track: 56
 Title: - Call to Assembly
+Track: 56
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 57 Unity and Paperwork.flac
 Time: 270.48900000000003
-Track: 57
 Title: - Unity and Paperwork
+Track: 57
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 58 Not Alone (Trailer Version).flac
 Time: 84.652
-Track: 58
 Title: - Not Alone (Trailer Version)
+Track: 58
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042731
 song_end
 song_begin: 59 Nemesis Main Theme.flac
 Time: 241.329
-Track: 59
 Title: - Nemesis Main Theme
+Track: 59
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042741
 song_end
 song_begin: 60 Coronation Of The Dark Emperor.flac
 Time: 213.36700000000002
-Track: 60
 Title: - Coronation Of The Dark Emperor
+Track: 60
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042741
 song_end
 song_begin: 61 Super Massive Fleet.flac
 Time: 357.107
-Track: 61
 Title: - Super Massive Fleet
+Track: 61
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042752
 song_end
 song_begin: 62 Stellaris： Aquatics ｜ Trailer Music ｜ Extended Sing a Long Version.flac
 Time: 221.738
-Track: 62
 Title: - Stellaris： Aquatics ｜ Trailer Music ｜ Extended Sing a Long Version
+Track: 62
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042752
 song_end
 song_begin: 63 Beyond.flac
 Time: 496
-Track: 63
 Title: - Beyond
+Track: 63
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042768
 song_end
 song_begin: 64 Stargazer.flac
 Time: 173.625
-Track: 64
 Title: - Stargazer
+Track: 64
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042768
 song_end
 song_begin: 65 Methonos.flac
 Time: 340
-Track: 65
 Title: - Methonos
+Track: 65
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042775
 song_end
 song_begin: 66 Gather the Fleet.flac
 Time: 303
-Track: 66
 Title: - Gather the Fleet
+Track: 66
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042786
 song_end
 song_begin: 67 Stellaris： Toxoids ｜ Banging on a trashcan.flac
 Time: 175.53
-Track: 67
 Title: - Stellaris： Toxoids ｜ Banging on a trashcan
+Track: 67
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042786
 song_end
 song_begin: 68 Through the Astral Rift.flac
 Time: 378
-Track: 68
 Title: - Through the Astral Rift
+Track: 68
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042801
 song_end
 song_begin: 69 Eternal Dance of Photons.flac
 Time: 228.5
-Track: 69
 Title: - Eternal Dance of Photons
+Track: 69
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042801
 song_end
 song_begin: 70 The Formless.flac
 Time: 252
-Track: 70
 Title: - The Formless
+Track: 70
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042801
 song_end
 song_begin: 71 Quantum Spawn.flac
 Time: 254.452
-Track: 71
 Title: - Quantum Spawn
+Track: 71
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042822
 song_end
 song_begin: 72 BLADE.flac
 Time: 193.35
-Track: 72
 Title: - BLADE
+Track: 72
+Album: Stellaris DLC
 Format: 48000:24:2
-mtime: 1769739013
+mtime: 1772469853
 added: 1772042822
 song_end
 end: Stellaris DLC OSTs
@@ -15297,7 +15511,7 @@ added: 1772042980
 song_end
 end: Stellaris OST
 directory: The Midnight - Days of Thunder
-mtime: 1771892267
+mtime: 1772471220
 begin: The Midnight - Days of Thunder
 song_begin: The Midnight - Days of Thunder - 01 The Years (Prologue).flac
 Time: 368.684
@@ -15352,9 +15566,9 @@ mtime: 1758005604
 added: 1772043020
 song_end
 end: The Midnight - Days of Thunder
-directory: The Midnight - Endless Summer (The Stems)
-mtime: 1771892267
-begin: The Midnight - Endless Summer (The Stems)
+directory: The Midnight - Endless Summer
+mtime: 1772471236
+begin: The Midnight - Endless Summer
 song_begin: The Midnight - Endless Summer (The Stems) - 07 The Comeback Kid (118 BPM).flac
 Time: 321.916
 Title: The Comeback Kid (118 BPM)
@@ -15366,7 +15580,7 @@ Track: 7
 AlbumArtist: The Midnight
 Format: 44100:16:2
 mtime: 1756259580
-added: 1771113755
+added: 1772471254
 song_end
 song_begin: The Midnight - Endless Summer (The Stems) - 46 Sunset (Vanguard Smooth Pad Stem).flac
 Time: 330.526
@@ -15379,7 +15593,7 @@ Track: 46
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1756259580
-added: 1772043037
+added: 1772471254
 song_end
 song_begin: The Midnight - Endless Summer (The Stems) - 73 Synthetic (Brass Pad Stem).flac
 Time: 204.853
@@ -15392,7 +15606,7 @@ Track: 73
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1756259580
-added: 1772043037
+added: 1772471254
 song_end
 song_begin: The Midnight - Endless Summer (The Stems) - 87 The Equalizer (Not Alone Computer Voice Stem).flac
 Time: 232.592
@@ -15405,7 +15619,7 @@ Track: 87
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1756259580
-added: 1772043037
+added: 1772471254
 song_end
 song_begin: The Midnight - Endless Summer (The Stems) - 99 The Comeback Kid (Acapella Stem).flac
 Time: 335.593
@@ -15418,7 +15632,7 @@ Track: 99
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1756259580
-added: 1772043037
+added: 1772471254
 song_end
 song_begin: The Midnight - Endless Summer (The Stems) - 103 Vampires (Diva Epic Lead Stem).flac
 Time: 317.217
@@ -15431,7 +15645,7 @@ Track: 103
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1756259580
-added: 1771113755
+added: 1772471254
 song_end
 song_begin: The Midnight - Endless Summer (The Stems) - 122 Crockett's Revenge (Drums Stem).flac
 Time: 331.875
@@ -15444,9 +15658,9 @@ Track: 122
 AlbumArtist: The Midnight
 Format: 44100:24:2
 mtime: 1756259580
-added: 1772043037
+added: 1772471254
 song_end
-end: The Midnight - Endless Summer (The Stems)
+end: The Midnight - Endless Summer
 directory: The Prodigy - The Fat of the Land
 mtime: 1771892267
 begin: The Prodigy - The Fat of the Land
@@ -15493,9 +15707,19 @@ mtime: 1758031355
 added: 1772043200
 song_end
 end: The Prodigy - The Fat of the Land
-directory: Various Artists - Warhammer 40-000- Rogue Trader (Original Soundtrack)
+directory: Unreal Tournament '99 Drum and bass Mix™
+mtime: 1772472924
+begin: Unreal Tournament '99 Drum and bass Mix™
+song_begin: Unreal Tournament '99 Drum and bass Mix™.flac
+Time: 3442.625
+Format: 48000:24:2
+mtime: 1769626033
+added: 1772472931
+song_end
+end: Unreal Tournament '99 Drum and bass Mix™
+directory: Various Artists - Warhammer 40,000 - Rogue Trader (Original Soundtrack)
 mtime: 1771892267
-begin: Various Artists - Warhammer 40-000- Rogue Trader (Original Soundtrack)
+begin: Various Artists - Warhammer 40,000 - Rogue Trader (Original Soundtrack)
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 01 Semper Servientes (Main Theme).flac
 Time: 139.72
 Title: Semper Servientes (Main Theme)
@@ -15507,7 +15731,7 @@ Track: 1
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Dmitry V. Silantyev - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 02 The Imperium.flac
 Time: 112.066
@@ -15520,7 +15744,7 @@ Track: 2
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Dmitry V. Silantyev - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 03 Beyond the Nightmare.flac
 Time: 133.586
@@ -15533,7 +15757,7 @@ Track: 3
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Nikolay Filipovich - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 04 The Benevolent Triumph.flac
 Time: 135.853
@@ -15546,7 +15770,7 @@ Track: 4
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Vsevolod Borisov - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 05 Magnae Accessio.flac
 Time: 133.746
@@ -15559,7 +15783,7 @@ Track: 5
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 06 Voidborn.flac
 Time: 104.866
@@ -15572,7 +15796,7 @@ Track: 6
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 07 Scuffle on the Deck.flac
 Time: 248.626
@@ -15585,7 +15809,7 @@ Track: 7
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 08 Darkness Between the Stars.flac
 Time: 128.346
@@ -15598,7 +15822,7 @@ Track: 8
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Nikolay Filipovich - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 09 Ancient Mystery.flac
 Time: 129.16
@@ -15611,7 +15835,7 @@ Track: 9
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 10 Dirge for the Fallen.flac
 Time: 117.653
@@ -15624,7 +15848,7 @@ Track: 10
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pavel Lipski - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 11 Death of a Legend.flac
 Time: 123.333
@@ -15637,7 +15861,7 @@ Track: 11
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 12 The Expanse.flac
 Time: 110.4
@@ -15650,7 +15874,7 @@ Track: 12
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 13 Boarded.flac
 Time: 208.026
@@ -15663,7 +15887,7 @@ Track: 13
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 14 Absolution.flac
 Time: 114.613
@@ -15676,7 +15900,7 @@ Track: 14
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Dmitry V. Silantyev - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 15 The Veil Is Broken.flac
 Time: 207.44
@@ -15689,7 +15913,7 @@ Track: 15
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Dmitry V. Silantyev - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 16 Precipice of Damnation.flac
 Time: 108.706
@@ -15702,7 +15926,7 @@ Track: 16
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Dmitry V. Silantyev - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 17 Edge of Daybreak.flac
 Time: 221.76
@@ -15715,7 +15939,7 @@ Track: 17
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Dmitry V. Silantyev - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 18 Whispers of the Changer.flac
 Time: 105.946
@@ -15728,7 +15952,7 @@ Track: 18
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Sergey Gorelov - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 19 Scions of Lorgar.flac
 Time: 188.68
@@ -15741,7 +15965,7 @@ Track: 19
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Dmitry V. Silantyev - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 20 Primordial Truth.flac
 Time: 122.76
@@ -15754,7 +15978,7 @@ Track: 20
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pavel Lipski - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 21 The Empyrean Beckons.flac
 Time: 224.613
@@ -15767,7 +15991,7 @@ Track: 21
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Broojacker - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 22 Into the Thicket.flac
 Time: 130.88
@@ -15780,7 +16004,7 @@ Track: 22
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Broojacker - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 23 Isha's Tears.flac
 Time: 103.16
@@ -15793,7 +16017,7 @@ Track: 23
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113756
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 24 Janusian Fray.flac
 Time: 228.386
@@ -15806,7 +16030,7 @@ Track: 24
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Broojacker - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 25 Maiden World.flac
 Time: 112.373
@@ -15819,7 +16043,7 @@ Track: 25
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 26 Wrath of the Lost.flac
 Time: 223.453
@@ -15832,7 +16056,7 @@ Track: 26
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 27 Together We Stand.flac
 Time: 108.24000000000001
@@ -15845,7 +16069,7 @@ Track: 27
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 28 Footfallen.flac
 Time: 117.85300000000001
@@ -15858,7 +16082,7 @@ Track: 28
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 29 Martyr's Endurance.flac
 Time: 99.56
@@ -15871,7 +16095,7 @@ Track: 29
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 30 Dock Alpha-Rho Skirmish.flac
 Time: 217.333
@@ -15884,7 +16108,7 @@ Track: 30
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 31 Shadow Quarters.flac
 Time: 102.746
@@ -15897,7 +16121,7 @@ Track: 31
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 32 Hanged Man's Lot.flac
 Time: 243.066
@@ -15910,7 +16134,7 @@ Track: 32
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 33 Liege's Hand.flac
 Time: 121.57300000000001
@@ -15923,7 +16147,7 @@ Track: 33
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Nikolay Filipovich - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 34 Sparks in the Dark.flac
 Time: 134.773
@@ -15936,7 +16160,7 @@ Track: 34
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Dmitry V. Silantyev - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 35 Our Endless March.flac
 Time: 104.226
@@ -15949,7 +16173,7 @@ Track: 35
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Dmitry V. Silantyev - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 36 Blood of the Faithful.flac
 Time: 186.333
@@ -15962,7 +16186,7 @@ Track: 36
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Dmitry V. Silantyev - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 37 Spires of the Hive.flac
 Time: 96.373
@@ -15975,7 +16199,7 @@ Track: 37
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113756
+added: 1772471283
 song_end
 song_begin: Dmitry V. Silantyev - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 38 Imperium's Bastion.flac
 Time: 185.24
@@ -15988,7 +16212,7 @@ Track: 38
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Nikolay Filipovich - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 39 Shadows of Commorragh.flac
 Time: 115.586
@@ -16001,7 +16225,7 @@ Track: 39
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Nikolay Filipovich - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 40 Wyches' Grounds.flac
 Time: 177.48
@@ -16014,7 +16238,7 @@ Track: 40
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Nikolay Filipovich - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 41 Blades in the Void.flac
 Time: 112.906
@@ -16027,7 +16251,7 @@ Track: 41
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Nikolay Filipovich - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 42 The Chasm.flac
 Time: 181.506
@@ -16040,7 +16264,7 @@ Track: 42
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Nikolay Filipovich - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 43 Light of Stolen Stars.flac
 Time: 138.386
@@ -16053,7 +16277,7 @@ Track: 43
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Nikolay Filipovich - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 44 Reaving Tempest.flac
 Time: 203.386
@@ -16066,7 +16290,7 @@ Track: 44
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Vsevolod Borisov - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 45 Howl of the Wastes.flac
 Time: 108.36
@@ -16079,7 +16303,7 @@ Track: 45
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Vsevolod Borisov - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 46 Impending Storm.flac
 Time: 125.21300000000001
@@ -16092,7 +16316,7 @@ Track: 46
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Vsevolod Borisov - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 47 Death's Play.flac
 Time: 241.453
@@ -16105,7 +16329,7 @@ Track: 47
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Vsevolod Borisov - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 48 Icebound.flac
 Time: 119
@@ -16118,7 +16342,7 @@ Track: 48
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Vsevolod Borisov - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 49 The Maelstrom.flac
 Time: 227.293
@@ -16131,7 +16355,7 @@ Track: 49
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 50 When the Stars Tremble.flac
 Time: 187.546
@@ -16144,7 +16368,7 @@ Track: 50
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 51 Call of the Unknown.flac
 Time: 323.026
@@ -16157,7 +16381,7 @@ Track: 51
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 52 Broadside Cannonade.flac
 Time: 177.733
@@ -16170,7 +16394,7 @@ Track: 52
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Nikola Nikita Jeremić - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 53 Planetfall.flac
 Time: 137.613
@@ -16183,7 +16407,7 @@ Track: 53
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Nikola Nikita Jeremić - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 54 Shadow of the Inevitable.flac
 Time: 173.626
@@ -16196,7 +16420,7 @@ Track: 54
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113756
+added: 1772471283
 song_end
 song_begin: Nikola Nikita Jeremić - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 55 Barren.flac
 Time: 133.28
@@ -16209,7 +16433,7 @@ Track: 55
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113756
+added: 1772471283
 song_end
 song_begin: Nikola Nikita Jeremić - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 56 Conqueror's Demise.flac
 Time: 173.626
@@ -16222,7 +16446,7 @@ Track: 56
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Nikolay Filipovich - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 57 Clash of Convictions.flac
 Time: 130.973
@@ -16235,7 +16459,7 @@ Track: 57
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 58 Adrift.flac
 Time: 277.64
@@ -16248,7 +16472,7 @@ Track: 58
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Broojacker - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 59 Void-Damned.flac
 Time: 234.52
@@ -16261,7 +16485,7 @@ Track: 59
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113756
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 60 The Emergence.flac
 Time: 306.45300000000003
@@ -16274,7 +16498,7 @@ Track: 60
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pavel Lipski - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 61 Ancient Dynasty.flac
 Time: 139.413
@@ -16287,7 +16511,7 @@ Track: 61
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pavel Lipski - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 62 The Great Sleep Is Over.flac
 Time: 235.346
@@ -16300,7 +16524,7 @@ Track: 62
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pavel Lipski - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 63 Curse of the Yekhmet.flac
 Time: 127.2
@@ -16313,7 +16537,7 @@ Track: 63
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pavel Lipski - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 64 Annihilation.flac
 Time: 213.013
@@ -16326,7 +16550,7 @@ Track: 64
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pavel Lipski - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 65 Depths of the Tomb.flac
 Time: 123.866
@@ -16339,7 +16563,7 @@ Track: 65
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 66 Void Dragon.flac
 Time: 194.053
@@ -16352,7 +16576,7 @@ Track: 66
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Dmitry V. Silantyev - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 67 Nomos Are Here.flac
 Time: 153.133
@@ -16365,7 +16589,7 @@ Track: 67
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113756
+added: 1772471283
 song_end
 song_begin: Nikolay Filipovich - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 68 Unfathomable.flac
 Time: 132.04
@@ -16378,7 +16602,7 @@ Track: 68
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
 song_begin: Pawel Perepelica - Warhammer 40,000- Rogue Trader (Original Soundtrack) - 69 End of the Journey.flac
 Time: 275.2
@@ -16391,9 +16615,9 @@ Track: 69
 AlbumArtist: Various Artists
 Format: 44100:16:2
 mtime: 1769717759
-added: 1771113755
+added: 1772471283
 song_end
-end: Various Artists - Warhammer 40-000- Rogue Trader (Original Soundtrack)
+end: Various Artists - Warhammer 40,000 - Rogue Trader (Original Soundtrack)
 directory: Warhammer 40,000: Rogue Trader OST Collection
 mtime: 1771892267
 begin: Warhammer 40,000: Rogue Trader OST Collection
@@ -16426,29 +16650,9 @@ mtime: 1769738873
 added: 1772043347
 song_end
 end: Warhammer 40,000: Rogue Trader OST Collection
-directory: youtube
-mtime: 1771892267
-begin: youtube
-directory: NA
-mtime: 1771892267
-begin: youtube/NA
-song_begin: NA - Matt Maher - Lord, I Need You (Official Lyric Video).mp3
-Time: 207.714
-Format: 48000:16:2
-mtime: 1771341654
-added: 1772044077
-song_end
-end: youtube/NA
-end: youtube
-song_begin: Owlcat Sound Team Stream ｜ Warhammer 40,000： Rogue Trader [zSq4Bfhy-uU].flac
-Time: 7521.514
-Format: 48000:24:2
-mtime: 1769645760
-added: 1771107306
-song_end
-song_begin: Unreal Tournament '99 Drum and bass Mix™ [yL-4oSQwzJI].flac
+song_begin: Unreal Tournament '99 Drum and bass Mix™.flac
 Time: 3442.625
 Format: 48000:24:2
 mtime: 1769626033
-added: 1771107306
+added: 1772472920
 song_end

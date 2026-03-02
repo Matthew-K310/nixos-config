@@ -9,7 +9,7 @@
     ../../modules/emacs.nix
     ../../modules/graphics.nix
     ../../modules/music.nix
-    ../../modules/oldskool.nix
+    # ../../modules/oldskool.nix
     ../../modules/services.nix
     ../../modules/wm.nix
   ];

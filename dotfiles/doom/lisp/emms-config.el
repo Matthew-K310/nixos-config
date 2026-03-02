@@ -35,7 +35,7 @@
   (require 'emms-player-mpd)
   (setq emms-player-mpd-server-name "localhost"
         emms-player-mpd-server-port "6600"
-        emms-player-mpd-music-directory (expand-file-name "~/cloud/music"))
+        emms-player-mpd-music-directory (expand-file-name "~/Music"))
 
   ;; Connect to MPD and add it to player list
   (add-to-list 'emms-player-list 'emms-player-mpd)
