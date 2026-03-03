@@ -24928,3 +24928,35 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-03-02T19:43:14 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0003
 2026-03-02T19:43:14 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0002
 2026-03-02T19:43:14 update: removing [2007] Vangelis - Blade Runner Trilogy/CD1/Vangelis - Blade Runner CD1.cue/track0001
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+2026-03-02T19:46:18 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T19:46:38 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 02 Orrery.flac"
+2026-03-02T19:46:38 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T19:46:40 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 02 Orrery.flac"
+2026-03-02T19:46:40 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T19:48:26 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 03 Aphelion.flac"
+2026-03-02T19:48:26 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T19:52:48 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 03 Aphelion.flac"
+2026-03-02T19:52:48 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T19:57:10 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 03 Aphelion.flac"
+2026-03-02T19:57:10 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T20:03:48 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 04 Precession.flac"
+2026-03-02T20:03:48 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T20:10:27 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 04 Precession.flac"
+2026-03-02T20:10:27 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T20:17:23 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 05 Earthshine.flac"
+2026-03-02T20:17:23 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T20:24:19 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 05 Earthshine.flac"
+2026-03-02T20:24:19 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T20:28:44 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 06 Tellurion.flac"
+2026-03-02T20:28:44 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T20:33:09 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 06 Tellurion.flac"
+2026-03-02T20:33:09 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T20:36:52 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 07 Perihelion.flac"
+2026-03-02T20:36:52 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T20:40:35 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 07 Perihelion.flac"
+2026-03-02T20:40:35 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T20:45:54 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 08 Nychthemeron.flac"
+2026-03-02T20:45:54 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+2026-03-02T20:51:14 player: played "Jay Hosking - Celestial spheres/Jay Hosking - Celestial spheres - 08 Nychthemeron.flac"

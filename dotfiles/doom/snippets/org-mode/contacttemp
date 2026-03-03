@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: Contact template
+# key: trigger-key
+# condition: t
+# --
+
+
+* Name
+:PROPERTIES:
+:EMAIL: 
+:PHONE:
+:BIRTHDAY:        ;; <YYYY-MM-DD +1y>
+:LOCATION:
+:END:

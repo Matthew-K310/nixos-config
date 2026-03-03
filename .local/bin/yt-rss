@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+# Check if CSV file provided
+if [ -z "$1" ]; then
+	echo "Usage: $0 <subscriptions.csv> [output_file]"
+	echo ""
+	echo "Export your subscriptions from YouTube:"
+	echo "  1. Go to https://takeout.google.com"
+	echo "  2. Select only YouTube > subscriptions"
+	echo "  3. Download and extract subscriptions.csv"
+	exit 1
+fi
+
+CSV_FILE="/home/matthewkennedy/subscriptions.csv"
+OUTPUT_FILE="${2:-youtube_feeds.txt}"
+
+if [ ! -f "$CSV_FILE" ]; then
+	echo "Error: File $CSV_FILE not found"
+	exit 1
+fi
+
+# Clear output file
+>"$OUTPUT_FILE"
+
+# Skip header line and process each subscription
+tail -n +2 "$CSV_FILE" | while IFS=, read -r channel_id channel_url channel_title channel_description; do
+	# Remove quotes from fields
+	channel_id=$(echo "$channel_id" | tr -d '"')
+	channel_title=$(echo "$channel_title" | tr -d '"')
+
+	if [ -n "$channel_id" ]; then
+		RSS_URL="https://www.youtube.com/feeds/videos.xml?channel_id=$channel_id"
+		echo "# $channel_title" >>"$OUTPUT_FILE"
+		echo "$RSS_URL" >>"$OUTPUT_FILE"
+		echo "" >>"$OUTPUT_FILE"
+		echo "Added: $channel_title"
+	fi
+done
+
+echo ""
+echo "Done! RSS feeds saved to $OUTPUT_FILE"

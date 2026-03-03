@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# vanilla emacs
+emacs --init-directory=/home/matthewkennedy/.config/vanilla-emacs

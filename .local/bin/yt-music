@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+URL=$(gum input --placeholder "YouTube URL...")
+
+mkdir -p ~/cloud/music/youtube && cd ~/cloud/music/youtube && yt-dlp --cookies ~/Downloads/cookies.txt --remote-components ejs:github -x --audio-format flac -o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "$URL"

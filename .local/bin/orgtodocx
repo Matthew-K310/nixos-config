@@ -1,0 +1,13 @@
+org2docx() {
+    # Set the path to your reference DOCX
+    local refdoc="$PATH_TO_REFERENCE_DOCX"
+
+    # Get the base filename without the .org extension
+    local base
+    base=$(basename -s .org "$1")
+
+    echo "Generating $base.docx ..."
+
+    # Run pandoc to generate the DOCX
+    pandoc --reference-doc="$refdoc" -o "$base.docx" "$1"
+}

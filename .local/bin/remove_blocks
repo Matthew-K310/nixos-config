@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+# List of domains to unblock
+domains=(
+  "reddit.com"
+  "youtube.com"
+  "twitch.tv"
+  "imdb.com"
+  "claude.ai"
+  "chatgpt.com"
+  "t3.chat"
+  "gemini.google.com"
+  # Add more domains as needed
+)
+
+# Remove blocks from /etc/hosts
+for domain in "${domains[@]}"; do
+  sudo sed -i "/$domain/d" /etc/hosts
+done
+
+# Flush DNS cache
+sudo systemctl restart NetworkManager

@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+
+# List of domains to block
+domains=(
+  "reddit.com"
+  "youtube.com"
+  "twitch.tv"
+  "imdb.com"
+  "claude.ai"
+  "chatgpt.com"
+  "t3.chat"
+  "gemini.google.com"
+  # Add more domains as needed
+)
+
+# Function to add blocks
+add_blocks() {
+  changes_made=false
+  for domain in "${domains[@]}"; do
+    if ! grep -q "$domain" /etc/hosts; then
+      echo "127.0.0.1 $domain" >> /etc/hosts
+      echo "127.0.0.1 www.$domain" >> /etc/hosts
+      changes_made=true
+    fi
+  done
+}
+
+# Function to remove blocks
+remove_blocks() {
+  if grep -q "${domains[0]}" /etc/hosts; then
+    sed -i "/${domains[0]}/d" /etc/hosts
+    changes_made=true
+  fi
+}
+
+# Check current time
+current_hour=$(date +%H)
+
+# If it's between 0700 and 18:40, add blocks; otherwise, remove blocks
+if [ $current_hour -ge 7 ] && [ $current_hour -lt 1830 ]; then
+  add_blocks
+  echo "Blocks added."
+else
+  remove_blocks
+  echo "Blocks removed."
+fi
+
+# Flush DNS cache only if changes were made
+if [ "$changes_made" = true ]; then
+  systemctl restart NetworkManager
+  echo "NetworkManager restarted."
+else
+  echo "No changes made, NetworkManager not restarted."
+fi

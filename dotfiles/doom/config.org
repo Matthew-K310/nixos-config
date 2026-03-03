@@ -91,6 +91,7 @@
       (:prefix ("b" . "blog")
        :desc "Create new blog post" "n" #'blog/new-post 
        :desc "Export blog post to Hugo MD" "e" #'org-hugo-export-to-md
+       :desc "Export micro blog to site" "m" #'my/copy-micro-to-site
        :desc "Run Air dev server" "r" #'blog/site-serve
        :desc "Run Hugo dev server" "h" #'blog/hugo-serve)
       
@@ -698,9 +699,11 @@ Set up custom `org-capture` templates.
   
   ;; Capture templates
   (setq org-capture-templates
+        ;; t for todo
         '(("t" "Todo" entry
            (file+headline "~/org/inbox.org" "Todo")
            "* TODO %^{Task}\n:PROPERTIES:\n:CREATED: %U\n:CAPTURED: %a\n:END:\n%?" :prepend t)
+          ;; d for denote
           ("d" "Denote (New Note)" plain
            (file denote-last-path)
            #'denote-org-capture
@@ -708,6 +711,7 @@ Set up custom `org-capture` templates.
            :immediate-finish nil
            :kill-buffer t
            :jump-to-captured t)
+          ;; c for calendar
           ("c" "Calendar")
           ("cb" "Time Blocks" entry (file+datetree "~/org/work.org" "Time Blocks")
            "* Work on %?\nSCHEDULED: %T\n" :clock-in t :clock-keep t)
@@ -717,33 +721,36 @@ Set up custom `org-capture` templates.
           ("cd" "Deadline" entry
            (file+headline "~/org/calendar.org" "Deadlines")
            "* NEXT %^{Task}\nDEADLINE: %^{Deadline}T\n:PROPERTIES:\n:CREATED: %U\n:END:\n%?")
+          ;; p for project
           ("p" "Project" entry
            (file+headline "~/org/projects.org" "Projects")
-           "* PROJ %^{Project name}\n:PROPERTIES:\n:CREATED: %U\n:END:\n** TODO %?")
-          ("P" "Post Idea" entry
-           (file+headline "~/org/denote/20260128T201802--blog-post-backlog__backlog_blog.org" "Capture")
            "* PROJ %^{Project name}\n:PROPERTIES:\n:CREATED: %U\n:END:\n** TODO %?")
           ("i" "Inbox Capture" entry
            (file+headline "~/org/inbox.org" "Capture")
            "* %^{Note}\n:PROPERTIES:\n:CREATED: %U\n:CAPTURED: %a\n:END:\n%?" :prepend t)
-          ("b" "Bookmark")
-          ("bc" "Bookmark (Clipboard)" entry (file+headline "~/org/bookmarks.org" "Bookmarks")
+          ;; b for blog
+          ("b" "Blog")
+          ("bi" "Post Idea" entry
+           (file+headline "~/org/denote/20260128T201802--blog-post-backlog__backlog_blog.org" "Capture")
+           "* %^{Post name}\n:PROPERTIES:\n:CREATED: %U\n:END:\n%?")
+          ("bm" "Micro blog" entry
+           (file "~/org/micro.org")
+           "* %^{Title}\n:PROPERTIES:\n:DATE: %<%Y-%m-%d %H:%M>\n:SLUG: %^{Slug}\n:END:\n%?" :prepend t)
+          ("bp" "Blog post" plain
+           (file denote-blog-directory)
+           #'denote-org-capture
+           :no-save t
+           :immediate-finish nil
+           :kill-buffer t
+           :jump-to-captured t)
+          ;; s for save link
+          ("s" "Save Link")
+          ("sc" "Save Link (Clipboard)" entry (file+headline "~/org/bookmarks.org" "Bookmarks")
            "** %(org-web-tools-insert-link-for-clipboard-url)\n:PROPERTIES:\n:CAPTURED: %t\n:END:\n%?" :empty-lines 1 :prepend t)
-          ("bp" "Bookmark (Paste)" entry (file+headline "~/org/bookmarks.org" "Bookmarks")
+          ("sp" "Save Link (Paste)" entry (file+headline "~/org/bookmarks.org" "Bookmarks")
            "** %(org-web-tools-insert-link-for-given-url)\n:PROPERTIES:\n:CAPTURED: %t\n:END:\n%?" :empty-lines 1 :prepend t)
-          ("bw" "Bookmark (Watch Later)" entry (file+headline "~/org/bookmarks.org" "Watch Later")
+          ("sw" "Save Link (Watch Later)" entry (file+headline "~/org/bookmarks.org" "Watch Later")
            "** %(org-web-tools-insert-link-for-given-url)\n:PROPERTIES:\n:CAPTURED: %t\n:END:\n%?" :empty-lines 1 :prepend t)
-          ("c" "Contact" entry
-           (file+headline "~/org/contacts.org" "Contacts")
-           "* %^{Name}
-:PROPERTIES:
-:CREATED: %U
-:EMAIL: %^{Email}
-:PHONE: %^{Phone}
-:BIRTHDAY: %^{Birthday +1y}u
-:LOCATION: %^{Address}
-:END:
-%?")
           )))
 #+end_src
 
@@ -820,15 +827,15 @@ If URL is not given, look for first URL in `kill-ring'."
 ;;         "~/org/agenda.org"
 ;;         "~/org/calendar.org"))
 
-;; (setq org-agenda-files (directory-files-recursively org-directory "\\.org"))
+(setq org-agenda-files (directory-files-recursively org-directory "\\.org"))
 
-(after! org
-  (setq org-agenda-files
-        '("~/org/todo.org"
-          "~/org/calendar.org"
-          "~/org/inbox.org"
-          "~/org/projects.org"
-          "~/org/work.org")))
+;; (after! org
+;;   (setq org-agenda-files
+;;         '("~/org/todo.org"
+;;           "~/org/calendar.org"
+;;           "~/org/inbox.org"
+;;           "~/org/projects.org"
+;;           "~/org/work.org")))
 
 (setq org-tag-alist '(("inbox" . ?i)))
 
@@ -1166,6 +1173,16 @@ OUTPUT-BUFFER is the buffer to capture the output."
   "Run the blog dev server locally."
   (interactive)
   (my/run-dev-server "/home/matthewkennedy/site/hugo/" "test" "blog-serve" "blog-serve-output"))
+#+end_src
+*** micro-blog export
+#+begin_src 
+(defun my/copy-micro-to-site ()
+  "Copy micro.org to the site content directory."
+  (interactive)
+  (let ((src "~/org/micro.org")
+        (dest "~/dev/projects/matthew-kennedy.com/site/content/micro.org"))
+    (copy-file src dest t)
+    (message "Copied micro.org to %s" dest)))
 #+end_src
 
 

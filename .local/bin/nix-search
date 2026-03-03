@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+PACKAGE=$1
+
+curl -X POST "https://search.nixos.org/backend/latest-44-nixos-unstable/_search" \
+	-H "Content-Type: application/json" \
+	-H "Authorization: Basic YVdWU0FMWHBadjpYOGdQSG56TDUyd0ZFZWt1eHNmUTljU2g=" \
+	-d "{\"query\":{\"multi_match\":{\"query\":\"${PACKAGE}\",\"fields\":[\"package_attr_name\",\"package_pname\",\"package_description\"]}},\"size\":6}" |
+	jq '.hits.hits[]._source | {name: .package_attr_name, version: .package_pversion, description: .package_description}'
