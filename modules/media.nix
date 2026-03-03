@@ -2,6 +2,45 @@
 { config, pkgs, ... }:
 
 {
+  services.mpd = {
+    enable = true;
+    musicDirectory = "/home/matthewkennedy/Music";
+    playlistDirectory = "~/.config/mpd/playlists";
+    dbFile = "~/.config/mpd/db";
+
+    network = {
+      listenAddress = "localhost";
+      port = 6600;
+    };
+
+    extraConfig = ''
+    auto_update "yes"
+    metadata_to_use "+comment"
+
+    audio_output {
+        type           "pipewire"
+        name           "PipeWire Audio"
+    }
+
+    audio_output {
+        type           "fifo"
+        name           "album_art"
+        path           "/tmp/mpd.fifo"
+        format         "44100:16:2"
+    }
+
+    audio_output {
+        type           "httpd"
+        name           "HTTP Stream"
+        encoder        "vorbis"
+        port           "8000"
+        bind_to_address "127.0.0.1"
+        quality        "5.0"
+        format         "44100:16:2"
+    }
+  '';
+  };
+
   # Enable sound with pipewire.
   # services.pulseaudio.enable = false;
   security.rtkit.enable = true;
@@ -46,7 +85,6 @@
     mpv
     yt-dlp
     # music
-    mpd
     mpd-mpris
     mpc
     playerctl
