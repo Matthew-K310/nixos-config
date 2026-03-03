@@ -43,7 +43,7 @@
     };
   };
 
-  service.mpd-mpris = {
+  services.mpd-mpris = {
     enable = true;
   };
 
