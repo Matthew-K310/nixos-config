@@ -43,6 +43,10 @@
     };
   };
 
+  service.mpd-mpris = {
+    enable = true;
+  };
+
   # Enable sound with pipewire.
   # services.pulseaudio.enable = false;
   security.rtkit.enable = true;
@@ -87,6 +91,7 @@
     mpv
     yt-dlp
     # music
+    mpd
     mpd-mpris
     mpc
     playerctl
