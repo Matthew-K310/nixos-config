@@ -5,8 +5,8 @@
 services.mpd = {
   enable = true;
   musicDirectory = "/home/matthewkennedy/Music";
-  playlistDirectory = "~/.config/mpd/playlists";
-  dbFile = "~/.config/mpd/db";
+  playlistDirectory = "/home]/matthewkennedy/.config/mpd/playlists";
+  dbFile = "/home]/matthewkennedy/.config/mpd/db";
 
   network = {
     listenAddress = "localhost";
