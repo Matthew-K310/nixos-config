@@ -871,14 +871,12 @@ If URL is not given, look for first URL in `kill-ring'."
     (buffer-string)))
 
 (use-package gdscript-mode
-  :defer 10
+  :mode "\\.gd\\'"
   :config
-  (require 'gdscript-mode)
-  (setq gdscript-godot-executable "/usr/bin/godot")
+  (setq gdscript-godot-executable "/run/current-system/sw/bin/godot")
   (setq gdscript-docs-local-path "~/Godot_4_Documentation")
   (setq gdscript-gdformat-save-and-format t)
-  (setq gdscript-use-tab-indents t)
-)
+  (setq gdscript-use-tab-indents t))
 
 (setq forge-owned-accounts '(("Matthew-K310")))
 

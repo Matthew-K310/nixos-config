@@ -41,6 +41,14 @@
     python3
 	  prettier
     godot
+    # lib dependencies
+    xorg.libX11
+    xorg.libXcursor
+    xorg.libXrandr
+    xorg.libXinerama
+    xorg.libXi
+    libGL
+    pkg-config
   ];
 
   virtualisation.docker.enable = true;
