@@ -652,7 +652,7 @@ Comments:
            (file "~/org/micro.org")
            "* %^{Title}\n:PROPERTIES:\n:DATE: %<%Y-%m-%d %H:%M>\n:SLUG: %^{Slug}\n:END:\n%?" :prepend t)
           ("bp" "Blog post" plain
-           (file denote-blog-directory)
+           (file denote-last-path)
            #'denote-org-capture
            :no-save t
            :immediate-finish nil
@@ -733,15 +733,16 @@ If URL is not given, look for first URL in `kill-ring'."
 ;;         "~/org/agenda.org"
 ;;         "~/org/calendar.org"))
 
-(setq org-agenda-files (directory-files-recursively org-directory "\\.org"))
+;; (setq org-agenda-files (directory-files-recursively org-directory "\\.org"))
 
-;; (after! org
-;;   (setq org-agenda-files
-;;         '("~/org/todo.org"
-;;           "~/org/calendar.org"
-;;           "~/org/inbox.org"
-;;           "~/org/projects.org"
-;;           "~/org/work.org")))
+(after! org
+  (setq org-agenda-files
+        '("~/org/todo.org"
+          "~/org/calendar.org"
+          "~/org/inbox.org"
+          "~/org/projects.org"
+          "~/org/notes.org"
+          "~/org/work.org")))
 
 (setq org-tag-alist '(("inbox" . ?i)))
 
