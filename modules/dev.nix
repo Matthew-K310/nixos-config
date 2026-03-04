@@ -40,6 +40,7 @@
     nodejs
     python3
 	  prettier
+    godot
   ];
 
   virtualisation.docker.enable = true;
