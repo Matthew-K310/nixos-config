@@ -5,10 +5,6 @@
   # Custom package installations
   environment.systemPackages = with pkgs; [
     # tooling
-    git
-	  gh
-	  forgejo-cli
-    delta
     hugo
     just
     gnumake
