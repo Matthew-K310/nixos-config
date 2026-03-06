@@ -11,8 +11,6 @@
       url = "github:amaanq/helium-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-	agenix.url = "github:ryanatm/agenix";
-	agenix.inputs.nixpkgs.follows = "nixpkgs";
   };
   
   outputs = { nixpkgs, home-manager, helium, ... }:
