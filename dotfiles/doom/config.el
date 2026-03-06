@@ -76,15 +76,13 @@
       (:prefix ("b" . "blog")
        :desc "Create new blog post" "n" #'blog/new-post 
        :desc "Export blog post to Hugo MD" "e" #'org-hugo-export-to-md
-       :desc "Export micro blog to site" "m" #'my/copy-micro-to-site
-       :desc "Run Air dev server" "r" #'blog/site-serve
-       :desc "Run Hugo dev server" "h" #'blog/hugo-serve)
+       :desc "Export micro blog to site" "m" #'my/copy-micro-to-site)
       
       (:prefix ("c" . "curse")
        :desc "Enact curses" "t" #'cursed-text-region)
       
-      ;; elfeed and erc keybinds
-      (:prefix ("e" . "elfeed")
+      ;; External
+      (:prefix ("e" . "external")
        :desc "Open eshell"         "s" #'eshell
        :desc "Open elfeed"         "e" #'elfeed
        :desc "Update elfeed"       "u" #'elfeed-update
@@ -99,8 +97,7 @@
        :desc "goto function definition" "d" #'evil-goto-definition
        :desc "Push"                     "P" #'magit-push
        :desc "Pull"                     "p" #'magit-pull
-       :desc "Merge"                    "m" #'magit-merge
-       :desc "Quick commit and push"    "z" #'my/magit-stage-commit-push)
+       :desc "Merge"                    "m" #'magit-merge)
       
       (:prefix ("i" . "inhibit")
        :desc "Inhibit mouse" "m" #'inhibit-mouse-mode)
@@ -108,14 +105,11 @@
       (:prefix ("k" . "kill")
        :desc "Kill process" "p" #'kill-process)
       
-      (:prefix ("l" . "line")
-       :desc "Toggle line numbers" "n" #'display-line-numbers-mode)
-      
       (:prefix ("m" . "music/EMMS")
        :desc "Update from MPD" "u" #'my/update-emms-from-mpd
        :desc "Play at directory tree" "d" #'emms-play-directory-tree
+       :desc "Add directory tree" "a" #'emms-add-directory-tree
        :desc "Go to emms playlist" "p" #'emms-playlist-mode-go
-       :desc "Shuffle" "h" #'emms-shuffle
        :desc "Emms pause track" "x" #'emms-pause
        :desc "Emms stop track" "s" #'emms-stop
        :desc "Emms play previous track" "b" #'emms-previous
@@ -125,11 +119,6 @@
       ;; notes keybinds
       (:prefix ("n" . "notes")
        :desc "Insert Noter Annotation" "i" #'org-noter-insert-note)
-
-      ;; (:prefix ("r" . "roam")
-      ;;  :desc "Find Roam Node"    "f" #'org-roam-node-find
-      ;;  :desc "Insert Roam Node"  "i" #'org-roam-node-insert
-      ;;  :desc "Toggle Roam Buffer" "t" #'org-roam-buffer-toggle)
       
       ;; open calendar
       (:prefix ("o" . "open")
@@ -143,7 +132,6 @@
        :desc "Export as html"            "h" #'org-html-export-as-html
        :desc "Search dictionary at word" "d" #'dictionary-lookup-definition
        :desc "Powerthesaurus lookup"     "t" #'powerthesaurus-lookup-word-at-point
-       :desc "Read Aloud This"           "r" #'read-aloud-this
        :desc "Export to PDF"             "l" #'org-pandoc-export-to-latex-pdf
        :desc "Export to PDF & Open"      "L" #'org-pandoc-export-to-latex-pdf-and-open
        :desc "Spell check"               "z" #'ispell-word
@@ -151,8 +139,8 @@
 
       ;; Focus/Zen
       (:prefix ("z" . "focus")
-       :desc "Toggle zen mode"   "z" #'+zen/toggle
-       :desc "Toggle focus mode" "f" #'focus-mode))
+       :desc "Toggle zen mode"   "z" #'+zen/toggle ;; writeroom mode
+       :desc "Toggle focus mode" "f" #'focus-mode)) ;; lighthouse
 
 (use-package company
   :ensure
@@ -175,7 +163,6 @@
 
 (define-key global-map (kbd "C-c a") 'org-agenda)
 (define-key global-map (kbd "C-c c") 'org-capture)
-(define-key global-map (kbd "C-c p") 'org-capture)
 (define-key global-map (kbd "C-c b n") #'blog/new-post)
 (define-key global-map (kbd "C-c b h") #'blog/blog-serve-dev) ;; h for hugo
 (define-key global-map (kbd "C-c b s") #'blog/site-serve-dev) ;; s for site
@@ -193,8 +180,6 @@
 
 (with-eval-after-load 'org
   (define-key org-mode-map (kbd "C-c C-x C-a") 'my/archive-done-task)
-  ;; (define-key org-mode-map (kbd "C-c n l") #'org-roam-buffer-toggle)
-  ;; (define-key org-mode-map (kbd "C-c n i") #'org-roam-node-insert)
   (define-key org-mode-map (kbd "C-c e") #'org-set-effort)
   (define-key org-mode-map (kbd "C-c i") #'org-clock-in)
   (define-key org-mode-map (kbd "C-c o") #'org-clock-out)
@@ -202,9 +187,9 @@
 
 (defvar my/font-profiles
   '(("Iosevka Nerd Font Mono" :var "Alegreya" :size 15 :var-size 16)
-    ("JetBrainsMono Nerd Font" :var "Alegreya" :size 14 :var-size 18)
-    ("GeistMono Nerd Font" :var "Alegreya" :size 14 :var-size 18)
-    ("Terminess Nerd Font Mono" :var "Alegreya" :size 17 :var-size 18)))
+    ("JetBrainsMono Nerd Font" :var "Alegreya" :size 14 :var-size 16)
+    ("GeistMono Nerd Font" :var "Alegreya" :size 14 :var-size 16)
+    ("Terminess Nerd Font Mono" :var "Alegreya" :size 17 :var-size 16)))
 
 (defun my/select-font ()
   (interactive)
@@ -1038,12 +1023,12 @@ OUTPUT-BUFFER is the buffer to capture the output."
 (defun blog/site-serve-dev ()
   "Run the site dev server locally."
   (interactive)
-  (my/run-dev-server "/home/matthewkennedy/site/" "serve" "site-serve" "*site-serve-output*"))
+  (my/run-dev-server "/home/matthewkennedy/dev/projects/matthew-kennedy.com/site/" "serve" "site-serve" "*site-serve-output*"))
 
 (defun blog/blog-serve-dev ()
   "Run the blog dev server locally."
   (interactive)
-  (my/run-dev-server "/home/matthewkennedy/site/hugo/" "test" "blog-serve" "blog-serve-output"))
+  (my/run-dev-server "/home/matthewkennedy/dev/projects/matthew-kennedy.com/hugo/" "test" "blog-serve" "blog-serve-output"))
 
 (defun my/copy-micro-to-site ()
   "Copy micro.org to the site content directory."

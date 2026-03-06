@@ -14,6 +14,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    hyprlandPlugins.hyprscrolling
     hyprlock
     hypridle
     hyprnotify
