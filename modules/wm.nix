@@ -2,19 +2,24 @@
 { config, pkgs, ... }:
 
 {
-  programs.hyprland = {
+  # programs.hyprland = {
+  #   enable = true;
+  #   xwayland.enable = true;
+  # };
+
+  programs.niri = {
     enable = true;
     xwayland.enable = true;
   };
 
   xdg.portal = {
 	  enable = true;
-	  extraPortals = [ pkgs.xdg-desktop-portal-hyprland pkgs.xdg-desktop-portal-gtk ];
-	  config.hyprland.default = [ "hyprland" "gtk" ];
+	  # extraPortals = [ pkgs.xdg-desktop-portal-hyprland pkgs.xdg-desktop-portal-gtk ];
+	  # config.hyprland.default = [ "hyprland" "gtk" ];
+	  # config.hyprland.default = [ "hyprland" "gtk" ];
   };
 
   environment.systemPackages = with pkgs; [
-    hyprlandPlugins.hyprscrolling
     hyprlock
     hypridle
     hyprnotify
