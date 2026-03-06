@@ -7,6 +7,7 @@
     ../../modules/cli.nix
     ../../modules/comms.nix
     ../../modules/dev.nix
+    ../../modules/git.nix
     ../../modules/emacs.nix
     ../../modules/media.nix
     # ../../modules/oldskool.nix
