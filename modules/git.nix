@@ -18,7 +18,7 @@
       signByDefault = true;
     };
 
-    extraConfig = {
+    config = {
       core = {
         fileMode     = true;
         ignoreCase   = false;
