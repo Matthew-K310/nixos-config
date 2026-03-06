@@ -41,7 +41,7 @@
       submodule.fetchJobs = 3;
       pull.rebase = false;
       push = {
-        gpgSign         = "false";
+        gpgSign         = false;
         default         = "simple";
         autoSetupRemote = true;
         followTags      = true;
