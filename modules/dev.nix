@@ -45,6 +45,7 @@
     xorg.libXi
     libGL
     pkg-config
+	android-tools
   ];
 
   virtualisation.docker.enable = true;

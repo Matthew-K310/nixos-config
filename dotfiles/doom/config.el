@@ -51,6 +51,7 @@
 (load! "lisp/elfeed-config")
 (load! "lisp/emacs-xmpp")
 (load! "lisp/emms-config")
+(load! "lisp/jellyfin")
 (load! "lisp/jitsi-meeting")
 (load! "lisp/meeting-assistant")
 (load! "lisp/mu4e-contact")
@@ -162,7 +163,7 @@
   (add-hook 'text-mode-hook 'yas-minor-mode))
 
 (define-key global-map (kbd "C-c a") 'org-agenda)
-(define-key global-map (kbd "C-c c") 'org-capture)
+(define-key global-map (kbd "C-c c") 'calendar)
 (define-key global-map (kbd "C-c b n") #'blog/new-post)
 (define-key global-map (kbd "C-c b h") #'blog/blog-serve-dev) ;; h for hugo
 (define-key global-map (kbd "C-c b s") #'blog/site-serve-dev) ;; s for site
