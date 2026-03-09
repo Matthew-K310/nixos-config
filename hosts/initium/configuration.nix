@@ -10,6 +10,7 @@
     ../../modules/git.nix
     ../../modules/emacs.nix
     ../../modules/media.nix
+    ../../modules/network.nix
     # ../../modules/oldskool.nix
     ../../modules/services.nix
     ../../modules/tools.nix
