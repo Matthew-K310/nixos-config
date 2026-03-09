@@ -26603,3 +26603,5 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/08 Code Race (Extended).m4a
 2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/07 Neurosaboteur.m4a
 2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/06 Escape Will Make Me God.m4a
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
