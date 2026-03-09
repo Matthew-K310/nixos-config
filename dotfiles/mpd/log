@@ -26472,3 +26472,5 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-03-07T12:30:36 player: played "ODESZA - A Moment Apart/ODESZA - A Moment Apart - 02 A Moment Apart.flac"
 2026-03-07T12:30:42 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
 2026-03-07T12:31:17 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
