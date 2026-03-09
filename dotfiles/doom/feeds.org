@@ -27,6 +27,7 @@
 *** [[https://christiantietze.de/feed.atom][Christian Tietze]]
 *** [[https://ankit.earth/blog/][Ankit Gadiya]]
 *** [[https://lambdaland.org/index.xml][Lambda Land]]
+*** [[https://johnrakestraw.com/index.xml][John Rakestraw]]
 ** Programming
 *** [[https://benhoyt.com/writings/rss.xml][Ben Hoyt]]
 *** [[https://charm.land/blog/rss.xml][charm.sh]]

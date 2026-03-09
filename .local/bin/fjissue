@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+TITLE=$(gum input --placeholder "Issue title")
+BODY=$(gum input --placeholder "Issue body")
+REPO=$(gum input --placeholder "Username/Repo.git")
+
+gum confirm "Create issue $TITLE?" && fj -H forge.matthewcloud.us issue create "$TITLE" --body "$BODY" --repo "$REPO"

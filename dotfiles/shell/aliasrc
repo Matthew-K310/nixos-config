@@ -37,7 +37,9 @@ alias \
 	e="emacs -nw" \
 	stie="tmux new-session -s stie" \
 	zigm="$HOME/.local/zig-master/zig" \
-	jft="jellyfin-tui"
+	jft="jellyfin-tui" \
+	fjf="fj -H forge.matthewcloud.us" \
+	fjc="fj -H codeberg.org"
 
 alias \
 	lf="lfub" \

@@ -26474,3 +26474,132 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 2026-03-07T12:31:17 exception: Failed to open "PipeWire Audio" (pipewire); Failed to connect stream: Host is down
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+2026-03-08T19:30:04 ffmpeg/wav: Estimating duration from bitrate, this may be inaccurate
+2026-03-08T19:30:04 update: added Audio Music Apps/Audio Files/Internal Audio 0001 [2025-12-19 202204]_bip.wav
+2026-03-08T19:30:38 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/01 Somewhere in the Heavens.m4a
+2026-03-08T19:30:38 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/02 Feet of Fragile Flesh.m4a
+2026-03-08T19:30:38 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/03 Burn the Boats.m4a
+2026-03-08T19:30:56 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/04 Time Leach.m4a
+2026-03-08T19:30:56 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/05 Mad is the Sword.m4a
+2026-03-08T19:30:56 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/06 Escape Will Make Me God.m4a
+2026-03-08T19:31:05 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/07 Neurosaboteur.m4a
+2026-03-08T19:31:17 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/08 Code Race (Extended).m4a
+2026-03-08T19:31:17 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/09 The Dream Is Not Over.m4a
+2026-03-08T19:31:17 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/10 Where Is Death.m4a
+2026-03-08T19:31:31 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/11 Tissue Unwinds.m4a
+2026-03-08T19:31:31 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/12 Pro Corpse Idealist.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/13 Assert.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/01 Code Race.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/02 Rhythm of Writhing Constellations.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/03 A New Home for Humanity.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/04 Discontent.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/05 Planetary Relocation Psychosis.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/06 New Behavioral Norms.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/07 Repetition Is Where We Find the Truth.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/08 We Shouldn't Be Here.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/09 For Those Who Did Not Wake.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/10 Stars That Bleed.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/11 Reintegration Protocol.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/12 Focused Erasures and Sub-routine Resets.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/13 Staring Blindly Through the Keyhole.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/14 Poetry in Ones and Zeroes.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/15 Cascadial Flow of Ethereal Wonder.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/16 It Wasn't a Dream.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/17 Purge.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/18 System Designed to Die.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/19 We Stole a Moon.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/20 Contrition.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/21 We're All Monsters.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/22 Shimmering Cadence of Dancing Light.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/23 In Death We've Just Begun (from _Marathon_ Soundtrack).m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/24 Code Race (Brendan Angelides Remix).m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/25 Decontamination Protocol.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/26 Conversation with the Infinite Self.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/27 Only Numbers and Letters.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/28 We Planned for Everything.m4a
+2026-03-08T19:32:12 update: added Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/29 Deprecated Systems.m4a
+2026-03-08T19:33:13 update: removing Audio Music Apps/Audio Files/Internal Audio 0001 [2025-12-19 202204]_bip.wav
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/01 Somewhere in the Heavens.m4a
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/02 Feet of Fragile Flesh.m4a
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/03 Burn the Boats.m4a
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/04 Time Leach.m4a
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/05 Mad is the Sword.m4a
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/06 Escape Will Make Me God.m4a
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/07 Neurosaboteur.m4a
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/08 Code Race (Extended).m4a
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/09 The Dream Is Not Over.m4a
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/10 Where Is Death.m4a
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/11 Tissue Unwinds.m4a
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/12 Pro Corpse Idealist.m4a
+2026-03-08T19:33:22 update: added Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/13 Assert.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/01 Code Race.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/02 Rhythm of Writhing Constellations.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/03 A New Home for Humanity.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/04 Discontent.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/05 Planetary Relocation Psychosis.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/06 New Behavioral Norms.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/07 Repetition Is Where We Find the Truth.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/08 We Shouldn't Be Here.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/09 For Those Who Did Not Wake.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/10 Stars That Bleed.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/11 Reintegration Protocol.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/12 Focused Erasures and Sub-routine Resets.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/13 Staring Blindly Through the Keyhole.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/14 Poetry in Ones and Zeroes.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/15 Cascadial Flow of Ethereal Wonder.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/16 It Wasn't a Dream.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/17 Purge.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/18 System Designed to Die.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/19 We Stole a Moon.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/20 Contrition.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/21 We're All Monsters.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/22 Shimmering Cadence of Dancing Light.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/23 In Death We've Just Begun (from _Marathon_ Soundtrack).m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/24 Code Race (Brendan Angelides Remix).m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/25 Decontamination Protocol.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/26 Conversation with the Infinite Self.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/27 Only Numbers and Letters.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/28 We Planned for Everything.m4a
+2026-03-08T19:33:32 update: added Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/29 Deprecated Systems.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/05 Mad is the Sword.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/04 Time Leach.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/03 Burn the Boats.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/02 Feet of Fragile Flesh.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/01 Somewhere in the Heavens.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/29 Deprecated Systems.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/28 We Planned for Everything.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/27 Only Numbers and Letters.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/26 Conversation with the Infinite Self.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/25 Decontamination Protocol.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/24 Code Race (Brendan Angelides Remix).m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/23 In Death We've Just Begun (from _Marathon_ Soundtrack).m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/22 Shimmering Cadence of Dancing Light.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/21 We're All Monsters.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/20 Contrition.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/19 We Stole a Moon.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/18 System Designed to Die.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/17 Purge.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/16 It Wasn't a Dream.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/15 Cascadial Flow of Ethereal Wonder.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/14 Poetry in Ones and Zeroes.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/13 Staring Blindly Through the Keyhole.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/12 Focused Erasures and Sub-routine Resets.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/11 Reintegration Protocol.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/10 Stars That Bleed.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/09 For Those Who Did Not Wake.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/08 We Shouldn't Be Here.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/07 Repetition Is Where We Find the Truth.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/06 New Behavioral Norms.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/05 Planetary Relocation Psychosis.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/04 Discontent.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/03 A New Home for Humanity.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/02 Rhythm of Writhing Constellations.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)/01 Code Race.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/13 Assert.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/12 Pro Corpse Idealist.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/11 Tissue Unwinds.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/10 Where Is Death.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/09 The Dream Is Not Over.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/08 Code Race (Extended).m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/07 Neurosaboteur.m4a
+2026-03-08T19:36:52 update: removing Ryan Lott/Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)/06 Escape Will Make Me God.m4a
