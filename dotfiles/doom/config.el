@@ -56,6 +56,7 @@
 (load! "lisp/meeting-assistant")
 (load! "lisp/mu4e-contact")
 (load! "lisp/nm")
+(load! "lisp/org-caldav")
 (load! "lisp/pg-config")
 (load! "lisp/pomodoro")
 (load! "lisp/popup-dirvish-browser")
@@ -67,9 +68,6 @@
 (load! "lisp/weather")
 (load! "private/irc-config")
 (load! "private/mu4e-config")
-
-;; (add-to-list 'load-path "~/.config/doom/lisp/tui.el/")
-;; (require 'tui)
 
 ;; Custom keymaps
 (map! :leader

@@ -2284,7 +2284,7 @@ added: 1771113752
 song_end
 end: Barry Can't Swim - Loner
 directory: Barry Can't Swim - When Will We Land
-mtime: 1772471987
+mtime: 1773016943
 begin: Barry Can't Swim - When Will We Land
 song_begin: Barry Can't Swim - When Will We Land- - 01 When Will We Land-.flac
 Time: 213.473
@@ -3739,7 +3739,7 @@ added: 1772471603
 song_end
 end: Halo 2 OST
 directory: Halo 3 OST
-mtime: 1772471508
+mtime: 1773016943
 begin: Halo 3 OST
 song_begin: 01 Halo 3 Disc 1 OST 01 Luck.flac
 Time: 205.276
@@ -4818,7 +4818,7 @@ added: 1772466422
 song_end
 end: Jay Hosking - Apparitions - ambient works
 directory: Jay Hosking - Celestial spheres
-mtime: 1772470777
+mtime: 1773016943
 begin: Jay Hosking - Celestial spheres
 song_begin: Jay Hosking - Celestial spheres - 02 Orrery.flac
 Time: 290
@@ -4913,7 +4913,7 @@ added: 1771113752
 song_end
 end: Jay Hosking - Celestial spheres
 directory: Jay Hosking - High time - Music for a productive day
-mtime: 1772471045
+mtime: 1773016943
 begin: Jay Hosking - High time - Music for a productive day
 song_begin: Jay Hosking - High time - Music for a productive day - 02 Minutes.flac
 Time: 460.217
@@ -4969,7 +4969,7 @@ added: 1772041503
 song_end
 end: Jay Hosking - High time - Music for a productive day
 directory: Jay Hosking - Hoser
-mtime: 1772471028
+mtime: 1773016943
 begin: Jay Hosking - Hoser
 song_begin: Jay Hosking - Hoser - 01 Tracker.flac
 Time: 271.363
@@ -5064,7 +5064,7 @@ added: 1771113752
 song_end
 end: Jay Hosking - Hoser
 directory: Jay Hosking - It may take longer than you think
-mtime: 1772471093
+mtime: 1773016943
 begin: Jay Hosking - It may take longer than you think
 song_begin: Jay Hosking - It may take longer than you think - 02 Dogsbody.flac
 Time: 206.369
@@ -5185,7 +5185,7 @@ added: 1772041509
 song_end
 end: Jay Hosking - It may take longer than you think
 directory: Jay Hosking - Low tide - Music for a productive day
-mtime: 1772471080
+mtime: 1773016943
 begin: Jay Hosking - Low tide - Music for a productive day
 song_begin: Jay Hosking - Low tide - Music for a productive day - 01 A1 Channel.flac
 Time: 726.189
@@ -5306,7 +5306,7 @@ added: 1772041601
 song_end
 end: Jay Hosking - Low tide - Music for a productive day
 directory: Jay Hosking - Not even a poet can speak the whole truth
-mtime: 1772470979
+mtime: 1773016943
 begin: Jay Hosking - Not even a poet can speak the whole truth
 song_begin: Jay Hosking - Not even a poet can speak the whole truth - 01 Imaginary countries.flac
 Time: 227.20000000000002
@@ -5414,7 +5414,7 @@ added: 1771113753
 song_end
 end: Jay Hosking - Not even a poet can speak the whole truth
 directory: Jay Hosking - Scenes - ambient and cinematic works
-mtime: 1772471107
+mtime: 1773016943
 begin: Jay Hosking - Scenes - ambient and cinematic works
 song_begin: Jay Hosking - Scenes - ambient and cinematic works - 01 In an empty field, you gave her a mix tape.flac
 Time: 338
@@ -5483,7 +5483,7 @@ added: 1771113753
 song_end
 end: Jay Hosking - Scenes - ambient and cinematic works
 directory: Jay Hosking - Sketches for My Sweetheart the Drone
-mtime: 1772471001
+mtime: 1773016943
 begin: Jay Hosking - Sketches for My Sweetheart the Drone
 song_begin: Jay Hosking - Sketches for My Sweetheart the Drone - 01 Relatively abstemious.flac
 Time: 440
@@ -5673,7 +5673,7 @@ added: 1772041764
 song_end
 end: Jay Hosking - The Future - Tense
 directory: Jay Hosking - The world will never survive without you - ambient works
-mtime: 1772471664
+mtime: 1773016943
 begin: Jay Hosking - The world will never survive without you - ambient works
 song_begin: Jay Hosking - The world will never survive without you - ambient works - 01 Majnoun.flac
 Time: 408
@@ -6369,6 +6369,160 @@ mtime: 1769802945
 added: 1772471291
 song_end
 end: Jesper Kyd - Warhammer 40,000 - Darktide (Original Soundtrack)
+directory: Lazarus (Adult Swim Original Series Soundtrack)
+mtime: 1773097433
+begin: Lazarus (Adult Swim Original Series Soundtrack)
+song_begin: 01 Prologue.m4a
+Time: 65.178
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Prologue
+Format: 44100:f:2
+mtime: 1773097133
+added: 1773097694
+song_end
+song_begin: 02 Northport.m4a
+Time: 176.495
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Northport
+Format: 44100:f:2
+mtime: 1773097134
+added: 1773097694
+song_end
+song_begin: 03 Rippling.m4a
+Time: 123.577
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Rippling
+Format: 44100:f:2
+mtime: 1773097134
+added: 1773097694
+song_end
+song_begin: 04 Beyond the Sky.m4a
+Time: 164.56
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo & Nicole Miglis
+TitleSort: Beyond the Sky
+Format: 44100:f:2
+mtime: 1773097135
+added: 1773097694
+song_end
+song_begin: 05 Babylonia.m4a
+Time: 139.13400000000001
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Babylonia
+Format: 44100:f:2
+mtime: 1773097136
+added: 1773097694
+song_end
+song_begin: 06 Dark Will Fall (feat. Jacob Lusk).m4a
+Time: 136.603
+Date: 2025-03-27T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Dark Will Fall (feat. Jacob Lusk)
+Format: 44100:f:2
+mtime: 1773097136
+added: 1773097694
+song_end
+song_begin: 07 Prophets.m4a
+Time: 191.24
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Prophets
+Format: 44100:f:2
+mtime: 1773097137
+added: 1773097694
+song_end
+song_begin: 08 Angeles.m4a
+Time: 199.297
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Angeles
+Format: 44100:f:2
+mtime: 1773097140
+added: 1773097694
+song_end
+song_begin: 09 Rings.m4a
+Time: 285.559
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Rings
+Format: 44100:f:2
+mtime: 1773097139
+added: 1773097694
+song_end
+song_begin: 10 Landfall.m4a
+Time: 216.062
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Landfall
+Format: 44100:f:2
+mtime: 1773097142
+added: 1773097694
+song_end
+song_begin: 11 Hapuna.m4a
+Time: 206.867
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Hapuna
+Format: 44100:f:2
+mtime: 1773097141
+added: 1773097694
+song_end
+song_begin: 12 New Prophets.m4a
+Time: 232.316
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: New Prophets
+Format: 44100:f:2
+mtime: 1773097144
+added: 1773097694
+song_end
+song_begin: 13 Aerials.m4a
+Time: 145.101
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Aerials
+Format: 44100:f:2
+mtime: 1773097143
+added: 1773097694
+song_end
+song_begin: 14 Drifting.m4a
+Time: 232.803
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Drifting
+Format: 44100:f:2
+mtime: 1773097145
+added: 1773097694
+song_end
+song_begin: 15 Hearts.m4a
+Time: 179.351
+Date: 2025-04-11T12:00:00Z
+AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
+ArtistSort: Bonobo
+TitleSort: Hearts
+Format: 44100:f:2
+mtime: 1773097145
+added: 1773097694
+song_end
+end: Lazarus (Adult Swim Original Series Soundtrack)
 directory: Lo-Phi - Vintage Story OST
 mtime: 1771892267
 begin: Lo-Phi - Vintage Story OST
@@ -6972,428 +7126,596 @@ added: 1772042002
 song_end
 end: Lo-Phi - Vintage Story OST
 directory: Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)
-mtime: 1773016083
+mtime: 1773016987
 begin: Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)
 song_begin: 01 Code Race.m4a
 Time: 122.43900000000001
+Artist: Ryan Lott
+Title: Code Race
+Track: 1
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Code Race
 Format: 44100:f:2
-mtime: 1773016064
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 02 Rhythm of Writhing Constellations.m4a
 Time: 146.054
+Artist: Ryan Lott
+Title: Rhythm of Writhing Constellations
+Track: 2
 Date: 2026-02-19T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Rhythm of Writhing Constellations
 Format: 44100:f:2
-mtime: 1773016065
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 03 A New Home for Humanity.m4a
 Time: 98.035
+Artist: Ryan Lott
+Title: A New Home for Humanity
+Track: 3
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 Format: 44100:f:2
-mtime: 1773016064
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 04 Discontent.m4a
 Time: 142.478
+Artist: Ryan Lott
+Title: Discontent
+Track: 4
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Discontent
 Format: 44100:f:2
-mtime: 1773016066
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 05 Planetary Relocation Psychosis.m4a
 Time: 111.595
+Artist: Ryan Lott
+Title: Planetary Relocation Psychosis
+Track: 5
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Planetary Relocation Psychosis
 Format: 44100:f:2
-mtime: 1773016066
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 06 New Behavioral Norms.m4a
 Time: 78.065
+Artist: Ryan Lott
+Title: New Behavioral Norms
+Track: 6
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: New Behavioral Norms
 Format: 44100:f:2
-mtime: 1773016067
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 07 Repetition Is Where We Find the Truth.m4a
 Time: 114.82300000000001
+Artist: Ryan Lott
+Title: Repetition Is Where We Find the Truth
+Track: 7
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Repetition Is Where We Find the Truth
 Format: 44100:f:2
-mtime: 1773016067
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 08 We Shouldn't Be Here.m4a
 Time: 123.135
+Artist: Ryan Lott
+Title: We Shouldn't Be Here
+Track: 8
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: We Shouldn't Be Here
 Format: 44100:f:2
-mtime: 1773016068
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 09 For Those Who Did Not Wake.m4a
 Time: 121.255
+Artist: Ryan Lott
+Title: For Those Who Did Not Wake
+Track: 9
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: For Those Who Did Not Wake
 Format: 44100:f:2
-mtime: 1773016068
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 10 Stars That Bleed.m4a
 Time: 106.95100000000001
+Artist: Ryan Lott
+Title: Stars That Bleed
+Track: 10
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Stars That Bleed
 Format: 44100:f:2
-mtime: 1773016069
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 11 Reintegration Protocol.m4a
 Time: 77.06700000000001
+Artist: Ryan Lott
+Title: Reintegration Protocol
+Track: 11
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Reintegration Protocol
 Format: 44100:f:2
-mtime: 1773016071
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 12 Focused Erasures and Sub-routine Resets.m4a
 Time: 82.33800000000001
+Artist: Ryan Lott
+Title: Focused Erasures and Sub-routine Resets
+Track: 12
 Date: 2026-02-19T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Focused Erasures and Sub-routine Resets
 Format: 44100:f:2
-mtime: 1773016070
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 13 Staring Blindly Through the Keyhole.m4a
 Time: 65.295
+Artist: Ryan Lott
+Title: Staring Blindly Through the Keyhole
+Track: 13
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Staring Blindly Through the Keyhole
 Format: 44100:f:2
-mtime: 1773016072
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 14 Poetry in Ones and Zeroes.m4a
 Time: 55.983000000000004
+Artist: Ryan Lott
+Title: Poetry in Ones and Zeroes
+Track: 14
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Poetry in Ones and Zeroes
 Format: 44100:f:2
-mtime: 1773016073
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 15 Cascadial Flow of Ethereal Wonder.m4a
 Time: 110.875
+Artist: Ryan Lott
+Title: Cascadial Flow of Ethereal Wonder
+Track: 15
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Cascadial Flow of Ethereal Wonder
 Format: 44100:f:2
-mtime: 1773016073
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 16 It Wasn't a Dream.m4a
 Time: 129.683
+Artist: Ryan Lott
+Title: It Wasn't a Dream
+Track: 16
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: It Wasn't a Dream
 Format: 44100:f:2
-mtime: 1773016074
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 17 Purge.m4a
 Time: 108.48400000000001
+Artist: Ryan Lott
+Title: Purge
+Track: 17
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Purge
 Format: 44100:f:2
-mtime: 1773016074
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 18 System Designed to Die.m4a
 Time: 105.581
+Artist: Ryan Lott
+Title: System Designed to Die
+Track: 18
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: System Designed to Die
 Format: 44100:f:2
-mtime: 1773016075
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 19 We Stole a Moon.m4a
 Time: 121.789
+Artist: Ryan Lott
+Title: We Stole a Moon
+Track: 19
 Date: 2026-02-19T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: We Stole a Moon
 Format: 44100:f:2
-mtime: 1773016075
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 20 Contrition.m4a
 Time: 74.861
+Artist: Ryan Lott
+Title: Contrition
+Track: 20
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Contrition
 Format: 44100:f:2
-mtime: 1773016076
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 21 We're All Monsters.m4a
 Time: 155.179
+Artist: Ryan Lott
+Title: We're All Monsters
+Track: 21
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: We're All Monsters
 Format: 44100:f:2
-mtime: 1773016076
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 22 Shimmering Cadence of Dancing Light.m4a
 Time: 108.60000000000001
+Artist: Ryan Lott
+Title: Shimmering Cadence of Dancing Light
+Track: 22
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Shimmering Cadence of Dancing Light
 Format: 44100:f:2
-mtime: 1773016077
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 23 In Death We've Just Begun (from _Marathon_ Soundtrack).m4a
 Time: 205.055
+Artist: Ryan Lott
+Title: In Death We've Just Begun (from _Marathon_ Soundtrack)
+Track: 23
 Date: 2026-03-04T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott, Poppy & Son Lux
 TitleSort: In Death We've Just Begun (from "Marathon" Soundtrack)
 Format: 44100:f:2
-mtime: 1773016078
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 24 Code Race (Brendan Angelides Remix).m4a
 Time: 172.965
+Artist: Ryan Lott
+Title: Code Race (Brendan Angelides Remix)
+Track: 24
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott & Brendan Angelides
 TitleSort: Code Race (Brendan Angelides Remix)
 Format: 44100:f:2
-mtime: 1773016080
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 25 Decontamination Protocol.m4a
 Time: 137.95000000000002
+Artist: Ryan Lott
+Title: Decontamination Protocol
+Track: 25
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Decontamination Protocol
 Format: 44100:f:2
-mtime: 1773016080
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 26 Conversation with the Infinite Self.m4a
 Time: 92.23
+Artist: Ryan Lott
+Title: Conversation with the Infinite Self
+Track: 26
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Conversation with the Infinite Self
 Format: 44100:f:2
-mtime: 1773016081
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 27 Only Numbers and Letters.m4a
 Time: 90.163
+Artist: Ryan Lott
+Title: Only Numbers and Letters
+Track: 27
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Only Numbers and Letters
 Format: 44100:f:2
-mtime: 1773016082
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 28 We Planned for Everything.m4a
 Time: 58.166000000000004
+Artist: Ryan Lott
+Title: We Planned for Everything
+Track: 28
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: We Planned for Everything
 Format: 44100:f:2
-mtime: 1773016082
+mtime: 1773097837
 added: 1773016412
 song_end
 song_begin: 29 Deprecated Systems.m4a
 Time: 106.556
+Artist: Ryan Lott
+Title: Deprecated Systems
+Track: 29
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. I: Somewhere in the Heavens (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Deprecated Systems
 Format: 44100:f:2
-mtime: 1773016083
+mtime: 1773097837
 added: 1773016412
 song_end
 end: Marathon, Vol. I_ Somewhere in the Heavens (Original Game Soundtrack)
 directory: Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)
-mtime: 1773016096
+mtime: 1773017011
 begin: Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)
 song_begin: 01 Somewhere in the Heavens.m4a
 Time: 418.47
+Artist: Ryan Lott
+Title: Somewhere in the Heavens
+Track: 1
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Somewhere in the Heavens
 Format: 44100:f:2
-mtime: 1773016088
+mtime: 1773097837
 added: 1773016402
 song_end
 song_begin: 02 Feet of Fragile Flesh.m4a
 Time: 130.218
+Artist: Ryan Lott
+Title: Feet of Fragile Flesh
+Track: 2
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Feet of Fragile Flesh
 Format: 44100:f:2
-mtime: 1773016086
+mtime: 1773097837
 added: 1773016402
 song_end
 song_begin: 03 Burn the Boats.m4a
 Time: 427.13100000000003
+Artist: Ryan Lott
+Title: Burn the Boats
+Track: 3
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Burn the Boats
 Format: 44100:f:2
-mtime: 1773016087
+mtime: 1773097837
 added: 1773016402
 song_end
 song_begin: 04 Time Leach.m4a
 Time: 563.037
+Artist: Ryan Lott
+Title: Time Leach
+Track: 4
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Time Leach
 Format: 44100:f:2
-mtime: 1773016089
+mtime: 1773097837
 added: 1773016402
 song_end
 song_begin: 05 Mad is the Sword.m4a
 Time: 110.991
+Artist: Ryan Lott
+Title: Mad is the Sword
+Track: 5
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Mad is the Sword
 Format: 44100:f:2
-mtime: 1773016089
+mtime: 1773097837
 added: 1773016402
 song_end
 song_begin: 06 Escape Will Make Me God.m4a
 Time: 583.2620000000001
+Artist: Ryan Lott
+Title: Escape Will Make Me God
+Track: 6
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Escape Will Make Me God
 Format: 44100:f:2
-mtime: 1773016090
+mtime: 1773097837
 added: 1773016402
 song_end
 song_begin: 07 Neurosaboteur.m4a
 Time: 641.08
+Artist: Ryan Lott
+Title: Neurosaboteur
+Track: 7
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Neurosaboteur
 Format: 44100:f:2
-mtime: 1773016091
+mtime: 1773097837
 added: 1773016402
 song_end
 song_begin: 08 Code Race (Extended).m4a
 Time: 574.833
+Artist: Ryan Lott
+Title: Code Race (Extended)
+Track: 8
 Date: 2026-02-19T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Code Race (Extended)
 Format: 44100:f:2
-mtime: 1773016092
+mtime: 1773097837
 added: 1773016402
 song_end
 song_begin: 09 The Dream Is Not Over.m4a
 Time: 126.549
+Artist: Ryan Lott
+Title: The Dream Is Not Over
+Track: 9
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 Format: 44100:f:2
-mtime: 1773016091
+mtime: 1773097837
 added: 1773016402
 song_end
 song_begin: 10 Where Is Death.m4a
 Time: 415.777
+Artist: Ryan Lott
+Title: Where Is Death
+Track: 10
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Where Is Death
 Format: 44100:f:2
-mtime: 1773016093
+mtime: 1773097837
 added: 1773016402
 song_end
 song_begin: 11 Tissue Unwinds.m4a
 Time: 778.24
+Artist: Ryan Lott
+Title: Tissue Unwinds
+Track: 11
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Tissue Unwinds
 Format: 44100:f:2
-mtime: 1773016094
+mtime: 1773097837
 added: 1773016402
 song_end
 song_begin: 12 Pro Corpse Idealist.m4a
 Time: 576.714
+Artist: Ryan Lott
+Title: Pro Corpse Idealist
+Track: 12
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Pro Corpse Idealist
 Format: 44100:f:2
-mtime: 1773016095
+mtime: 1773097837
 added: 1773016402
 song_end
 song_begin: 13 Assert.m4a
 Time: 570.468
+Artist: Ryan Lott
+Title: Assert
+Track: 13
 Date: 2026-03-06T12:00:00Z
+AlbumArtist: Ryan Lott
 AlbumSort: Marathon, Vol. II: They Are Waiting (Original Game Soundtrack)
 ArtistSort: Ryan Lott
 TitleSort: Assert
 Format: 44100:f:2
-mtime: 1773016096
+mtime: 1773097837
 added: 1773016402
 song_end
 end: Marathon, Vol. II_ They Are Waiting (Original Game Soundtrack)
@@ -15179,7 +15501,7 @@ added: 1772469485
 song_end
 end: Portal 2 Soundtrack
 directory: Sam Gellaitry - ANYWHERE HERE IS PERFECT
-mtime: 1772470720
+mtime: 1773016943
 begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT
 song_begin: Sam Gellaitry - ANYWHERE HERE IS PERFECT - 01 LIGHTNING.flac
 Time: 169.632
@@ -15937,7 +16259,7 @@ added: 1772042980
 song_end
 end: Stellaris OST
 directory: The Midnight - Days of Thunder
-mtime: 1772471220
+mtime: 1773016943
 begin: The Midnight - Days of Thunder
 song_begin: The Midnight - Days of Thunder - 01 The Years (Prologue).flac
 Time: 368.684
@@ -15993,7 +16315,7 @@ added: 1772043020
 song_end
 end: The Midnight - Days of Thunder
 directory: The Midnight - Endless Summer
-mtime: 1772471236
+mtime: 1773016943
 begin: The Midnight - Endless Summer
 song_begin: The Midnight - Endless Summer (The Stems) - 07 The Comeback Kid (118 BPM).flac
 Time: 321.916
