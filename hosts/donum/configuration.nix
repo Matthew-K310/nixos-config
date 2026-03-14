@@ -38,6 +38,10 @@
 		extraGroups = [ "wheel" "networkmanager" ];
 	};
 
+	environment.systemPackages = with pkgs; [
+		vintagestory
+	];
+
 	nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
 		"vintagestory"
 	];
