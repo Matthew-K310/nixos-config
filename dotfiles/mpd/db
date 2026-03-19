@@ -5741,6 +5741,130 @@ mtime: 1757999875
 added: 1771113753
 song_end
 end: Jay Hosking - The world will never survive without you - ambient works
+directory: Jay Hosking - You're never gone - vocal works
+mtime: 1773465608
+begin: Jay Hosking - You're never gone - vocal works
+song_begin: Jay Hosking - You're never gone - vocal works - 01 The remains.flac
+Time: 326.129
+Title: The remains
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: You're never gone - vocal works
+Track: 1
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1773465565
+added: 1773465617
+song_end
+song_begin: Jay Hosking - You're never gone - vocal works - 02 Charlie.flac
+Time: 261.055
+Title: Charlie
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: You're never gone - vocal works
+Track: 2
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1773465565
+added: 1773465617
+song_end
+song_begin: Jay Hosking - You're never gone - vocal works - 03 Hard to endure.flac
+Time: 303.333
+Title: Hard to endure
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: You're never gone - vocal works
+Track: 3
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1773465565
+added: 1773465617
+song_end
+song_begin: Jay Hosking - You're never gone - vocal works - 04 Iris.flac
+Time: 313.478
+Title: Iris
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: You're never gone - vocal works
+Track: 4
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1773465565
+added: 1773465617
+song_end
+song_begin: Jay Hosking - You're never gone - vocal works - 05 Where I'll find you.flac
+Time: 300.759
+Title: Where I'll find you
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: You're never gone - vocal works
+Track: 5
+AlbumArtist: Jay Hosking
+Format: 44100:16:2
+mtime: 1773465565
+added: 1773465617
+song_end
+end: Jay Hosking - You're never gone - vocal works
+directory: Jay Hosking - You're never gone - vocal works.zip
+type: archive
+mtime: 1773465594
+begin: Jay Hosking - You're never gone - vocal works.zip
+song_begin: Jay Hosking - You're never gone - vocal works - 01 The remains.flac
+Time: 326.129
+Title: The remains
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: You're never gone - vocal works
+Track: 1
+AlbumArtist: Jay Hosking
+song_end
+song_begin: Jay Hosking - You're never gone - vocal works - 02 Charlie.flac
+Time: 261.055
+Title: Charlie
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: You're never gone - vocal works
+Track: 2
+AlbumArtist: Jay Hosking
+song_end
+song_begin: Jay Hosking - You're never gone - vocal works - 03 Hard to endure.flac
+Time: 303.333
+Title: Hard to endure
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: You're never gone - vocal works
+Track: 3
+AlbumArtist: Jay Hosking
+song_end
+song_begin: Jay Hosking - You're never gone - vocal works - 04 Iris.flac
+Time: 313.478
+Title: Iris
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: You're never gone - vocal works
+Track: 4
+AlbumArtist: Jay Hosking
+song_end
+song_begin: Jay Hosking - You're never gone - vocal works - 05 Where I'll find you.flac
+Time: 300.759
+Title: Where I'll find you
+Artist: Jay Hosking
+Date: 2026
+Comment: Visit https://jayhosking.bandcamp.com
+Album: You're never gone - vocal works
+Track: 5
+AlbumArtist: Jay Hosking
+song_end
+end: Jay Hosking - You're never gone - vocal works.zip
 directory: Jesper Kyd - Warhammer 40,000 - Darktide (Original Soundtrack)
 mtime: 1771892267
 begin: Jesper Kyd - Warhammer 40,000 - Darktide (Original Soundtrack)
@@ -6374,152 +6498,212 @@ mtime: 1773097433
 begin: Lazarus (Adult Swim Original Series Soundtrack)
 song_begin: 01 Prologue.m4a
 Time: 65.178
+Artist: Bonobo
+Title: Prologue
+Track: 1
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Prologue
 Format: 44100:f:2
-mtime: 1773097133
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 02 Northport.m4a
 Time: 176.495
+Artist: Bonobo
+Title: Northport
+Track: 2
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Northport
 Format: 44100:f:2
-mtime: 1773097134
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 03 Rippling.m4a
 Time: 123.577
+Artist: Bonobo
+Title: Rippling
+Track: 3
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Rippling
 Format: 44100:f:2
-mtime: 1773097134
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 04 Beyond the Sky.m4a
 Time: 164.56
+Artist: Bonobo
+Title: Beyond the Sky
+Track: 4
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo & Nicole Miglis
 TitleSort: Beyond the Sky
 Format: 44100:f:2
-mtime: 1773097135
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 05 Babylonia.m4a
 Time: 139.13400000000001
+Artist: Bonobo
+Title: Babylonia
+Track: 5
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Babylonia
 Format: 44100:f:2
-mtime: 1773097136
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 06 Dark Will Fall (feat. Jacob Lusk).m4a
 Time: 136.603
+Artist: Bonobo
+Title: Dark Will Fall (feat. Jacob Lusk)
+Track: 6
 Date: 2025-03-27T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Dark Will Fall (feat. Jacob Lusk)
 Format: 44100:f:2
-mtime: 1773097136
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 07 Prophets.m4a
 Time: 191.24
+Artist: Bonobo
+Title: Prophets
+Track: 7
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Prophets
 Format: 44100:f:2
-mtime: 1773097137
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 08 Angeles.m4a
 Time: 199.297
+Artist: Bonobo
+Title: Angeles
+Track: 8
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Angeles
 Format: 44100:f:2
-mtime: 1773097140
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 09 Rings.m4a
 Time: 285.559
+Artist: Bonobo
+Title: Rings
+Track: 9
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Rings
 Format: 44100:f:2
-mtime: 1773097139
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 10 Landfall.m4a
 Time: 216.062
+Artist: Bonobo
+Title: Landfall
+Track: 10
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Landfall
 Format: 44100:f:2
-mtime: 1773097142
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 11 Hapuna.m4a
 Time: 206.867
+Artist: Bonobo
+Title: Hapuna
+Track: 11
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Hapuna
 Format: 44100:f:2
-mtime: 1773097141
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 12 New Prophets.m4a
 Time: 232.316
+Artist: Bonobo
+Title: New Prophets
+Track: 12
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: New Prophets
 Format: 44100:f:2
-mtime: 1773097144
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 13 Aerials.m4a
 Time: 145.101
+Artist: Bonobo
+Title: Aerials
+Track: 13
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Aerials
 Format: 44100:f:2
-mtime: 1773097143
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 14 Drifting.m4a
 Time: 232.803
+Artist: Bonobo
+Title: Drifting
+Track: 14
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Drifting
 Format: 44100:f:2
-mtime: 1773097145
+mtime: 1773097884
 added: 1773097694
 song_end
 song_begin: 15 Hearts.m4a
 Time: 179.351
+Artist: Bonobo
+Title: Hearts
+Track: 15
 Date: 2025-04-11T12:00:00Z
+AlbumArtist: Bonobo
 AlbumSort: Lazarus (Adult Swim Original Series Soundtrack)
 ArtistSort: Bonobo
 TitleSort: Hearts
 Format: 44100:f:2
-mtime: 1773097145
+mtime: 1773097884
 added: 1773097694
 song_end
 end: Lazarus (Adult Swim Original Series Soundtrack)

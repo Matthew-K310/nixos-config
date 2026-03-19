@@ -56,6 +56,38 @@
     noto-fonts-color-emoji
     noto-fonts-cjk-sans
   ];
+
+services.blocky = {
+    enable = true;
+    settings = {
+      ports.dns = 53; # Port for incoming DNS Queries.
+      upstreams.groups.default = [
+        "https://one.one.one.one/dns-query" # Using Cloudflare's DNS over HTTPS server for resolving queries.
+      ];
+      # For initially solving DoH/DoT Requests when no system Resolver is available.
+      bootstrapDns = {
+        upstream = "https://one.one.one.one/dns-query";
+        ips = [ "1.1.1.1" "1.0.0.1" ];
+      };
+      #Enable Blocking of certain domains.
+      blocking = {
+        denylists = {
+          #Adblocking
+          ads = ["https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"];
+          #Another filter for blocking adult sites
+          adult = ["https://blocklistproject.github.io/Lists/porn.txt"];
+          #You can add additional categories
+          ai = [ "www.claude.ai" "www.chatgpt.com" "www.gemini.google.com" ]; 
+          wasters = [ "www.youtube.com" "www.redlib.catsearch.com" "www.floatplane.com" ]; 
+        };
+        #Configure what block categories are used
+        clientGroupsBlock = {
+          default = [ "ads" "adult" "ai" ];
+          focus = [ "ads" "adult" "ai" "wasters" ];
+        };
+      };
+    };
+  };
   
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 }

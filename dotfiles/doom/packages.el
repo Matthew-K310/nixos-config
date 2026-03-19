@@ -6,7 +6,7 @@
   (add-hook 'before-save-hook #'lsp-organize-imports t t))
 (add-hook 'go-mode-hook #'lsp-go-install-save-hooks)
 
-(package! exwm)
+;; (package! exwm)
 
 ;; go dev
 (package! templ-ts-mode)
@@ -46,7 +46,7 @@
 ;; programs
 (package! bluetooth)
 (package! elfeed)
-(package! dirvish)
+;; (package! dirvish)
 (package! pipewire)
 (package! pulseaudio-control)
 (package! harpoon)

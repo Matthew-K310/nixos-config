@@ -14,7 +14,7 @@
     :after elfeed
     :config
     (setq rmh-elfeed-org-files
-          (list (expand-file-name "~/.config/doom/feeds.org")))
+          (list (expand-file-name "~/nixos-config/dotfiles/doom/feeds.org")))
     (elfeed-org)))
 
 (defvar elfeed-download-base-dir (expand-file-name "~/cloud/downloads/elfeed/")

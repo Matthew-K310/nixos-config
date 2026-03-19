@@ -209,8 +209,12 @@
 ** :ui
 *** Fonts
 #+begin_src elisp
+(setq doom-font (font-spec :family "Iosevka Nerd Font Mono" :size 14)
+      doom-variable-pitch-font (font-spec :family "Alegreya" :size 18)
+      doom-big-font (font-spec :family "Iosevka Nerd Font Mono" :size 22))
+
 (defvar my/font-profiles
-  '(("Iosevka Nerd Font Mono" :var "Alegreya" :size 15 :var-size 16)
+  '(("Iosevka Nerd Font Mono" :var "Alegreya" :size 14 :var-size 16)
     ("JetBrainsMono Nerd Font" :var "Alegreya" :size 14 :var-size 16)
     ("GeistMono Nerd Font" :var "Alegreya" :size 14 :var-size 16)
     ("Terminess Nerd Font Mono" :var "Alegreya" :size 17 :var-size 16)))
