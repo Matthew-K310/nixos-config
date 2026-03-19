@@ -3,9 +3,29 @@
 let
   blockyProfile = "default"; # Change this to "default", "focus", etc.
   profiles = {
-    default = [ "ads" "adult" "ai" ];
-    focus = [ "ads" "adult" "ai" "wasters" ];
+    default = [ "ads" "adult" "smut" "ai" ];
+    focus = [ "ads" "adult" "smut" "ai" "wasters" ];
   };
+
+  smutList = pkgs.writeText "smut-blocklist.txt" ''
+    reddit.com
+    literotica.com
+    deviantart.com
+    tumblr.com
+  '';
+
+  aiList = pkgs.writeText "ai-blocklist.txt" ''
+    claude.ai
+    chatgpt.com
+    gemini.google.com
+  '';
+
+  wastersList = pkgs.writeText "wasters-blocklist.txt" ''
+    youtube.com
+    floatplane.com
+    redlib.catsearch.com
+    nitter.net
+  '';
 in
 {
   # Shared settings for all hosts
@@ -33,11 +53,6 @@ in
   
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
-
-  networking.stevenblack = {
-    enable = true;
-    block = [ "fakenews" "gambling" "porn" "social" ];
-  };
 
   nixpkgs.config.allowUnfree = true;
 
@@ -68,6 +83,11 @@ in
   networking.nameservers = [ "127.0.0.1" ];
   networking.networkmanager.dns = "none"; # to prevent /etc/resolv.conf from being overwritten
 
+  # networking.stevenblack = {
+  #   enable = true;
+  #   block = [ "fakenews" "gambling" "porn" "social" ];
+  # };
+
   services.blocky = {
     enable = true;
     settings = {
@@ -83,13 +103,11 @@ in
       #Enable Blocking of certain domains.
       blocking = {
         denylists = {
-          #Adblocking
-          ads = ["https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"];
-          #Another filter for blocking adult sites
-          adult = ["https://blocklistproject.github.io/Lists/porn.txt"];
-          #You can add additional categories
-          ai = [ "claude.ai" "chatgpt.com" "gemini.google.com" ]; 
-          wasters = [ "youtube.com" "redlib.catsearch.com" "floatplane.com" ]; 
+          ads    = [ "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" ];
+          adult  = [ "https://blocklistproject.github.io/Lists/porn.txt" ];
+          smut      = [ "${smutList}" ];
+          ai      = [ "${aiList}" ];
+          wasters = [ "${wastersList}" ];
         };
         clientGroupsBlock.default = profiles.${blockyProfile};
       };
