@@ -1,4 +1,12 @@
 { config, pkgs, ... }:
+# In your configuration.nix
+let
+  blockyProfile = "default"; # Change this to "default", "focus", etc.
+  profiles = {
+    default = [ "ads" "adult" "ai" ];
+    focus = [ "ads" "adult" "ai" "wasters" ];
+  };
+in
 {
   # Shared settings for all hosts
   time.timeZone = "America/Chicago";
@@ -57,7 +65,10 @@
     noto-fonts-cjk-sans
   ];
 
-services.blocky = {
+  networking.nameservers = [ "127.0.0.1" ];
+  networking.networkmanager.dns = "none"; # to prevent /etc/resolv.conf from being overwritten
+
+  services.blocky = {
     enable = true;
     settings = {
       ports.dns = 53; # Port for incoming DNS Queries.
@@ -80,11 +91,7 @@ services.blocky = {
           ai = [ "www.claude.ai" "www.chatgpt.com" "www.gemini.google.com" ]; 
           wasters = [ "www.youtube.com" "www.redlib.catsearch.com" "www.floatplane.com" ]; 
         };
-        #Configure what block categories are used
-        clientGroupsBlock = {
-          default = [ "ads" "adult" "ai" ];
-          focus = [ "ads" "adult" "ai" "wasters" ];
-        };
+        clientGroupsBlock.default = profiles.${blockyProfile};
       };
     };
   };
