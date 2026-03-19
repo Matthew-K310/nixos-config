@@ -88,8 +88,8 @@ in
           #Another filter for blocking adult sites
           adult = ["https://blocklistproject.github.io/Lists/porn.txt"];
           #You can add additional categories
-          ai = [ "www.claude.ai" "www.chatgpt.com" "www.gemini.google.com" ]; 
-          wasters = [ "www.youtube.com" "www.redlib.catsearch.com" "www.floatplane.com" ]; 
+          ai = [ "claude.ai" "chatgpt.com" "gemini.google.com" ]; 
+          wasters = [ "youtube.com" "redlib.catsearch.com" "floatplane.com" ]; 
         };
         clientGroupsBlock.default = profiles.${blockyProfile};
       };
