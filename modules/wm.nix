@@ -51,7 +51,6 @@
 			xwallpaper
 			slock
 			xinit
-			wpctl
 			pactl
 			playerctl
 			];
