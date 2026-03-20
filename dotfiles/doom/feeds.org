@@ -100,12 +100,14 @@
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UC65_CVnMw6hvPET_DRDg3GA][tony]]
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCwHwDuNd9lCdA7chyyquDXw][Bread on Penguins]]
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCNwGa76xVVwdEVToRZBIUIg][DenshiVideo]]
+**** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCxkrmUjuiaHXtk5SNLsVA6g][Bad Acronym]]
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCF3JCPvD72PJMVZrfST-fag][foci]]
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCXQZRyhGN-1F8zwD0a8QuWA][OgloTheNerd]]
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UC2WHjPDvbE6O328n17ZGcfg][ForrestKnight]]
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCUzQJ3JBuQ9w-po4TXRJHiA][jdh]]
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCxkrmUjuiaHXtk5SNLsVA6g][Bad Acronym]]
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCf93fPKwotph47H3_KDcRyg][Kris Occhipinti]]
+**** [[https://www.youtube.com/feeds/videos.xml?channel_id=UC2WHjPDvbE6O328n17ZGcfg][ForrestKnight]]
 *** Tech
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCBJycsmduvYEL83R_U4JriQ][Marques Brownlee]]
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA][No Boilerplate]]
@@ -163,6 +165,8 @@
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UC-RA5BzE_BnZhf5iVdNF1hA][loopop]]
 *** Art
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UC-ufRLYrXxrIEApGn9VG5pQ][Reject Convenience]]
+**** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCz67Lu5PaB56E3sym12qBGA][Ceject Ronvenience]]
+**** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCTccL4-BNg97zWj-650bLdg][Privacy Policies Explained]]
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCOsATJw-IZgqGT8MFrHjKGg][Ice Cream Sandwich]]
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCz67Lu5PaB56E3sym12qBGA][Ceject Ronvenience]]
 **** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCib8MAX3TwtAPw007zcraRg][shar]]

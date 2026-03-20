@@ -2,38 +2,55 @@
 { config, pkgs, ... }:
 
 {
-  programs.hyprland = {
-    enable = true;
-    xwayland.enable = true;
-  };
+  # wayland
+  # programs.hyprland = {
+  #   enable = true;
+  #   xwayland.enable = true;
+  # };
 
-  xdg.portal = {
-	  enable = true;
-	  extraPortals = [ pkgs.xdg-desktop-portal-hyprland pkgs.xdg-desktop-portal-gtk ];
-	  config.hyprland.default = [ "hyprland" "gtk" ];
-  };
+  # xdg.portal = {
+	#   enable = true;
+	#   extraPortals = [ pkgs.xdg-desktop-portal-hyprland pkgs.xdg-desktop-portal-gtk ];
+	#   config.hyprland.default = [ "hyprland" "gtk" ];
+  # };
+
+  # environment.systemPackages = with pkgs; [
+  #   # niri
+  #   hyprlock
+  #   hypridle
+  #   hyprnotify
+  #   hyprutils
+  #   hyprcursor
+  #   swww
+  #   waybar
+  #   swaybg
+  #   swaynotificationcenter
+  #   swayimg
+  #   wmenu
+  #   wofi
+  #   grim
+  #   slurp
+  #   nordzy-icon-theme
+  #   nordzy-cursor-theme
+  #   wl-clipboard
+	#   wl-kbptr
+	#   wlrctl
+  # ];
+
+  # x11
+  services.xserver.windowManager.oxwm.enable = true;
 
   environment.systemPackages = with pkgs; [
-    # niri
-    hyprlock
-    hypridle
-    hyprnotify
-    hyprutils
-    hyprcursor
-    swww
-    waybar
-    swaybg
-    swaynotificationcenter
-    swayimg
-    wmenu
-    wofi
-    grim
-    slurp
-    nordzy-icon-theme
-    nordzy-cursor-theme
-    wl-clipboard
-	  wl-kbptr
-	  wlrctl
+    xclip
+    xrandr
+    xset
+    dunst
+    picom
+    dmenu
+    nsxiv
+    scrot
+    xwallpaper
+    slock
   ];
 
   # for managing the brightness of displayport monitors
