@@ -1,4 +1,16 @@
 ---@meta
+-------------------------------------------------------------------------------
+-- OXWM Configuration File
+-------------------------------------------------------------------------------
+-- This is the default configuration for OXWM, a dynamic window manager.
+-- Edit this file and reload with Mod+Shift+R (no compilation needed)
+--
+-- For more information about configuring OXWM, see the documentation.
+-- The Lua Language Server provides autocomplete and type checking.
+-------------------------------------------------------------------------------
+
+---Load type definitions for LSP
+---@module 'oxwm'
 
 -------------------------------------------------------------------------------
 -- Variables
@@ -17,56 +29,51 @@ local terminal = "alacritty"
 -- local colors = require("colors.lua") and make colors.lua a file
 -- in the ~/.config/oxwm directory
 local colors = {
-	fg = "#e0dcd4",
-	red = "#cdacac",
-	bg = "#1a1d21",
-	green = "#b8c4b8",
-	grey = "#515761",
-	blue = "#b0bcc8",
+    fg = "#bbbbbb",
+    red = "#f7768e",
+    bg = "#1a1b26",
+    cyan = "#0db9d7",
+    green = "#9ece6a",
+    lavender = "#a9b1d6",
+    light_blue = "#7aa2f7",
+    grey = "#bbbbbb",
+    blue = "#6dade3",
+    purple = "#ad8ee6",
 }
 
 -- Workspace tags - can be numbers, names, or icons (requires a Nerd Font)
 local tags = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }
+-- local tags = { "", "󰊯", "", "", "󰙯", "󱇤", "", "󱘶", "󰧮" } -- Example of nerd font icon tags
 
 -- Font for the status bar (use "fc-list" to see available fonts)
-local bar_font = "Iosevka Mono Nerd Font:style=Regular:size=10"
+local bar_font = "Iosevka Nerd Font Mono:style=Bold:size=10"
 
 -- Define your blocks
 -- Similar to widgets in qtile, or dwmblocks
 local blocks = {
-oxwm.bar.block.shell({
-		format = " {} ",
-		command = "playerctl metadata --format '{{ title }} - {{ artist }}'",
-		interval = 10,
-		color = colors.green,
-	}),
-
-	oxwm.bar.block.static({
-		text = " || ",
-		interval = 999999999,
-		color = colors.grey,
-	}),
-
-	oxwm.bar.block.shell({
-		format = " {} ",
-		command = "wpctl get-volume @DEFAULT_AUDIO_SINK@",
-		interval = 0,
-		color = colors.red,
-	}),
-
-	oxwm.bar.block.static({
-		text = " || ",
-		interval = 999999999,
-		color = colors.grey,
-	}),
-
-    oxwm.bar.block.datetime({
-        format = "{}",
-        date_format = "%Y-%m-%d %H:%M:%S W%W",
-        interval = 1,
-        color = colors.blue,
+    oxwm.bar.block.static({
+        text = " │  ",
+        interval = 999999999,
+        color = colors.lavender,
         underline = false,
     }),
+    oxwm.bar.block.datetime({
+        format = "{}",
+        date_format = "%a, %b %d - %-I:%M %P",
+        interval = 1,
+        color = colors.cyan,
+        underline = true,
+    }),
+    -- Uncomment to add battery status (useful for laptops)
+    -- oxwm.bar.block.battery({
+    --     format = "Bat: {}%",
+    --     charging = "⚡ Bat: {}%",
+    --     discharging = "- Bat: {}%",
+    --     full = "✓ Bat: {}%",
+    --     interval = 30,
+    --     color = colors.green,
+    --     underline = true,
+    -- }),
 };
 
 -------------------------------------------------------------------------------
@@ -84,7 +91,7 @@ oxwm.set_tags(tags)
 -- Width in pixels
 oxwm.border.set_width(2)
 -- Color of focused window border
-oxwm.border.set_focused_color(colors.fg)
+oxwm.border.set_focused_color(colors.blue)
 -- Color of unfocused window borders
 oxwm.border.set_unfocused_color(colors.grey)
 
@@ -95,13 +102,25 @@ oxwm.gaps.set_inner(0, 0)
 -- Outer gaps (horizontal, vertical) in pixels
 oxwm.gaps.set_outer(0, 0)
 
-oxwm.rule.add({ class = "emacs", tag = 1 })
-oxwm.rule.add({ class = "helium-browser", tag = 2 })
+-------------------------------------------------------------------------------
+-- Window Rules
+-------------------------------------------------------------------------------
+-- Rules allow you to automatically configure windows based on their properties
+-- You can match windows by class, instance, title, or role
+-- Available properties: floating, tag, fullscreen, etc.
+--
+-- Common use cases:
+-- - Force floating for certain applications (dialogs, utilities)
+-- - Send specific applications to specific workspaces
+-- - Configure window behavior based on title or class
 
 -- Examples (uncomment to use):
 -- oxwm.rule.add({ instance = "gimp", floating = true })                             
 -- oxwm.rule.add({ class = "firefox", title = "Library", floating = true })  
 -- oxwm.rule.add({ instance = "mpv", floating = true })                      
+
+-- To find window properties, use xprop and click on the window
+-- WM_CLASS(STRING) shows both instance and class (instance, class)
 
 -------------------------------------------------------------------------------
 -- Status Bar Configuration
@@ -112,12 +131,15 @@ oxwm.bar.set_font(bar_font)
 -- Set your blocks here (defined above)
 oxwm.bar.set_blocks(blocks)
 
+-- Bar color schemes (for workspace tag display)
+-- Parameters: foreground, background, border
+
 -- Unoccupied tags
 oxwm.bar.set_scheme_normal(colors.fg, colors.bg, "#444444")
 -- Occupied tags
-oxwm.bar.set_scheme_occupied(colors.blue, colors.bg, colors.blue)
+oxwm.bar.set_scheme_occupied(colors.cyan, colors.bg, colors.cyan)
 -- Currently selected tag
-oxwm.bar.set_scheme_selected(colors.blue, colors.bg, colors.blue)
+oxwm.bar.set_scheme_selected(colors.cyan, colors.bg, colors.purple)
 
 -------------------------------------------------------------------------------
 -- Keybindings
@@ -130,27 +152,12 @@ oxwm.bar.set_scheme_selected(colors.blue, colors.bg, colors.blue)
 -- A list of available keysyms can be found in the X11 keysym definitions.
 -- Common keys: Return, Space, Tab, Escape, Backspace, Delete, Left, Right, Up, Down
 
--- Basic window management
-
--- Layout management
--- Focus movement [1 for up in the stack, -1 for down]
-oxwm.key.bind({ modkey }, "J", oxwm.client.focus_stack(1))
-oxwm.key.bind({ modkey }, "K", oxwm.client.focus_stack(-1))
--- Window movement (swap position in stack)
-oxwm.key.bind({ modkey, "Shift" }, "J", oxwm.client.move_stack(1))
-oxwm.key.bind({ modkey, "Shift" }, "K", oxwm.client.move_stack(-1))
--- Decrease/Increase master area width
-oxwm.key.bind({ modkey }, "H", oxwm.set_master_factor(-5))
-oxwm.key.bind({ modkey }, "L", oxwm.set_master_factor(5))
--- Increment/Decrement number of master windows
-oxwm.key.bind({ modkey }, "I", oxwm.inc_num_master(1))
-oxwm.key.bind({ modkey }, "P", oxwm.inc_num_master(-1))
+-- Basic keybinds
 
 oxwm.key.bind({ modkey, "Control" }, "Return", oxwm.spawn_terminal())
 
--- Window manager controls
-oxwm.key.bind({ modkey, "Shift" }, "Q", oxwm.quit())
-oxwm.key.bind({ modkey, "Shift" }, "R", oxwm.restart())
+oxwm.key.bind({ modkey, "Shift" }, "F", oxwm.client.toggle_fullscreen())
+oxwm.key.bind({ modkey, "Shift" }, "Space", oxwm.client.toggle_floating())
 oxwm.key.bind({ modkey }, "Grave", oxwm.spawn({ "sh", "-c", "dmenuunicode" }))
 oxwm.key.bind({ modkey }, "Q", oxwm.client.kill())
 oxwm.key.bind({ modkey, "Shift" }, "Q", oxwm.spawn({ "slock" }))
@@ -161,27 +168,48 @@ oxwm.key.bind({ modkey, "Shift" }, "R", oxwm.restart())
 oxwm.key.bind({ modkey, "Control" }, "Return", oxwm.spawn_terminal())
 oxwm.key.bind({ modkey }, "D", oxwm.spawn({ "sh", "-c", "dmenu_run -l 10" }))
 oxwm.key.bind({ modkey, "Control" }, "M", oxwm.spawn({ "alacritty", "-e", "profanity" }))
-oxwm.key.bind({ modkey, "Shift" }, "M", oxwm.spawn({ "kitty", "-e", "jellyfin-tui" }))
+oxwm.key.bind({ modkey, "Shift" }, "M", oxwm.spawn({ "alacritty", "-e", "jellyfin-tui" }))
 oxwm.key.bind({ modkey, "Control", "Shift" }, "M", oxwm.spawn({ "signal-desktop" }))
-oxwm.key.bind({ modkey, "Shift" }, "F", oxwm.client.toggle_fullscreen())
-oxwm.key.bind({ modkey, "Shift" }, "Space", oxwm.client.toggle_floating())
 oxwm.key.bind({ modkey }, "Backspace", oxwm.spawn({ "sh", "-c", "sysact" }))
+oxwm.key.bind({ modkey }, "A", oxwm.toggle_gaps())
 -- oxwm.key.bind({ modkey, "Control", "Shift" }, "L", oxwm.spawn({ "sh", "-c", "xset dpms toggle" }))
 oxwm.key.bind({ modkey, "Control" }, "3", oxwm.spawn({ "sh", "-c", "screenshot full" }))
 oxwm.key.bind({ modkey, "Control" }, "4", oxwm.spawn({ "sh", "-c", "screenshot selection" }))
 oxwm.key.bind({ modkey, "Control" }, "P", oxwm.spawn({ "sh", "-c", "screenshot colorpicker" }))
 
+-- Master area controls (tiling layout)
+
+-- Decrease/Increase master area width
+oxwm.key.bind({ modkey }, "H", oxwm.set_master_factor(-5))
+oxwm.key.bind({ modkey }, "L", oxwm.set_master_factor(5))
+-- Increment/Decrement number of master windows
+oxwm.key.bind({ modkey }, "I", oxwm.inc_num_master(1))
+oxwm.key.bind({ modkey }, "P", oxwm.inc_num_master(-1))
+
+-- Window manager controls
+oxwm.key.bind({ modkey, "Shift" }, "Q", oxwm.quit())
+oxwm.key.bind({ modkey, "Shift" }, "R", oxwm.restart())
+
+-- Focus movement [1 for up in the stack, -1 for down]
+oxwm.key.bind({ modkey }, "J", oxwm.client.focus_stack(1))
+oxwm.key.bind({ modkey }, "K", oxwm.client.focus_stack(-1))
+
+-- Window movement (swap position in stack)
+oxwm.key.bind({ modkey, "Shift" }, "J", oxwm.client.move_stack(1))
+oxwm.key.bind({ modkey, "Shift" }, "K", oxwm.client.move_stack(-1))
+
+-- Emacs keybinds
 local emacs_launcher = "~/.config/oxwm/emacs-launcher"
 oxwm.key.bind({ modkey }, "Return", oxwm.spawn({ "sh", "-c", emacs_launcher .. " '(my-open-vterm-at-point)'" }))
 oxwm.key.bind({ modkey }, "E", oxwm.spawn({ "sh", "-c", emacs_launcher .. " '(my/eshell-float)'" }))
-oxwm.key.bind({ modkey, "Shift" }, "T", oxwm.spawn({ "sh", "-c", emacs_launcher .. " '(my/new-frame-with-vterm)'" }))
+oxwm.key.bind({ modkey "Shift" }, "T", oxwm.spawn({ "sh", "-c", emacs_launcher .. " '(my/new-frame-with-vterm)'" }))
 oxwm.key.bind(
 	{ modkey },
 	"R",
 	oxwm.spawn({
 		"sh",
 		"-c",
-		"~/.config/oxwm/emacs-launcher '(progn (select-frame-set-input-focus (selected-frame)) (dired))'",
+		"~/.config/oxwm/emacs-launcher '(progn (select-frame-set-input-focus (selected-frame)) (dirvish))'",
 	})
 )
 oxwm.key.bind(
@@ -221,6 +249,15 @@ oxwm.key.bind(
 		emacs_launcher .. " '(progn (select-frame-set-input-focus (selected-frame)) (find-file \"~/org/notes.org\"))'",
 	})
 )
+oxwm.key.bind(
+	{ modkey },
+	"N",
+	oxwm.spawn({
+		"sh",
+		"-c",
+		emacs_launcher .. " '(progn (select-frame-set-input-focus (selected-frame)) (org-agenda nil \"w\"))'",
+	})
+)
 -- Emacs everywhere in X11 (OXWM)
 oxwm.key.bind({ modkey, "Control" }, "E", oxwm.spawn("emacsclient --eval '(thanos/type)'"))
 oxwm.rule.add({
@@ -228,15 +265,7 @@ oxwm.rule.add({
 	title = "emacs-float",
 	floating = true,
 })
-
-oxwm.key.bind({  }, "XF86AudioLowerVolume", oxwm.spawn("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"))
-oxwm.key.bind({  }, "XF86AudioRaiseVolume", oxwm.spawn("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"))
-
-oxwm.key.bind({  }, "XF86AudioPrev", oxwm.spawn("playerctl previous"))
-oxwm.key.bind({  }, "XF86AudioNext", oxwm.spawn("playerctl next"))
-
-oxwm.key.bind({  }, "XF86MonBrightnessDown", oxwm.spawn("ddcutil setvcp 10 - 5"))
-oxwm.key.bind({  }, "XF86MonBrightnessUp", oxwm.spawn("ddcutil setvcp 10 + 5"))
+oxwm.key.bind({ modkey, "Shift" }, "XF86AudioPlay", oxwm.spawn({ "kitty", "-e", "pulsemixer" }))
 
 -- Workspace (tag) navigation
 -- Switch to workspace N (tags are 0-indexed, so tag "1" is index 0)
@@ -267,9 +296,8 @@ oxwm.key.bind({ modkey, "Shift" }, "9", oxwm.tag.move_to(8))
 -- Commands to run once when OXWM starts
 -- Uncomment and modify these examples, or add your own
 
-oxwm.autostart("xset r rate 250 75")                                  
+oxwm.autostart("xset r rate 250 75")
 oxwm.autostart("picom")                                  
-oxwm.autostart("xwallpaper ~/cloud/photos/wallpapers/landscapes/fisherman_boy.jpg") 
+oxwm.autostart("xwallpaper --center ~/cloud/photos/wallpapers/landscapes/sonnenuntergang_am_chiemsee-felix_von_schiller.jpg") 
 oxwm.autostart("dunst")
-oxwm.autostart("emacs")                                  
-oxwm.autostart("helium")                                  
+oxwm.autostart("nm-applet")
