@@ -56,8 +56,6 @@ in
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
 
-  nixpkgs.config.allowUnfree = true;
-
   environment.systemPackages = with pkgs; [
     vim
     wget
