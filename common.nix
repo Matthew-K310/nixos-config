@@ -49,7 +49,7 @@ in
   users.users.matthewkennedy = {
     isNormalUser = true;
     description = "Matthew Kennedy";
-    extraGroups = [ "networkmanager" "wheel" "i2c" ];
+    extraGroups = [ "networkmanager" "wheel" "i2c" "audio" "realtime" ];
     shell = pkgs.zsh;
   };
   
