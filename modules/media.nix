@@ -105,5 +105,6 @@
 	lsp-plugins
 	yabridge
 	yabridgectl
+	realtime-privileges
   ];
 }
