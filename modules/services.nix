@@ -18,6 +18,10 @@
     age
     pinentry-gnome3
     pinentry-tty
+	# wine
+	wineWow64Packages.stable
+	winetricks
+	wineWow64Packages.waylandFull
   ];
 
   hardware.bluetooth.enable = true;
