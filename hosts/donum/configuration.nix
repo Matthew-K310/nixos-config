@@ -27,11 +27,11 @@
 	boot.kernelPackages = pkgs.linuxPackages_latest;
 
 # Keyboard layout
-	services.xserver = {
-		xkb.layout = "us";
-		xkb.variant = "colemak_dh";
-	};
-	console.keyMap = "colemak";
+	#services.xserver = {
+		#xkb.layout = "us";
+		#xkb.variant = "colemak_dh";
+	#};
+	#console.keyMap = "colemak";
 
 	users.users.matthewkennedy = {
 		isNormalUser = true;
