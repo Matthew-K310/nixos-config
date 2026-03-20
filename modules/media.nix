@@ -107,18 +107,16 @@
 			yabridgectl
 			];
 
-	security.pam.loginLimits = {
-		{
-			domain = "ftp";
-			item = "nproc";
-			type = "hard";
-			value = "0";
-		};
-		{
-			domain = "@student";
-			item = "maxlogins";
-			type = "-";
-			value = "4";
-		};
-	};
+security.pam.loginLimits = [
+      { domain = "@audio"; item = "memlock"; type = "-"   ; value = "unlimited"; }
+      { domain = "@audio"; item = "rtprio" ; type = "-"   ; value = "99"       ; }
+      { domain = "@audio"; item = "nofile" ; type = "soft"; value = "99999"    ; }
+      { domain = "@audio"; item = "nofile" ; type = "hard"; value = "99999"    ; }
+    ];
+
+    services.udev.extraRules = ''
+      KERNEL=="rtc0", GROUP="audio"
+      KERNEL=="hpet", GROUP="audio"
+    '';
+  };
 }
