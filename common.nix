@@ -28,6 +28,8 @@ let
   '';
 in
 {
+  nixpkgs.config.allowUnfree = true;
+
   # Shared settings for all hosts
   time.timeZone = "America/Chicago";
   

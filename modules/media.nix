@@ -100,5 +100,8 @@
     gimp
     darktable
     obs-studio
+	reaper
+	bitwig-studio
+	lsp-plugins
   ];
 }
