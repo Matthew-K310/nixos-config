@@ -51,7 +51,6 @@
     scrot
     xwallpaper
     slock
-	startx
 	xinit
   ];
 
