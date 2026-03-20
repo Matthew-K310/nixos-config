@@ -14,9 +14,13 @@
 		config.hyprland.default = [ "hyprland" "gtk" ];
 	};
 
+# x11
+	services.xserver.enable = true;
+	services.xserver.windowManager.oxwm.enable = true;
+
 	environment.systemPackages = with pkgs; [
-# niri
-		hyprlock
+		# wayland
+			hyprlock
 			hypridle
 			hyprnotify
 			hyprutils
@@ -35,14 +39,8 @@
 			wl-clipboard
 			wl-kbptr
 			wlrctl
-			];
-
-# x11
-	services.xserver.enable = true;
-	services.xserver.windowManager.oxwm.enable = true;
-
-	environment.systemPackages = with pkgs; [
-		xclip
+		# x11
+			xclip
 			xrandr
 			xset
 			dunst
@@ -56,7 +54,7 @@
 			wpctl
 			pactl
 			playerctl
-	];
+			];
 
 # for managing the brightness of displayport monitors
 	services.udev.extraRules = ''
