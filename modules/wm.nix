@@ -51,6 +51,8 @@
     scrot
     xwallpaper
     slock
+	startx
+	xinit
   ];
 
   # for managing the brightness of displayport monitors
