@@ -91,7 +91,7 @@
     mpd-mpris
     mpc
     playerctl
-	  pulseaudio
+	pulseaudio
     pulsemixer
     rmpc
     jellyfin-tui
@@ -103,5 +103,7 @@
 	reaper
 	bitwig-studio
 	lsp-plugins
+	yabridge
+	yabridgectl
   ];
 }
