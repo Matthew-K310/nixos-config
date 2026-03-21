@@ -26,12 +26,22 @@
 # Use latest kernel
 	boot.kernelPackages = pkgs.linuxPackages_latest;
 
+	boot = {
+		extraModulePackages = with config.boot.kernelPackages; [
+			v4l2loopback
+		];
+		kernelModules = [
+			"v4l2loopback"
+				"snd-aloop"
+		];
+	};
+
 # Keyboard layout
-	#services.xserver = {
-		#xkb.layout = "us";
-		#xkb.variant = "colemak_dh";
-	#};
-	#console.keyMap = "colemak";
+#services.xserver = {
+#xkb.layout = "us";
+#xkb.variant = "colemak_dh";
+#};
+#console.keyMap = "colemak";
 
 	users.users.matthewkennedy = {
 		isNormalUser = true;
