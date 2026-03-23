@@ -563,38 +563,6 @@ Comments:
              (not (org-is-habit-p)))
     (my/move-to-done-org)))
 
-;; Add frame borders and window dividers
-;; Option 1: Per buffer
-(add-hook 'org-mode-hook #'org-modern-mode)
-(add-hook 'org-agenda-finalize-hook #'org-modern-agenda)
-
-;; Option 2: Globally
-(with-eval-after-load 'org (global-org-modern-mode))
-
-(setq
- ;; Edit settings
- org-auto-align-tags nil
- org-tags-column 0
- org-catch-invisible-edits 'show-and-error
- org-special-ctrl-a/e t
- org-insert-heading-respect-content t
-
- ;; Org styling, hide markup etc.
- org-hide-emphasis-markers t
- org-pretty-entities t
- org-agenda-tags-column 0
- org-ellipsis "…")
-
-(global-org-modern-mode)
-
-;; increase line spacing
-(setq-default line-spacing 0.1)
-
-;; Set org-modern to use replace mode
-(setq org-modern-star 'replace)
-;; Customize the replacement strings to show H1, H2, H3, etc.
-(setq org-modern-replace-stars '("H1" "H2" "H3" "H4" "H5" "H6"))
-
 (after! org
   (setq org-log-done 'time)
   ;; Automatically resume previous task when clocking out

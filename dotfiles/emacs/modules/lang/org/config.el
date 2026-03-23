@@ -112,7 +112,7 @@ Is relative to `org-directory', unless it is absolute. Is used in Doom's default
         org-fontify-done-headline t
         org-fontify-quote-and-verse-blocks t
         org-fontify-whole-heading-line t
-        org-hide-leading-stars t
+        ;; org-hide-leading-stars t
         org-image-actual-width nil
         org-imenu-depth 6
         org-priority-faces
@@ -779,9 +779,9 @@ between the two."
         [C-S-return] #'+org/insert-item-above
         [C-M-return] #'org-insert-subheading
         (:when (featurep :system 'macos)
-         [s-return]   #'+org/insert-item-below
-         [s-S-return] #'+org/insert-item-above
-         [s-M-return] #'org-insert-subheading)
+          [s-return]   #'+org/insert-item-below
+          [s-S-return] #'+org/insert-item-above
+          [s-M-return] #'org-insert-subheading)
         ;; Org-aware C-a/C-e
         [remap doom/backward-to-bol-or-indent]          #'org-beginning-of-line
         [remap doom/forward-to-last-non-comment-or-eol] #'org-end-of-line
@@ -795,14 +795,14 @@ between the two."
         "." #'org-goto
         "@" #'org-cite-insert
         (:when (modulep! :completion ivy)
-         "." #'counsel-org-goto
-         "/" #'counsel-org-goto-all)
+          "." #'counsel-org-goto
+          "/" #'counsel-org-goto-all)
         (:when (modulep! :completion helm)
-         "." #'helm-org-in-buffer-headings
-         "/" #'helm-org-agenda-files-headings)
+          "." #'helm-org-in-buffer-headings
+          "/" #'helm-org-agenda-files-headings)
         (:when (modulep! :completion vertico)
-         "." #'consult-org-heading
-         "/" #'consult-org-agenda)
+          "." #'consult-org-heading
+          "/" #'consult-org-agenda)
         "A" #'org-archive-subtree-default
         "e" #'org-export-dispatch
         "f" #'org-footnote-action
@@ -818,151 +818,151 @@ between the two."
         "T" #'org-todo-list
         "x" #'org-toggle-checkbox
         (:prefix ("a" . "attachments")
-         "a" #'org-attach
-         "d" #'org-attach-delete-one
-         "D" #'org-attach-delete-all
-         "f" #'+org/find-file-in-attachments
-         "l" #'+org/attach-file-and-insert-link
-         "n" #'org-attach-new
-         "o" #'org-attach-open
-         "O" #'org-attach-open-in-emacs
-         "r" #'org-attach-reveal
-         "R" #'org-attach-reveal-in-emacs
-         "u" #'org-attach-url
-         "s" #'org-attach-set-directory
-         "S" #'org-attach-sync
-         (:when (modulep! +dragndrop)
-          "c" #'org-download-screenshot
-          "p" #'org-download-clipboard
-          "P" #'org-download-yank))
+                 "a" #'org-attach
+                 "d" #'org-attach-delete-one
+                 "D" #'org-attach-delete-all
+                 "f" #'+org/find-file-in-attachments
+                 "l" #'+org/attach-file-and-insert-link
+                 "n" #'org-attach-new
+                 "o" #'org-attach-open
+                 "O" #'org-attach-open-in-emacs
+                 "r" #'org-attach-reveal
+                 "R" #'org-attach-reveal-in-emacs
+                 "u" #'org-attach-url
+                 "s" #'org-attach-set-directory
+                 "S" #'org-attach-sync
+                 (:when (modulep! +dragndrop)
+                   "c" #'org-download-screenshot
+                   "p" #'org-download-clipboard
+                   "P" #'org-download-yank))
         (:prefix ("b" . "tables")
-         "-" #'org-table-insert-hline
-         "a" #'org-table-align
-         "b" #'org-table-blank-field
-         "c" #'org-table-create-or-convert-from-region
-         "e" #'org-table-edit-field
-         "f" #'org-table-edit-formulas
-         "h" #'org-table-field-info
-         "s" #'org-table-sort-lines
-         "r" #'org-table-recalculate
-         "R" #'org-table-recalculate-buffer-tables
-         (:prefix ("d" . "delete")
-          "c" #'org-table-delete-column
-          "r" #'org-table-kill-row)
-         (:prefix ("i" . "insert")
-          "c" #'org-table-insert-column
-          "h" #'org-table-insert-hline
-          "r" #'org-table-insert-row
-          "H" #'org-table-hline-and-move)
-         (:prefix ("t" . "toggle")
-          "f" #'org-table-toggle-formula-debugger
-          "o" #'org-table-toggle-coordinate-overlays)
-         (:when (modulep! +gnuplot)
-          "p" #'org-plot/gnuplot))
+                 "-" #'org-table-insert-hline
+                 "a" #'org-table-align
+                 "b" #'org-table-blank-field
+                 "c" #'org-table-create-or-convert-from-region
+                 "e" #'org-table-edit-field
+                 "f" #'org-table-edit-formulas
+                 "h" #'org-table-field-info
+                 "s" #'org-table-sort-lines
+                 "r" #'org-table-recalculate
+                 "R" #'org-table-recalculate-buffer-tables
+                 (:prefix ("d" . "delete")
+                          "c" #'org-table-delete-column
+                          "r" #'org-table-kill-row)
+                 (:prefix ("i" . "insert")
+                          "c" #'org-table-insert-column
+                          "h" #'org-table-insert-hline
+                          "r" #'org-table-insert-row
+                          "H" #'org-table-hline-and-move)
+                 (:prefix ("t" . "toggle")
+                          "f" #'org-table-toggle-formula-debugger
+                          "o" #'org-table-toggle-coordinate-overlays)
+                 (:when (modulep! +gnuplot)
+                   "p" #'org-plot/gnuplot))
         (:prefix ("c" . "clock")
-         "c" #'org-clock-cancel
-         "d" #'org-clock-mark-default-task
-         "e" #'org-clock-modify-effort-estimate
-         "E" #'org-set-effort
-         "g" #'org-clock-goto
-         "G" (cmd! (org-clock-goto 'select))
-         "l" #'+org/toggle-last-clock
-         "i" #'org-clock-in
-         "I" #'org-clock-in-last
-         "o" #'org-clock-out
-         "r" #'org-resolve-clocks
-         "R" #'org-clock-report
-         "t" #'org-evaluate-time-range
-         "=" #'org-clock-timestamps-up
-         "-" #'org-clock-timestamps-down)
+                 "c" #'org-clock-cancel
+                 "d" #'org-clock-mark-default-task
+                 "e" #'org-clock-modify-effort-estimate
+                 "E" #'org-set-effort
+                 "g" #'org-clock-goto
+                 "G" (cmd! (org-clock-goto 'select))
+                 "l" #'+org/toggle-last-clock
+                 "i" #'org-clock-in
+                 "I" #'org-clock-in-last
+                 "o" #'org-clock-out
+                 "r" #'org-resolve-clocks
+                 "R" #'org-clock-report
+                 "t" #'org-evaluate-time-range
+                 "=" #'org-clock-timestamps-up
+                 "-" #'org-clock-timestamps-down)
         (:prefix ("d" . "date/deadline")
-         "d" #'org-deadline
-         "s" #'org-schedule
-         "t" #'org-time-stamp
-         "T" #'org-time-stamp-inactive)
+                 "d" #'org-deadline
+                 "s" #'org-schedule
+                 "t" #'org-time-stamp
+                 "T" #'org-time-stamp-inactive)
         (:prefix ("g" . "goto")
-         "g" #'org-goto
-         (:when (modulep! :completion ivy)
-          "g" #'counsel-org-goto
-          "G" #'counsel-org-goto-all)
-         (:when (modulep! :completion helm)
-          "g" #'helm-org-in-buffer-headings
-          "G" #'helm-org-agenda-files-headings)
-         (:when (modulep! :completion vertico)
-          "g" #'consult-org-heading
-          "G" #'consult-org-agenda)
-         "c" #'org-clock-goto
-         "C" (cmd! (org-clock-goto 'select))
-         "i" #'org-id-goto
-         "r" #'org-refile-goto-last-stored
-         "v" #'+org/goto-visible
-         "x" #'org-capture-goto-last-stored)
+                 "g" #'org-goto
+                 (:when (modulep! :completion ivy)
+                   "g" #'counsel-org-goto
+                   "G" #'counsel-org-goto-all)
+                 (:when (modulep! :completion helm)
+                   "g" #'helm-org-in-buffer-headings
+                   "G" #'helm-org-agenda-files-headings)
+                 (:when (modulep! :completion vertico)
+                   "g" #'consult-org-heading
+                   "G" #'consult-org-agenda)
+                 "c" #'org-clock-goto
+                 "C" (cmd! (org-clock-goto 'select))
+                 "i" #'org-id-goto
+                 "r" #'org-refile-goto-last-stored
+                 "v" #'+org/goto-visible
+                 "x" #'org-capture-goto-last-stored)
         (:prefix ("l" . "links")
-         "c" #'org-cliplink
-         "d" #'+org/remove-link
-         "i" #'org-id-store-link
-         "l" #'org-insert-link
-         "L" #'org-insert-all-links
-         "s" #'org-store-link
-         "S" #'org-insert-last-stored-link
-         "t" #'org-toggle-link-display
-         "y" #'+org/yank-link
-         (:when (modulep! :os macos)
-          "g" #'org-mac-link-get-link))
+                 "c" #'org-cliplink
+                 "d" #'+org/remove-link
+                 "i" #'org-id-store-link
+                 "l" #'org-insert-link
+                 "L" #'org-insert-all-links
+                 "s" #'org-store-link
+                 "S" #'org-insert-last-stored-link
+                 "t" #'org-toggle-link-display
+                 "y" #'+org/yank-link
+                 (:when (modulep! :os macos)
+                   "g" #'org-mac-link-get-link))
         (:prefix ("P" . "publish")
-         "a" #'org-publish-all
-         "f" #'org-publish-current-file
-         "p" #'org-publish
-         "P" #'org-publish-current-project
-         "s" #'org-publish-sitemap)
+                 "a" #'org-publish-all
+                 "f" #'org-publish-current-file
+                 "p" #'org-publish
+                 "P" #'org-publish-current-project
+                 "s" #'org-publish-sitemap)
         (:prefix ("r" . "refile")
-         "." #'+org/refile-to-current-file
-         "c" #'+org/refile-to-running-clock
-         "l" #'+org/refile-to-last-location
-         "f" #'+org/refile-to-file
-         "o" #'+org/refile-to-other-window
-         "O" #'+org/refile-to-other-buffer
-         "v" #'+org/refile-to-visible
-         "r" #'org-refile
-         "R" #'org-refile-reverse) ; to all `org-refile-targets'
+                 "." #'+org/refile-to-current-file
+                 "c" #'+org/refile-to-running-clock
+                 "l" #'+org/refile-to-last-location
+                 "f" #'+org/refile-to-file
+                 "o" #'+org/refile-to-other-window
+                 "O" #'+org/refile-to-other-buffer
+                 "v" #'+org/refile-to-visible
+                 "r" #'org-refile
+                 "R" #'org-refile-reverse) ; to all `org-refile-targets'
         (:prefix ("s" . "tree/subtree")
-         "a" #'org-toggle-archive-tag
-         "b" #'org-tree-to-indirect-buffer
-         "c" #'org-clone-subtree-with-time-shift
-         "d" #'org-cut-subtree
-         "h" #'org-promote-subtree
-         "j" #'org-move-subtree-down
-         "k" #'org-move-subtree-up
-         "l" #'org-demote-subtree
-         "n" #'org-narrow-to-subtree
-         "r" #'org-refile
-         "s" #'org-sparse-tree
-         "A" #'org-archive-subtree-default
-         "N" #'widen
-         "S" #'org-sort)
+                 "a" #'org-toggle-archive-tag
+                 "b" #'org-tree-to-indirect-buffer
+                 "c" #'org-clone-subtree-with-time-shift
+                 "d" #'org-cut-subtree
+                 "h" #'org-promote-subtree
+                 "j" #'org-move-subtree-down
+                 "k" #'org-move-subtree-up
+                 "l" #'org-demote-subtree
+                 "n" #'org-narrow-to-subtree
+                 "r" #'org-refile
+                 "s" #'org-sparse-tree
+                 "A" #'org-archive-subtree-default
+                 "N" #'widen
+                 "S" #'org-sort)
         (:prefix ("p" . "priority")
-         "d" #'org-priority-down
-         "p" #'org-priority
-         "u" #'org-priority-up))
+                 "d" #'org-priority-down
+                 "p" #'org-priority
+                 "u" #'org-priority-up))
 
   (map! :after org-agenda
         :map org-agenda-mode-map
         :m "C-SPC" #'org-agenda-show-and-scroll-up
         :localleader
         (:prefix ("d" . "date/deadline")
-         "d" #'org-agenda-deadline
-         "s" #'org-agenda-schedule)
+                 "d" #'org-agenda-deadline
+                 "s" #'org-agenda-schedule)
         (:prefix ("c" . "clock")
-         "c" #'org-agenda-clock-cancel
-         "g" #'org-agenda-clock-goto
-         "i" #'org-agenda-clock-in
-         "o" #'org-agenda-clock-out
-         "r" #'org-agenda-clockreport-mode
-         "s" #'org-agenda-show-clocking-issues)
+                 "c" #'org-agenda-clock-cancel
+                 "g" #'org-agenda-clock-goto
+                 "i" #'org-agenda-clock-in
+                 "o" #'org-agenda-clock-out
+                 "r" #'org-agenda-clockreport-mode
+                 "s" #'org-agenda-show-clocking-issues)
         (:prefix ("p" . "priority")
-         "d" #'org-agenda-priority-down
-         "p" #'org-agenda-priority
-         "u" #'org-agenda-priority-up)
+                 "d" #'org-agenda-priority-down
+                 "p" #'org-agenda-priority
+                 "u" #'org-agenda-priority-up)
         "q" #'org-agenda-set-tags
         "r" #'org-agenda-refile
         "t" #'org-agenda-todo))
@@ -1122,18 +1122,18 @@ between the two."
             :ni [C-return]   #'+org/insert-item-below
             :ni [C-S-return] #'+org/insert-item-above
             (:unless evil-disable-insert-state-bindings
-             :i Cright (cmds! (org-at-table-p) #'org-table-next-field
-                              #'org-end-of-line)
-             :i Cleft  (cmds! (org-at-table-p) #'org-table-previous-field
-                              #'org-beginning-of-line)
-             :i Cup    (cmds! (org-at-table-p) #'+org/table-previous-row
-                              #'org-up-element)
-             :i Cdown  (cmds! (org-at-table-p) #'org-table-next-row
-                              #'org-down-element)
-             :i CSright   #'org-shiftright
-             :i CSleft    #'org-shiftleft
-             :i CSup      #'org-shiftup
-             :i CSdown    #'org-shiftdown)
+              :i Cright (cmds! (org-at-table-p) #'org-table-next-field
+                               #'org-end-of-line)
+              :i Cleft  (cmds! (org-at-table-p) #'org-table-previous-field
+                               #'org-beginning-of-line)
+              :i Cup    (cmds! (org-at-table-p) #'+org/table-previous-row
+                               #'org-up-element)
+              :i Cdown  (cmds! (org-at-table-p) #'org-table-next-row
+                               #'org-down-element)
+              :i CSright   #'org-shiftright
+              :i CSleft    #'org-shiftleft
+              :i CSup      #'org-shiftup
+              :i CSdown    #'org-shiftdown)
             :n CSright    #'org-shiftright
             :n CSleft     #'org-shiftleft
             :n CSup       #'org-shiftup
@@ -1303,10 +1303,10 @@ between the two."
     :documentation #'+org-lookup-documentation-handler)
 
   (add-hook! 'org-mode-hook
-    ;; HACK: `save-place' can position the cursor in an invisible region. This
-    ;;   makes it visible unless `org-inhibit-startup' or
-    ;;   `org-inhibit-startup-visibility-stuff' is non-nil.
-    (add-hook 'save-place-after-find-file-hook #'+org-make-last-point-visible-h nil t))
+             ;; HACK: `save-place' can position the cursor in an invisible region. This
+             ;;   makes it visible unless `org-inhibit-startup' or
+             ;;   `org-inhibit-startup-visibility-stuff' is non-nil.
+             (add-hook 'save-place-after-find-file-hook #'+org-make-last-point-visible-h nil t))
 
   ;; Save target buffer after archiving a node.
   (setq org-archive-subtree-save-file-p t)
